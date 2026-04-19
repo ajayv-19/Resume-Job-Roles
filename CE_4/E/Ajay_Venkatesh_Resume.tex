@@ -1,0 +1,163 @@
+%-------------------------
+% Resume in Latex
+% Author: Ajay Venkatesh
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{lmodern}
+\setlength{\multicolsep}{-3.5pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[top=0.25in, bottom=0.25in, left=0.3in, right=0.3in]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+\vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+\item\small{{#1}\vspace{-3.5pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{6pt}
+\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5.5pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+\vspace{-14pt}
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small Brooklyn, NY \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{\faEnvelope\ av3855@nyu.edu} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{\faLinkedin\ linkedin.com/in/ajay-venkatesh-32013b17b} ~
+    \href{https://github.com/ajayv-19}{\faGithub\ github.com/ajayv-19}
+\end{center}
+\vspace{-10pt}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Amazon}{May 2025 -- Aug 2025}
+  {Software Development Engineer Intern}{Seattle, US}
+\resumeItemListStart
+  \resumeItem{Designed a secure UI Console architecture using \textbf{Midway SSO, OAuth, and HELIS} to enforce least-privilege, role-based access; presented the solution to the team and received design approval.}
+  \resumeItem{Built serverless infrastructure using \textbf{AWS CDK (IaC)} to deploy API Gateway, Lambda (Java 21), DynamoDB, and S3 with cross-account access; implemented a \textbf{CI/CD pipeline} enabling multi-stage (dev/stage/prod) and multi-region deployments with automated promotion and rollback controls.}
+  \resumeItem{Developed the frontend using \textbf{React 18}, integrating AWS UI components, Midway AuthN, and HELIS AuthZ with role-aware views and filtering; delivered a UI that was \textbf{40\% faster} and significantly more secure than older version.}
+  \resumeItem{Implemented backend APIs using \textbf{Java Coral, Smithy models, Dagger DI}, and CBOR serialization; improved response time by \textbf{35\%} and ensured reliability through comprehensive unit and integration testing.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {New York University}{Aug 2024 -- May 2025}
+  {Software Developer (On-Campus)}{New York, US}
+\resumeItemListStart
+  \resumeItem{Contributed to an AI-driven Remote Patient Monitoring System, awarded \textbf{\$100K} by the National Science Foundation, USA, employing \textbf{React Native, TypeScript}, and Cognito authentication for real-time health monitoring.}
+  \resumeItem{Developed an AI model that identifies food items through mobile images and predicts calorie, protein, and fat intake using \textbf{YOLO + OCR} based classification; integrated the model into the app workflow.}
+  \resumeItem{Built parallelized \textbf{ETL pipelines} in Python to transform wearable NoSQL data into structured SQL, reducing processing time by \textbf{60\%}, and visualized health trends using \textbf{AWS QuickSight} dashboards.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {PricewaterhouseCoopers (PwC)}{Aug 2021 -- Aug 2024}
+  {Senior Associate}{}
+\resumeItemListStart
+  \resumeItem{Designed and implemented a \textbf{cloud-native distributed backend} on \textbf{Microsoft Azure} for a health platform, integrating Microsoft Dynamics for secure data flow and leveraging event-driven Azure services for scalability and fault tolerance.}
+  \resumeItem{Led delivery across design, development, testing, and deployment, coordinating with architects, PMs, and business stakeholders to deliver practical cloud solutions aligned with PwC SDLC and quality standards.}
+  \resumeItem{Modernized a legacy onboarding system by building a scalable \textbf{B2B platform} with modular services, migrating core processes to the cloud; integrated data pipelines, email event tracking, and BI reporting, improving automation by \textbf{70\%}.}
+  \resumeItem{Optimized data pipeline by parallelizing \textbf{Excel file imports (100K+ rows)}, cutting processing time from \textbf{5 hours to 1} and boosting efficiency by \textbf{80\%}.}
+  \resumeItem{Designed and deployed an AI solution using \textbf{OCR and NLP} on Azure, integrating it into business workflows and delivering production-grade scalability, security controls, and compliance-aligned deployment standards.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+{\small
+\resumeSubHeadingListStart
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Flight Delay Prediction} \textbar{} \textit{\textbf{PySpark, HDFS, Random Forest, Gradient Boosted Tree}} & \\
+  \end{tabular*}
+  \resumeItemListStart
+    \resumeItem{Built a scalable \textbf{PySpark ML pipeline} on HDFS to process and engineer features from over \textbf{7M flight records} using SQL-based aggregation and anomaly detection.}
+    \resumeItem{Performed extensive EDA to identify delay patterns; trained and optimized \textbf{Random Forest and Gradient Boosted Tree} models achieving \textbf{85\%+} accuracy.}
+    \resumeItem{Converted model outputs into actionable insights, enabling data-driven scheduling and operational planning for delay reduction.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+}
+
+\section{Skills}
+{\small
+\textbf{Programming Languages:} C\#, Python, Java, C++, JavaScript, SQL \\
+\textbf{Database:} Dataverse, RDBMS, NoSQL \\
+\textbf{Cloud:} Azure (AI Services, Azure AI Foundry, Cognitive Services, Logic Apps, Function Apps, Storage Blobs, Security Data Lakes), AWS (CDK, SDK, EC2, S3, Lambda, IAM, Q, SageMaker) \\
+\textbf{AI/ML:} RAG, MLOps, AI Solution Deployment, Responsible AI, Model Validation \& Monitoring \\
+\textbf{Automation Platforms:} Power Automate, Microsoft Copilot Studio, Azure AI Studio \\
+\textbf{Tools:} Git, Docker, Jupyter, Visual Studio, Postman, Power BI, CI/CD Pipelines \\
+\textbf{Methodology:} Agile, Scrum, SDLC Governance, Test-Driven Development (TDD)
+}
+
+\section{Education}
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{New York University} \textbar{} \textit{Master of Science in Computer Engineering \textbf{(GPA -- 3.9/4)}} & Aug 2024 -- Aug 2026 \\
+\end{tabular*}
+
+\section{Certifications}
+{\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l}
+Azure Data Fundamentals &
+Power Platform Developer Associate &
+Power BI Data Analyst Associate \\
+Power Platform Solution Architect Expert &
+Azure Data Scientist Associate &
+AWS Cloud Practitioner \\
+\end{tabular*}
+}
+
+\section{Publications}
+{\small
+Supervised ML System Based Segmentation and Classification of Stroke Using Deep Learning Techniques \textit{(IEEE)} \\
+An Aquila-optimized SVM classifier for Diabetes prediction \textit{(IEEE)}
+}
+
+\end{document}

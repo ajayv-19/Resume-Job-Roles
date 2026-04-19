@@ -1,0 +1,164 @@
+%-------------------------
+% Resume in Latex
+% Author: Ajay Venkatesh
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{lmodern}
+\setlength{\multicolsep}{-3.5pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[top=0.25in, bottom=0.25in, left=0.3in, right=0.3in]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+\vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+\item\small{{#1}\vspace{-3.5pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{6pt}
+\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5.5pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+\vspace{-14pt}
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small Brooklyn, NY \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{\faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{\faLinkedin} ~
+    \href{https://github.com/ajayv-19}{\faGithub}
+\end{center}
+\vspace{-10pt}
+
+\section{Education}
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{New York University} \textbar{} \textit{Master of Science in Computer Engineering \textbf{(GPA -- 3.9/4)}} & Aug 2024 -- May 2026 \\
+\end{tabular*}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {PricewaterhouseCoopers (PwC)}{Aug 2021 -- Aug 2024}
+  {Dynamics 365 and Power Platform Developer}{}
+\resumeItemListStart
+  \resumeItem{Developed a \textbf{B2B Dynamics 365 app} for customer acquisition and onboarding, including importing external data and visualization using \textbf{Power BI}, resulting in a \textbf{40\%} reduction in onboarding time and a \textbf{30\%} increase in accuracy of customer journey tracking.}
+  \resumeItem{Created and implemented a customer-facing portal with \textbf{live chat functionality (Omnichannel)} to automatically generate cases, contacts, and tasks, which directly reduced manual case entry by \textbf{70\%} and customer support response time by \textbf{25\%}.}
+  \resumeItem{Developed custom configurations on both the client and server sides using \textbf{JavaScript, plugins, workflows, and webhooks} within \textbf{Dynamics CRM} and optimized server response time by \textbf{35\%}, lowering query execution time from 1.5s to less than 1s.}
+  \resumeItem{Managed end-user accounts, permissions, and security roles on Dynamics 365, developing \textbf{6 specific security plans} utilizing \textbf{Azure security groups}, achieving \textbf{100\%} fewer incidents of unauthorized access and optimizing account provisioning time by \textbf{50\%}.}
+  \resumeItem{Created and implemented custom controls in \textbf{Power Apps Component Framework (PCF)} to design reusable UI elements with sophisticated data binding features and responsive design, cutting down redundant UI development work by \textbf{60\%} and raising user satisfaction ratings by \textbf{15\%}.}
+  \resumeItem{Developed \textbf{Power Automate flows \& Plugins} to simplify automation of business processes such as validation \& notification, and reduced import time for \textbf{100K} data to \textbf{1 hour} compared to 5 hours (achieved \textbf{80\% efficiency gain}) and helped save \textbf{\$15K} each year.}
+  \resumeItem{Combined \textbf{5 Power BI dashboard solutions} into portals and applications to analyze data, resulting in a \textbf{60\%} acceleration of executive decision-making by shortening turnaround on reports from 2 days to real-time.}
+  \resumeItem{Developed Low-Level Architecture design for MSDVI On Board, meeting technical specifications and adhering to SDLC guidelines, which led to a \textbf{25\%} decrease in defects during production and a \textbf{\$10K} decrease in rework expenses per release cycle.}
+  \resumeItem{Developed and customized \textbf{Power Portals} using Liquid and web templates, incorporating advanced form functionality and entity permissions, which cut manual configurations by \textbf{50\%} and optimized portal loading by \textbf{20\%}.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Amazon}{May 2025 -- Aug 2025}
+  {Software Development Engineer Intern}{Seattle, US}
+\resumeItemListStart
+  \resumeItem{Designed a secure UI Console architecture using \textbf{Midway SSO, OAuth, and HELIS} to enforce least-privilege, role-based access; presented the solution to the team and received design approval.}
+  \resumeItem{Built serverless infrastructure using \textbf{AWS CDK} to deploy API Gateway, Lambda (Java 21), DynamoDB, and S3 with cross-account access; implemented \textbf{CI/CD pipeline} for multi-stage deployments.}
+  \resumeItem{Developed a secure, scalable internal console using \textbf{React 18} and \textbf{Java APIs}, integrating Midway AuthN and HELIS AuthZ for role-based access and improving performance (\textbf{40\% faster UI, 35\% faster APIs}) with reliable unit and integration testing.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {New York University}{Aug 2024 -- May 2025}
+  {Software Developer (On-Campus)}{New York, US}
+\resumeItemListStart
+  \resumeItem{Contributed to an AI-driven Remote Patient Monitoring System, awarded \textbf{\$100K} by the National Science Foundation, USA, employing \textbf{React Native, TypeScript}, and Cognito authentication for real-time health monitoring.}
+  \resumeItem{Authored parallelized \textbf{ETL pipelines} in Python to convert unstructured NoSQL data into structured SQL using \textbf{GCP Cloud Functions}, leveraging concurrent processing of data chunks, reducing transformation time by \textbf{60\%}.}
+  \resumeItem{Developed a React website to host \textbf{QuickSight dashboard} handling \textbf{50K+} records, utilized \textbf{Cognito, Amplify}, and Lambda functions to establish login, role-based access control, and Stripe integration for payment gateway.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+{\small
+\resumeSubHeadingListStart
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Advanced Expense Tracker (Java Desktop Application)}
+    \href{https://github.com/ajayv-19/advavanced_expense_tracker_java}{\underline{\faGithub}}
+    \textbar{} \textit{\textbf{Java, JavaFX, JDBC, SQLite, JFreeChart}} & \\
+  \end{tabular*}
+  \resumeItemListStart
+    \resumeItem{Architected a modular \textbf{Java application} supporting both individual and group expenses with secure login, leveraging \textbf{OOP principles} and design patterns \textbf{(MVC and DAO)} for separation of concerns.}
+    \resumeItem{Implemented concurrent transaction handling and real-time cost splitting using \textbf{multithreading} and synchronized blocks to ensure thread-safe database updates in group expense scenarios.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+}
+
+\section{Skills}
+{\small
+\textbf{Programming Languages:} C\#, DAX, JavaScript, TypeScript, SQL, Python \\
+\textbf{Web Development:} HTML, CSS, PowerApps, Power Portals, React, Node.js, Express.js, Spring Boot \\
+\textbf{Database:} Dataverse, RDBMS, NoSQL \\
+\textbf{Cloud:} Azure (AI Services, Logic Apps, Databricks, Function Apps, Storage Blobs, Security Groups) \\
+\textbf{Tools:} Git, Azure DevOps, Visual Studio, Dynamics CRM 365, ERP, XRM Toolbox, .NET, Power Automate, Power BI \\
+\textbf{Methodology:} Agile, Waterfall \\
+\textbf{AI/ML:} PyTorch, Hugging Face, LLM Fine-tuning, RAG (LangChain, FAISS), NLP, SVM, Random Forest, MLflow, PySpark
+}
+
+\section{Certifications \href{https://drive.google.com/drive/folders/1-Jvfb8c76gi73qbyc3Fq5TI-T0iq_uL_}{\scriptsize\faLink}}
+{\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l}
+AWS Certified Cloud Practitioner &
+Microsoft Azure Data Fundamentals &
+Azure Data Scientist Associate \\
+Power Platform Fundamentals &
+Power Platform App Maker Associate &
+Power Platform Functional Consultant \\
+Power Platform Developer Associate &
+Power Platform Solution Architect Expert &
+Power BI Data Analyst Associate \\
+\end{tabular*}
+}
+
+\end{document}
