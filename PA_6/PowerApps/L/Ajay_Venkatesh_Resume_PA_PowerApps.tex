@@ -1,0 +1,188 @@
+%-------------------------
+% Resume in Latex
+% Author : Ajay Venkatesh
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Tighter margins
+\usepackage[top=0.3in, bottom=0.3in, left=0.35in, right=0.35in]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section spacing reduced
+\titleformat{\section}{
+\vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+% Reduce item spacing
+\newcommand{\resumeItem}[1]{
+\item\footnotesize{{#1}\vspace{-4pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{2pt}
+\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{\small #1} & \textbf{\scriptsize #2} \\
+\textit{\scriptsize #3} & \textit{\scriptsize #4} \\
+\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% Tight lists
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\vspace{-18pt}
+\begin{center}
+    {\large Ajay Venkatesh} \\
+    \scriptsize Brooklyn, NY \\
+    \scriptsize
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{\faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{\faLinkedin} ~
+    \href{https://github.com/ajayv-19}{\faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{\faGlobe}
+\end{center}
+\vspace{-12pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\small New York University} \textbar{} \textit{\scriptsize Master of Science in Computer Engineering (GPA – 3.9/4)} & \scriptsize Aug 2024 -- May 2026 \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Campus Mesh}{Jan 2025 -- Present}
+{AI Software Engineer}{New York, US}
+\resumeItemListStart
+\resumeItem{Developed and maintained scalable \textbf{Node.js microservices} powering real-time academic workflows for \textbf{10K+ users}, including study groups, messaging, notifications, and profile management.}
+\resumeItem{Built a personalized \textbf{recommendation engine} using collaborative filtering and behavioral analytics, increasing user engagement by \textbf{28\%} and retention by \textbf{50\%}.}
+\resumeItem{Authored \textbf{LLM-based retrieval pipelines} for CampusIQ (AI Assistant), improving contextual accuracy by \textbf{30\%} through semantic retrieval and structured data indexing.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{May 2025 -- Aug 2025}
+{Software Development Engineer Intern}{Seattle, US}
+\resumeItemListStart
+\resumeItem{Built a high-throughput, event-driven incident triage system using AWS ECS Fargate Tasks, SQS, and SNS, decoupling message processing and reducing incident response latency by \textbf{50\%} during peak traffic.}
+\resumeItem{ Designed and implemented a collaborative-filtering \textbf{recommendation engine} using user interaction signals (course views, clicks, and engagement data), increasing platform engagement by 28\% and user retention by 50\%.}
+\resumeItem{Improved large-scale log analysis by implementing a Model Context Protocol (MCP) server for efficient retrieval, achieving a \textbf{40\%} reduction in AWS Athena query time and compute costs.}
+\resumeItem{Developed LLM-based semantic retrieval pipelines for CampusIQ using BERT-based sentence-transformer embeddings (MiniLM) with FAISS vector search and PostgreSQL metadata indexing to enable hybrid retrieval and improve response relevance by 30\%.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)
+\href{https://mybeatshealth.com/home}{\faExternalLink}
+\href{https://broker.mybeatshealth.com/}{\faExternalLink}}
+{Aug 2024 -- Present}
+{AI Software Engineer}{New York, US}
+\resumeItemListStart
+\resumeItem{Architected an \textbf{NSF-funded (\$100K)} AI-powered health platform for \textbf{iOS} and \textbf{Android} ingesting real-time wearable telemetry; implemented \textbf{time-series anomaly detection} using \textbf{Isolation Forest and LSTM models}.}
+\resumeItem{Built \textbf{computer vision pipelines (YOLOv8, EfficientNet)} to process user-submitted food images integrated with \textbf{GPT-4 workflows} for nutritional estimation and dietary feedback.}
+\resumeItem{Developed an insurance analytics platform \textbf{(React, Node.js, REST APIs)} integrating \textbf{LLM-based document analysis (GPT-4 + LangChain)} for underwriting insights.}
+\resumeItem{Engineered ETL pipelines transforming \textbf{NoSQL} data into \textbf{PostgreSQL} with concurrency control; processed \textbf{250K+} records and powered \textbf{AWS QuickSight} dashboards.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Aug 2021 -- Aug 2024}
+{Senior Software Engineer}{Bangalore, India}
+\resumeItemListStart
+\resumeItem{Designed and implemented a \textbf{distributed backend system on Microsoft Azure} integrating with \textbf{Microsoft Dynamics} and supporting ML inference pipelines for healthcare analytics.}
+\resumeItem{Led \textbf{code reviews} and mentored interns on software design and \textbf{test-driven development}, reducing production bugs by \textbf{25\%}.}
+\resumeItem{Built an \textbf{NLP-powered OCR pipeline} using \textbf{LayoutLM and Azure Form Recognizer} to automate data extraction from medical documents, reducing processing time by \textbf{75\%}.}
+\resumeItem{Optimized data ingestion using \textbf{parallel processing} for \textbf{100K+ Excel records}, reducing execution time from \textbf{5 hours to 1 hour}.}
+\resumeItem{Developed \textbf{Power BI dashboards} integrating multiple enterprise databases, improving reporting efficiency by \textbf{40\%}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\item
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\small Flight Delay Prediction} \textbar{} \textit{\scriptsize {PySpark, HDFS, SQL, Machine Learning}} & \\
+\end{tabular*}
+\resumeItemListStart
+\resumeItem{Built a scalable PySpark ML pipeline on HDFS to process and engineer features from over 7M flight records using SQL-based aggregation and anomaly detection.}
+\resumeItem{Performed extensive EDA to identify delay patterns and key predictors; trained and optimized Random Forest and Gradient Boosted Tree models to achieve 85\%+ accuracy.}
+\resumeItem{Converted model outputs into actionable insights, enabling data-driven scheduling and operational planning for delay reduction.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+{\scriptsize
+\textbf{Programming Languages:} C\#, Python, Java, C++, JavaScript, SQL \\
+\textbf{AI/ML:} Neural Networks, Classification, Pattern Recognition, Data Extraction, RAG, MLOps, AI Solution Deployment, Responsible AI, Model Monitoring, Model Validation \\
+\textbf{Web Development:} REST API, GraphQL API, Microservices, React, Node.js, Express.js \\
+\textbf{Database:} Dataverse, RDBMS (MySQL, PostgreSQL), NoSQL (MongoDB, JSON) \\
+\textbf{Cloud:} Azure (AI Services, Azure AI Foundry, Cognitive Services, Logic Apps, Function Apps, Storage Blobs, Security Data Lakes), AWS (CDK, SDK, EC2, S3, Lambda, IAM, Q, SageMaker) \\
+\textbf{Automation Platforms:} Power Automate, Microsoft Copilot Studio, Azure AI Studio \\
+\textbf{Tools:} Git, Docker, Jupyter, Visual Studio, Postman, Power BI, CI/CD Pipelines \\
+\textbf{Methodology:} Agile, Scrum, SDLC Governance, Test-Driven Development (TDD) \\
+}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications \& Publications \href{https://drive.google.com/drive/folders/1-Jvfb8c76gi73qbyc3Fq5TI-T0iq_uL_}{\scriptsize\faLink}}
+
+{\scriptsize
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l}
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{\textbf{AWS Cloud Practitioner} {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1XaffZ7Grnmp8K8dwTcZymsE-HYHMuM-U/view}{Power BI Data Analyst Associate {\scriptsize\faLink}} \\
+\href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera) {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals {\scriptsize\faLink}} \\
+\end{tabular*}
+
+\vspace{2pt}
+
+\href{https://ieeexplore.ieee.org/document/10060334}{
+Supervised ML System Based Segmentation and Classification of Stroke Using Deep Learning Techniques {\scriptsize\faLink}
+} \textit{(IEEE)} \\
+
+\href{https://ieeexplore.ieee.org/document/9792818}{
+An Aquila-optimized SVM classifier for Diabetes prediction {\scriptsize\faLink}
+} \textit{(IEEE)}
+}
+
+\end{document}
