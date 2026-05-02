@@ -17,7 +17,7 @@ SCRIPT_DIR = Path(__file__).parent
 COOKIES_FILE = SCRIPT_DIR / "cookies.json"
 
 COUNT = 10  # API rejects larger values with 400
-MAX_JOBS = 100
+MAX_JOBS = 200
 
 HEADERS = {
     "accept": "application/json, text/plain, */*",
