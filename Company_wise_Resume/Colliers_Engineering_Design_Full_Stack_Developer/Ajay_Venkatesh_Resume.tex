@@ -1,0 +1,177 @@
+%-------------------------
+% Resume in Latex
+% Author: Ajay Venkatesh
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{lmodern}
+\setlength{\multicolsep}{-3.5pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[top=0.25in, bottom=0.25in, left=0.3in, right=0.3in]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+\vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+\item\small{{#1}\vspace{-3.5pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{6pt}
+\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5.5pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+\vspace{-14pt}
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small Brooklyn, NY \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{\faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{\faLinkedin} ~
+    \href{https://github.com/ajayv-19}{\faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{\faGlobe}
+\end{center}
+\vspace{-10pt}
+
+\section{Skills}
+{\small
+\textbf{Programming Languages:} C++, Java, Python, TypeScript, JavaScript (ES6), SQL \\
+\textbf{Web Technologies:} HTML, CSS, React, REST API, GraphQL API, Microservices, Node.js, Express.js, Sequelize \\
+\textbf{Database:} RDBMS (MySQL, PostgreSQL), NoSQL (Dynamo DB, FireBase, MongoDB), Dataverse \\
+\textbf{Cloud:} AWS (AWS CDK, EC2, S3, Dynamo DB, API Gateway, Lambda, Cognito, IAM, Q, SageMaker), Azure (OpenAI services, Function Apps, Security Data lakes, Storage blobs) \\
+\textbf{Tools:} Git, Visual Studio, Cursor, Jupyter, Postman, Docker, Kubernetes, Power BI, QuickSight, Full Stack Development \\
+\textbf{AI/ML:} LLM Fine-tuning, RAG (LangChain, FAISS), NLP, Deep Learning, RL.
+}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Campus Mesh}{Jan 2026 -- Present}
+  {Software Engineer}{New York, US}
+\resumeItemListStart
+  \resumeItem{Developed and maintained scalable \textbf{Node.js microservices} powering real-time academic workflows for \textbf{10K+ users}, including study groups, messaging, notifications, and profile management.}
+  \resumeItem{Built a personalized \textbf{recommendation engine} using collaborative filtering and behavioral analytics, increasing user engagement by \textbf{28\%} and retention by \textbf{50\%}.}
+  \resumeItem{Worked on \textbf{LLM-based retrieval pipelines (RAG)} for CampusIQ (AI Assistant), leveraging \textbf{embedding-based semantic search} and structured data indexing to improve contextual accuracy by \textbf{30\%}.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Amazon}{May 2025 -- Aug 2025}
+  {Software Development Engineer Intern}{Seattle, US}
+\resumeItemListStart
+  \resumeItem{Architected a secure UI console for Amazon fulfillment center teams to view image/video evidence across FCs; presented the \textbf{system design} for approval and established Role Based Access \textbf{(4+ roles)} using \textbf{OAuth, Midway SSO, and HELIS}.}
+  \resumeItem{Provisioned \textbf{serverless Infrastructure-as-Code} using \textbf{AWS CDK} with API Gateway, Lambda, DynamoDB, S3, and IAM, reducing provisioning time by \textbf{70\%} and enabling \textbf{multi-stage, multi-region CI/CD deployments}.}
+  \resumeItem{Built a \textbf{React 18} frontend with optimized API integration, advanced filtering, client-side caching, reducing page load time by \textbf{40\%}.}
+  \resumeItem{Engineered backend services in \textbf{Java} using \textbf{Coral, Smithy, Dagger}, and \textbf{CBOR serialization}; applied low-level design and design patterns, reduced backend execution time by \textbf{35\%} and ensured reliability by unit and integration testing using \textbf{Mockito}.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {New York University (Novel AI Technologies, Inc.)}{Aug 2024 -- Present}
+  {Software Developer (On-Campus)}{New York, US}
+\resumeItemListStart
+  \resumeItem{Architected an \textbf{NSF-funded (\$100K)} AI-powered health app for \textbf{iOS} and \textbf{Android}, processing real-time wearable data; deployed cloud-hosted AI models for health metrics analysis and food image processing.}
+  \resumeItem{Engineered ETL pipelines transforming \textbf{NoSQL} into \textbf{PostgreSQL} using \textbf{concurrency control and locking mechanisms}; processed \textbf{250K+} records and powered \textbf{AWS QuickSight} dashboards for real-time health analytics.}
+  \resumeItem{Developed an insurance analytics platform \textbf{(React, Node.js, REST APIs)}; deployed \textbf{Docker} containers on \textbf{EC2}, implemented Stripe billing, RBAC, and row-level security, generating \textbf{\$50K+} revenue.}
+  \resumeItem{Streamlined underwriting via broker portal integrated with insurer platform; implemented \textbf{document and media processing} and \textbf{WebSocket-based real-time communication}; secured \textbf{6 insurance clients}.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {PricewaterhouseCoopers (PwC)}{Aug 2021 -- Aug 2024}
+  {Senior Software Engineer}{}
+\resumeItemListStart
+  \resumeItem{Developed a distributed backend on \textbf{Microsoft Azure} for a health platform, integrating with \textbf{Microsoft CRM} and implementing event-driven processing and fault tolerance.}
+  \resumeItem{Led code reviews and mentored engineers on \textbf{software design principles}, reducing production bugs by \textbf{25\%}.}
+  \resumeItem{Deployed an \textbf{NLP based OCR neural model} on Azure to automate structured data extraction, reducing data processing time by \textbf{75\%}.}
+  \resumeItem{Optimized data ingestion with \textbf{parallel processing} for \textbf{100K}-row from Excel; reduced execution time from \textbf{5 hours to 1 hour}.}
+  \resumeItem{Built \textbf{Power BI dashboards} processing large datasets from multiple databases, improving reporting efficiency by \textbf{40\%}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+{\small
+\resumeSubHeadingListStart
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Advanced Expense Tracker (Java Desktop Application)}
+    \href{https://github.com/ajayv-19/advavanced_expense_tracker_java}{\underline{\faGithub}}
+    \textbar{} \textit{\textbf{Java, JavaFX, JDBC, SQLite, JFreeChart}} & \\
+  \end{tabular*}
+  \resumeItemListStart
+    \resumeItem{Architected a modular \textbf{Java application} supporting individual and group expenses with secure login, applying \textbf{OOP principles} and \textbf{MVC \& DAO design patterns}.}
+    \resumeItem{Implemented concurrent transaction handling and real-time cost splitting using \textbf{multithreading} and synchronized blocks to ensure thread-safe database updates.}
+  \resumeItemListEnd
+
+\vspace{6pt}
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Hospital Management System (Full-Stack Application)} \textbar{} \textit{\textbf{React, Node.js, Express, MongoDB, SageMaker, Hugging Face}} & \\
+  \end{tabular*}
+  \resumeItemListStart
+    \resumeItem{Built a \textbf{full-stack healthcare platform} using \textbf{React, Node.js, Express, and MongoDB} to manage appointments, patient records, lab reports, and medical history with \textbf{role-based access control}.}
+    \resumeItem{Fine-tuned a \textbf{Hugging Face transformer-based model} achieving \textbf{88\% accuracy} for health condition prediction and deployed it on \textbf{AWS SageMaker} for real-time diagnostic support in the doctor dashboard.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+}
+
+\section{Education}
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{New York University} \textbar{} \textit{Master of Science in Computer Engineering \textbf{(GPA -- 3.9/4)}} & Sep 2024 -- May 2026 \\
+\end{tabular*}
+
+\section{Certifications \href{https://drive.google.com/drive/folders/1-Jvfb8c76gi73qbyc3Fq5TI-T0iq_uL_}{\scriptsize\faLink}}
+{\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l}
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{\textbf{AWS Cloud Practitioner} {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1FCrObY9o2Jr3vfk_EttcIbOYrUey55NU/view}{Microsoft Solution Architect Expert {\scriptsize\faLink}} \\
+\href{https://drive.google.com/file/d/1XaffZ7Grnmp8K8dwTcZymsE-HYHMuM-U/view}{Power BI Data Analyst Associate {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1m-RZVaeo78cn2RUUctiKuqbV9F7i1tTx/view}{Microsoft Developer Associate {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera) {\scriptsize\faLink}} \\
+\end{tabular*}
+}
+
+\end{document}

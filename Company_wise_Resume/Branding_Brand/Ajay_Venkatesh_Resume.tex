@@ -1,0 +1,176 @@
+%-------------------------
+% Resume in Latex
+% Author: Ajay Venkatesh
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{lmodern}
+\setlength{\multicolsep}{-3.5pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[top=0.25in, bottom=0.25in, left=0.3in, right=0.3in]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+\vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+\item\small{{#1}\vspace{-3.5pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{6pt}
+\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textbf{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5.5pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+\vspace{-14pt}
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small Brooklyn, NY \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{\faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{\faLinkedin} ~
+    \href{https://github.com/ajayv-19}{\faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{\faGlobe}
+\end{center}
+\vspace{-10pt}
+
+\section{Skills}
+{\small
+\textbf{Languages:} TypeScript, JavaScript (ES6), HTML5, CSS3, SQL, Java, Python \\
+\textbf{Frameworks \& Libraries:} Angular, RxJS, NgRx, React, Redux, Node.js, Express.js \\
+\textbf{Database:} RDBMS (MySQL, PostgreSQL), NoSQL (DynamoDB, Firebase, MongoDB), Dataverse \\
+\textbf{Cloud:} AWS (AWS CDK, EC2, S3, DynamoDB, API Gateway, Lambda, Cognito, IAM), Azure (OpenAI services, Security Data lakes, Storage blobs) \\
+\textbf{Tools:} Git, Visual Studio, Cursor, Postman, Docker, Kubernetes, Power BI, Jest, Jasmine, Karma, React Testing Library
+}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Campus Mesh}{Jan 2026 -- Present}
+  {Software Engineer}{New York, NY}
+\resumeItemListStart
+  \resumeItem{Engineered reactive \textbf{Angular} components and services using \textbf{RxJS} to handle real-time academic workflows -- study groups, messaging, and notifications -- serving \textbf{10,000+ active users} with consistent uptime.}
+  \resumeItem{Cut the initial JavaScript payload by \textbf{35\%} by deferring feature module downloads to on-demand route navigation, eliminating upfront loading of pages the user may never visit and improving Time to Interactive on slow connections.}
+  \resumeItem{Raised unit and integration test coverage to \textbf{85\%+} using \textbf{Jest} and \textbf{Jasmine/Karma} across all feature modules, enabling weekly deployments with zero production regressions through \textbf{Git}-managed CI pipelines.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Amazon}{May 2025 -- Aug 2025}
+  {Software Development Engineer Intern}{Seattle, WA}
+\resumeItemListStart
+  \resumeItem{Architected a \textbf{React 18} and \textbf{TypeScript} console with \textbf{OAuth 2.0} and corporate \textbf{SSO} authentication; enforced \textbf{4-tier role-based access control} governing which routes, UI panels, and actions each user could access — protecting evidence data for \textbf{500+} fulfillment team members.}
+  \resumeItem{Eliminated redundant API calls by caching server responses on the client for high-traffic dashboard views; applied page-level code splitting so each route loaded only its required bundles — cutting page load speed by \textbf{40\%} and improving Core Web Vitals scores.}
+  \resumeItem{Maintained zero critical defects across a 3-month release cycle by writing unit and integration tests covering auth flows, role guard behavior, and data-fetching components using \textbf{Jest} and \textbf{React Testing Library}.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {New York University (Novel AI Technologies, Inc.)}{Aug 2024 -- Present}
+  {Software Developer (On-Campus)}{New York, NY}
+\resumeItemListStart
+  \resumeItem{Built a \textbf{TypeScript} and \textbf{React} frontend for an \textbf{NSF-funded (\$100K)} AI health platform, integrating real-time wearable sensor data with cloud-deployed machine learning models for iOS and Android users.}
+  \resumeItem{Delivered an insurance analytics platform (\textbf{React, Node.js, REST APIs}) where brokers, underwriters, and admins each accessed role-restricted dashboards scoped to their permitted data; integrated \textbf{WebSocket} real-time updates, \textbf{responsive HTML5/CSS3} layouts, and Stripe billing — generating \textbf{\$50K+} across \textbf{6 enterprise clients}.}
+  \resumeItem{Built a shared \textbf{React} component library with consistent design standards, cutting UI development time across 3 product features; coordinated \textbf{Git} branching and code review workflows across a multi-developer team.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {PricewaterhouseCoopers (PwC)}{Aug 2021 -- Aug 2024}
+  {Senior Software Engineer}{Bengaluru, India}
+\resumeItemListStart
+  \resumeItem{Designed and delivered custom \textbf{Power Apps Component Framework (PCF)} controls in \textbf{TypeScript, HTML5, and CSS3} for \textbf{Dynamics 365 CRM}, replacing out-of-box UI with accessible data interaction components across \textbf{3 enterprise} deployments.}
+  \resumeItem{Built \textbf{Angular} and \textbf{TypeScript} frontends integrated with Microsoft CRM, handling asynchronous, event-driven data streams across health platform modules with reactive state management.}
+  \resumeItem{Established frontend code review standards covering \textbf{HTML/CSS} accessibility, component design patterns, and test coverage; reduced production defects by \textbf{25\%} and mentored \textbf{3 junior engineers}.}
+  \resumeItem{Deployed an \textbf{NLP-based OCR} model on Azure, cutting data extraction time by \textbf{75\%}; built \textbf{Power BI} dashboards across multiple databases, improving reporting efficiency by \textbf{40\%}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+{\small
+\resumeSubHeadingListStart
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Task Management Dashboard (Angular SPA)}
+    \href{https://github.com/ajayv-19}{\underline{\faGithub}}
+    \textbar{} \textit{\textbf{Angular, TypeScript, RxJS, NgRx, HTML5/CSS3, Jest}} & \\
+  \end{tabular*}
+  \resumeItemListStart
+    \resumeItem{Built a single-page \textbf{Angular} application with \textbf{NgRx} for centralized state management and reactive data streams; delivered drag-and-drop task boards and real-time status updates via WebSockets.}
+    \resumeItem{Achieved \textbf{90\%+ test coverage} with \textbf{Jest} across components, services, and state management layers; enforced strict \textbf{TypeScript} typing and type-safe selectors throughout.}
+  \resumeItemListEnd
+
+\vspace{6pt}
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Hospital Management System (Full-Stack Web Application)} \textbar{} \textit{\textbf{React, TypeScript, Node.js, Express, MongoDB, AWS SageMaker}} & \\
+  \end{tabular*}
+  \resumeItemListStart
+    \resumeItem{Developed a full-stack healthcare platform with \textbf{React} and \textbf{TypeScript}, featuring responsive \textbf{HTML5/CSS3} layouts and role-based access control to manage appointments, patient records, and lab reports.}
+    \resumeItem{Fine-tuned a \textbf{Hugging Face} transformer model to \textbf{88\% diagnostic accuracy} and deployed it on \textbf{AWS SageMaker}, enabling real-time condition predictions within the physician dashboard.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+}
+
+\section{Education}
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{New York University} \textbar{} \textit{Master of Science in Computer Engineering \textbf{(GPA -- 3.9/4)}} & Sep 2024 -- May 2026 \\
+\end{tabular*}
+\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
+  \item \small \textit{Coursework:} System Design, Machine Learning, Deep Learning, Big Data, Advanced Java, Data Structures
+\end{itemize}
+
+\section{Certifications \href{https://drive.google.com/drive/folders/1-Jvfb8c76gi73qbyc3Fq5TI-T0iq_uL_}{\scriptsize\faLink}}
+{\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l}
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{\textbf{AWS Cloud Practitioner} {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1FCrObY9o2Jr3vfk_EttcIbOYrUey55NU/view}{Microsoft Solution Architect Expert {\scriptsize\faLink}} \\
+\href{https://drive.google.com/file/d/1XaffZ7Grnmp8K8dwTcZymsE-HYHMuM-U/view}{Power BI Data Analyst Associate {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1m-RZVaeo78cn2RUUctiKuqbV9F7i1tTx/view}{Microsoft Developer Associate {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera) {\scriptsize\faLink}} \\
+\end{tabular*}
+}
+
+\end{document}

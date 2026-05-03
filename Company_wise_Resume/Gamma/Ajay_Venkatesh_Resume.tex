@@ -1,0 +1,152 @@
+%-------------------------
+% Resume in Latex
+% Author: Ajay Venkatesh
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{extarticle}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{lmodern}
+\setlength{\multicolsep}{-3.5pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[top=0.25in, bottom=0.25in, left=0.3in, right=0.3in]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+\item\small{{#1}\vspace{-3.5pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{6pt}
+\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5.5pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+\vspace{-14pt}
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small Brooklyn, NY \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{\faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{\faLinkedin} ~
+    \href{https://github.com/ajayv-19}{\faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{\faGlobe}
+\end{center}
+\vspace{-10pt}
+
+\section{Education}
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{New York University} \textbar{} \textit{\small Master of Science in Computer Engineering \textbf{(GPA -- 3.9/4)}} & \textbf{\small Aug 2024 -- May 2026} \\
+\end{tabular*}
+
+\section{Skills}
+{\small
+\textbf{Programming Languages:} TypeScript, JavaScript (ES6), Python, Java, SQL, C++ \\
+\textbf{Full-Stack Web:} React, Node.js, Express.js, Next.js, REST API, GraphQL API, Microservices, HTML, CSS \\
+\textbf{AI/ML:} LLMs (GPT-4, Claude, Bedrock), Prompt Engineering, RAG (LangChain, FAISS), PyTorch, Hugging Face, NLP, Computer Vision, MLflow \\
+\textbf{Databases:} PostgreSQL, MySQL, MongoDB, DynamoDB, Redis \\
+\textbf{Cloud \& DevOps:} AWS (Lambda, API Gateway, CDK, SageMaker, Bedrock, S3, IAM, CloudWatch), Azure (AI Services, Function Apps), Docker, CI/CD, GitLab \\
+\textbf{Tools:} Git, GitHub Copilot, Cursor, Jupyter, Postman, Datadog, Terraform
+}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Campus Mesh}{Jan 2026 -- Present}
+  {AI Software Engineer}{New York, US}
+\resumeItemListStart
+  \resumeItem{Designed full-stack AI features in a \textbf{TypeScript, React, and Node.js} stack serving \textbf{10K+ users}, powering study groups, messaging, notifications, and personalized profiles.}
+  \resumeItem{Built \textbf{CampusIQ}, an LLM-powered AI assistant, with iterative \textbf{prompt engineering} and \textbf{RAG retrieval} over structured data and embeddings, improving contextual accuracy by \textbf{30\%}.}
+  \resumeItem{Implemented a \textbf{recommendation engine} using collaborative filtering and behavioral signals, increasing engagement by \textbf{28\%} and retention by \textbf{50\%}.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Amazon}{May 2025 -- Aug 2025}
+  {Software Development Engineer Intern}{Seattle, US}
+\resumeItemListStart
+  \resumeItem{Shipped a \textbf{RAG-based agentic AI workflow} that autonomously retrieves operational logs, reasons over incident details, and generates context-aware summaries and remediation steps, cutting incident response latency by \textbf{50\%}.}
+  \resumeItem{Optimized LLM inference cost and latency by implementing a \textbf{Model Context Protocol (MCP)} server for efficient retrieval, reducing AWS Athena query time and compute costs by \textbf{40\%}.}
+  \resumeItem{Built an event-driven triage backend using \textbf{AWS ECS Fargate, SQS, and SNS} decoupling message processing across multiple services under peak traffic.}
+  \resumeItem{Provisioned \textbf{Infrastructure-as-Code} using \textbf{AWS CDK} to manage auto-scaling ECS clusters with \textbf{99.9\%} availability under 2x projected load.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {New York University (Novel AI Technologies, Inc.)}{Aug 2024 -- Present}
+  {AI Software Engineer}{New York, US}
+\resumeItemListStart
+  \resumeItem{Architected an \textbf{NSF-funded (\$100K)} AI-powered consumer health app for \textbf{iOS} and \textbf{Android} ingesting real-time wearable telemetry; implemented time-series anomaly detection using \textbf{Isolation Forest} and \textbf{LSTM} models.}
+  \resumeItem{Built end-to-end \textbf{computer vision pipelines (YOLOv8, EfficientNet)} for user-submitted food images, integrated with \textbf{GPT-4 vision workflows} for nutritional estimation and dietary feedback.}
+  \resumeItem{Developed a full-stack insurance analytics product in \textbf{React, Node.js, and REST APIs}, integrating \textbf{LLM-based document analysis (GPT-4 + LangChain)} with prompt templates for underwriting insights.}
+  \resumeItem{Engineered ETL pipelines transforming \textbf{NoSQL} into \textbf{PostgreSQL} with concurrency control; processed \textbf{250K+} records and powered \textbf{AWS QuickSight} dashboards.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {PricewaterhouseCoopers (PwC)}{Aug 2021 -- Aug 2024}
+  {Senior Software Engineer}{Bengaluru, India}
+\resumeItemListStart
+  \resumeItem{Designed a distributed backend on \textbf{Microsoft Azure} integrating with \textbf{Microsoft Dynamics} and supporting ML inference pipelines for healthcare analytics.}
+  \resumeItem{Built an \textbf{NLP-powered OCR pipeline} using \textbf{LayoutLM} and Azure Form Recognizer to automate document data extraction, reducing processing time by \textbf{75\%}.}
+  \resumeItem{Led code reviews and mentored engineers on \textbf{software design and test-driven development}, reducing production bugs by \textbf{25\%}.}
+  \resumeItem{Optimized data ingestion using parallel processing for \textbf{100K+} records, reducing execution time from \textbf{5 hours to 1 hour}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{InviLite (AI-Driven Data Engineering \& Analytics Platform)} \textbar{} \textit{\small \textbf{AWS, SageMaker, Bedrock, FAISS, Python}} & \\
+  \end{tabular*}
+  \resumeItemListStart
+    \resumeItem{Architected a cloud-native data pipeline (Kinesis, Lambda, S3, Glue, DynamoDB) ingesting structured and unstructured enterprise data into governed ML workflows.}
+    \resumeItem{Built a \textbf{RAG system} (SVM classification + FAISS vector indexing + \textbf{Bedrock LLM}) enabling contextual resolution recommendations and cutting incident resolution from \textbf{1--2 hours to minutes}.}
+    \resumeItem{Increased root-cause classification accuracy from \textbf{56\% to 92\%} via structured feature engineering, model retraining, and prompt iteration.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}

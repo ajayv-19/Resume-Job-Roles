@@ -9,12 +9,5 @@
 *.fls
 *.fdb_latexmk
 
-# Company-specific tailored resumes
-Company_wise_Resume/
-
-# Job scraper output (cookies + dated CSVs)
+# Sensitive: scraper auth cookies
 jobs/cookies.json
-jobs/cron.log
-jobs/last_2_days_jobs.csv
-jobs/top_55_jobs.html
-jobs/2026-*/

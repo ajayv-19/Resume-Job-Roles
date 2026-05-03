@@ -1,0 +1,209 @@
+%-------------------------
+% Academic CV Template
+% Adapted from: Dubasi Pavan Kumar (https://www.overleaf.com/latex/templates/academic-cv-template/gmyytjmdbvdm)
+% Tailored for: Ajay Venkatesh -- NVIDIA AI Networking Software Engineer
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small Brooklyn, NY \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{\faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{\faLinkedin} ~
+    \href{https://github.com/ajayv-19}{\faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{\faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} Machine Learning, Deep Learning, Big Data, Computer Architecture, System Design, Data Structures}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Campus Mesh}{New York, US}
+{AI Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Built \textbf{CampusIQ}, an LLM-powered AI assistant, with iterative \textbf{prompt engineering} and \textbf{RAG retrieval} over structured data and transformer-based embeddings, improving grounded accuracy by \textbf{30\%}.}
+\item \footnotesize{Designed a personalized \textbf{recommendation engine} using collaborative filtering on behavioral signals, increasing engagement by \textbf{28\%} and retention by \textbf{50\%}.}
+\item \footnotesize{Developed scalable \textbf{Node.js microservices} powering real-time academic workflows for \textbf{10K+ users}.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Shipped a \textbf{RAG pipeline} with an \textbf{LLM agent workflow} and \textbf{function calling} that autonomously retrieves operational logs, reasons over incident details, and generates grounded remediation steps.}
+\item \footnotesize{Built a \textbf{Model Context Protocol (MCP)} server for tool-augmented retrieval, cutting AWS Athena query time and compute costs by \textbf{40\%} via better LLM inference efficiency.}
+\item \footnotesize{Built a high-throughput, event-driven backend on \textbf{AWS ECS Fargate, SQS, SNS} with \textbf{Infrastructure-as-Code} via \textbf{AWS CDK}, decoupling distributed message processing and ensuring \textbf{99.9\%} availability under 2x peak load.}
+\item \footnotesize{Engineered the backend services in \textbf{Java} (Coral, Smithy, Dagger, CBOR); applied \textbf{low-level design patterns}, cutting execution time by \textbf{35\%} with unit/integration testing via Mockito.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{AI Software Engineer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Architected an \textbf{NSF-funded (\$100K)} AI-powered health platform for \textbf{iOS} and \textbf{Android} ingesting real-time wearable telemetry; implemented \textbf{time-series anomaly detection} using \textbf{Isolation Forest} and \textbf{LSTM} models.}
+\item \footnotesize{Built end-to-end \textbf{computer vision pipelines} (\textbf{YOLOv8, EfficientNet}) for user-submitted food images, integrated with \textbf{GPT-4 vision workflows} for nutritional estimation and dietary feedback.}
+\item \footnotesize{Developed an insurance analytics platform (\textbf{React, Node.js, REST APIs}) integrating \textbf{LLM-based document analysis} (\textbf{GPT-4 + LangChain}) for underwriting insights.}
+\item \footnotesize{Engineered \textbf{ETL pipelines} transforming \textbf{NoSQL} into \textbf{PostgreSQL} with concurrency control; processed \textbf{250K+} records and powered \textbf{AWS QuickSight} dashboards.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Designed a distributed backend on \textbf{Microsoft Azure} integrating with Microsoft Dynamics and supporting \textbf{ML inference pipelines} for healthcare analytics with API-based integrations.}
+\item \footnotesize{Built an \textbf{NLP-powered OCR pipeline} using \textbf{LayoutLM transformer} and Azure Form Recognizer to automate structured data extraction from documents, reducing processing time by \textbf{75\%}.}
+\item \footnotesize{Optimized data ingestion with \textbf{parallel processing} on \textbf{100K+} records, cutting execution from \textbf{5 hours to 1 hour}.}
+\item \footnotesize{Led code reviews and mentored engineers on \textbf{software design and test-driven development}, reducing production bugs by \textbf{25\%}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{RV32I Processor Simulator}
+{Python, RISC-V ISA, Computer Architecture}
+{}
+{[\href{https://github.com/ajayv-19/V32I-Processor-Simulator}{\textcolor{darkblue}{\faGithub}}]}
+\resumeItemListStart
+\item \footnotesize{Built a cycle-accurate \textbf{RV32I simulator} in \textbf{Python} with single-stage and \textbf{5-stage pipelined (IF/ID/EX/MEM/WB)} cores, implementing R-type, I-type, LW/SW, BEQ/BNE, JAL with two's-complement immediate handling and opcode-based dispatch.}
+\item \footnotesize{Engineered \textbf{hazard detection} with \textbf{EX/MEM-to-EX forwarding} and load-use stalls, resolving RAW dependencies without state rollback.}
+\item \footnotesize{Generated per-cycle register/memory/pipeline dumps and computed \textbf{CPI \& IPC} metrics, validated across multiple assembly test cases.}
+\resumeItemListEnd
+
+\resumeProject
+{Flight Delay Prediction (Big Data)}
+{Hadoop HDFS, PySpark, Spark SQL, Spark MLlib, Seaborn, Plotly}
+{}
+{[\href{https://github.com/ajayv-19/flight-delay-2024}{\textcolor{darkblue}{\faGithub}}]}
+\resumeItemListStart
+\item \footnotesize{Built a distributed big data pipeline over \textbf{Hadoop HDFS} on \textbf{2024 BTS US flight data}; used \textbf{PySpark} and \textbf{Spark SQL} for cleaning, feature engineering, and large-scale aggregations.}
+\item \footnotesize{Trained \textbf{Spark MLlib} classification models for delay severity prediction with feature-importance analysis via Seaborn, Matplotlib, and Plotly.}
+\resumeItemListEnd
+
+\resumeProject
+{InviLite}
+{AWS, SageMaker, Bedrock, FAISS, Python}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected a cloud-native data pipeline (Kinesis, Lambda, S3 Bronze/Silver/Gold, Glue, DynamoDB) ingesting structured and unstructured enterprise data into governed ML pipelines.}
+\item \footnotesize{Built a \textbf{RAG system} (SVM classification + FAISS vector indexing + \textbf{Bedrock LLM}), cutting incident resolution from \textbf{1--2 hours to minutes} and lifting root-cause classification accuracy from \textbf{56\% to 92\%} via feature engineering and model retraining.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{Python, C++, Java, Bash, SQL}
+\resumeSubItem{AI/ML:}{PyTorch, TensorFlow, CUDA, Transformers, RAG (LangChain, FAISS), LLM Fine-tuning, LLM Agents, Reinforcement Learning, Deep Learning, NLP, Hugging Face, Pandas, NumPy, MLflow}
+\resumeSubItem{Big Data \& Distributed:}{Apache Spark, PySpark, Spark SQL, Spark MLlib, Hadoop HDFS, ETL/ELT Workflows}
+\resumeSubItem{Cloud \& DevOps:}{AWS (Lambda, SageMaker, Bedrock, ECS, S3, CloudWatch, CDK), Azure (AI Services, Data Lake, Function Apps), Docker, Kubernetes, CI/CD, Terraform}
+\resumeSubItem{Tools \& Platforms:}{Linux, Git, Jupyter, Cursor, GitHub Copilot, Model Context Protocol (MCP), RISC-V}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Publications}}
+\footnotesize{
+\href{https://ieeexplore.ieee.org/document/9792818}{Supervised ML System Based Segmentation and Classification of Stroke Using Deep Learning Techniques} \textit{(IEEE)} \\
+\href{https://ieeexplore.ieee.org/document/10060334}{An Aquila-optimized SVM Classifier for Diabetes Prediction} \textit{(IEEE)}
+}
+\vspace{-3mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+}
+
+\end{document}

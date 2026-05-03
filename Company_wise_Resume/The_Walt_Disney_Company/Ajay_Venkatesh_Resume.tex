@@ -1,0 +1,218 @@
+%-------------------------
+% Resume in Latex
+% Author: Ajay Venkatesh
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,10pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{lmodern}
+\setlength{\multicolsep}{-3.5pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\usepackage[top=0.25in, bottom=0.25in, left=0.3in, right=0.3in]{geometry}
+
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+\titleformat{\section}{
+\vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+
+\pdfgentounicode=1
+
+
+\newcommand{\resumeItem}[1]{
+\item\small{{#1}\vspace{-3.5pt}}
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{6pt}
+\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5.5pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+
+\begin{document}
+
+\vspace{-14pt}
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{\faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{\faLinkedin} ~
+    \href{https://github.com/ajayv-19}{\faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{\faGlobe}
+\end{center}
+\vspace{-10pt}
+
+\section{Skills}
+{\small
+\textbf{Programming Languages:} Python, Java, Scala, R, SQL, C++, TypeScript, JavaScript (ES6) \\
+\textbf{Big Data \& Processing:} PySpark, Apache Spark, Pandas, NumPy, ETL/ELT Workflows, Distributed Data Pipelines, Airflow \\
+\textbf{Databases:} SQL Server, MySQL, PostgreSQL, DynamoDB, MongoDB, Dataverse \\
+\textbf{Cloud \& Warehouses:} AWS (Redshift, S3, EC2, Lambda, Glue, CloudWatch, SageMaker, QuickSight, CDK), GCP (BigQuery), Azure (Data Lake, Function Apps) \\
+\textbf{Tools:} Git, Docker, Kubernetes, Jupyter, Postman, Power BI, Visual Studio, Cursor, PySpark, Spark SQL, Glue, Airflow \\
+\textbf{AI/ML:} TensorFlow, LLM Fine-tuning, RAG (LangChain, FAISS), NLP, Deep Learning, RL.
+}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Campus Mesh}{Jan 2026 -- Present}
+  {Data Engineer}{New York, US}
+\resumeItemListStart
+  \resumeItem{Developed scalable \textbf{Node.js microservices} powering real-time academic workflows for \textbf{10K+ users} across study groups, messaging, notifications, and profile management, backed by a \textbf{MongoDB} store.}
+
+  \resumeItem{Designed a personalized \textbf{recommendation engine} using collaborative filtering on behavioral event data with \textbf{Python} feature pipelines, increasing engagement by \textbf{28\%} and retention by \textbf{50\%}.}
+
+  \resumeItem{Engineered \textbf{LLM-based retrieval pipelines (RAG)} for CampusIQ, building ingestion/indexing workflows for structured data into an \textbf{embedding-based semantic search} store, improving accuracy by \textbf{30\%}.}
+\resumeItemListEnd
+
+    \resumeSubheading
+      {Amazon}{May 2025 -- Aug 2025}
+      {Software Development Engineer Intern}{Seattle, US}
+    \resumeItemListStart
+      \resumeItem{Architected a secure data console for Amazon fulfillment center teams to query image/video evidence across FCs; presented \textbf{system design} for approval and set up Role Based Access \textbf{(4+ roles)} via \textbf{OAuth, Midway SSO, HELIS}.}
+      \resumeItem{Provisioned \textbf{serverless Infrastructure-as-Code} using \textbf{AWS CDK} with API Gateway, Lambda, \textbf{DynamoDB, S3}, IAM, \textbf{CloudWatch}, cutting provisioning time \textbf{70\%} with \textbf{multi-stage, multi-region CI/CD}.}
+      \resumeItem{Engineered distributed backend services in \textbf{Java} using Coral, Smithy, Dagger, CBOR; applied \textbf{low-level design patterns}, cutting execution time \textbf{35\%} with unit/integration tests via \textbf{Mockito}.}
+    \resumeItemListEnd
+
+\resumeSubheading
+  {New York University (Novel AI Technologies, Inc.)}{Aug 2024 -- Present}
+  {Data Engineer}{New York, US}
+   \resumeItemListStart
+      \resumeItem{Architected an \textbf{NSF-funded (\$100K)} AI-powered health platform for \textbf{iOS} and \textbf{Android}, ingesting real-time wearable telemetry into cloud storage for downstream AI model inference on health metrics and food images.}
+      \resumeItem{Engineered \textbf{ETL/ELT workflows} with \textbf{Python, PySpark, SQL}, transforming \textbf{NoSQL} event data into \textbf{PostgreSQL} with \textbf{concurrency control and locking}; processed \textbf{250K+} records and powered \textbf{AWS QuickSight} dashboards.}
+      \resumeItem{Built a full-stack insurance analytics platform deployed via \textbf{Docker} containers on \textbf{EC2}, and implemented Stripe billing, RBAC, and row-level security, generating \textbf{\$50K+} revenue across \textbf{6 clients}.}
+   \resumeItem{Implemented \textbf{document/media processing pipelines} with \textbf{WebSocket real-time data streams} to streamline underwriting via a broker portal integrated with insurer platforms.}
+    \resumeItemListEnd
+
+        \resumeSubheading
+      {PricewaterhouseCoopers (PwC)}{Aug 2021 -- Aug 2024}
+      {Data Engineer}{Bengaluru, India}
+\resumeItemListStart
+  \resumeItem{Developed a \textbf{distributed data processing backend} on \textbf{Microsoft Azure} integrating with \textbf{Microsoft CRM}, with \textbf{event-driven ingestion} and fault-tolerant retries over \textbf{SQL Server} stores.}
+
+  \resumeItem{Deployed an \textbf{NLP-based OCR neural model} on Azure to automate structured data extraction from unstructured documents into downstream warehouses, reducing processing time by \textbf{75\%}.}
+
+  \resumeItem{Optimized batch ingestion with \textbf{parallel processing} for \textbf{100K-row} Excel feeds; reduced execution from \textbf{5 hours to 1 hour}.}
+
+  \resumeItem{Built \textbf{Power BI} dashboards over datasets joined across multiple relational databases, improving reporting efficiency by \textbf{40\%}.}
+\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+{\small
+\resumeSubHeadingListStart
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Advanced Expense Tracker (Python Data Pipeline Application)} \textbar{} \textit{\textbf{Python, SQLite3, Pandas, Matplotlib, Tkinter}} & \\
+  \end{tabular*}
+  \vspace{-6pt}
+  \resumeItemListStart
+    \resumeItem{Architected a modular \textbf{Python application} supporting individual and group expense data with secure login, applying \textbf{OOP principles} and \textbf{MVC \& DAO design patterns} over a \textbf{SQLite3} persistence layer.}
+    \resumeItem{Implemented concurrent transaction handling and real-time cost aggregation using \textbf{Python threading} and locks to ensure thread-safe database writes; visualized spending trends with \textbf{Pandas}-backed analytics and Matplotlib charts.}
+  \resumeItemListEnd
+
+\vspace{6pt}
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Flight Delay Prediction (Big Data)}
+    % \href{https://github.com/}{\underline{\faGithub}}
+    \textbar{} \textit{\textbf{Hadoop HDFS, PySpark, Spark SQL, Spark MLlib, Seaborn, Matplotlib, Plotly}} & \\
+  \end{tabular*}
+  \vspace{-6pt}
+\resumeItemListStart
+\resumeItem{Built a distributed big data pipeline over \textbf{Hadoop HDFS} ingesting \textbf{2024 BTS US flight data}; used \textbf{PySpark} and \textbf{Spark SQL} for cleaning, feature engineering, and large-scale aggregations.}
+
+\resumeItem{Trained \textbf{Spark MLlib} classification models to predict delay severity and surfaced feature importance and delay distributions via \textbf{Seaborn, Matplotlib, and Plotly} visualizations.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{New York University} \textbar{} \textit{Master of Science in Computer Engineering \textbf{(GPA -- 3.9/4)}} & Sep 2024 -- May 2026 \\
+% \textbf{Visvesvaraya Technological University} \textbar{} \textit{Bachelors in ECE \textbf{(GPA – 8.9/10)}} & Jun 2017 -- Aug 2021 \\
+\end{tabular*}
+\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
+  \item \small \textit{Coursework:} Big Data, System Design, Machine Learning, Deep Learning, Data Structures
+\end{itemize}
+
+%-----------CERTIFICATIONS -----------
+\section{Certifications \href{https://drive.google.com/drive/folders/1-Jvfb8c76gi73qbyc3Fq5TI-T0iq_uL_}{\scriptsize\faLink}}
+
+{\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l}
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{\textbf{AWS Cloud Practitioner} {\scriptsize\faLink}} &
+
+\href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals {\scriptsize\faLink}} &
+
+\href{https://drive.google.com/file/d/1FCrObY9o2Jr3vfk_EttcIbOYrUey55NU/view}{Microsoft Solution Architect Expert {\scriptsize\faLink}} \\
+
+\href{https://drive.google.com/file/d/1XaffZ7Grnmp8K8dwTcZymsE-HYHMuM-U/vie}{Power BI Data Analyst Associate {\scriptsize\faLink}}   &
+\href{https://drive.google.com/file/d/1m-RZVaeo78cn2RUUctiKuqbV9F7i1tTx/view}{Microsoft Developer Associate {\scriptsize\faLink}} &
+\href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera) {\scriptsize\faLink}}
+
+\end{tabular*}
+
+\vspace{4pt}
+
+}
+
+
+\end{document}

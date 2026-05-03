@@ -1,0 +1,193 @@
+%-------------------------
+% Resume in Latex
+% Author: Ajay Venkatesh
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,10pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{lmodern}
+\setlength{\multicolsep}{-3.5pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\usepackage[top=0.25in, bottom=0.25in, left=0.3in, right=0.3in]{geometry}
+
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+
+\pdfgentounicode=1
+
+
+\newcommand{\resumeItem}[1]{
+\item\small{{#1}\vspace{-3.5pt}}
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{6pt}
+\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5.5pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+
+\begin{document}
+
+\vspace{-14pt}
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{\faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{\faLinkedin} ~
+    \href{https://github.com/ajayv-19}{\faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{\faGlobe}
+\end{center}
+\vspace{-10pt}
+
+\section{Education}
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{New York University} \textbar{} \textit{\small Master of Science in Computer Engineering \textbf{(GPA -- 3.9/4)}} & \textbf{\small Sep 2024 -- May 2026} \\
+\end{tabular*}
+\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
+  \item \small \textit{Coursework:} Big Data, System Design, Machine Learning, Deep Learning, Computer Architecture, Data Structures
+\end{itemize}
+
+\section{Skills}
+{\small
+\textbf{Programming Languages:} Python, Java, Scala, SQL, C++, TypeScript, JavaScript (ES6), Bash \\
+\textbf{Big Data \& Processing:} PySpark, Apache Spark, Spark SQL, Pandas, NumPy, ETL/ELT Workflows, Distributed Data Pipelines, Time-Series Processing, Airflow \\
+\textbf{Databases:} PostgreSQL, MySQL, SQL Server, DynamoDB, MongoDB \\
+\textbf{Cloud \& Warehouses:} AWS (EC2, S3, Redshift, Lambda, Glue, CloudWatch, SageMaker, QuickSight, CDK), GCP (BigQuery), Azure (Data Lake, Function Apps) \\
+\textbf{Tools:} Git, Docker, Kubernetes, CI/CD, Linux, Jupyter, Postman, Power BI, Cursor \\
+\textbf{AI/ML:} TensorFlow, LLM Fine-tuning, RAG (LangChain, FAISS), NLP, Deep Learning
+}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Campus Mesh}{Jan 2026 -- Present}
+  {Data Engineer}{New York, US}
+\resumeItemListStart
+  \resumeItem{Built \textbf{distributed, scalable data pipelines} ingesting real-time \textbf{time-series event streams} for \textbf{10K+ users} into a MongoDB store, supporting low-latency reads for downstream services.}
+
+  \resumeItem{Designed a personalized \textbf{recommendation engine} using collaborative filtering on behavioral event data with \textbf{Python} feature pipelines, increasing engagement by \textbf{28\%} and retention by \textbf{50\%}.}
+
+  \resumeItem{Engineered \textbf{LLM-based retrieval pipelines (RAG)} for CampusIQ with ingestion/indexing workflows over structured data and embedding-based semantic search, improving accuracy by \textbf{30\%}.}
+\resumeItemListEnd
+
+    \resumeSubheading
+      {Amazon}{May 2025 -- Aug 2025}
+      {Software Development Engineer Intern}{Seattle, US}
+    \resumeItemListStart
+      \resumeItem{Engineered distributed backend services in \textbf{Java} on the JVM using Coral, Smithy, Dagger, and CBOR serialization; applied \textbf{low-level design patterns} and cut execution time by \textbf{35\%} with unit/integration testing via \textbf{Mockito}.}
+      \resumeItem{Built a high-throughput, event-driven backend on \textbf{AWS ECS Fargate, SQS, and SNS}, decoupling distributed message processing and reducing response latency by \textbf{50\%} under peak load.}
+      \resumeItem{Implemented an efficient log-retrieval server cutting \textbf{AWS Athena} query time and compute cost by \textbf{40\%}; provisioned \textbf{Infrastructure-as-Code} via \textbf{AWS CDK} ensuring \textbf{99.9\%} availability under 2x projected load.}
+    \resumeItemListEnd
+
+\resumeSubheading
+  {New York University (Novel AI Technologies, Inc.)}{Aug 2024 -- Present}
+  {Data Engineer}{New York, US}
+   \resumeItemListStart
+      \resumeItem{Architected an \textbf{NSF-funded (\$100K)} AI-powered health platform for \textbf{iOS} and \textbf{Android}, ingesting real-time wearable telemetry into cloud storage for downstream AI model inference on health metrics and food images.}
+      \resumeItem{Engineered \textbf{ETL/ELT workflows} with \textbf{Python, PySpark, SQL}, transforming \textbf{NoSQL} event data into \textbf{PostgreSQL} with \textbf{concurrency control and locking}; processed \textbf{250K+} records and powered \textbf{AWS QuickSight} dashboards.}
+      \resumeItem{Built an insurance analytics data platform with \textbf{AWS Redshift} as the warehouse, deployed \textbf{Docker} containers on \textbf{EC2}, and implemented \textbf{RBAC} and row-level security, generating \textbf{\$50K+} revenue across \textbf{6 clients}.}
+    \resumeItemListEnd
+
+        \resumeSubheading
+      {PricewaterhouseCoopers (PwC)}{Aug 2021 -- Aug 2024}
+      {Data Engineer}{Bengaluru, India}
+\resumeItemListStart
+  \resumeItem{Developed a \textbf{distributed data processing backend} on \textbf{Microsoft Azure} integrating with \textbf{Microsoft CRM}, with \textbf{event-driven ingestion} and fault-tolerant retries over \textbf{SQL Server} stores.}
+
+  \resumeItem{Deployed an \textbf{NLP-based OCR neural model} on Azure to automate structured data extraction from unstructured documents into downstream warehouses, reducing processing time by \textbf{75\%}.}
+
+  \resumeItem{Optimized batch ingestion with \textbf{parallel processing} for \textbf{100K-row} Excel feeds; reduced execution from \textbf{5 hours to 1 hour}.}
+
+  \resumeItem{Built \textbf{Power BI} dashboards over datasets joined across multiple relational databases, improving reporting efficiency by \textbf{40\%}.}
+\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+{\small
+\resumeSubHeadingListStart
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Advanced Expense Tracker (Python Data Pipeline Application)} \textbar{} \textit{\textbf{Python, SQLite3, Pandas, Matplotlib, Tkinter}} & \\
+  \end{tabular*}
+  \vspace{-6pt}
+  \resumeItemListStart
+    \resumeItem{Architected a modular \textbf{Python application} supporting individual and group expense data with secure login, applying \textbf{OOP principles} and \textbf{MVC \& DAO design patterns} over a \textbf{SQLite3} persistence layer.}
+    \resumeItem{Implemented concurrent transaction handling and real-time cost aggregation using \textbf{Python threading} and locks to ensure thread-safe database writes; visualized spending trends with \textbf{Pandas}-backed analytics and Matplotlib charts.}
+  \resumeItemListEnd
+
+\vspace{6pt}
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Flight Delay Prediction (Big Data)}
+    % \href{https://github.com/}{\underline{\faGithub}}
+    \textbar{} \textit{\textbf{Hadoop HDFS, PySpark, Spark SQL, Spark MLlib, Seaborn, Matplotlib, Plotly}} & \\
+  \end{tabular*}
+  \vspace{-6pt}
+\resumeItemListStart
+\resumeItem{Built a distributed big data pipeline over \textbf{Hadoop HDFS} ingesting \textbf{2024 BTS US flight data}; used \textbf{PySpark} and \textbf{Spark SQL} for cleaning, feature engineering, and large-scale aggregations.}
+
+\resumeItem{Trained \textbf{Spark MLlib} classification models to predict delay severity and surfaced feature importance and delay distributions via \textbf{Seaborn, Matplotlib, and Plotly} visualizations.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+}
+
+
+\end{document}
