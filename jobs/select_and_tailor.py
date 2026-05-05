@@ -322,6 +322,7 @@ def main():
             "Template": tpl_key,
             "Folder": str(out_dir.relative_to(ROOT)),
             "URL": r.get("URL", ""),
+            "Apply Link": r.get("Apply Link", ""),
             "Skills Added": "; ".join(injected),
             "Authentic Missing (all)": "; ".join(d for d, _ in authentic),
             "Matched (CSV)": r.get("Matched Skills", ""),
@@ -330,7 +331,7 @@ def main():
 
     fieldnames = [
         "Bucket", "Score", "Company", "Title", "Template",
-        "Folder", "URL", "Skills Added", "Authentic Missing (all)",
+        "Folder", "URL", "Apply Link", "Skills Added", "Authentic Missing (all)",
         "Matched (CSV)", "Compile",
     ]
     with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:

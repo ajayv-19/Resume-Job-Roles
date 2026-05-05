@@ -32,7 +32,7 @@ HEADERS = {
 CSV_FIELDS = [
     "Company", "Title", "Location", "Publish Time", "Salary", "Work Model",
     "Match Score", "Applicants", "Min YOE", "H1B Sponsor",
-    "Matched Skills", "Missing Skills", "URL",
+    "Matched Skills", "Missing Skills", "URL", "Apply Link",
 ]
 
 
@@ -101,7 +101,8 @@ def fetch_all(cookies: dict) -> list[dict]:
                 "H1B Sponsor": j.get("isH1bSponsor", False),
                 "Matched Skills": ", ".join(matched),
                 "Missing Skills": ", ".join(missing),
-                "URL": j.get("applyLink") or j.get("originalUrl", ""),
+                "URL": f"https://jobright.ai/jobs/info/{job_id}" if job_id else "",
+                "Apply Link": j.get("applyLink") or j.get("originalUrl", ""),
             })
 
         if added == 0:

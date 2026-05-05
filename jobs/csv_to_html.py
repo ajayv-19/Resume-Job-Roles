@@ -24,12 +24,14 @@ for r in rows:
 cols = [
     "Bucket", "Score", "Company", "Title", "Template",
     "Skills Added", "Authentic Missing (all)", "Matched (CSV)",
-    "Compile", "URL", "Resume PDF",
+    "Compile", "URL", "Apply Link", "Resume PDF",
 ]
 
 def cell(col: str, val: str) -> str:
     if col == "URL" and val:
-        return f'<a href="{html.escape(val)}" target="_blank">apply</a>'
+        return f'<a href="{html.escape(val)}" target="_blank">jobright</a>'
+    if col == "Apply Link" and val:
+        return f'<a href="{html.escape(val)}" target="_blank">direct</a>'
     if col == "Resume PDF" and val:
         return f'<a href="file://{html.escape(val)}" target="_blank">PDF</a>'
     if col == "Score":
