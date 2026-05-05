@@ -7,7 +7,9 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-DATE = datetime.now().strftime("%Y-%m-%d")
+import os
+import sys
+DATE = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("JOBS_DATE") or datetime.now().strftime("%Y-%m-%d")
 ROOT = Path("/Users/ajayvenkatesh/Desktop/Resume Job Roles")
 SRC = ROOT / "jobs" / DATE / "selection_summary.csv"
 OUT = ROOT / "jobs" / DATE / "selection_summary.html"
