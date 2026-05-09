@@ -32,6 +32,7 @@ TEMPLATES = {
     "FS":   ROOT / "FS_3" / "E" / "Ajay_Venkatesh_Resume.tex",
     "SEPY": ROOT / "SE_1" / "Python" / "E" / "Ajay_Venkatesh_Resume.tex",
     "SEJV": ROOT / "SE_1" / "Java"   / "E" / "Ajay_Venkatesh_Resume.tex",
+    "SEAI": ROOT / "SE_1" / "AI"     / "E" / "Ajay_Venkatesh_Resume.tex",
 }
 
 AUTHENTIC_SKILLS = {
