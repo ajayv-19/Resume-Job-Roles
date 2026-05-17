@@ -1,0 +1,56 @@
+%-------------------------
+% Cover Letter - Waymo Software Engineer, Perception Evaluation
+% Author: Ajay Venkatesh
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[top=0.8in, bottom=0.8in, left=0.9in, right=0.9in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lmodern}
+\usepackage{parskip}
+\usepackage{microtype}
+
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{flushleft}
+\textbf{\large Ajay Venkatesh} \\
+Brooklyn, NY \\
++1 516 585 9013 \\
+\href{mailto:av3855@nyu.edu}{av3855@nyu.edu}
+\end{flushleft}
+
+\vspace{10pt}
+
+May 13, 2026
+
+\vspace{6pt}
+
+Hiring Manager \\
+Waymo
+
+\vspace{10pt}
+
+Dear Hiring Manager,
+
+My name is Ajay Venkatesh --- finishing my M.S. in Computer Engineering at NYU, with several years of production software experience: a few years at PwC in Bengaluru, a summer SDE internship at Amazon, and ongoing on-campus work at NYU's Novel AI Technologies. I'm writing about the Software Engineer, Perception Evaluation role. The work the team describes --- building the tools and pipelines that quantify whether a Perception system is doing what it claims --- is the part of ML engineering I find most interesting, and the part where my background lines up most cleanly.
+
+\textbf{Python} is my daily driver for both backend services and ML pipelines --- I've shipped data preprocessing, model integration, evaluation tooling, and end-to-end ETL workflows across multiple projects. \textbf{C++} is where I cut my teeth in graduate coursework (Computer Architecture, System Design, Data Structures) and where I keep going back when an abstraction stops being honest. Clean, well-tested code is the baseline: at Amazon I shipped backend services in Java with unit/integration testing via \textbf{Mockito}, low-level design patterns, and code-review discipline, and the same posture carries over to my Python work.
+
+On pipelines and evaluation infrastructure specifically: at Amazon I built a high-throughput, event-driven processing system on \textbf{AWS ECS Fargate, SQS, SNS} with auto-scaling clusters and resilient \textbf{Infrastructure-as-Code} on \textbf{AWS CDK} --- the same shape of work as a perception evaluation pipeline: scalable jobs, reliability monitoring, and the discipline of catching regressions before they ship. I also deployed a \textbf{Retrieval-Augmented Generation} pipeline with an \textbf{agentic workflow} that triages operational incidents by reasoning over logs --- the practical engineering side of "analyze results, troubleshoot issues, and surface findings" the role calls out.
+
+On large-scale data and analysis: my Big Data project built a \textbf{PySpark / HDFS} pipeline over millions of flight records, training Random Forest and Gradient Boosted Tree models with rigorous EDA. I'm fluent in \textbf{Pandas, NumPy,} and \textbf{Jupyter / Colab} for data analysis, and I've used \textbf{Power BI}, \textbf{AWS QuickSight}, and Matplotlib to turn raw metrics into actionable insights for stakeholders --- the "analyze and report findings" part of the role isn't a separate job for me, it's where the work usually lands.
+
+What pulls me toward Perception Evaluation specifically is the stakes. Perception is the layer where the Waymo Driver's mistakes start being expensive --- in real units, on real roads, with people inside the vehicle. The team's job is to be the conscience of that stack: to surface what the system actually does, not what its top-line metric claims it does. That's the engineering culture I want to be inside of.
+
+I'd welcome the chance to discuss further. Thanks for considering my application.
+
+\vspace{12pt}
+
+Sincerely, \\
+Ajay Venkatesh
+
+\end{document}

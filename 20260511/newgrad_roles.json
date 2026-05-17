@@ -1,0 +1,495 @@
+[
+  {
+    "Company": "Alteryx",
+    "Title": "Software Engineer",
+    "Location": "United States",
+    "PublishTime": "16 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/699eb05b81476f6176b81ec1",
+    "MatchedSkills": [
+      "Python",
+      "REST API development",
+      "SDK development",
+      "Git",
+      "Git-based pipelines",
+      "Curiosity",
+      "Growth mindset"
+    ],
+    "MissingSkills": [],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "Waymo",
+    "Title": "Machine Learning Engineer, 3D Object Detection (PhD New Grad)",
+    "Location": "San Francisco, CA",
+    "PublishTime": "11 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/696815b8f25a380066966c37",
+    "MatchedSkills": [
+      "Machine Learning",
+      "Computer Vision",
+      "Python",
+      "PyTorch"
+    ],
+    "MissingSkills": [
+      "JAX"
+    ],
+    "BaseTemplate": "AI_NG",
+    "BaseTemplatePath": "AI_2/NG"
+  },
+  {
+    "Company": "Baseten",
+    "Title": "AI Solutions Engineer",
+    "Location": "New York, NY",
+    "PublishTime": "21 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69e8057e3aa0c4796439d2cb",
+    "MatchedSkills": [
+      "Python",
+      "General-purpose programming languages",
+      "AI/ML pipelines",
+      "ML model development",
+      "ML model deployment",
+      "AI/ML project optimization"
+    ],
+    "MissingSkills": [],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "Waymo",
+    "Title": "Applied Research Scientist, 3D Object Detection (PhD New Grad)",
+    "Location": "San Francisco, CA",
+    "PublishTime": "11 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/694cd26a29655e4dd656fa36",
+    "MatchedSkills": [
+      "Machine Learning",
+      "Computer Vision",
+      "Python",
+      "PyTorch",
+      "C++"
+    ],
+    "MissingSkills": [
+      "JAX"
+    ],
+    "BaseTemplate": "AI_NG",
+    "BaseTemplatePath": "AI_2/NG"
+  },
+  {
+    "Company": "TAVERN",
+    "Title": "Engineer I",
+    "Location": "Chicago, IL",
+    "PublishTime": "20 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a00ce79c4b08448a0b1ca39",
+    "MatchedSkills": [
+      "Python",
+      "JavaScript",
+      "Docker",
+      "Kubernetes",
+      "Large Language Models (LLMs)",
+      "AI-assisted Systems",
+      "Databases",
+      "APIs",
+      "Data Structures",
+      "Algorithms",
+      "Git",
+      "CI/CD"
+    ],
+    "MissingSkills": [
+      "Backend Systems",
+      "Technical Growth Mindset"
+    ],
+    "BaseTemplate": "SE_Python_E",
+    "BaseTemplatePath": "SE_1/Python/E"
+  },
+  {
+    "Company": "Insight Global",
+    "Title": "Software Engineer",
+    "Location": "Chattanooga, TN",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 97.4977,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e41a3053db70a1172f2c",
+    "MatchedSkills": [
+      "Python",
+      "TypeScript",
+      "React",
+      "Postgres",
+      "AWS",
+      "APIs",
+      "Docker",
+      "Kubernetes"
+    ],
+    "MissingSkills": [
+      "GCP"
+    ],
+    "BaseTemplate": "SE_Python_E",
+    "BaseTemplatePath": "SE_1/Python/E"
+  },
+  {
+    "Company": "Interview Kickstart",
+    "Title": "Software Engineer 1, Fullstack",
+    "Location": "United States",
+    "PublishTime": "6 hours ago",
+    "MatchScore": 97.1226,
+    "JobLink": "https://jobright.ai/jobs/info/6a019579238f143e8352d0b5",
+    "MatchedSkills": [],
+    "MissingSkills": [],
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS_3/E"
+  },
+  {
+    "Company": "Baseten",
+    "Title": "Applied AI Inference Engineer",
+    "Location": "United States",
+    "PublishTime": "20 hours ago",
+    "MatchScore": 95.9481,
+    "JobLink": "https://jobright.ai/jobs/info/69e7db2658811370cb11ec8f",
+    "MatchedSkills": [
+      "Python",
+      "General-purpose programming languages",
+      "AI/ML pipelines",
+      "ML model development",
+      "ML model deployment",
+      "AI/ML project optimization"
+    ],
+    "MissingSkills": [],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "MJH Life Sciences\u00ae",
+    "Title": "Associate Product Engineer",
+    "Location": "United States",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 94.6516,
+    "JobLink": "https://jobright.ai/jobs/info/6a01dcbac2ffb31f45367a6e",
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "REST APIs",
+      "Git",
+      "Version Control",
+      "Relational Databases",
+      "Serverless Functions",
+      "AWS",
+      "OAuth 2.0"
+    ],
+    "MissingSkills": [
+      "Next.js",
+      "Prisma"
+    ],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "Verkada",
+    "Title": "Site Reliability Engineer - Infrastructure",
+    "Location": "San Mateo, CA",
+    "PublishTime": "2 hours ago",
+    "MatchScore": 93.1667,
+    "JobLink": "https://jobright.ai/jobs/info/68e6e4e01852e62f00820011",
+    "MatchedSkills": [
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "MissingSkills": [],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "Glean",
+    "Title": "Software Engineer, Context Platform",
+    "Location": "Mountain View, CA",
+    "PublishTime": "22 hours ago",
+    "MatchScore": 92.5277,
+    "JobLink": "https://jobright.ai/jobs/info/6939cd6748a8ce22990dcfce",
+    "MatchedSkills": [
+      "TypeScript",
+      "Python",
+      "Java",
+      "REST APIs",
+      "SDK development",
+      "OAuth2",
+      "OIDC",
+      "AWS",
+      "Azure"
+    ],
+    "MissingSkills": [
+      "Backend development",
+      "Platform systems",
+      "Golang",
+      "Cloud-native development",
+      "GCP"
+    ],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "Strava",
+    "Title": "Server Engineer, Comms & Experimentation",
+    "Location": "San Francisco, CA",
+    "PublishTime": "5 hours ago",
+    "MatchScore": 91.2963,
+    "JobLink": "https://jobright.ai/jobs/info/698e75b578b4502f12a546c1",
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "Relational Databases",
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "MissingSkills": [
+      "Backend Systems Development",
+      "Scala",
+      "Go",
+      "Distributed Data Stores"
+    ],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "Tech Consulting",
+    "Title": "Junior Data Engineer",
+    "Location": "Arizona, United States",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 90.5028,
+    "JobLink": "https://jobright.ai/jobs/info/6a01dd2fc4b08448a0b20c4c",
+    "MatchedSkills": [
+      "Python",
+      "SQL",
+      "AWS",
+      "Azure",
+      "Databricks",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS EC2",
+      "Machine Learning",
+      "Computer Vision",
+      "Theory of Probability",
+      "GitLab"
+    ],
+    "MissingSkills": [
+      "PySpark",
+      "GenAI",
+      "R Programming",
+      "Google Cloud Platform",
+      "Airflow"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Oak Ridge National Laboratory",
+    "Title": "Environmental Data Science Engineer",
+    "Location": "Tennessee (TN)",
+    "PublishTime": "11 hours ago",
+    "MatchScore": 88.5344,
+    "JobLink": "https://jobright.ai/jobs/info/6a0157743053db70a117029b",
+    "MatchedSkills": [
+      "ExpressJS",
+      "Node.js",
+      "Java 7/8",
+      "Webservices",
+      "Python",
+      "Git",
+      "Cassandra",
+      "GraphQL",
+      "PostgreSQL",
+      "MySQL"
+    ],
+    "MissingSkills": [
+      "D3.js",
+      "Spring Boot",
+      "Spark",
+      "High-Performance Computing"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Zip",
+    "Title": "Software Engineer, Identity",
+    "Location": "San Francisco, CA",
+    "PublishTime": "23 hours ago",
+    "MatchScore": 87.3487,
+    "JobLink": "https://jobright.ai/jobs/info/69faa578dd1a797969e70428",
+    "MatchedSkills": [
+      "Software development",
+      "Web application development",
+      "API development",
+      "Python",
+      "TypeScript",
+      "React",
+      "GraphQL",
+      "Open communication"
+    ],
+    "MissingSkills": [
+      "Enterprise SaaS",
+      "Fintech",
+      "Software security best practices",
+      "Compliance frameworks",
+      "Underdog mindset"
+    ],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "Waymo",
+    "Title": "Software Engineer, Quantitative Evaluations",
+    "Location": "Mountain View, CA",
+    "PublishTime": "11 hours ago",
+    "MatchScore": 86.5417,
+    "JobLink": "https://jobright.ai/jobs/info/6941e3bbbdcf884a5add9ab6",
+    "MatchedSkills": [
+      "C++",
+      "Python",
+      "SQL",
+      "Statistical analysis",
+      "Data processing pipelines",
+      "Code health",
+      "Machine learning"
+    ],
+    "MissingSkills": [
+      "Maintainability",
+      "A/B experiment infrastructure",
+      "Metric building",
+      "Validation",
+      "Ad-hoc data analysis",
+      "Autonomous vehicle industry experience"
+    ],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "US Tech Solutions",
+    "Title": "Application Developer",
+    "Location": "Hartford, CT",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 86.1439,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e44b238f143e8352ee13",
+    "MatchedSkills": [
+      "Python",
+      "Software Development",
+      "Software Testing",
+      "System Testing",
+      "Software Design"
+    ],
+    "MissingSkills": [
+      "Powershell",
+      "C#",
+      "Bug Verification",
+      "Release Testing",
+      "Beta Support",
+      "Software Documentation"
+    ],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "TikTok",
+    "Title": "Junior Solutions Engineer - Partnerships, Ads",
+    "Location": "New York",
+    "PublishTime": "20 hours ago",
+    "MatchScore": 86.1053,
+    "JobLink": "https://jobright.ai/jobs/info/6a00cfc5a0eddc08c239d507",
+    "MatchedSkills": [
+      "Python",
+      "Java",
+      "C++",
+      "API",
+      "Data analytics"
+    ],
+    "MissingSkills": [
+      "Go",
+      "Backend systems design",
+      "Advertising technology"
+    ],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "Vortexa",
+    "Title": "Solutions Architect Analyst",
+    "Location": "Houston, TX",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 85.9783,
+    "JobLink": "https://jobright.ai/jobs/info/6a01dcbfc2ffb31f45367a7c",
+    "MatchedSkills": [
+      "Python",
+      "SQL",
+      "API integration",
+      "Data integration into BI platforms",
+      "Power BI",
+      "Cloud environments",
+      "Jupyter notebooks",
+      "GitHub",
+      "Statistical modelling",
+      "Agentic AI tools",
+      "LLM-based development environments",
+      "Technical presentations"
+    ],
+    "MissingSkills": [
+      "R",
+      "Database management",
+      "Tableau",
+      "Snowflake",
+      "Financial modelling",
+      "MCP servers",
+      "Client-centric mindset"
+    ],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  },
+  {
+    "Company": "F&G",
+    "Title": "Associate Data Engineer",
+    "Location": "United States",
+    "PublishTime": "59 minutes ago",
+    "MatchScore": 85.0334,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e610238f143e8352efc8",
+    "MatchedSkills": [
+      "SQL",
+      "ETL",
+      "Data pipelines",
+      "Data transformation",
+      "Data analysis",
+      "Object-oriented analysis and design"
+    ],
+    "MissingSkills": [
+      "Database modeling",
+      "Informatica PowerCenter",
+      "Snowflake",
+      "Control-M",
+      "IDMC"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "L&T Technology Services",
+    "Title": "Embedded Software Engineer",
+    "Location": "Mossville, IL",
+    "PublishTime": "40 minutes ago",
+    "MatchScore": 56.9992,
+    "JobLink": "https://jobright.ai/jobs/info/6a01ea8ec4b08448a0b217f5",
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "Embedded C",
+      "Autosar",
+      "Application Development",
+      "Signal Processing",
+      "Diagnostic Algorithms",
+      "Embedded Systems",
+      "Embedded Control System Design",
+      "Diagnostic Control Systems"
+    ],
+    "BaseTemplate": "SE_Python_NG",
+    "BaseTemplatePath": "SE_1/Python/NG"
+  }
+]

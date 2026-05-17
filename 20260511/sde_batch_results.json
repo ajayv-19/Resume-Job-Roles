@@ -1,0 +1,641 @@
+[
+  {
+    "Company": "Alteryx",
+    "Title": "Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/699eb05b81476f6176b81ec1",
+    "PDF": "20260511/Alteryx/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Baseten",
+    "Title": "AI Solutions Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_AI_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69e8057e3aa0c4796439d2cb",
+    "PDF": "20260511/Baseten/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Waymo",
+    "Title": "Senior Software Engineer, Event Response",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6945bc59d1953b5d11bebbda",
+    "PDF": "20260511/Waymo/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Gem",
+    "Title": "Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69a7add4637232443f64fb24",
+    "PDF": "20260511/Gem/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "User-facing Product Development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Waymo",
+    "Title": "Senior Software Engineer, Quantitative Evaluations",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6943d09bdd382f5f5669f787",
+    "PDF": "20260511/Waymo/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Robotics",
+      "Physics"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Waymo",
+    "Title": "Software Engineer, Perception Evaluation",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69846d438da7a612045e943f",
+    "PDF": "20260511/Waymo/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Microsoft",
+    "Title": "Senior Software Engineer, Foundry Agents - CoreAI",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e2a0c4b08448a0b211b5",
+    "PDF": "20260511/Microsoft/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "TEAM GmbH",
+    "Title": "Software Developer/Softwareentwickler*in f\u00fcr ProStore\u00ae mit Oracle Technologien",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a01ac453053db70a11715d2",
+    "PDF": "20260511/TEAM_GmbH/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Oracle SQL"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Analytical Strength"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "TAVERN",
+    "Title": "Engineer I",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a00ce79c4b08448a0b1ca39",
+    "PDF": "20260511/TAVERN/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend Systems",
+      "Technical Growth Mindset"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Speechify",
+    "Title": "Software Engineer, Platform - Santa Monica, CA, USA",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a01955afa1aa73213d93a4a",
+    "PDF": "20260511/Speechify/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Google Cloud Platform"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Speechify",
+    "Title": "Software Engineer, Platform - Syracuse, NY, USA",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a019559fa1aa73213d93a43",
+    "PDF": "20260511/Speechify/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Google Cloud Platform"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Obsession with winning"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Speechify",
+    "Title": "Software Engineer, Platform - College Park, MD, USA",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a019558fa1aa73213d93a39",
+    "PDF": "20260511/Speechify/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Google Cloud Platform"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Obsession with winning"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Yoh, A Day & Zimmermann Company",
+    "Title": "UI Developer Hybrid NJ NH RI W2 Only",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a01c8b5fa1aa73213d943bc",
+    "PDF": "20260511/Yoh_A_Day_Zimmermann_Company/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Vue",
+      "Accessibility"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "User interface development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Bayview Asset Management, LLC",
+    "Title": "Full Stack Developer",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 97.962,
+    "JobLink": "https://jobright.ai/jobs/info/69e715e5f8fa2f3ec32a4796",
+    "PDF": "20260511/Bayview_Asset_Management_LLC/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Frontend frameworks",
+      "Application architecture",
+      "Analytical skills"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "UST",
+    "Title": "Java Backend Developer",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 97.9455,
+    "JobLink": "https://jobright.ai/jobs/info/6a017dd3df52f1450d843d91",
+    "PDF": "20260511/UST/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Harvey Nash",
+    "Title": "Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 97.7751,
+    "JobLink": "https://jobright.ai/jobs/info/6a016b23a0eddc08c239fa0d",
+    "PDF": "20260511/Harvey_Nash/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Large-scale systems"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Capgemini",
+    "Title": "Java / React Developer",
+    "Bucket": "SDE",
+    "Template": "FE_E",
+    "MatchScore": 97.7172,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e46ec2ffb31f45368318",
+    "PDF": "20260511/Capgemini/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Asynchronous request handling"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Pentangle Tech Services | P5 Group",
+    "Title": "Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.5566,
+    "JobLink": "https://jobright.ai/jobs/info/6a01f3d2c2ffb31f45368a2f",
+    "PDF": "20260511/Pentangle_Tech_Services_P5_Group/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Insight Global",
+    "Title": "Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.4977,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e41a3053db70a1172f2c",
+    "PDF": "20260511/Insight_Global/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "GCP"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Traba",
+    "Title": "Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.4758,
+    "JobLink": "https://jobright.ai/jobs/info/6a01ee89fa1aa73213d958bb",
+    "PDF": "20260511/Traba/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "PRI Global",
+    "Title": "Web Developer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.4332,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e5003053db70a1172fe5",
+    "PDF": "20260511/PRI_Global/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Scalable systems",
+      "UI/UX design"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Maven Companies Inc.",
+    "Title": "Java Full Stack Engineer",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 97.4271,
+    "JobLink": "https://jobright.ai/jobs/info/6a01f40ffa1aa73213d95996",
+    "PDF": "20260511/Maven_Companies_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Next.js"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Full stack Java application development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "ByteDance",
+    "Title": "Software Engineer (Payments Architecture) - Global Payment - San Jose",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.3933,
+    "JobLink": "https://jobright.ai/jobs/info/6a0196313053db70a1171338",
+    "PDF": "20260511/ByteDance/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Shell"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Oracle",
+    "Title": "Member of Technical Staff",
+    "Bucket": "SDE",
+    "Template": "SE_Python_L",
+    "MatchScore": 97.1738,
+    "JobLink": "https://jobright.ai/jobs/info/69735121bc8e722e7b182f89",
+    "PDF": "20260511/Oracle/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Unix POSIX semantics"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Interview Kickstart",
+    "Title": "Software Engineer 1, Fullstack",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 97.1226,
+    "JobLink": "https://jobright.ai/jobs/info/6a019579238f143e8352d0b5",
+    "PDF": "20260511/Interview_Kickstart/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Spotify",
+    "Title": "Software Engineer - Platform Infrastructure",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.0452,
+    "JobLink": "https://jobright.ai/jobs/info/6a01bc7bc2ffb31f45366c9f",
+    "PDF": "20260511/Spotify/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Google Cloud Platform (GCP)"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Observability Tooling"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "UST",
+    "Title": "Java Backend Developer",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 97.0196,
+    "JobLink": "https://jobright.ai/jobs/info/6a017dd43053db70a1170fdd",
+    "PDF": "20260511/UST/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Hibernate"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Temu",
+    "Title": "Java Engineer (Order System)",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 96.4498,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e461c4b08448a0b2141b",
+    "PDF": "20260511/Temu/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Redis"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Message Queue (MQ)",
+      "Remote Procedure Call (RPC)"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Skild AI",
+    "Title": "Software Engineer, AI Training and Infrastructure",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 96.3548,
+    "JobLink": "https://jobright.ai/jobs/info/67f1889fd82de3d6e76d1ecb",
+    "PDF": "20260511/Skild_AI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "TensorFlow",
+      "JAX"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Distributed computing",
+      "Cloud computing - Google Cloud",
+      "Automated testing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Infosys",
+    "Title": "Senior Systems Engineer-Java",
+    "Bucket": "SDE",
+    "Template": "SE_Python_L",
+    "MatchScore": 96.2174,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e59afa1aa73213d953fc",
+    "PDF": "20260511/Infosys/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Avanade",
+    "Title": "Software Engineer \u2013 Azure Application Developer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 96.0721,
+    "JobLink": "https://jobright.ai/jobs/info/69e0c2636c20aa114953d695",
+    "PDF": "20260511/Avanade/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#/.NET",
+      ".NET Core APIs",
+      "Azure Cognitive Services",
+      "Azure Logic Apps",
+      "Azure Kubernetes Service (AKS)",
+      "Azure DevOps",
+      "Hibernate"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Entity Framework",
+      "DevOps tools",
+      "Proactive troubleshooting"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Baseten",
+    "Title": "Applied AI Inference Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_NG",
+    "MatchScore": 95.9481,
+    "JobLink": "https://jobright.ai/jobs/info/69e7db2658811370cb11ec8f",
+    "PDF": "20260511/Baseten/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Waymo",
+    "Title": "Software Engineer, Multiverse",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 95.291,
+    "JobLink": "https://jobright.ai/jobs/info/6972a75a584a1c1ef6fdbbd6",
+    "PDF": "20260511/Waymo/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Simulation"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Autonomous Driving"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Capgemini",
+    "Title": "Java API Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 95.2592,
+    "JobLink": "https://jobright.ai/jobs/info/69de78b7aba61f14173152fb",
+    "PDF": "20260511/Capgemini/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Oracle Database"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "API Testing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "UST",
+    "Title": "Senior Java Developer\u00a0",
+    "Bucket": "SDE",
+    "Template": "SE_Java_L",
+    "MatchScore": 94.7788,
+    "JobLink": "https://jobright.ai/jobs/info/69fc0b182f9f6b7cf6910c27",
+    "PDF": "20260511/UST/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Oracle Database"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "MJH Life Sciences\u00ae",
+    "Title": "Associate Product Engineer",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 94.6516,
+    "JobLink": "https://jobright.ai/jobs/info/6a01dcbac2ffb31f45367a6e",
+    "PDF": "20260511/MJH_Life_Sciences/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Next.js",
+      "Prisma"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Waymo",
+    "Title": "Senior Fullstack Software Engineer, Workshop Management",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 94.2809,
+    "JobLink": "https://jobright.ai/jobs/info/69431ffa94730b739876209a",
+    "PDF": "20260511/Waymo/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Vue"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Full-stack development",
+      "Frontend frameworks",
+      "3rd party integrations"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "The Trade Desk",
+    "Title": "Front End Engineer II - Reporting",
+    "Bucket": "SDE",
+    "Template": "FE_E",
+    "MatchScore": 94.208,
+    "JobLink": "https://jobright.ai/jobs/info/6a01ae32df52f1450d8444f8",
+    "PDF": "20260511/The_Trade_Desk/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Enterprise level services"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Google",
+    "Title": "Software Engineer III, Google Ads",
+    "Bucket": "SDE",
+    "Template": "SE_Python_L",
+    "MatchScore": 94.1031,
+    "JobLink": "https://jobright.ai/jobs/info/69c7ce6583ea553769fe6a89",
+    "PDF": "20260511/Google/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Large scale systems",
+      "Visualization tools",
+      "Accessible technologies",
+      "System health diagnosis"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "TikTok",
+    "Title": "Software Engineer - Recommendation Infrastructure, TikTok Video Social",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 94.0038,
+    "JobLink": "https://jobright.ai/jobs/info/6a01b1a5c4b08448a0b1fb88",
+    "PDF": "20260511/TikTok/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Golang",
+      "Distributed storage system"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Search engine",
+      "Big data frameworks"
+    ],
+    "Compile": "OK"
+  }
+]

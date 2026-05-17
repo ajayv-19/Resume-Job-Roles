@@ -1,0 +1,1020 @@
+[
+  {
+    "Company": "Salesforce",
+    "Title": "Software Engineer (Backend) - MTS",
+    "Location": "California City, CA",
+    "PublishTime": "5 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a063699320bff2205eaa191",
+    "MatchedSkills": [
+      "Java",
+      "Object-oriented design",
+      "Concurrent programming",
+      "Cloud-native microservices architecture",
+      "RESTful APIs",
+      "AWS",
+      "Azure",
+      "RDBMS",
+      "SQL",
+      "NoSQL databases",
+      "Cassandra",
+      "MongoDB",
+      "Docker",
+      "Kubernetes",
+      "Kafka",
+      "JUnit",
+      "TestNG",
+      "Git",
+      "CI/CD pipelines"
+    ],
+    "MissingSkills": [
+      "GCP",
+      "Apache Spark",
+      "Agile",
+      "Scrum"
+    ],
+    "BaseTemplate": "SEJ_E",
+    "BaseTemplatePath": "SE/J/E"
+  },
+  {
+    "Company": "Faraday",
+    "Title": "Full Stack Engineer, New Grad",
+    "Location": "New York",
+    "PublishTime": "4 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a06480a320bff2205eaaba3",
+    "MatchedSkills": [
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Data Structures",
+      "Algorithms",
+      "System Design"
+    ],
+    "MissingSkills": [
+      "Next.js"
+    ],
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E"
+  },
+  {
+    "Company": "Charta Health",
+    "Title": "Software Engineer",
+    "Location": "NYC Metro Area",
+    "PublishTime": "7 minutes ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a067e97320bff2205eacf1c",
+    "MatchedSkills": [
+      "Python",
+      "Node.js",
+      "Java",
+      "C/C++",
+      "React",
+      "Microservices",
+      "Generative AI",
+      "Large Language Models",
+      "Distributed Systems",
+      "Performance Optimization",
+      "AWS",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes"
+    ],
+    "MissingSkills": [
+      "Next.js",
+      "ECS"
+    ],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  },
+  {
+    "Company": "DoorDash",
+    "Title": "Applications Engineer, Full Stack - People",
+    "Location": "Hartford, CT",
+    "PublishTime": "15 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69cc8491891d7b11cfcaead7",
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Python",
+      "HTML5",
+      "CSS3",
+      "React",
+      "Postgres",
+      "MySQL",
+      "Cassandra",
+      "SQL",
+      "PLSQL",
+      "Algorithms",
+      "Data structures",
+      "Programming",
+      "Databases",
+      "Design patterns",
+      "Virtualization",
+      "Microservices",
+      "AWS",
+      "Azure",
+      "Docker",
+      "Kubernetes"
+    ],
+    "MissingSkills": [
+      "FastAPI",
+      "Jest",
+      "Vitest",
+      "Cypress",
+      "GCP"
+    ],
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E"
+  },
+  {
+    "Company": "Amazon",
+    "Title": "Software Dev Engineer II, Talent Development",
+    "Location": "Seattle, WA",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a066ee1a88ea73abf7fbd8c",
+    "MatchedSkills": [
+      "Software Development",
+      "Distributed Systems",
+      "Project Management"
+    ],
+    "MissingSkills": [],
+    "BaseTemplate": "SEP_NG",
+    "BaseTemplatePath": "SE/P/NG"
+  },
+  {
+    "Company": "Netic",
+    "Title": "Software Engineer, Product",
+    "Location": "San Francisco, CA",
+    "PublishTime": "3 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/696f59fe82817106e97675cf",
+    "MatchedSkills": [
+      "React",
+      "TypeScript",
+      "Python",
+      "Databases",
+      "Cloud infrastructure"
+    ],
+    "MissingSkills": [
+      "Founder-level ownership"
+    ],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  },
+  {
+    "Company": "GEICO",
+    "Title": "Software Engineer II - Capacity & Workload Management",
+    "Location": "Seattle, WA",
+    "PublishTime": "14 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69e7fdc10a6e09555302d763",
+    "MatchedSkills": [
+      "React",
+      "JavaScript",
+      "RESTful APIs",
+      "Software development best practices",
+      "Version control",
+      "Cloud-based environments",
+      "Distributed environments",
+      "Microservices",
+      "CI/CD pipelines"
+    ],
+    "MissingSkills": [
+      "Full stack application development",
+      "Backend services",
+      "Golang"
+    ],
+    "BaseTemplate": "FS_E"
+  },
+  {
+    "Company": "Cadence",
+    "Title": "Software Engineer (Numerical Analysis, C++, Optimization, Mathematics)",
+    "Location": "Greater Boston",
+    "PublishTime": "8 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a060c43f3d6cc51d638e364",
+    "MatchedSkills": [
+      "C++",
+      "Object-oriented design",
+      "Data structures",
+      "Algorithms",
+      "Computational mathematics",
+      "Python"
+    ],
+    "MissingSkills": [
+      "EDA tool development"
+    ],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  },
+  {
+    "Company": "Goldman Sachs",
+    "Title": "Asset & Wealth Management-Full Stack Software Engineer -Associate-Albany",
+    "Location": "Albany, NY",
+    "PublishTime": "10 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69cd54fbcdb525785fb86fe4",
+    "MatchedSkills": [
+      "Java",
+      "Object-Oriented development",
+      "Microservices architecture",
+      "API development",
+      "Relational databases",
+      "NoSQL databases",
+      "Source Control Management",
+      "Git"
+    ],
+    "MissingSkills": [
+      "SVN",
+      "Agile environment"
+    ],
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E"
+  },
+  {
+    "Company": "Microsoft",
+    "Title": "Software Engineer Edge",
+    "Location": "Redmond, WA",
+    "PublishTime": "12 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a05d0656c07461fe1718c21",
+    "MatchedSkills": [
+      "C++",
+      "C",
+      "Java",
+      "JavaScript",
+      "Python",
+      "Data structures",
+      "Algorithms",
+      "Performance analysis"
+    ],
+    "MissingSkills": [
+      "C#"
+    ],
+    "BaseTemplate": "SE_Java"
+  },
+  {
+    "Company": "Cadence",
+    "Title": "C++ Software Engineer",
+    "Location": "San Jose, CA",
+    "PublishTime": "8 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a060207320bff2205ea6fba",
+    "MatchedSkills": [
+      "C++",
+      "C",
+      "Software engineering methods",
+      "Algorithm design"
+    ],
+    "MissingSkills": [
+      "Technical specification development"
+    ],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  },
+  {
+    "Company": "Nordstrom",
+    "Title": "Engineer 1 - Customer Experience Platform (Hybrid - Seattle, WA)",
+    "Location": "Seattle, WA, US",
+    "PublishTime": "15 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a05ad53320bff2205ea3558",
+    "MatchedSkills": [
+      "Object-Oriented Programming",
+      "Java",
+      "Python",
+      "NodeJs",
+      "Javascript",
+      "Typescript",
+      "RESTful Architecture",
+      "Microservices",
+      "AWS",
+      "Unit Testing",
+      "Integration Testing",
+      "GitHub",
+      "GitLab"
+    ],
+    "MissingSkills": [
+      "Go",
+      "GCP"
+    ],
+    "BaseTemplate": "SE_java"
+  },
+  {
+    "Company": "Avenue Code",
+    "Title": "Full Stack Engineer",
+    "Location": "San Diego, CA",
+    "PublishTime": "7 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69c44fa5d5a1016e98db70a0",
+    "MatchedSkills": [
+      "React",
+      "Typescript",
+      "Javascript",
+      "Node.js",
+      "AWS",
+      "PostgreSQL",
+      "MySQL",
+      "CI/CD",
+      "Unit Testing"
+    ],
+    "MissingSkills": [
+      "Google Cloud"
+    ],
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E"
+  },
+  {
+    "Company": "Microsoft",
+    "Title": "Senior Software Engineer - Full Stack",
+    "Location": "Redmond, WA",
+    "PublishTime": "7 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69cd4efa54f00230c6cee2bb",
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "C",
+      "C++",
+      "Java",
+      "Python",
+      "Azure",
+      "AWS",
+      "Visual Studio",
+      "Visual Studio Code",
+      "GIT",
+      "Prompt Engineering",
+      "LLMs"
+    ],
+    "MissingSkills": [
+      "C#",
+      "GCP",
+      "Azure DevOps",
+      "AI ChatBots"
+    ],
+    "BaseTemplate": "FS_L",
+    "BaseTemplatePath": "FS/L"
+  },
+  {
+    "Company": "Pearson",
+    "Title": "Senior Software Engineer",
+    "Location": "Austin, TX",
+    "PublishTime": "10 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a05e743f3d6cc51d638c8a4",
+    "MatchedSkills": [
+      "Java",
+      "AWS Services",
+      "Vue.js",
+      "API-first design",
+      "RESTful APIs",
+      "GitHub CI/CD pipelines",
+      "Relational databases",
+      "NoSQL databases"
+    ],
+    "MissingSkills": [
+      "Service-oriented architectures",
+      "Automated testing",
+      "Performance testing",
+      "Load testing"
+    ],
+    "BaseTemplate": "SE_java_E"
+  },
+  {
+    "Company": "Amazon",
+    "Title": "Jr. Software Development Engineer - San Luis Obispo, CA, Jr. Developer Program",
+    "Location": "San Luis Obispo, CA",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a066f12f3d6cc51d6393962",
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "C++",
+      "Object-oriented design"
+    ],
+    "MissingSkills": [],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  },
+  {
+    "Company": "Goldman Sachs",
+    "Title": "Engineering - Cloud Development - Engineering Platforms Cloud Enablement - Associate - Seattle",
+    "Location": "Seattle, WA",
+    "PublishTime": "7 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69e964883aa0c479643a9b3e",
+    "MatchedSkills": [
+      "Java",
+      "AWS",
+      "Cloud-native applications",
+      "CI/CD pipelines",
+      "Infrastructure as Code",
+      "Team-oriented mindset"
+    ],
+    "MissingSkills": [
+      "Full stack development",
+      "Developer AI tools"
+    ],
+    "BaseTemplate": "SE/J?E"
+  },
+  {
+    "Company": "Microsoft",
+    "Title": "Software Engineer 2",
+    "Location": "Redmond, WA",
+    "PublishTime": "12 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a05d0686c07461fe1718c36",
+    "MatchedSkills": [
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "Python",
+      "Large-scale distributed cloud services",
+      "High availability",
+      "Machine learning model development",
+      "CI/CD",
+      "Deployment automation"
+    ],
+    "MissingSkills": [
+      "C#",
+      "Scalable architecture",
+      "DevOps culture",
+      "Software architecture"
+    ],
+    "BaseTemplate": "SEP_Java"
+  },
+  {
+    "Company": "Affirm",
+    "Title": "Software Engineer II, Backend (Identity Decisioning)",
+    "Location": "San Jose, CA",
+    "PublishTime": "14 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6941629f14ee092a69ff83b2",
+    "MatchedSkills": [
+      "Python",
+      "AWS",
+      "MySQL",
+      "Kubernetes",
+      "Distributed Systems",
+      "Code Review"
+    ],
+    "MissingSkills": [
+      "Kotlin",
+      "Backend Systems Development"
+    ],
+    "BaseTemplate": "SE_python_E"
+  },
+  {
+    "Company": "Tradeweb",
+    "Title": "NodeJS Developer",
+    "Location": "Jersey City, NJ",
+    "PublishTime": "10 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a03decbf811a04369606108",
+    "MatchedSkills": [
+      "Node.js",
+      "TypeScript",
+      "Automated unit testing",
+      "Performance optimization",
+      "Computational complexity",
+      "Algorithm implementation",
+      "Design patterns",
+      "Agentic AI tooling",
+      "Kafka",
+      "Kubernetes",
+      "MongoDB",
+      "Infrastructure-as-code"
+    ],
+    "MissingSkills": [
+      "Web platform technologies",
+      "Test-driven development",
+      "Elastic",
+      "Redis"
+    ],
+    "BaseTemplate": "FS_E"
+  },
+  {
+    "Company": "Clearwater Analytics",
+    "Title": "Software Development Engineer III",
+    "Location": "Chicago, IL",
+    "PublishTime": "4 hours ago",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a064130f3d6cc51d6391762",
+    "MatchedSkills": [
+      "Object-oriented programming",
+      "Software methodologies",
+      "Software architectural patterns",
+      "Microsoft Office"
+    ],
+    "MissingSkills": [
+      "Automated testing"
+    ],
+    "BaseTemplate": "SEP_L",
+    "BaseTemplatePath": "SE/P/L"
+  },
+  {
+    "Company": "Wipro",
+    "Title": "Software Development Engineer (Full Stack & Java)",
+    "Location": "Austin, Minnesota",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 97.7667,
+    "JobLink": "https://jobright.ai/jobs/info/6a066c166c07461fe17204b4",
+    "MatchedSkills": [
+      "Java",
+      "Object Oriented Design",
+      "Data Structures",
+      "Algorithms",
+      "Distributed Services",
+      "Web Applications",
+      "RESTful APIs",
+      "Microservices",
+      "React",
+      "Angular",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "TypeScript",
+      "AWS EC2",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS DynamoDB",
+      "AWS API Gateway",
+      "CI/CD Pipelines",
+      "NoSQL Databases",
+      "SQL Databases",
+      "Docker"
+    ],
+    "MissingSkills": [
+      "Full Stack Development",
+      "C#",
+      "AWS RDS",
+      "Spring",
+      "Spring Boot",
+      "Hibernate",
+      "JPA"
+    ],
+    "BaseTemplate": "SE_Java"
+  },
+  {
+    "Company": "Optimal Blue",
+    "Title": "Senior Software Engineer",
+    "Location": "United States",
+    "PublishTime": "5 hours ago",
+    "MatchScore": 97.6048,
+    "JobLink": "https://jobright.ai/jobs/info/6a06334b6c07461fe171da51",
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "SQL",
+      "Angular",
+      "Azure cloud services",
+      "CI/CD pipelines",
+      "AWS cloud services",
+      "Restful APIs",
+      "Web services",
+      "C++",
+      "AI/ML",
+      "Unit testing",
+      "Git"
+    ],
+    "MissingSkills": [
+      ".Net/C#",
+      "Azure DevOps",
+      "Agile methodologies"
+    ],
+    "BaseTemplate": "SE_Java"
+  },
+  {
+    "Company": "Ascendco Health",
+    "Title": "Full Stack Developer (Backend-Focused)",
+    "Location": "Kansas City, MO",
+    "PublishTime": "2 hours ago",
+    "MatchScore": 97.5924,
+    "JobLink": "https://jobright.ai/jobs/info/69e265b53770bd5361cd8425",
+    "MatchedSkills": [
+      "REST APIs",
+      "PostgreSQL",
+      "ReactJS",
+      "Third-party API integration",
+      "Ownership mindset"
+    ],
+    "MissingSkills": [
+      "Backend development"
+    ],
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E"
+  },
+  {
+    "Company": "Field Nation",
+    "Title": "Software Engineer",
+    "Location": "Minnesota",
+    "PublishTime": "3 hours ago",
+    "MatchScore": 97.4191,
+    "JobLink": "https://jobright.ai/jobs/info/6a0632607c753c287f7005f5",
+    "MatchedSkills": [
+      "Software Development",
+      "Data Structures",
+      "Algorithms",
+      "Version Control - Git",
+      "Testing",
+      "Debugging",
+      "PHP",
+      "Python",
+      "Node.js",
+      "React",
+      "AWS",
+      "AI-Forward Mindset"
+    ],
+    "MissingSkills": [
+      "Go"
+    ],
+    "BaseTemplate": "SEP_NG"
+  },
+  {
+    "Company": "NCR Voyix",
+    "Title": "Software Engineer (II)",
+    "Location": "ATLANTA, GA, USA, US",
+    "PublishTime": "10 hours ago",
+    "MatchScore": 97.2852,
+    "JobLink": "https://jobright.ai/jobs/info/6a05f3b86c07461fe171a6eb",
+    "MatchedSkills": [
+      "Software Development Lifecycle",
+      "Software Design Patterns",
+      "RESTful Web Services",
+      "Node.js",
+      "Object-oriented Programming",
+      "Microsoft SQL Server",
+      "MongoDB",
+      "Kafka"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Apache Spark"
+    ],
+    "BaseTemplate": "FS_E"
+  },
+  {
+    "Company": "NCR Corporation",
+    "Title": "Software Engineer",
+    "Location": "Atlanta, GA",
+    "PublishTime": "6 hours ago",
+    "MatchScore": 97.2712,
+    "JobLink": "https://jobright.ai/jobs/info/6a06450e7c753c287f701631",
+    "MatchedSkills": [
+      "Software Development Lifecycle",
+      "Software Design Patterns",
+      "RESTful Web Services",
+      "Node JS",
+      "Object-Oriented Programming",
+      "Microsoft SQL Server",
+      "MongoDB",
+      "Kafka"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Apache Spark"
+    ],
+    "BaseTemplate": "FS_E"
+  },
+  {
+    "Company": "NetApp",
+    "Title": "NetApp Emerging Talent - Entry Level Software Engineer (Systems)",
+    "Location": "San Jose, CA",
+    "PublishTime": "10 hours ago",
+    "MatchScore": 97.2088,
+    "JobLink": "https://jobright.ai/jobs/info/6a05e645bc4184089f248a91",
+    "MatchedSkills": [
+      "C",
+      "C++",
+      "Unix System Programming",
+      "Linux System Programming",
+      "Multithreaded Programming",
+      "Operating System Internals",
+      "Algorithms",
+      "Data Structures"
+    ],
+    "MissingSkills": [
+      "Storage Domain"
+    ],
+    "BaseTemplate": "SE_J_E"
+  },
+  {
+    "Company": "Temporal Technologies",
+    "Title": "Software Engineer, Nexus",
+    "Location": "United States",
+    "PublishTime": "3 hours ago",
+    "MatchScore": 97.2041,
+    "JobLink": "https://jobright.ai/jobs/info/6a064c0dbc4184089f24e1d6",
+    "MatchedSkills": [
+      "Distributed systems",
+      "Multi-threading",
+      "Concurrency",
+      "API development",
+      "Java"
+    ],
+    "MissingSkills": [
+      "Go"
+    ],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  },
+  {
+    "Company": "Snyk",
+    "Title": "Software Engineer",
+    "Location": "Boston, MA",
+    "PublishTime": "6 hours ago",
+    "MatchScore": 97.1616,
+    "JobLink": "https://jobright.ai/jobs/info/6a0620f9f3d6cc51d638f554",
+    "MatchedSkills": [
+      "Software systems design",
+      "Algorithms",
+      "Data structures",
+      "TypeScript",
+      "Python",
+      "Microservice back-ends",
+      "Software testing",
+      "Code quality"
+    ],
+    "MissingSkills": [
+      "Go",
+      "Web UIs",
+      "CLIs",
+      "Infrastructure automation tools"
+    ],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  },
+  {
+    "Company": "Instabase",
+    "Title": "Full-stack Software Engineer (New Grad)",
+    "Location": "San Francisco, CA",
+    "PublishTime": "23 hours ago",
+    "MatchScore": 97.14,
+    "JobLink": "https://jobright.ai/jobs/info/6a053a5ffbf3d169d3c5d6ec",
+    "MatchedSkills": [
+      "Python",
+      "React",
+      "REST APIs"
+    ],
+    "MissingSkills": [
+      "Go"
+    ],
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E"
+  },
+  {
+    "Company": "MongoDB",
+    "Title": "Senior Python Engineer",
+    "Location": "United States",
+    "PublishTime": "6 hours ago",
+    "MatchScore": 97.074,
+    "JobLink": "https://jobright.ai/jobs/info/69cc8198e1921223acc77642",
+    "MatchedSkills": [
+      "Python",
+      "Python tools and frameworks",
+      "Web development frameworks",
+      "AI/ML frameworks in Python",
+      "Large language models",
+      "MongoDB",
+      "PyMongo",
+      "Django MongoDB Backend",
+      "LangChain MongoDB"
+    ],
+    "MissingSkills": [
+      "Scientific Python",
+      "Open source software development",
+      "PyMongoArrow"
+    ],
+    "BaseTemplate": "SEP_E"
+  },
+  {
+    "Company": "CLEAR",
+    "Title": "Software Development Engineer, Fullstack",
+    "Location": "New York, NY",
+    "PublishTime": "6 hours ago",
+    "MatchScore": 97.069,
+    "JobLink": "https://jobright.ai/jobs/info/6a0621176c07461fe171ca22",
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "React",
+      "Typescript",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "GitHub"
+    ],
+    "MissingSkills": [
+      "Argo"
+    ],
+    "BaseTemplate": "SE_J_E"
+  },
+  {
+    "Company": "Klaviyo",
+    "Title": "Software Engineer II- Product Recommendations",
+    "Location": "Boston, MA",
+    "PublishTime": "5 hours ago",
+    "MatchScore": 97.0493,
+    "JobLink": "https://jobright.ai/jobs/info/69d006690b098b7a67075aa4",
+    "MatchedSkills": [
+      "Python",
+      "Distributed systems",
+      "Cloud-native architectures",
+      "AWS",
+      "CI/CD",
+      "Kubernetes",
+      "Relational databases",
+      "Analytical databases",
+      "NoSQL databases",
+      "Machine learning integration"
+    ],
+    "MissingSkills": [
+      "Backend services",
+      "Apache Spark",
+      "Receive and make changes based on feedback"
+    ],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  },
+  {
+    "Company": "Pure Storage",
+    "Title": "Software Engineer",
+    "Location": "Santa Clara, CA",
+    "PublishTime": "11 hours ago",
+    "MatchScore": 97.0296,
+    "JobLink": "https://jobright.ai/jobs/info/68b0f6cce815524ae11fa204",
+    "MatchedSkills": [
+      "C",
+      "C++",
+      "Python",
+      "Distributed Systems",
+      "Operating Systems internals",
+      "Linux Kernel",
+      "Database internals",
+      "Virtualization",
+      "Containers",
+      "Algorithm design",
+      "System architecture",
+      "Debugging at scale"
+    ],
+    "MissingSkills": [
+      "Go",
+      "Hypervisors"
+    ],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  },
+  {
+    "Company": "Pure Storage",
+    "Title": "Software Engineer Grad",
+    "Location": "Santa Clara, California",
+    "PublishTime": "5 hours ago",
+    "MatchScore": 97.0296,
+    "JobLink": "https://jobright.ai/jobs/info/6a062f8e6c07461fe171d634",
+    "MatchedSkills": [
+      "C++",
+      "Data structures",
+      "Algorithms",
+      "Concurrency",
+      "Software development lifecycle",
+      "Problem-solving aptitude"
+    ],
+    "MissingSkills": [],
+    "BaseTemplate": "SE_Java"
+  },
+  {
+    "Company": "Trimble Inc.",
+    "Title": "Software Engineer AI",
+    "Location": "Lake Oswego, OR",
+    "PublishTime": "15 hours ago",
+    "MatchScore": 96.9367,
+    "JobLink": "https://jobright.ai/jobs/info/69cd92f3891d7b11cfcbdbcc",
+    "MatchedSkills": [
+      "Large Language Models",
+      "Prompt engineering",
+      "AI frameworks",
+      "Cloud concepts",
+      "Docker",
+      "Microsoft Azure",
+      "SQL",
+      "REST Web APIs",
+      "Unit testing",
+      "GitHub Copilot",
+      "Kubernetes",
+      "Infrastructure as Code"
+    ],
+    "MissingSkills": [
+      "C#",
+      "Microsoft .NET",
+      "Azure DevOps"
+    ],
+    "BaseTemplate": "SEAI_E",
+    "BaseTemplatePath": "SE_AI/E"
+  },
+  {
+    "Company": "Group 1001",
+    "Title": "Full Stack Engineer",
+    "Location": "Indianapolis, IN",
+    "PublishTime": "8 hours ago",
+    "MatchScore": 96.9298,
+    "JobLink": "https://jobright.ai/jobs/info/6a0601fdbc4184089f249f12",
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Angular",
+      "React",
+      "AWS ECS",
+      "AWS EC2",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS IAM",
+      "Docker",
+      "Terraform",
+      "Git",
+      "GitLab CI/CD",
+      "RESTful APIs",
+      "GraphQL",
+      "PostgreSQL"
+    ],
+    "MissingSkills": [
+      "NestJS",
+      "AWS RDS",
+      "AWS CloudWatch",
+      "Microsoft Entra ID",
+      "CloudSmith",
+      "Jest",
+      "Mocha",
+      "Jasmine"
+    ],
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E"
+  },
+  {
+    "Company": "Box",
+    "Title": "Frontend Engineer II, AI Experiences",
+    "Location": "Redwood City, CA",
+    "PublishTime": "6 hours ago",
+    "MatchScore": 96.7873,
+    "JobLink": "https://jobright.ai/jobs/info/6a06283ebc4184089f24c14d",
+    "MatchedSkills": [
+      "React",
+      "React Native",
+      "JavaScript",
+      "TypeScript",
+      "Front-end architecture patterns",
+      "REST APIs",
+      "GraphQL APIs",
+      "Java",
+      "CI/CD pipelines",
+      "Collaborative mindset"
+    ],
+    "MissingSkills": [
+      "Cloud deployment workflows",
+      "Google Cloud Platform",
+      "Commitment to inclusive, accessible design"
+    ],
+    "BaseTemplate": "FE_E",
+    "BaseTemplatePath": "FE/E"
+  },
+  {
+    "Company": "ETAP Software",
+    "Title": "Software Engineer",
+    "Location": "Irvine, CA",
+    "PublishTime": "6 hours ago",
+    "MatchScore": 96.77,
+    "JobLink": "https://jobright.ai/jobs/info/6a06206e7c753c287f6ff743",
+    "MatchedSkills": [
+      "Microsoft Visual Studio",
+      "Python",
+      "JavaScript",
+      "HTML5",
+      "NoSQL databases",
+      "MongoDB",
+      "SQL",
+      "MVC web application development",
+      "WebSocket",
+      "JQuery",
+      "C++"
+    ],
+    "MissingSkills": [
+      "C#",
+      "AJAX",
+      "3D graphics development",
+      "Oracle database"
+    ],
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E"
+  }
+]

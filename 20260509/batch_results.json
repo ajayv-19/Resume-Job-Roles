@@ -1,0 +1,1557 @@
+[
+  {
+    "Company": "COGENT Infotech",
+    "Title": "Java Developer \u2013 Recent Graduates - Entry Level Positions",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69fed76974b5407dd4672d89",
+    "PDF": "20260509/COGENT_Infotech/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "TensorFlow",
+      "Maven"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Doowii, Inc",
+    "Title": "Software Engineer, Early Career",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69fdb66ead691a11f34ea4df",
+    "PDF": "20260509/Doowii_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Cloud Deployments"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Nasdaq",
+    "Title": "Analyst - Software Developer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69d5f9d9366bb95ba554a76b",
+    "PDF": "20260509/Nasdaq/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Windfall",
+    "Title": "Full Stack Engineer",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/696abc38350cf4380311c698",
+    "PDF": "20260509/Windfall/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Transactional databases",
+      "Kotlin"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Chewy",
+    "Title": "Software Engineer II",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69c623a41b5ad0288737e49b",
+    "PDF": "20260509/Chewy/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Cloud-native development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "RAPS Consulting Inc",
+    "Title": "Java Full Stack Developer",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69fed2b01161630dd3b04c33",
+    "PDF": "20260509/RAPS_Consulting_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Waymo",
+    "Title": "Software Engineer, Strategic SWE Reserve",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69e15e6140a62c1fa93b804e",
+    "PDF": "20260509/Waymo/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Rokt",
+    "Title": "Junior Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69e135a56c20aa114953fe17",
+    "PDF": "20260509/Rokt/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Full-stack development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Cerebras",
+    "Title": "Member of Technical Staff (Software Engineer)",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69fe48c44b9bbf21744b04c5",
+    "PDF": "20260509/Cerebras/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "OracleDB",
+      "Redis"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Crusoe",
+    "Title": "Software Engineer, Control Plane",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69e16855acc736112f5c3913",
+    "PDF": "20260509/Crusoe/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Rust"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "API Orchestration"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Wolverine Trading",
+    "Title": "Software Engineer \u2013 Trading Systems",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69c4a239d5a1016e98dbf435",
+    "PDF": "20260509/Wolverine_Trading/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Tech Consulting",
+    "Title": "Python Developer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69fe44a94b9bbf21744afee5",
+    "PDF": "20260509/Tech_Consulting/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Bright Vision Technologies",
+    "Title": "Artificial Intelligence (AI) Engineer",
+    "Bucket": "SDE",
+    "Template": "AI_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69fe2abe52e2b44f558aed5f",
+    "PDF": "20260509/Bright_Vision_Technologies/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "WorldQuant",
+    "Title": "Software Engineer - Trading Systems",
+    "Bucket": "SDE",
+    "Template": "DE_E",
+    "MatchScore": 97.7871,
+    "JobLink": "https://jobright.ai/jobs/info/69bb0999569738374140e873",
+    "PDF": "20260509/WorldQuant/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Distributed computing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Radix Trading LLC",
+    "Title": "Quantitative Technologist (Full-Time - C++ Developer)",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.694,
+    "JobLink": "https://jobright.ai/jobs/info/69d7df109f97a42dc9c18a08",
+    "PDF": "20260509/Radix_Trading_LLC/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Software Architecture"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "SS&C Technologies",
+    "Title": "Senior Full Stack Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_AI_E",
+    "MatchScore": 97.6439,
+    "JobLink": "https://jobright.ai/jobs/info/69fe20304b9bbf21744ae7d1",
+    "PDF": "20260509/SS_C_Technologies/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Pinecone",
+      "Agentic AI workflows",
+      "RAG pipelines",
+      "Milvus"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Google Cloud"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Upstart",
+    "Title": "Software Engineer, Borrower Experience",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.5139,
+    "JobLink": "https://jobright.ai/jobs/info/69dd1b81f748bc5d08a5e2a6",
+    "PDF": "20260509/Upstart/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Sony Interactive Entertainment",
+    "Title": "Software Engineer II, Backend",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 97.458,
+    "JobLink": "https://jobright.ai/jobs/info/69eabb317820c036924ef488",
+    "PDF": "20260509/Sony_Interactive_Entertainment/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "GEICO",
+    "Title": "Senior Software Engineer (Full Stack Java/React) - Commissions Platform - HYBRID",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 97.4403,
+    "JobLink": "https://jobright.ai/jobs/info/69fe31906bcf315dc8f55590",
+    "PDF": "20260509/GEICO/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Azure DevOps"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Pella Corporation",
+    "Title": "Full Stack Engineer",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 97.3948,
+    "JobLink": "https://jobright.ai/jobs/info/69fe28d4f363bc4dc339bd81",
+    "PDF": "20260509/Pella_Corporation/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "AWS SQS"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Automated Testing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Relativity",
+    "Title": "Advanced Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.3538,
+    "JobLink": "https://jobright.ai/jobs/info/69702b45587dfa0bb55dad14",
+    "PDF": "20260509/Relativity/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      ".NET"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Cosmos DB"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Molten Cloud",
+    "Title": "Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.3234,
+    "JobLink": "https://jobright.ai/jobs/info/69fda4fc7714cd50b90fbc2d",
+    "PDF": "20260509/Molten_Cloud/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Enhance IT",
+    "Title": "Full Stack Engineer",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 97.2894,
+    "JobLink": "https://jobright.ai/jobs/info/69fe445e6bcf315dc8f561e6",
+    "PDF": "20260509/Enhance_IT/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Intellect Solutions LLC",
+    "Title": "Full Stack Developer",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 97.2631,
+    "JobLink": "https://jobright.ai/jobs/info/69fdf91a4b9bbf21744ad9d5",
+    "PDF": "20260509/Intellect_Solutions_LLC/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "AWS CloudWatch"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "STERIS",
+    "Title": "Software Engineering Co-op - Fall 2026",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 97.1552,
+    "JobLink": "https://jobright.ai/jobs/info/69fe0278ad691a11f34eb38f",
+    "PDF": "20260509/STERIS/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C# .NET"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Merge",
+    "Title": "Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 96.9385,
+    "JobLink": "https://jobright.ai/jobs/info/68ca59b106a34016008c73b3",
+    "PDF": "20260509/Merge/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "K1X, Inc.",
+    "Title": "Senior Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 96.5561,
+    "JobLink": "https://jobright.ai/jobs/info/69fe1d3aad691a11f34ebc64",
+    "PDF": "20260509/K1X_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      ".NET",
+      "Azure DevOps",
+      "MSTest"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Rokt",
+    "Title": "Senior Software Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 96.2387,
+    "JobLink": "https://jobright.ai/jobs/info/69e13f46fd1c0456f3fad401",
+    "PDF": "20260509/Rokt/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "GCP"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "TherapyNotes, LLC",
+    "Title": "Senior Software Developer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 96.2051,
+    "JobLink": "https://jobright.ai/jobs/info/69fdf5be6bcf315dc8f53e0f",
+    "PDF": "20260509/TherapyNotes_LLC/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "ASP.NET Core"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "JPMorganChase",
+    "Title": "Software Engineer III - Java, React, SpringBoot",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 96.173,
+    "JobLink": "https://jobright.ai/jobs/info/69fe71774b9bbf21744b1a06",
+    "PDF": "20260509/JPMorganChase/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "SpringBoot"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "UST HealthProof",
+    "Title": "Backend Mid and Senior Developer\u00a0",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 95.7843,
+    "JobLink": "https://jobright.ai/jobs/info/69fc03c32f9f6b7cf6910786",
+    "PDF": "20260509/UST_HealthProof/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Google Cloud Platform",
+      "Claude",
+      "NestJS",
+      "ESLint"
+    ],
+    "BulletsChanged": [
+      "Agile"
+    ],
+    "Skipped": [
+      "SOLID principles"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Glean",
+    "Title": "Software Engineer, Data Foundations",
+    "Bucket": "SDE",
+    "Template": "SE_AI_E",
+    "MatchScore": 95.7244,
+    "JobLink": "https://jobright.ai/jobs/info/69372985a0dde7020e2ff73a",
+    "PDF": "20260509/Glean/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Large-scale Storage"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Information Retrieval"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Williams College",
+    "Title": "Senior CRM Developer",
+    "Bucket": "SDE",
+    "Template": "DE_E",
+    "MatchScore": 95.7094,
+    "JobLink": "https://jobright.ai/jobs/info/69fe3a347714cd50b90fef3a",
+    "PDF": "20260509/Williams_College/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Tableau"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "CRM systems",
+      "Data visualization"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Verneek",
+    "Title": "Applied AI Researcher",
+    "Bucket": "SDE",
+    "Template": "SE_AI_E",
+    "MatchScore": 95.5668,
+    "JobLink": "https://jobright.ai/jobs/info/69fdd03052e2b44f558ac7ba",
+    "PDF": "20260509/Verneek/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Flexjet",
+    "Title": "Software Engineer I",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 95.4735,
+    "JobLink": "https://jobright.ai/jobs/info/69e271cf3770bd5361cd87c8",
+    "PDF": "20260509/Flexjet/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      ".NET"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Cargill",
+    "Title": "Software Engineer - FullStack",
+    "Bucket": "SDE",
+    "Template": "FS_E",
+    "MatchScore": 95.4144,
+    "JobLink": "https://jobright.ai/jobs/info/69fe5bf77714cd50b9100746",
+    "PDF": "20260509/Cargill/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Cloud-native platforms"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "iPipeline",
+    "Title": "Associate Software Development Engineer",
+    "Bucket": "SDE",
+    "Template": "SE_Python_E",
+    "MatchScore": 94.549,
+    "JobLink": "https://jobright.ai/jobs/info/69fe5b2552e2b44f558b1106",
+    "PDF": "20260509/iPipeline/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Motional",
+    "Title": "Senior Software Engineer, AI Data Foundry",
+    "Bucket": "SDE",
+    "Template": "SE_AI_E",
+    "MatchScore": 94.5023,
+    "JobLink": "https://jobright.ai/jobs/info/6948cfe463141d188458713f",
+    "PDF": "20260509/Motional/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "AWS EKS",
+      "AWS ETL"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "UST HealthProof",
+    "Title": "Senior Java Developer\u00a0",
+    "Bucket": "SDE",
+    "Template": "SE_Java_E",
+    "MatchScore": 94.4168,
+    "JobLink": "https://jobright.ai/jobs/info/69fc063676c60e7b70af1699",
+    "PDF": "20260509/UST_HealthProof/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Oracle"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Rippling",
+    "Title": "Software Engineer II, Frontend Full Stack - HR Product",
+    "Bucket": "SDE",
+    "Template": "FE_E",
+    "MatchScore": 94.3553,
+    "JobLink": "https://jobright.ai/jobs/info/69c651421b5ad02887383997",
+    "PDF": "20260509/Rippling/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Frontend Development",
+      "UI Architecture",
+      "Design System"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Loop",
+    "Title": "AI Engineer",
+    "Bucket": "NewGrad",
+    "Template": "SE_AI_E",
+    "MatchScore": 94.3675,
+    "JobLink": "https://jobright.ai/jobs/info/69fbf57f76c60e7b70af0fae",
+    "PDF": "20260509/Loop/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "TensorFlow",
+      "Agentic systems"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Google Cloud"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "SoFi",
+    "Title": "Senior Software Engineer, Bank",
+    "Bucket": "NewGrad",
+    "Template": "SE_Java_E",
+    "MatchScore": 93.8457,
+    "JobLink": "https://jobright.ai/jobs/info/69fe0dc1f363bc4dc339b51a",
+    "PDF": "20260509/SoFi/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "GCP"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Kotlin"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "StubHub",
+    "Title": "Software Engineer II - Supply Platform",
+    "Bucket": "NewGrad",
+    "Template": "SE_Python_E",
+    "MatchScore": 93.241,
+    "JobLink": "https://jobright.ai/jobs/info/69e13f6bfd1c0456f3fad45e",
+    "PDF": "20260509/StubHub/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Golang"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Spotify",
+    "Title": "Associate Analytics Engineer",
+    "Bucket": "NewGrad",
+    "Template": "DE_E",
+    "MatchScore": 93.1478,
+    "JobLink": "https://jobright.ai/jobs/info/69fda5d4ad691a11f34ea427",
+    "PDF": "20260509/Spotify/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Dbt"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Rackspace Technology",
+    "Title": "Software Developer II - IN",
+    "Bucket": "NewGrad",
+    "Template": "SE_AI_E",
+    "MatchScore": 92.8629,
+    "JobLink": "https://jobright.ai/jobs/info/69fe101952e2b44f558ae38f",
+    "PDF": "20260509/Rackspace_Technology/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Next.js",
+      "AWS EKS",
+      "AWS Bedrock",
+      "LangGraph"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "FTI Consulting",
+    "Title": "Full Stack Developer I, Data & Analytics Software Solutions | Forensic and Litigation Consulting",
+    "Bucket": "NewGrad",
+    "Template": "FS_E",
+    "MatchScore": 92.2112,
+    "JobLink": "https://jobright.ai/jobs/info/69fe4491ad691a11f34ec81a",
+    "PDF": "20260509/FTI_Consulting/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Vue",
+      "Django",
+      "Oracle",
+      "NestJS",
+      "Bootstrap",
+      "Apache"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Automated Testing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Morgan Stanley",
+    "Title": "Associate Software Engineer",
+    "Bucket": "NewGrad",
+    "Template": "SE_Java_E",
+    "MatchScore": 91.3836,
+    "JobLink": "https://jobright.ai/jobs/info/69ed86810a6e09555305013a",
+    "PDF": "20260509/Morgan_Stanley/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Snowflake",
+      "Jenkins",
+      "Gradle"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Southern Company",
+    "Title": "Data Engineer I or II",
+    "Bucket": "NewGrad",
+    "Template": "DE_E",
+    "MatchScore": 90.7711,
+    "JobLink": "https://jobright.ai/jobs/info/69fe1ca94b9bbf21744ae77a",
+    "PDF": "20260509/Southern_Company/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Oracle Database",
+      "AWS Redshift"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Data Warehousing",
+      "Amazon Redshift",
+      "Apache Spark",
+      "Apache Airflow"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "GBIT (Global Bridge InfoTech Inc)",
+    "Title": "Junior Java Developer",
+    "Bucket": "NewGrad",
+    "Template": "SE_Java_E",
+    "MatchScore": 90.1554,
+    "JobLink": "https://jobright.ai/jobs/info/69fe6f677714cd50b91011c9",
+    "PDF": "20260509/GBIT_Global_Bridge_InfoTech_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Spring MVC",
+      "Jenkins",
+      "Maven"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Agile methodologies"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Interface",
+    "Title": "Software Engineer II (Mid-Level)",
+    "Bucket": "NewGrad",
+    "Template": "SE_Python_E",
+    "MatchScore": 90.0636,
+    "JobLink": "https://jobright.ai/jobs/info/69fda4fe7714cd50b90fbc37",
+    "PDF": "20260509/Interface/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "AWS RDS",
+      "AWS SQS"
+    ],
+    "BulletsChanged": [
+      "Agile"
+    ],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Nordstrom",
+    "Title": "Engineer 1 - Cloud Engineering (Hybrid - Seattle, WA)",
+    "Bucket": "NewGrad",
+    "Template": "SE_Python_E",
+    "MatchScore": 90.017,
+    "JobLink": "https://jobright.ai/jobs/info/69fe45057714cd50b90ffb10",
+    "PDF": "20260509/Nordstrom/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "GCP",
+      "OCI"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Applied Systems",
+    "Title": "Associate Software Engineer / Software Engineer (C# .NET, Angular)",
+    "Bucket": "NewGrad",
+    "Template": "FE_E",
+    "MatchScore": 89.5106,
+    "JobLink": "https://jobright.ai/jobs/info/69fdfef96bcf315dc8f54126",
+    "PDF": "20260509/Applied_Systems/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Cambia Health Solutions",
+    "Title": "Software Development Engineer II or III (DOE)",
+    "Bucket": "NewGrad",
+    "Template": "SE_Python_E",
+    "MatchScore": 88.4716,
+    "JobLink": "https://jobright.ai/jobs/info/69f53ae1a3d34b4f76f5462b",
+    "PDF": "20260509/Cambia_Health_Solutions/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#.NET"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Stored Procedures",
+      "Test Driven Development (TDD)",
+      "Data Exchange",
+      "Data Validation"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "CVS Health",
+    "Title": "Data Engineer - AI and Analytics",
+    "Bucket": "NewGrad",
+    "Template": "DE_E",
+    "MatchScore": 88.253,
+    "JobLink": "https://jobright.ai/jobs/info/69fe6f464b9bbf21744b199b",
+    "PDF": "20260509/CVS_Health/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Google Cloud Platform"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Data Warehouses",
+      "Analytic Tools",
+      "Query Optimization",
+      "Big Data"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Capco",
+    "Title": "Junior AI Engineer",
+    "Bucket": "NewGrad",
+    "Template": "AI_E",
+    "MatchScore": 87.0683,
+    "JobLink": "https://jobright.ai/jobs/info/69fe109952e2b44f558ae413",
+    "PDF": "20260509/Capco/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Financial Services Operations",
+      "Semantic Kernel",
+      "Full-Stack Development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Chewy",
+    "Title": "Software Engineer II - Observability (Full-Stack)",
+    "Bucket": "NewGrad",
+    "Template": "FS_E",
+    "MatchScore": 86.9432,
+    "JobLink": "https://jobright.ai/jobs/info/69b06791dfaeda6ff59a2db2",
+    "PDF": "20260509/Chewy/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "GCP",
+      "Logging"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Distributed tracing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Data2Logistics",
+    "Title": "2026 New Grad | Software Engineer, Full-Stack (Chicago)",
+    "Bucket": "NewGrad",
+    "Template": "FS_E",
+    "MatchScore": 86.4405,
+    "JobLink": "https://jobright.ai/jobs/info/69fedb02238f143e83522ea0",
+    "PDF": "20260509/Data2Logistics/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Full-stack development",
+      "STEM knowledge"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Clark Construction Group",
+    "Title": "Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 92.9608,
+    "JobLink": "https://jobright.ai/jobs/info/69fb20f9d21cf86d1e3cffff",
+    "PDF": "20260509/Clark_Construction_Group/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Airflow"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Distributed Computing",
+      "Dbt"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Takeda",
+    "Title": "Senior Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 91.7285,
+    "JobLink": "https://jobright.ai/jobs/info/69e1c3ef6c20aa1149542dba",
+    "PDF": "20260509/Takeda/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Data Lake Management",
+      "Data Warehouse Management"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Pella Corporation",
+    "Title": "Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 91.1034,
+    "JobLink": "https://jobright.ai/jobs/info/69f0e0528feca91f1491d3bc",
+    "PDF": "20260509/Pella_Corporation/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Delta Lake",
+      "Salesforce"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Clearlink",
+    "Title": "Senior Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 90.8966,
+    "JobLink": "https://jobright.ai/jobs/info/69c413fb6f4f855eeda67127",
+    "PDF": "20260509/Clearlink/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Golang",
+      "Flask",
+      "ASP"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Big Data"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Vectra AI",
+    "Title": "Senior Data Platform Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 89.6519,
+    "JobLink": "https://jobright.ai/jobs/info/69fdf1044b9bbf21744ad5d4",
+    "PDF": "20260509/Vectra_AI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Data production platforms"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "HCLTech",
+    "Title": "Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 86.815,
+    "JobLink": "https://jobright.ai/jobs/info/69fe14d5f363bc4dc339b8ac",
+    "PDF": "20260509/HCLTech/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Data warehousing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Newmont Corporation",
+    "Title": "Analyst, Data Engineering",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 85.2156,
+    "JobLink": "https://jobright.ai/jobs/info/69e236bf5183fd1fa64f9e19",
+    "PDF": "20260509/Newmont_Corporation/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "System integration"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Lila Sciences",
+    "Title": "Software Engineer II / Senior Engineer, Life Sciences Data Science",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 84.1891,
+    "JobLink": "https://jobright.ai/jobs/info/69a8b56a7ac93962b7087a25",
+    "PDF": "20260509/Lila_Sciences/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "AWS RDS",
+      "AWS EKS",
+      "Scipy",
+      "Pyright"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Farmers Insurance",
+    "Title": "Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 84.019,
+    "JobLink": "https://jobright.ai/jobs/info/69dae0a35356a60f40fe3f99",
+    "PDF": "20260509/Farmers_Insurance/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Dimensional modeling",
+      "Data privacy"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Redapt, Inc.",
+    "Title": "Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 83.7737,
+    "JobLink": "https://jobright.ai/jobs/info/69bcfbb6b10602456281c211",
+    "PDF": "20260509/Redapt_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "AWS Glue",
+      "AWS Redshift",
+      "AWS Athena",
+      "DAX"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Cosmos DB",
+      "Apache Spark",
+      "Distributed Computing",
+      "Transact SQL"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Rockstar Games",
+    "Title": "Senior Software Engineer, Data Engineering",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 83.6711,
+    "JobLink": "https://jobright.ai/jobs/info/69e15880d612782e61148389",
+    "PDF": "20260509/Rockstar_Games/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "data pipelines"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Hinge",
+    "Title": "Senior Data Platform Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 82.7878,
+    "JobLink": "https://jobright.ai/jobs/info/69fe3988ad691a11f34ec5bd",
+    "PDF": "20260509/Hinge/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Google Cloud Platform (GCP)",
+      "CircleCI"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Google Dataflow",
+      "Amazon Redshift",
+      "Data Pipeline"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "EXL",
+    "Title": "Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 82.3622,
+    "JobLink": "https://jobright.ai/jobs/info/69fdfa257714cd50b90fd5b3",
+    "PDF": "20260509/EXL/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Google Cloud Platform",
+      "Jenkins"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Apache Airflow",
+      "Cloud Build",
+      "Schema design",
+      "Data validation",
+      "Data monitoring"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Arlo Technologies, Inc.",
+    "Title": "Senior Data Engineer \u2013 Data Foundations",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 82.1726,
+    "JobLink": "https://jobright.ai/jobs/info/69fe746f4b9bbf21744b1a72",
+    "PDF": "20260509/Arlo_Technologies_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Tableau",
+      "Airflow"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Dimensional Modeling",
+      "Delta Sharing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Rockstar Games",
+    "Title": "Senior Software Engineer, Data Engineering",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 81.7088,
+    "JobLink": "https://jobright.ai/jobs/info/69e158e8acc736112f5c3337",
+    "PDF": "20260509/Rockstar_Games/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Real-time data pipelines",
+      "Serialization formats"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Match",
+    "Title": "Senior Data Platform Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 80.7185,
+    "JobLink": "https://jobright.ai/jobs/info/69fe49e94b9bbf21744b06f3",
+    "PDF": "20260509/Match/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Google Cloud Platform"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Google Dataflow",
+      "Amazon Redshift",
+      "Data pipeline "
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Pabst Brewing Company",
+    "Title": "Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 80.2844,
+    "JobLink": "https://jobright.ai/jobs/info/69fe145ef363bc4dc339b837",
+    "PDF": "20260509/Pabst_Brewing_Company/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Stored Procedures",
+      "Logic Apps",
+      "Medallion Architecture"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Northmarq",
+    "Title": "Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 77.7692,
+    "JobLink": "https://jobright.ai/jobs/info/69fe290352e2b44f558aebeb",
+    "PDF": "20260509/Northmarq/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Snowflake",
+      "Snowflake Cortex AI",
+      "Azure DevOps",
+      "Jira"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Data warehousing",
+      "Agile methodologies"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Outdoorsy",
+    "Title": "Data Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 73.6158,
+    "JobLink": "https://jobright.ai/jobs/info/69d72082e63cea7a8b66e2bc",
+    "PDF": "20260509/Outdoorsy/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Retrieval-Augmented Generation (RAG)",
+      "Airflow"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Data Warehousing",
+      "Pub/Sub",
+      "Privacy and Security"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Nuvia Dental Implant Center",
+    "Title": "Analytics Engineer",
+    "Bucket": "DE",
+    "Template": "DE_E",
+    "MatchScore": 71.081,
+    "JobLink": "https://jobright.ai/jobs/info/69fec10c15859e57591cf6df",
+    "PDF": "20260509/Nuvia_Dental_Implant_Center/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "AWS Glue",
+      "Windmill",
+      "Airflow",
+      "Prefect"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Dimensional modeling",
+      "Zoho Analytics"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "General Dynamics Information Technology",
+    "Title": "AI Engineer",
+    "Bucket": "AI",
+    "Template": "AI_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/69fe44ff4b9bbf21744affb9",
+    "PDF": "20260509/General_Dynamics_Information_Technology/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "AI automation workflows",
+      "AI scripting"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Deloitte",
+    "Title": "Senior Consultant - GenAI Full Stack Developer",
+    "Bucket": "AI",
+    "Template": "SE_AI_E",
+    "MatchScore": 97.9016,
+    "JobLink": "https://jobright.ai/jobs/info/69aa68092ebd316bece226d4",
+    "PDF": "20260509/Deloitte/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "FastAPI",
+      "LangGraph",
+      "LlamaIndex",
+      "Model deployment"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "GenAI model training"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Narwal",
+    "Title": "Full Stack AI Engineer",
+    "Bucket": "AI",
+    "Template": "AI_E",
+    "MatchScore": 95.1947,
+    "JobLink": "https://jobright.ai/jobs/info/69fdef284b9bbf21744ad2c4",
+    "PDF": "20260509/Narwal/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "GCP",
+      "AutoML"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Drift detection",
+      "Hallucination analysis",
+      "Fraud detection",
+      "Predictive maintenance",
+      "Multi-agent orchestration",
+      "Real-time monitoring"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Deloitte",
+    "Title": "Senior Consultant - GenAI Full Stack Developer",
+    "Bucket": "AI",
+    "Template": "SE_AI_E",
+    "MatchScore": 94.128,
+    "JobLink": "https://jobright.ai/jobs/info/69aa67c71f59c56275e34023",
+    "PDF": "20260509/Deloitte/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "FastAPI",
+      "Redis",
+      "LangGraph",
+      "model fine-tuning",
+      "Model deployment",
+      "LLM provider API integration"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Embedding-based retrieval",
+      "model training",
+      "model validation",
+      "Model monitoring"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Nokia",
+    "Title": "Machine Learning Test Capability Eng.",
+    "Bucket": "AI",
+    "Template": "AI_E",
+    "MatchScore": 90.3285,
+    "JobLink": "https://jobright.ai/jobs/info/69feb67e1161630dd3b027eb",
+    "PDF": "20260509/Nokia/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Regression",
+      "JMP"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Anomaly detection",
+      "Data visualization"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Google",
+    "Title": "Software Engineer, Generative AI, Geo Consumer",
+    "Bucket": "AI",
+    "Template": "SE_AI_E",
+    "MatchScore": 88.3751,
+    "JobLink": "https://jobright.ai/jobs/info/69fe0fb47714cd50b90fded7",
+    "PDF": "20260509/Google/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Generative model applications",
+      "Prompt rewriting",
+      "Prompt tuning",
+      "Post-training evaluation",
+      "Backend programming",
+      "Server-side programming",
+      "Multi-modal models"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "HomeServe USA",
+    "Title": "AI / ML Engineer",
+    "Bucket": "AI",
+    "Template": "SE_AI_E",
+    "MatchScore": 88.0627,
+    "JobLink": "https://jobright.ai/jobs/info/698699d98da7a612046173b4",
+    "PDF": "20260509/HomeServe_USA/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "WEX",
+    "Title": "Sr. Backend Engineer (AI & Agentic Systems)",
+    "Bucket": "AI",
+    "Template": "SE_AI_E",
+    "MatchScore": 87.9757,
+    "JobLink": "https://jobright.ai/jobs/info/69719809333b6343a14e31f4",
+    "PDF": "20260509/WEX/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "SpringBoot",
+      "OpenAI APIs",
+      "Embeddings"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Vector-based retrieval systems"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Match",
+    "Title": "Machine Learning Engineer, Trust & Safety",
+    "Bucket": "AI",
+    "Template": "AI_E",
+    "MatchScore": 87.3946,
+    "JobLink": "https://jobright.ai/jobs/info/69fe2a9a6bcf315dc8f550f6",
+    "PDF": "20260509/Match/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Cloud Platforms - GCP",
+      "Claude Code",
+      "Codex"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Content Classification",
+      "Fraud Detection",
+      "Distributed Computing",
+      "Precision/Recall/F1 Metrics"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Reducto",
+    "Title": "Backend/AI Engineer",
+    "Bucket": "AI",
+    "Template": "AI_E",
+    "MatchScore": 87.3776,
+    "JobLink": "https://jobright.ai/jobs/info/6926610027bf2f41a2c45abb",
+    "PDF": "20260509/Reducto/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Experimentation"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Applied Intuition",
+    "Title": "Software Engineer - AI Engineering",
+    "Bucket": "AI",
+    "Template": "SE_AI_E",
+    "MatchScore": 86.7473,
+    "JobLink": "https://jobright.ai/jobs/info/69c4440c33eecf3107947314",
+    "PDF": "20260509/Applied_Intuition/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Agentic Architectures"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend Infrastructure",
+      "Frontend Development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Argonne National Laboratory",
+    "Title": "Computer Scientist/AI",
+    "Bucket": "AI",
+    "Template": "AI_E",
+    "MatchScore": 85.321,
+    "JobLink": "https://jobright.ai/jobs/info/69fe069c4b9bbf21744add96",
+    "PDF": "20260509/Argonne_National_Laboratory/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Agentic frameworks"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "High-performance computing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "JPMorganChase",
+    "Title": "Software Engineer II - Agentic AI Automation and AI Technologies",
+    "Bucket": "AI",
+    "Template": "AI_E",
+    "MatchScore": 83.4366,
+    "JobLink": "https://jobright.ai/jobs/info/69fe5bdbf363bc4dc339e10f",
+    "PDF": "20260509/JPMorganChase/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Agentic AI Workflows",
+      "MCP Servers"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Hinge",
+    "Title": "Machine Learning Engineer, Trust & Safety",
+    "Bucket": "AI",
+    "Template": "AI_E",
+    "MatchScore": 80.5025,
+    "JobLink": "https://jobright.ai/jobs/info/69fe317cad691a11f34ec405",
+    "PDF": "20260509/Hinge/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Cloud Platforms - GCP",
+      "Hugging Face Transformers",
+      "Precision",
+      "Recall",
+      "Kubeflow"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Content Classification",
+      "Fraud Detection",
+      "Trust & Safety",
+      "Distributed Computing",
+      "F1 Score"
+    ],
+    "Compile": "OK"
+  }
+]

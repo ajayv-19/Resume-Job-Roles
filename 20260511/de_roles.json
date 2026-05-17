@@ -1,0 +1,521 @@
+[
+  {
+    "Company": "Cresta",
+    "Title": "Applied Data Scientist",
+    "Location": "United States",
+    "PublishTime": "23 hours ago",
+    "MatchScore": 92.2151,
+    "JobLink": "https://jobright.ai/jobs/info/698eac1d0f6f7e7a2ceac887",
+    "MatchedSkills": [
+      "Machine Learning",
+      "Natural Language Processing",
+      "Large Language Models",
+      "Python",
+      "SQL",
+      "Data Pipelines"
+    ],
+    "MissingSkills": [
+      "Experiment Frameworks",
+      "Evaluation Suite Development",
+      "Customer Experience Analytics",
+      "First Principles Thinking"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Tech Consulting",
+    "Title": "Junior Data Engineer",
+    "Location": "Arizona, United States",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 90.5028,
+    "JobLink": "https://jobright.ai/jobs/info/6a01dd2fc4b08448a0b20c4c",
+    "MatchedSkills": [
+      "Python",
+      "SQL",
+      "AWS",
+      "Azure",
+      "Databricks",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS EC2",
+      "Machine Learning",
+      "Computer Vision",
+      "Theory of Probability",
+      "GitLab"
+    ],
+    "MissingSkills": [
+      "PySpark",
+      "GenAI",
+      "R Programming",
+      "Google Cloud Platform",
+      "Airflow"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Agility Partners",
+    "Title": "Data Engineer",
+    "Location": "Columbus, Ohio Metropolitan Area",
+    "PublishTime": "1 hour ago",
+    "MatchScore": 90.2907,
+    "JobLink": "https://jobright.ai/jobs/info/6914c05b9c388539cbded7a4",
+    "MatchedSkills": [
+      "Python",
+      "Databricks",
+      "SQL",
+      "Git"
+    ],
+    "MissingSkills": [],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Dataiku",
+    "Title": "Data Engineer II",
+    "Location": "United States",
+    "PublishTime": "12 hours ago",
+    "MatchScore": 89.5172,
+    "JobLink": "https://jobright.ai/jobs/info/69e2961bfcfcbd43860a3867",
+    "MatchedSkills": [
+      "SQL",
+      "Python",
+      "Dataiku DSS",
+      "DevOps technologies",
+      "Data modeling",
+      "Data pipelines",
+      "Cloud data warehouse",
+      "Data lake",
+      "Software development lifecycle",
+      "Continuous learning"
+    ],
+    "MissingSkills": [
+      "Snowflake",
+      "Data architecture",
+      "DataOps",
+      "Analytical skills",
+      "Stakeholder management"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Glencore",
+    "Title": "Data Engineer",
+    "Location": "New York, US",
+    "PublishTime": "24 minutes ago",
+    "MatchScore": 88.6219,
+    "JobLink": "https://jobright.ai/jobs/info/6a01ee51238f143e8352f475",
+    "MatchedSkills": [
+      "Python",
+      "SQL",
+      "Clean coding principles",
+      "Data Governance",
+      "Data ingestion patterns",
+      "Docker",
+      "Kubernetes",
+      "CI/CD tools",
+      "Microsoft Azure",
+      "Databricks",
+      "Data modeling",
+      "API development"
+    ],
+    "MissingSkills": [
+      "Spark",
+      "Airflow",
+      "Web scraping"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Oak Ridge National Laboratory",
+    "Title": "Environmental Data Science Engineer",
+    "Location": "Tennessee (TN)",
+    "PublishTime": "11 hours ago",
+    "MatchScore": 88.5344,
+    "JobLink": "https://jobright.ai/jobs/info/6a0157743053db70a117029b",
+    "MatchedSkills": [
+      "ExpressJS",
+      "Node.js",
+      "Java 7/8",
+      "Webservices",
+      "Python",
+      "Git",
+      "Cassandra",
+      "GraphQL",
+      "PostgreSQL",
+      "MySQL"
+    ],
+    "MissingSkills": [
+      "D3.js",
+      "Spring Boot",
+      "Spark",
+      "High-Performance Computing"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "US Mobile",
+    "Title": "Analytics Engineer",
+    "Location": "United States",
+    "PublishTime": "23 hours ago",
+    "MatchScore": 87.8836,
+    "JobLink": "https://jobright.ai/jobs/info/69af85747495006450940467",
+    "MatchedSkills": [
+      "Analytics Engineering",
+      "Data Engineering",
+      "Data Science",
+      "Data Pipeline Development",
+      "Storage Solutions for Analytics S3",
+      "Storage Solutions for Analytics Snowflake",
+      "ETL/ELT Processes",
+      "Python",
+      "SQL",
+      "Business Intelligence Tools Tableau"
+    ],
+    "MissingSkills": [
+      "Data Architecture",
+      "Storage Solutions for Analytics Redshift",
+      "Storage Solutions for Analytics BigQuery",
+      "Data Orchestration (Airflow)",
+      "Data Modeling Frameworks (dbt)",
+      "Business Intelligence Tools Looker"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "BREVIAN",
+    "Title": "Data Engineer",
+    "Location": "Sunnyvale, CA",
+    "PublishTime": "2 hours ago",
+    "MatchScore": 87.3712,
+    "JobLink": "https://jobright.ai/jobs/info/6a01cb46fa1aa73213d94553",
+    "MatchedSkills": [
+      "Data pipelines",
+      "Kafka",
+      "Data modeling",
+      "ETL processes",
+      "AWS",
+      "Terraform",
+      "S3",
+      "RDS",
+      "Software development lifecycle"
+    ],
+    "MissingSkills": [
+      "Data systems",
+      "Apache Airflow",
+      "Data warehousing",
+      "ECS",
+      "Opensearch"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "UST",
+    "Title": "Senior Data Engineer",
+    "Location": "San Jose",
+    "PublishTime": "28 minutes ago",
+    "MatchScore": 86.3085,
+    "JobLink": "https://jobright.ai/jobs/info/6a01ed56fa1aa73213d95741",
+    "MatchedSkills": [
+      "Data Engineering",
+      "SQL",
+      "Relational Databases",
+      "Non-relational Databases",
+      "Data Pipelines",
+      "Unstructured Data",
+      "Kafka",
+      "NoSQL",
+      "Azure Cloud",
+      "Azure Data Lake",
+      "Azure SQL",
+      "Python",
+      "C++",
+      "Java",
+      "Continuous Integration/Continuous Delivery (CI/CD)",
+      "Docker",
+      "Kubernetes"
+    ],
+    "MissingSkills": [
+      "Big Data",
+      "Root Cause Analysis",
+      "Message Queues",
+      "Flow Processing",
+      "Data Warehouses",
+      "Hadoop",
+      "Spark",
+      "Cosmos DB",
+      "Storm",
+      "Spark Streaming",
+      "Scala",
+      "Go",
+      "Ansible"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Capgemini",
+    "Title": "Python Data Engineer",
+    "Location": "Atlanta, GA",
+    "PublishTime": "10 hours ago",
+    "MatchScore": 86.0115,
+    "JobLink": "https://jobright.ai/jobs/info/69de787de34484770f1a2427",
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "Spark SQL",
+      "Git",
+      "CI/CD concepts",
+      "Debugging"
+    ],
+    "MissingSkills": [
+      "Scala",
+      "Apache Spark",
+      "DataFrames",
+      "Google Cloud Platform",
+      "GCP DataProc",
+      "GCP BigQuery",
+      "GCP Cloud Storage",
+      "Data streaming concepts"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "F&G",
+    "Title": "Associate Data Engineer",
+    "Location": "United States",
+    "PublishTime": "59 minutes ago",
+    "MatchScore": 85.0334,
+    "JobLink": "https://jobright.ai/jobs/info/6a01e610238f143e8352efc8",
+    "MatchedSkills": [
+      "SQL",
+      "ETL",
+      "Data pipelines",
+      "Data transformation",
+      "Data analysis",
+      "Object-oriented analysis and design"
+    ],
+    "MissingSkills": [
+      "Database modeling",
+      "Informatica PowerCenter",
+      "Snowflake",
+      "Control-M",
+      "IDMC"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Bumble Bee Foods",
+    "Title": "Data Engineer",
+    "Location": "San Diego, CA",
+    "PublishTime": "23 hours ago",
+    "MatchScore": 83.5238,
+    "JobLink": "https://jobright.ai/jobs/info/698e7fae0f6f7e7a2cea9bf2",
+    "MatchedSkills": [
+      "Data engineering",
+      "ETL/ELT",
+      "Data pipeline design",
+      "Data modeling",
+      "SQL",
+      "Azure Synapse Analytics",
+      "Analytical data modeling",
+      "Python",
+      "Data transformation",
+      "Data storage",
+      "Performance optimization",
+      "Data quality validation",
+      "Data security",
+      "Role-based access control"
+    ],
+    "MissingSkills": [
+      "Microsoft Fabric",
+      "Relational data modeling",
+      "Data ingestion",
+      "Data orchestration",
+      "ERP data integration",
+      "Supply chain data domain"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Newsela",
+    "Title": "Data Engineer",
+    "Location": "United States",
+    "PublishTime": "17 hours ago",
+    "MatchScore": 81.866,
+    "JobLink": "https://jobright.ai/jobs/info/69954ea7ce78e77b4fd96be6",
+    "MatchedSkills": [
+      "Data Engineering",
+      "SQL",
+      "Python",
+      "ETL/ELT Tools",
+      "RESTful APIs",
+      "Data Quality Assurance",
+      "Data Reconciliation"
+    ],
+    "MissingSkills": [
+      "Student Information Systems",
+      "K-12 Educational Data",
+      "SFTP",
+      "Data Warehousing",
+      "Data Validation"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Sharp Decisions",
+    "Title": "Data Engineer (1119)",
+    "Location": "Charlotte,NC",
+    "PublishTime": "7 hours ago",
+    "MatchScore": 81.603,
+    "JobLink": "https://jobright.ai/jobs/info/6a018e0c238f143e8352ce7a",
+    "MatchedSkills": [
+      "Azure Cloud Services",
+      "Azure Data Factory",
+      "Azure Data Lake Gen 2",
+      "Azure Databases",
+      "Azure Data Fabric",
+      "API Gateway Management",
+      "Azure Functions",
+      "Azure Databricks",
+      "Python",
+      "SQL",
+      "RDBMS",
+      "NoSQL databases",
+      "DevOps lifecycle",
+      "Git",
+      "CI/CD",
+      "ETL"
+    ],
+    "MissingSkills": [
+      "PySpark",
+      "FastAPI",
+      "Jenkins",
+      "ELT",
+      "Financial services",
+      "Financial instruments",
+      "Asset classes",
+      "Market data"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Mphasis",
+    "Title": "Senior Data Engineer",
+    "Location": "United States",
+    "PublishTime": "8 hours ago",
+    "MatchScore": 78.8984,
+    "JobLink": "https://jobright.ai/jobs/info/6a017ddd238f143e8352cdd4",
+    "MatchedSkills": [
+      "Cloud Storage",
+      "Advanced SQL",
+      "Python",
+      "Java",
+      "ETL",
+      "Batch data processing",
+      "Data modeling",
+      "Distributed systems",
+      "Data Mesh",
+      "Terraform",
+      "CI/CD",
+      "Kafka",
+      "Apigee API Gateway"
+    ],
+    "MissingSkills": [
+      "Google Cloud Platform",
+      "BigQuery",
+      "Dataflow",
+      "Pub/Sub",
+      "Dataproc",
+      "Cloud Composer",
+      "Scala",
+      "ELT",
+      "Streaming data processing",
+      "Lakehouse architecture",
+      "Apache Iceberg",
+      "Vertex AI",
+      "BigQuery ML",
+      "DataOps",
+      "Google Cloud Professional Data Engineer",
+      "Cloud Scheduler",
+      "Dataplex"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "WPP Media",
+    "Title": "Associate Manager, Media Data Engineering - US",
+    "Location": "New York, United States",
+    "PublishTime": "8 hours ago",
+    "MatchScore": 72.6582,
+    "JobLink": "https://jobright.ai/jobs/info/69e956bf58811370cb12cafa",
+    "MatchedSkills": [
+      "Data engineering",
+      "SQL",
+      "Python",
+      "Azure",
+      "AWS",
+      "Power BI",
+      "Databricks",
+      "Advanced analytics"
+    ],
+    "MissingSkills": [
+      "Cloud data platforms",
+      "GCP",
+      "Dashboard development",
+      "Tableau",
+      "Data pipeline tools",
+      "Airflow",
+      "Media data",
+      "Marketing data",
+      "Media measurement",
+      "Campaign analytics",
+      "Data visualization",
+      "Machine learning workflows",
+      "Analytical skills"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  },
+  {
+    "Company": "Atlantic Health",
+    "Title": "Manager of Data Platform Engineering",
+    "Location": "475 South St, Morristown, NJ, 07960, US",
+    "PublishTime": "21 minutes ago",
+    "MatchScore": 60.715,
+    "JobLink": "https://jobright.ai/jobs/info/6a01eef9fa1aa73213d958dd",
+    "MatchedSkills": [
+      "Data engineering",
+      "Data pipelines",
+      "Distributed systems",
+      "Kafka",
+      "Data governance"
+    ],
+    "MissingSkills": [
+      "Cloud data infrastructure",
+      "Engineering management",
+      "Agile delivery processes",
+      "Spark",
+      "Airflow",
+      "Snowflake",
+      "Dbt",
+      "GDPR",
+      "CCPA",
+      "HIPAA"
+    ],
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE_5/E"
+  }
+]

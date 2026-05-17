@@ -29,12 +29,13 @@ CWR = ROOT / "Company_wise_Resume"
 MIN_SCORE = 95.0
 
 TEMPLATES = {
-    "DE":   ROOT / "DE_5" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "AI":   ROOT / "AI_2" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "FE":   ROOT / "FE_8" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "FS":   ROOT / "FS_3" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "SEPY": ROOT / "SE_1" / "Python" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "SEJV": ROOT / "SE_1" / "Java"   / "E" / "Ajay_Venkatesh_Resume.tex",
+    "DE":   ROOT / "DE" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "AI":   ROOT / "AI" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "FE":   ROOT / "FE" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "FS":   ROOT / "FS" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "SEP":  ROOT / "SE" / "P" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "SEJ":  ROOT / "SE" / "J" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "SEAI": ROOT / "SE_AI" / "E" / "Ajay_Venkatesh_Resume.tex",
 }
 
 # Skills Ajay legitimately has (union from existing tailored resumes).

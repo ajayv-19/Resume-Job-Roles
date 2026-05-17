@@ -26,13 +26,14 @@ OUT_MD  = ROOT / "jobs" / DATE / "selection_summary.md"
 TARGETS = {"SDE": 40, "DE": 40, "AI": 20}
 
 TEMPLATES = {
-    "DE":   ROOT / "DE_5" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "AI":   ROOT / "AI_2" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "FE":   ROOT / "FE_8" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "FS":   ROOT / "FS_3" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "SEPY": ROOT / "SE_1" / "Python" / "E" / "Ajay_Venkatesh_Resume.tex",
-    "SEJV": ROOT / "SE_1" / "Java"   / "E" / "Ajay_Venkatesh_Resume.tex",
-    "SEAI": ROOT / "SE_1" / "AI"     / "E" / "Ajay_Venkatesh_Resume.tex",
+    "DE":   ROOT / "DE" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "AI":   ROOT / "AI" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "FE":   ROOT / "FE" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "FS":   ROOT / "FS" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "SEP":  ROOT / "SE" / "P" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "SEJ":  ROOT / "SE" / "J" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "SEAI": ROOT / "SE_AI" / "E" / "Ajay_Venkatesh_Resume.tex",
+    "SELLM": ROOT / "SE_LLM" / "E" / "Ajay_Venkatesh_Resume.tex",
 }
 
 AUTHENTIC_SKILLS = {
@@ -164,16 +165,16 @@ def pick_template(title: str, bucket: str) -> str:
         return "FS"
     if "(java)" in t or " java " in t or t.endswith(" java") \
        or "spring" in t or "j2ee" in t:
-        return "SEJV"
+        return "SEJ"
     if "backend" in t or "back-end" in t or "back end" in t:
         if "python" in t or "django" in t or "fastapi" in t:
-            return "SEPY"
-        return "SEJV"
+            return "SEP"
+        return "SEJ"
     if "react" in t or "angular" in t or "vue" in t:
         return "FE"
     if "android" in t or "ios" in t or "mobile" in t:
         return "FS"
-    return "SEPY"
+    return "SEP"
 
 
 def sanitize(s: str) -> str:
