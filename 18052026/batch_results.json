@@ -7,12 +7,11 @@
     "JobLink": "https://jobright.ai/jobs/info/6a05ad53320bff2205ea3558",
     "PDF": "18052026/Nordstrom/Ajay_Venkatesh_Resume.pdf",
     "SkillsAdded": [
+      "Go",
       "GCP"
     ],
     "BulletsChanged": [],
-    "Skipped": [
-      "Go"
-    ],
+    "Skipped": [],
     "Compile": "OK"
   },
   {
@@ -23,13 +22,12 @@
     "JobLink": "https://jobright.ai/jobs/info/6a0bc3c0538d03366dc8887a",
     "PDF": "18052026/Tesla/Ajay_Venkatesh_Resume.pdf",
     "SkillsAdded": [
+      "Go",
       "Elasticsearch",
       "GRPC"
     ],
     "BulletsChanged": [],
-    "Skipped": [
-      "Go"
-    ],
+    "Skipped": [],
     "Compile": "OK"
   },
   {
@@ -105,10 +103,11 @@
     "MatchScore": 96.1697,
     "JobLink": "https://jobright.ai/jobs/info/6a0bc63a538d03366dc8892b",
     "PDF": "18052026/Regrello/Ajay_Venkatesh_Resume.pdf",
-    "SkillsAdded": [],
+    "SkillsAdded": [
+      "Go"
+    ],
     "BulletsChanged": [],
     "Skipped": [
-      "Go",
       "User-facing web applications"
     ],
     "Compile": "OK"
@@ -194,9 +193,7 @@
     "PDF": "18052026/Zoox/Ajay_Venkatesh_Resume.pdf",
     "SkillsAdded": [],
     "BulletsChanged": [],
-    "Skipped": [
-      "Query optimization"
-    ],
+    "Skipped": [],
     "Compile": "OK"
   },
   {
@@ -259,9 +256,10 @@
     "JobLink": "https://jobright.ai/jobs/info/6a0b3daa22d0d34036c89d8b",
     "PDF": "18052026/Articulate/Ajay_Venkatesh_Resume.pdf",
     "SkillsAdded": [],
-    "BulletsChanged": [],
+    "BulletsChanged": [
+      "Distributed systems debugging"
+    ],
     "Skipped": [
-      "Distributed systems debugging",
       "Secure system-to-system communication"
     ],
     "Compile": "OK"
@@ -437,10 +435,11 @@
     "MatchScore": 92.9509,
     "JobLink": "https://jobright.ai/jobs/info/69a0588181476f6176ba9116",
     "PDF": "18052026/Luma_AI/Ajay_Venkatesh_Resume.pdf",
-    "SkillsAdded": [],
+    "SkillsAdded": [
+      "Go"
+    ],
     "BulletsChanged": [],
     "Skipped": [
-      "Go",
       "Systems thinking",
       "Learning speed"
     ],
@@ -562,6 +561,7 @@
     "JobLink": "https://jobright.ai/jobs/info/6a0b927b0411d7417a1b277e",
     "PDF": "18052026/Proterra_Investment_Partners/Ajay_Venkatesh_Resume.pdf",
     "SkillsAdded": [
+      "Go",
       "Vue",
       "Next.js",
       "Django",
@@ -569,9 +569,7 @@
       "Agile"
     ],
     "BulletsChanged": [],
-    "Skipped": [
-      "Go"
-    ],
+    "Skipped": [],
     "Compile": "OK"
   },
   {
@@ -944,10 +942,11 @@
     "MatchScore": 96.9975,
     "JobLink": "https://jobright.ai/jobs/info/6a0b40930411d7417a1aeab6",
     "PDF": "18052026/Lenovo/Ajay_Venkatesh_Resume.pdf",
-    "SkillsAdded": [],
+    "SkillsAdded": [
+      "Go"
+    ],
     "BulletsChanged": [],
     "Skipped": [
-      "Go",
       "Agile practices"
     ],
     "Compile": "OK"

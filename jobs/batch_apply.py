@@ -61,18 +61,20 @@ TEMPLATE_ALIAS = {
     "AI": "AI_E", "DE": "DE_E", "FE": "FE_E", "FS": "FS_E", "CE": "CE_E",
 }
 
-# Inauthentic — never inject
+# Inauthentic — never inject (note: programming languages REMOVED per user rule —
+# Go, Kotlin, Rust, VB.NET, COBOL etc. are ALWAYS added to Programming Languages
+# line when JD requires them, regardless of industry experience)
 SKIP_INAUTHENTIC = {s.lower() for s in [
-    "Kotlin", "Robot Operating System", "ROS", "Embedded systems",
+    "Robot Operating System", "ROS", "Embedded systems",
     "Hardware acceleration", "Confidential computing", "TEEs",
     "Computational linguistics", "Language data collection",
-    "Multimodal data processing", "Redfish API", "VB.NET", "COBOL",
+    "Multimodal data processing", "Redfish API",
     "Mainframe", "Buy Side Financial Firm experience",
     "NIST 800-171 Compliance", "CMMC Compliance", "DevSecOps",
     "HubSpot", "Apollo", "Outreach", "Salesforce",
     "Outbound automation platforms", "Outbound", "GTM systems",
     "Revenue operations", "Growth engineering", "Email deliverability",
-    "Webpack", "Dbt", "dbt", "Go", "Golang",
+    "Webpack", "Dbt", "dbt",
 ]}
 
 # Concept fluff / soft / generic — skip in skills section
@@ -115,50 +117,109 @@ SKIP_CONCEPT = {s.lower() for s in [
     "Concourse",  # niche
 ]}
 
-# Concept phrases woven into bullets
+# Concept phrases woven into bullets — REWRITES MUST PARAPHRASE.
+# Never use 3+ consecutive words from the JD's exact phrase in the replacement.
+# Per memory rule feedback_paraphrase_bullets.md: bullets describe the WORK in
+# different language; the Skills line keeps the exact keyword for ATS matching.
 BULLET_EDITS = [
+    # "Data Processing" → describe the work, don't echo the phrase
     ("data processing", [
         ("Optimized data ingestion with \\textbf{parallel processing} on \\textbf{100K-row} Excel feeds",
-         "Optimized \\textbf{data processing} with \\textbf{parallel execution} on \\textbf{100K-row} Excel feeds"),
+         "Parallelized large-scale ingestion across \\textbf{100K-row} Excel feeds, cutting transformation runtime from \\textbf{5 hours to 1}"),
         ("Optimized data ingestion with \\textbf{parallel processing} for \\textbf{100K}-row from Excel",
-         "Optimized \\textbf{data processing} pipelines with \\textbf{parallel execution} for \\textbf{100K}-row Excel feeds"),
+         "Parallelized large-scale ingestion across \\textbf{100K-row} Excel feeds, cutting transformation runtime from \\textbf{5 hours to 1}"),
     ]),
+    # "Data Modeling" → describe schema design / relational design
     ("data modeling", [
-        ("Optimized data ingestion with \\textbf{parallel processing} on \\textbf{100K-row} Excel feeds",
-         "Optimized \\textbf{data modeling} and ingestion with \\textbf{parallel processing} on \\textbf{100K-row} Excel feeds"),
+        ("Engineered \\textbf{ETL pipelines} transforming \\textbf{NoSQL} into \\textbf{PostgreSQL} with \\textbf{concurrency control and locking}",
+         "Designed normalized schemas and engineered \\textbf{ETL pipelines} transforming \\textbf{NoSQL} into \\textbf{PostgreSQL} with \\textbf{concurrency control and locking}"),
     ]),
+    # "Distributed System Design" / "Distributed Systems Debugging" → mention multi-service flows
     ("distributed system design", [
-        ("Engineered the backend services in \\textbf{Java} (Coral, Smithy, Dagger, CBOR)",
-         "Engineered \\textbf{distributed backend systems} in \\textbf{Java} (Coral, Smithy, Dagger, CBOR)"),
+        ("Engineered the backend services in \\textbf{Java} (Coral, Smithy, Dagger, CBOR); applied \\textbf{low-level design patterns}",
+         "Engineered backend services in \\textbf{Java} (Coral, Smithy, Dagger, CBOR) spanning multiple service tiers with \\textbf{low-level design patterns}"),
         ("Engineered backend services in \\textbf{Java} using \\textbf{Coral, Smithy, Dagger}, and \\textbf{CBOR serialization}",
-         "Engineered \\textbf{distributed backend systems} in \\textbf{Java} using \\textbf{Coral, Smithy, Dagger}, and \\textbf{CBOR serialization}"),
+         "Engineered backend services in \\textbf{Java} using \\textbf{Coral, Smithy, Dagger}, and \\textbf{CBOR serialization} across multiple service tiers"),
     ]),
+    ("distributed systems debugging", [
+        ("Led code reviews and mentored engineers on \\textbf{software design principles}",
+         "Led code reviews, mentored engineers on \\textbf{software design principles}, and diagnosed production incidents across multi-service flows via logs, metrics, and traces"),
+    ]),
+    # "Event-driven X" → describe async / pub-sub work
     ("event-driven architecture", [
         ("Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM}, with event-driven processing and fault-tolerant retries",
-         "Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM} using \\textbf{event-driven architecture} and fault-tolerant retries"),
+         "Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM}, with asynchronous message processing and fault-tolerant retries"),
     ]),
     ("event-driven systems", [
         ("Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM}, with event-driven processing and fault-tolerant retries",
-         "Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM} using \\textbf{event-driven systems} and fault-tolerant retries"),
+         "Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM}, with asynchronous message processing and fault-tolerant retries"),
     ]),
+    # "Batch Processing" → describe bulk ingestion
     ("batch processing", [
         ("Optimized data ingestion with \\textbf{parallel processing} for \\textbf{100K}-row from Excel",
-         "Optimized \\textbf{batch processing} pipelines with \\textbf{parallel execution} for \\textbf{100K}-row Excel feeds"),
+         "Optimized bulk ingestion of \\textbf{100K-row} Excel feeds with parallel execution, cutting runtime from \\textbf{5 hours to 1}"),
+        ("Optimized data ingestion with \\textbf{parallel processing} on \\textbf{100K-row} Excel feeds",
+         "Optimized bulk ingestion of \\textbf{100K-row} Excel feeds with parallel execution, cutting runtime from \\textbf{5 hours to 1}"),
     ]),
-    ("infrastructure as code", []),  # already in Amazon CDK bullet
+    # "Query Optimization" / "Database Optimization"
+    ("query optimization", [
+        ("Engineered \\textbf{ETL pipelines} transforming \\textbf{NoSQL} into \\textbf{PostgreSQL} with \\textbf{concurrency control and locking}",
+         "Engineered \\textbf{ETL pipelines} transforming \\textbf{NoSQL} into \\textbf{PostgreSQL} with \\textbf{concurrency control and locking}, tuning hot-path queries to reduce response times"),
+    ]),
+    ("database optimization", [
+        ("Engineered \\textbf{ETL pipelines} transforming \\textbf{NoSQL} into \\textbf{PostgreSQL} with \\textbf{concurrency control and locking}",
+         "Engineered \\textbf{ETL pipelines} transforming \\textbf{NoSQL} into \\textbf{PostgreSQL} with \\textbf{concurrency control and locking}, tuning indexes and hot-path queries"),
+    ]),
+    # "Performance Optimization" → describe latency / throughput improvements
+    ("performance optimization", [
+        ("Built a \\textbf{React 18} frontend with optimized API integration, advanced filtering, and client-side caching",
+         "Built a \\textbf{React 18} frontend with caching, request batching, and prefetching to reduce response latency"),
+    ]),
+    # "High Availability"
+    ("high availability", []),  # already in Amazon ECS 99.9% bullet
+    # "Software Development Lifecycle" / SDLC
     ("software development lifecycle", [
         ("Led code reviews and mentored engineers on \\textbf{software design principles}",
-         "Led code reviews across the \\textbf{software development lifecycle} and mentored engineers on \\textbf{software design principles}"),
+         "Owned features from requirements through deployment and on-call support, and mentored engineers on \\textbf{software design principles}"),
     ]),
+    ("sdlc", [
+        ("Led code reviews and mentored engineers on \\textbf{software design principles}",
+         "Owned features from requirements through deployment and on-call support, and mentored engineers on \\textbf{software design principles}"),
+    ]),
+    # "B2B Software" / "Full Stack Engineering"
     ("b2b software development", [
-        ("Developed an insurance analytics platform (\\textbf{React, Node.js, REST APIs}) deployed via \\textbf{Docker} on \\textbf{EC2}; implemented Stripe billing, RBAC, and row-level security, generating \\textbf{\\$50K+} revenue across \\textbf{6 clients}",
-         "Developed a \\textbf{B2B software} insurance analytics platform (\\textbf{React, Node.js, REST APIs}) deployed via \\textbf{Docker} on \\textbf{EC2}; implemented Stripe billing, RBAC, and row-level security, generating \\textbf{\\$50K+} revenue across \\textbf{6 clients}"),
+        ("Developed an insurance analytics platform (\\textbf{React, Node.js, REST APIs}) deployed via \\textbf{Docker} on \\textbf{EC2}; implemented Stripe billing, RBAC, and row-level security",
+         "Built a B2B-facing insurance analytics platform (\\textbf{React, Node.js, REST APIs}) deployed via \\textbf{Docker} on \\textbf{EC2}; implemented Stripe billing, RBAC, and row-level security"),
     ]),
+    ("full stack engineering", [
+        ("Developed an insurance analytics platform (\\textbf{React, Node.js, REST APIs}) deployed via \\textbf{Docker} on \\textbf{EC2}; implemented Stripe billing, RBAC, and row-level security",
+         "Built an end-to-end insurance analytics platform (\\textbf{React, Node.js, REST APIs}) deployed via \\textbf{Docker} on \\textbf{EC2}; implemented Stripe billing, RBAC, and row-level security"),
+    ]),
+    # "Real-time Processing" / "Stream Processing"
+    ("real-time processing", []),  # Campus Mesh real-time bullet already covers
+    ("stream processing", [
+        ("Developed scalable \\textbf{Node.js microservices} powering real-time academic workflows",
+         "Developed scalable \\textbf{Node.js microservices} powering low-latency streaming workflows"),
+    ]),
+    # "Code Quality" / "Test-Driven Development"
+    ("code quality", [
+        ("Engineered the backend services in \\textbf{Java} (Coral, Smithy, Dagger, CBOR); applied \\textbf{low-level design patterns}, cutting backend execution time by \\textbf{35\\%} with unit/integration testing via \\textbf{Mockito}",
+         "Engineered the backend services in \\textbf{Java} (Coral, Smithy, Dagger, CBOR); applied \\textbf{low-level design patterns} and rigorous test coverage, cutting backend execution time by \\textbf{35\\%} with unit/integration testing via \\textbf{Mockito}"),
+    ]),
+    # "API Design"
+    ("api design", [
+        ("Provisioned \\textbf{serverless Infrastructure-as-Code} using \\textbf{AWS CDK} with API Gateway, Lambda, DynamoDB, S3, and IAM",
+         "Designed REST contracts and provisioned \\textbf{serverless Infrastructure-as-Code} using \\textbf{AWS CDK} with API Gateway, Lambda, DynamoDB, S3, and IAM"),
+    ]),
+    # "Microservices Architecture" — implicit; no edit needed unless specifically called out
+    ("infrastructure as code", []),  # already in Amazon CDK bullet
 ]
 
 # Category buckets for routing skills to Skills section lines
-PROGRAMMING = {"python", "java", "c++", "c#", "go", "ruby", "rust", "scala",
-               "typescript", "javascript", "r", "sql", "swift", "perl", "bash"}
+PROGRAMMING = {"python", "java", "c++", "c#", "c", "go", "golang", "ruby", "rust", "scala",
+               "typescript", "javascript", "kotlin", "vb.net", "cobol",
+               "r", "sql", "swift", "perl", "bash", "php", "objective-c", "dart",
+               "haskell", "groovy", "matlab", "lua"}
 WEB_BACKEND = {"react", "react.js", "next.js", "node.js", "nodejs", "express",
                "express.js", "django", "flask", "fastapi", "spring boot", "spring",
                "spring mvc", "java ee", "rest api", "rest apis", "restful apis",
@@ -222,7 +283,11 @@ def classify(skill: str) -> tuple[str, str | None]:
 
 def inject_skills_line(text: str, prefix: str, items: list[str]) -> tuple[str, list[str]]:
     body_lower = text.lower()
-    items = [i for i in items if i.lower() not in body_lower]
+    # Word-boundary check so short tokens like "Go" don't match "MongoDB"/"Django"
+    def already_present(item: str) -> bool:
+        i = item.lower()
+        return bool(re.search(rf"(?<![a-z0-9+#]){re.escape(i)}(?![a-z0-9+#])", body_lower))
+    items = [i for i in items if not already_present(i)]
     if not items:
         return text, []
     first_word = prefix.split()[0]
