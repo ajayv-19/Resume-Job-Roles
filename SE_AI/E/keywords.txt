@@ -1,0 +1,34 @@
+# Keywords for SEAI_E (SE_AI/E)
+# Best matches for role archetypes: Software Engineer with AI, Full Stack AI Engineer, AI-powered Application Engineer, AI Software Engineer
+
+Python
+AWS Bedrock
+LangChain
+FAISS
+RAG
+Retrieval-Augmented Generation
+LLM
+LLMs
+agentic
+agentic workflow
+Model Context Protocol
+MCP
+prompt engineering
+embedding
+embeddings
+semantic search
+Hugging Face
+GPT-4
+Claude
+OpenAI
+AWS
+AWS SageMaker
+Lambda
+ECS Fargate
+REST API
+microservices
+backend
+Docker
+Kubernetes
+PyTorch
+TensorFlow

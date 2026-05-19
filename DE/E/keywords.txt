@@ -1,0 +1,36 @@
+# Keywords for DE_E (DE/E)
+# Best matches for role archetypes: Data Engineer, Data Engineering, Analytics Engineer, Big Data Engineer, BI Engineer, ETL Engineer, Data Platform Engineer
+
+PySpark
+Apache Spark
+Spark SQL
+Spark MLlib
+Hadoop
+HDFS
+ETL
+ELT
+data pipelines
+data modeling
+data warehousing
+Airflow
+dbt
+Kafka
+Snowflake
+BigQuery
+Redshift
+Glue
+Athena
+SQL
+PostgreSQL
+MySQL
+SQL Server
+Oracle
+AWS
+Azure Data Factory
+Azure Data Lake
+GCP
+Python
+Scala
+Power BI
+QuickSight
+Tableau

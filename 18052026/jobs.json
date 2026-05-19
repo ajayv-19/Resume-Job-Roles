@@ -1,0 +1,2189 @@
+[
+  {
+    "Company": "Nordstrom",
+    "Title": "Engineer 1 - Customer Experience Platform (Hybrid - Seattle, WA)",
+    "Location": "Seattle, WA, US",
+    "PublishTime": "4 days ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Object-Oriented Programming",
+      "Java",
+      "Python",
+      "NodeJs",
+      "Javascript",
+      "Typescript",
+      "RESTful Architecture",
+      "Microservices",
+      "AWS",
+      "Unit Testing",
+      "Integration Testing",
+      "GitHub",
+      "GitLab"
+    ],
+    "MissingSkills": [
+      "Go",
+      "GCP"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a05ad53320bff2205ea3558",
+    "JobId": "6a05ad53320bff2205ea3558",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 14,
+      "matched_keyword_hits": [
+        "aws",
+        "github",
+        "integration testing",
+        "java",
+        "microservices",
+        "python",
+        "unit testing"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Tesla",
+    "Title": "Software Engineer, Full Stack",
+    "Location": "Fremont, CA",
+    "PublishTime": "1 hour ago",
+    "MinYOE": "3",
+    "MatchScore": 97.2479,
+    "MatchedSkills": [
+      "Python",
+      "REST APIs",
+      "SQL",
+      "MySQL",
+      "MicrosoftSQL",
+      "NoSQL",
+      "MongoDB",
+      "Kafka",
+      "React",
+      "Unit Testing",
+      "Integration Testing"
+    ],
+    "MissingSkills": [
+      "Go",
+      "GRPC",
+      "Elasticsearch"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bc3c0538d03366dc8887a",
+    "JobId": "6a0bc3c0538d03366dc8887a",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "mongodb",
+        "mysql",
+        "python",
+        "react"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Fastbreak AI",
+    "Title": "Full Stack Developer",
+    "Location": "Charlotte, NC",
+    "PublishTime": "5 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "AWS EC2",
+      "AWS S3",
+      "AWS Lambda",
+      "RESTful APIs",
+      "Microservices architecture",
+      "Git",
+      "CI/CD"
+    ],
+    "MissingSkills": [
+      "Next.js"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b8bf1963f7a67d95d0f7f",
+    "JobId": "6a0b8bf1963f7a67d95d0f7f",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 7,
+      "matched_keyword_hits": [
+        "ci cd",
+        "express.js",
+        "node.js"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Pinnacle Fertility, Inc.",
+    "Title": "Jr Software Developer",
+    "Location": "Scottsdale, AZ",
+    "PublishTime": "9 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 97.3328,
+    "MatchedSkills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "Azure",
+      "AWS",
+      "API",
+      "Git"
+    ],
+    "MissingSkills": [
+      "C#",
+      "Agile development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69e0c292ff71e82d604b3396",
+    "JobId": "69e0c292ff71e82d604b3396",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "aws",
+        "git",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Comcast",
+    "Title": "Engineer 3, Full Stack Development-8857",
+    "Location": "CO - Englewood, 183 Inverness Dr West, US",
+    "PublishTime": "11 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 88.6629,
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "Angular",
+      "React",
+      "RDBMS",
+      "NoSQL databases",
+      "Git",
+      "Restful APIs",
+      "AWS",
+      "Azure",
+      "CI/CD pipelines",
+      "GitHub Actions"
+    ],
+    "MissingSkills": [
+      "Google Cloud Platform",
+      "Concourse",
+      "Jenkins",
+      "Agile project management",
+      "Scrum",
+      "Kanban",
+      "Behavior Driven Development",
+      "Test Driven Development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b2e640411d7417a1adeab",
+    "JobId": "6a0b2e640411d7417a1adeab",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "angular",
+        "aws",
+        "java",
+        "python",
+        "react"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Harmony",
+    "Title": "Software Engineer",
+    "Location": "Palo Alto, CA",
+    "PublishTime": "17 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 94.3255,
+    "MatchedSkills": [
+      "Kernel",
+      "Data structures"
+    ],
+    "MissingSkills": [
+      "Compilers"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6896a67a73b3a600fe891d37",
+    "JobId": "6896a67a73b3a600fe891d37",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "data structures"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Regrello",
+    "Title": "Software Engineer",
+    "Location": "United States",
+    "PublishTime": "53 minutes ago",
+    "MinYOE": "0",
+    "MatchScore": 96.1697,
+    "MatchedSkills": [
+      "React",
+      "TypeScript",
+      "SQL",
+      "GraphQL"
+    ],
+    "MissingSkills": [
+      "Go",
+      "User-facing web applications"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bc63a538d03366dc8892b",
+    "JobId": "6a0bc63a538d03366dc8892b",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "graphql"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "IXL Learning",
+    "Title": "Software Engineer",
+    "Location": "San Mateo, CA",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Java",
+      "Object-oriented programming"
+    ],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bb518538d03366dc88461",
+    "JobId": "6a0bb518538d03366dc88461",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "java"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "EliseAI",
+    "Title": "Senior Software Engineer (Full Stack)",
+    "Location": "San Francisco, CA",
+    "PublishTime": "13 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Javascript",
+      "Typescript",
+      "React",
+      "API development",
+      "Python",
+      "AWS",
+      "Relational databases"
+    ],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/691449359c388539cbdeb773",
+    "JobId": "691449359c388539cbdeb773",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "aws",
+        "javascript",
+        "python",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Trinity Services Group",
+    "Title": "Java Software Developer",
+    "Location": "West Des Moines,Iowa,United States",
+    "PublishTime": "2 hours ago",
+    "MinYOE": null,
+    "MatchScore": 97.5781,
+    "MatchedSkills": [
+      "Java",
+      "Web Services",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "SQL",
+      "IntelliJ IDE",
+      "GIT",
+      "TSQL"
+    ],
+    "MissingSkills": [
+      "Multi-table Join SQL Queries",
+      "Azure DevOps",
+      "Relational Database Concepts"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bb0fa963f7a67d95d2621",
+    "JobId": "6a0bb0fa963f7a67d95d2621",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SEJ",
+      "is_new_grad": false,
+      "score": 5,
+      "matched_keyword_hits": [
+        "java"
+      ],
+      "title_keyword_hits": [
+        "java"
+      ]
+    }
+  },
+  {
+    "Company": "Tutor",
+    "Title": "Full Stack Software Engineer (XR Applications)",
+    "Location": "Watertown, MA",
+    "PublishTime": "2 hours ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Python",
+      "React"
+    ],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/69fa7bc5db88714bcdfc3285",
+    "JobId": "69fa7bc5db88714bcdfc3285",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "python",
+        "react"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Chewy",
+    "Title": "Software Engineer II - Frontend",
+    "Location": "Boston, MA",
+    "PublishTime": "6 hours ago",
+    "MinYOE": "4",
+    "MatchScore": 90.8313,
+    "MatchedSkills": [
+      "ReactJS",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Java",
+      "RESTful APIs",
+      "SQL",
+      "Postgres",
+      "Algorithms",
+      "Data structures",
+      "AWS",
+      "CI/CD pipelines"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Spring Web Flux",
+      "High-performing scalable systems",
+      "Production environment monitoring",
+      "Troubleshooting production issues",
+      "Jenkins",
+      "Independent thinking"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b79af0411d7417a1b15b6",
+    "JobId": "6a0b79af0411d7417a1b15b6",
+    "BaseTemplate": "FE_E",
+    "RoutingDetails": {
+      "family": "FE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "css",
+        "html",
+        "javascript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Zoox",
+    "Title": "Full Stack Software Engineer, Operational Applications and Platforms",
+    "Location": "Foster City, CA",
+    "PublishTime": "16 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Relational databases",
+      "NoSQL databases",
+      "Data modeling"
+    ],
+    "MissingSkills": [
+      "Query optimization"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69b9db2406c1ba00c54bfa1f",
+    "JobId": "69b9db2406c1ba00c54bfa1f",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "javascript",
+        "node.js",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Finch",
+    "Title": "Software Engineer",
+    "Location": "New York City",
+    "PublishTime": "10 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 87.3645,
+    "MatchedSkills": [
+      "Python",
+      "React",
+      "AWS",
+      "Writing clean, testable, maintainable code",
+      "Ownership over outcomes"
+    ],
+    "MissingSkills": [
+      "Django",
+      "OpenAI APIs",
+      "Full-stack development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0a92f1a203b1052e44dd97",
+    "JobId": "6a0a92f1a203b1052e44dd97",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 5,
+      "matched_keyword_hits": [
+        "aws",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Relativity",
+    "Title": "Software Engineer",
+    "Location": "Illinois, US",
+    "PublishTime": "11 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 88.4251,
+    "MatchedSkills": [
+      "Cloud Platforms",
+      "Containerization",
+      "APIs",
+      "Distributed Services",
+      "Tested Code",
+      "CI/CD Pipelines",
+      "React",
+      "Angular",
+      "Reliability Practices"
+    ],
+    "MissingSkills": [
+      "Data Storage Systems",
+      "Logging Tools",
+      "Observability Tools",
+      "Secure Coding",
+      "Operational Best Practices"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b2cf422d0d34036c8933a",
+    "JobId": "6a0b2cf422d0d34036c8933a",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Paces",
+    "Title": "Software Engineer, Full Stack",
+    "Location": "Brooklyn",
+    "PublishTime": "22 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 95.4301,
+    "MatchedSkills": [
+      "Typescript",
+      "Python",
+      "SQL",
+      "Data intensive software development",
+      "Work in a team"
+    ],
+    "MissingSkills": [
+      "Frontend development",
+      "Backend development",
+      "Database development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0a90dd8f3e371eb618947d",
+    "JobId": "6a0a90dd8f3e371eb618947d",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "python",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Articulate",
+    "Title": "Software Engineer II (Expansion - Integrations)",
+    "Location": "United States",
+    "PublishTime": "10 hours ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "SQL",
+      "Postgres",
+      "RESTful APIs",
+      "Authentication",
+      "Openness to feedback"
+    ],
+    "MissingSkills": [
+      "Distributed systems debugging",
+      "Secure system-to-system communication"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b3daa22d0d34036c89d8b",
+    "JobId": "6a0b3daa22d0d34036c89d8b",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "IntraEdge",
+    "Title": "Fullstack Java Developer",
+    "Location": "Phoenix, AZ",
+    "PublishTime": "3 hours ago",
+    "MinYOE": null,
+    "MatchScore": 97.6404,
+    "MatchedSkills": [
+      "Java",
+      "React.js",
+      "REST APIs",
+      "SQL",
+      "Microservices"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Database Development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0ba0810411d7417a1b2f29",
+    "JobId": "6a0ba0810411d7417a1b2f29",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "java",
+        "microservices"
+      ],
+      "title_keyword_hits": [
+        "java"
+      ]
+    }
+  },
+  {
+    "Company": "Goldman Sachs",
+    "Title": "Asset & Wealth Management-Full Stack Engineer-Associate-Dallas",
+    "Location": "Dallas, TX",
+    "PublishTime": "9 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 83.9817,
+    "MatchedSkills": [
+      "Java 11+",
+      "REST APIs",
+      "MongoDB",
+      "Event-driven Systems",
+      "Message-driven Processing",
+      "WebSocket APIs",
+      "Unit Testing",
+      "JUnit",
+      "Mockito",
+      "Code Coverage Tooling",
+      "Integration Testing",
+      "Git",
+      "GitLab",
+      "CI/CD Pipelines"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Jersey",
+      "JAX-RS",
+      "Dependency Injection",
+      "Guice",
+      "Document Modeling",
+      "Aggregation Pipelines",
+      "ODM Framework",
+      "Event Buses",
+      "Pub/Sub Patterns",
+      "Reactive Programming",
+      "JaCoCo",
+      "Agile Methodologies"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69efadb24b0fa35a7078af0c",
+    "JobId": "69efadb24b0fa35a7078af0c",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 3,
+      "matched_keyword_hits": [
+        "mongodb"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Hitachi Energy",
+    "Title": "Software Engineer",
+    "Location": "Santa Clara, CA",
+    "PublishTime": "1 hour ago",
+    "MinYOE": "2",
+    "MatchScore": 76.8939,
+    "MatchedSkills": [
+      "Java",
+      "Java Swing",
+      "JavaScript",
+      "C/C++",
+      "HTML",
+      "CSS",
+      "Angular",
+      "REST Web Services"
+    ],
+    "MissingSkills": [
+      "Oracle relational databases",
+      "XML",
+      "XSD",
+      "XSL",
+      "JSON",
+      "WSDL",
+      "SOAP Web Services",
+      "JMS Messaging",
+      "Apache Tomcat",
+      "Apache HTTP server",
+      "JBoss",
+      "Waterfall Model",
+      "Agile Model"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bbdbaa235d749afa88451",
+    "JobId": "6a0bbdbaa235d749afa88451",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "java"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Redfin",
+    "Title": "Software Developer II - Customer Growth",
+    "Location": "Seattle, WA",
+    "PublishTime": "9 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 91.5966,
+    "MatchedSkills": [
+      "React",
+      "JavaScript",
+      "PostgreSQL",
+      "Kafka",
+      "AWS",
+      "Java"
+    ],
+    "MissingSkills": [
+      "Hibernate",
+      "Datadog",
+      "AI code generation tools"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b515d963f7a67d95ce506",
+    "JobId": "6a0b515d963f7a67d95ce506",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "aws",
+        "java",
+        "kafka",
+        "postgresql"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "PermitFlow",
+    "Title": "Software Engineer",
+    "Location": "New York, NY",
+    "PublishTime": "11 hours ago",
+    "MinYOE": null,
+    "MatchScore": 96.4295,
+    "MatchedSkills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Postgres",
+      "API design",
+      "Data pipelines",
+      "AI-powered tools",
+      "Customer-first mindset"
+    ],
+    "MissingSkills": [
+      "Fullstack development",
+      "Production system deployment"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6999e2cae0bddb6acac90ed9",
+    "JobId": "6999e2cae0bddb6acac90ed9",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Patreon",
+    "Title": "Fullstack Engineer, Creator Home",
+    "Location": "San Francisco",
+    "PublishTime": "12 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 96.8735,
+    "MatchedSkills": [
+      "Python",
+      "API Development",
+      "React",
+      "TypeScript"
+    ],
+    "MissingSkills": [
+      "Backend Systems Development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0a92903b54ed42d74e0930",
+    "JobId": "6a0a92903b54ed42d74e0930",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "python",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "pharosIQ",
+    "Title": "Programmer",
+    "Location": "United States",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 97.038,
+    "MatchedSkills": [
+      "Python",
+      "HTML"
+    ],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b750c0411d7417a1b11fc",
+    "JobId": "6a0b750c0411d7417a1b11fc",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "CVector",
+    "Title": "Full Stack Software Engineer I or II",
+    "Location": "New York, NY",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 92.096,
+    "MatchedSkills": [
+      "Python",
+      "Typescript",
+      "React",
+      "MQTT",
+      "PostgreSQL",
+      "AWS",
+      "GitHub"
+    ],
+    "MissingSkills": [
+      "Figma",
+      "Agent-driven development workflows",
+      "Real-time data visualization"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b74a8963f7a67d95d000e",
+    "JobId": "6a0b74a8963f7a67d95d000e",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": true,
+      "score": 10,
+      "matched_keyword_hits": [
+        "aws",
+        "postgresql",
+        "python",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Anchorage Digital",
+    "Title": "Member of Technical Staff, Banking Solutions (Fullstack Engineer)",
+    "Location": "New York",
+    "PublishTime": "2 hours ago",
+    "MinYOE": null,
+    "MatchScore": 88.5352,
+    "MatchedSkills": [
+      "API Development",
+      "React.js",
+      "JavaScript Frameworks",
+      "Angular.js",
+      "Vue.js",
+      "Distributed Systems",
+      "Web Applications",
+      "Concurrency",
+      "Algorithms",
+      "Data Structures",
+      "GraphQL",
+      "Web Security"
+    ],
+    "MissingSkills": [
+      "Fullstack Software Engineering",
+      "Backend Services",
+      "Next.js",
+      "GRPC",
+      "Financial Applications"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0ba9480411d7417a1b3221",
+    "JobId": "6a0ba9480411d7417a1b3221",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 3,
+      "matched_keyword_hits": [
+        "graphql"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Luma AI",
+    "Title": "Software Engineer - Product",
+    "Location": "San Francisco Bay Area",
+    "PublishTime": "5 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 92.9509,
+    "MatchedSkills": [
+      "Python",
+      "TypeScript",
+      "Java",
+      "Data structures",
+      "Algorithms",
+      "AI coding tools"
+    ],
+    "MissingSkills": [
+      "Go",
+      "Systems thinking",
+      "Learning speed"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69a0588181476f6176ba9116",
+    "JobId": "69a0588181476f6176ba9116",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "algorithms",
+        "data structures",
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Amazon",
+    "Title": "Software Development Engineer, Alexa Routines",
+    "Location": "Sunnyvale, California, USA",
+    "PublishTime": "52 minutes ago",
+    "MinYOE": "3",
+    "MatchScore": 95.7351,
+    "MatchedSkills": [
+      "Software Development",
+      "Software Design Patterns",
+      "System Architecture",
+      "Programming Languages",
+      "Software Development Life Cycle",
+      "Code Reviews",
+      "Source Control Management",
+      "Testing"
+    ],
+    "MissingSkills": [
+      "Scalability",
+      "Build Processes",
+      "Operations"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bc6824d93203636873ed7",
+    "JobId": "6a0bc6824d93203636873ed7",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "EOG Resources",
+    "Title": "Software Engineer II",
+    "Location": "Houston, TX",
+    "PublishTime": "12 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 94.6487,
+    "MatchedSkills": [
+      "React",
+      "Redux",
+      "Javascript",
+      "Web Application Development"
+    ],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b2036538d03366dc81e6f",
+    "JobId": "6a0b2036538d03366dc81e6f",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Industrial Scientific",
+    "Title": "Software Engineer",
+    "Location": "Pittsburgh, PA",
+    "PublishTime": "8 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 88.2924,
+    "MatchedSkills": [
+      "React",
+      "AWS EC2",
+      "AWS Lambda",
+      "AWS S3",
+      "DevOps",
+      "CI/CD pipelines",
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "AWS CloudFormation",
+      "AWS Certified Solutions Architect",
+      "Python",
+      "JavaScript"
+    ],
+    "MissingSkills": [
+      "Next.js",
+      "C#",
+      "Entity Framework",
+      "AWS RDS",
+      "Site Reliability Engineering (SRE)",
+      "CloudWatch",
+      "Prometheus",
+      "Grafana",
+      "AWS Certified Developer",
+      "AWS Certified DevOps Engineer"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b5e3c4d93203636870418",
+    "JobId": "6a0b5e3c4d93203636870418",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 14,
+      "matched_keyword_hits": [
+        "aws ec2",
+        "aws lambda",
+        "aws s3",
+        "docker",
+        "git",
+        "kubernetes",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Involgix Inc",
+    "Title": "JobID_Full Stack Engineer526",
+    "Location": "TX",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Vue.js 3",
+      "Java",
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "ES6+",
+      "Object-oriented programming",
+      "REST APIs",
+      "GraphQL APIs"
+    ],
+    "MissingSkills": [
+      ".NET",
+      "Debugging third-party dependencies"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b87574d93203636871ff8",
+    "JobId": "6a0b87574d93203636871ff8",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "java",
+        "javascript",
+        "node.js",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "O2 Technologies,Inc",
+    "Title": "Full Stack Java Developer",
+    "Location": "Hoboken, NJ",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 91.8657,
+    "MatchedSkills": [
+      "Java",
+      "Angular",
+      "REST APIs",
+      "Microservices",
+      "SQL",
+      "CI/CD",
+      "Cloud Platforms",
+      "Code Review"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "AI-Assisted Development",
+      "Agile",
+      "Scrum"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b797a0411d7417a1b1561",
+    "JobId": "6a0b797a0411d7417a1b1561",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 12,
+      "matched_keyword_hits": [
+        "angular",
+        "ci cd",
+        "java",
+        "microservices"
+      ],
+      "title_keyword_hits": [
+        "java"
+      ]
+    }
+  },
+  {
+    "Company": "Porter",
+    "Title": "Full-Stack Software Engineer",
+    "Location": "United States",
+    "PublishTime": "16 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 88.7594,
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "React Native",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Firebase",
+      "Docker",
+      "CI/CD pipelines"
+    ],
+    "MissingSkills": [
+      "NestJS",
+      "Prisma",
+      "Google Cloud Platform",
+      "Cloud Run",
+      "Cloud Build",
+      "Stripe Connect",
+      "POS systems",
+      "Yarn Berry"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0ae94c0411d7417a1ab9bb",
+    "JobId": "6a0ae94c0411d7417a1ab9bb",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 16,
+      "matched_keyword_hits": [
+        "docker",
+        "express",
+        "javascript",
+        "node.js",
+        "postgresql",
+        "react",
+        "react native",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Proterra Investment Partners",
+    "Title": "Software Engineer 2",
+    "Location": "Fayetteville, AR",
+    "PublishTime": "4 hours ago",
+    "MinYOE": "5",
+    "MatchScore": 93.4766,
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Python",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Git",
+      "Openness to feedback"
+    ],
+    "MissingSkills": [
+      "Vue",
+      "Next.js",
+      "Go",
+      "Agile",
+      "Google Cloud Platform",
+      "Django"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b927b0411d7417a1b277e",
+    "JobId": "6a0b927b0411d7417a1b277e",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 11,
+      "matched_keyword_hits": [
+        "docker",
+        "git",
+        "kubernetes",
+        "postgresql",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Quicken Loans",
+    "Title": "Software Developer II - Customer Growth",
+    "Location": "Seattle, WA, US",
+    "PublishTime": "12 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 93.4916,
+    "MatchedSkills": [
+      "React",
+      "JavaScript",
+      "PostgreSQL",
+      "Kafka",
+      "AWS",
+      "Java"
+    ],
+    "MissingSkills": [
+      "Hibernate",
+      "Datadog",
+      "AI code generation tools"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b29ab22d0d34036c89161",
+    "JobId": "6a0b29ab22d0d34036c89161",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "aws",
+        "java",
+        "kafka",
+        "postgresql"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "The Walt Disney Company",
+    "Title": "Software Engineer II - GCI\u00a0 Experiences",
+    "Location": "Santa Monica, CA, USA, US",
+    "PublishTime": "8 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 85.778,
+    "MatchedSkills": [
+      "JavaScript",
+      "Web Technologies",
+      "React",
+      "Node.js",
+      "AWS",
+      "TypeScript"
+    ],
+    "MissingSkills": [
+      "Front-end Debugging",
+      "Agile Methodologies",
+      "Web Accessibility"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b584e4d9320363686fec6",
+    "JobId": "6a0b584e4d9320363686fec6",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "aws"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Harmonia Holdings Group, LLC",
+    "Title": "Mid-Level Full Stack Developer",
+    "Location": "United States",
+    "PublishTime": "5 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 90.9901,
+    "MatchedSkills": [
+      "AWS",
+      "Java",
+      "REST APIs",
+      "React",
+      "Angular",
+      "JQuery",
+      "Docker",
+      "Kubernetes",
+      "Microservices Architecture",
+      "CI/CD pipelines"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "JPA",
+      "Vue",
+      "Automated testing",
+      "Secure coding",
+      "DevSecOps"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b8682538d03366dc86776",
+    "JobId": "6a0b8682538d03366dc86776",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 14,
+      "matched_keyword_hits": [
+        "angular",
+        "aws",
+        "docker",
+        "java",
+        "kubernetes",
+        "react"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Medpace",
+    "Title": "Junior Software Engineer",
+    "Location": "Denver, CO",
+    "PublishTime": "16 hours ago",
+    "MinYOE": null,
+    "MatchScore": 95.8259,
+    "MatchedSkills": [
+      "Angular",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "GitHub",
+      "SQL",
+      "NoSQL",
+      "Software Development Life Cycle (SDLC)"
+    ],
+    "MissingSkills": [
+      "C#",
+      "Entity Framework",
+      "Release Management"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6960462aa112b402660f13a3",
+    "JobId": "6960462aa112b402660f13a3",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 2,
+      "matched_keyword_hits": [
+        "github"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Salesforce",
+    "Title": "Software Engineering MTS, Salesforce Developer",
+    "Location": "Indianapolis, IN",
+    "PublishTime": "1 hour ago",
+    "MinYOE": "3",
+    "MatchScore": 82.8821,
+    "MatchedSkills": [
+      "Lightning Aura",
+      "Lightning Web Components",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Java",
+      "Service Cloud",
+      "JUnit",
+      "REST APIs",
+      "SOAP APIs",
+      "Event-driven integration",
+      "Git",
+      "VS Code",
+      "Eclipse",
+      "GitHub Actions",
+      "GitLab CI"
+    ],
+    "MissingSkills": [
+      "Force.com development",
+      "Apex",
+      "Visualforce",
+      "Salesforce SOQL",
+      "Salesforce SOSL",
+      "DML operations",
+      "Sales Cloud",
+      "Selenium",
+      "Batch integration",
+      "Real-time integration",
+      "IntelliJ",
+      "Jenkins",
+      "Agile methodologies",
+      "Scrum"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bbd68538d03366dc88743",
+    "JobId": "6a0bbd68538d03366dc88743",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "git",
+        "java",
+        "rest apis"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "UST HealthProof",
+    "Title": "Java Full Stack Developer",
+    "Location": "California",
+    "PublishTime": "13 hours ago",
+    "MinYOE": null,
+    "MatchScore": 97.8181,
+    "MatchedSkills": [
+      "Java 8+",
+      "React",
+      "Angular",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "REST APIs",
+      "Microservices",
+      "Git",
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Spring MVC",
+      "JPA",
+      "Oracle"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b1346538d03366dc81513",
+    "JobId": "6a0b1346538d03366dc81513",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 18,
+      "matched_keyword_hits": [
+        "angular",
+        "javascript",
+        "microservices",
+        "mysql",
+        "postgresql",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": [
+        "java"
+      ]
+    }
+  },
+  {
+    "Company": "Synechron",
+    "Title": "Java Full Stack Developer",
+    "Location": "Charlotte, NC",
+    "PublishTime": "3 hours ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Java SE",
+      "Java EE",
+      "Angular 8+",
+      "RESTful APIs",
+      "Microservices architecture",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "SQL",
+      "NoSQL databases"
+    ],
+    "MissingSkills": [
+      "Agile",
+      "Scrum"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0ba2bf963f7a67d95d1dd2",
+    "JobId": "6a0ba2bf963f7a67d95d1dd2",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 5,
+      "matched_keyword_hits": [
+        "javascript"
+      ],
+      "title_keyword_hits": [
+        "java"
+      ]
+    }
+  },
+  {
+    "Company": "Optum",
+    "Title": "Full Stack Engineer",
+    "Location": "United States",
+    "PublishTime": "7 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 92.5938,
+    "MatchedSkills": [
+      "ReactJS",
+      "Java microservices",
+      "GraphQL",
+      "Azure cloud services",
+      "Kubernetes",
+      "CI/CD pipelines",
+      "GitHub Actions",
+      "GitHub",
+      "Docker",
+      "Azure Monitoring"
+    ],
+    "MissingSkills": [
+      "Azure Kubernetes Service (AKS)",
+      "Automation testing for UI and APIs",
+      "Application Insights",
+      "Splunk",
+      "Dynatrace"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b735ca235d749afa855ef",
+    "JobId": "6a0b735ca235d749afa855ef",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "docker",
+        "graphql",
+        "kubernetes"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "SWARCO McCain, Inc.",
+    "Title": "Software Engineer (Front-End)",
+    "Location": "Vista,CA,US",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 81.8931,
+    "MatchedSkills": [
+      "Angular",
+      "TypeScript",
+      "REST",
+      "NodeJS",
+      "GIT",
+      "AI development tools",
+      "MVC design pattern",
+      "SQL Server",
+      "MongoDB",
+      "Postman"
+    ],
+    "MissingSkills": [
+      "JSON",
+      "ASP.NET",
+      "Agile environment",
+      "MVVM design pattern",
+      "Swagger",
+      "HighCharts",
+      "PrimeNG",
+      "Pub/sub messaging",
+      "ASP.NET Core"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bb5ed963f7a67d95d2952",
+    "JobId": "6a0bb5ed963f7a67d95d2952",
+    "BaseTemplate": "FE_E",
+    "RoutingDetails": {
+      "family": "FE",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "angular",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "ODW Logistics",
+    "Title": "Software Engineer II",
+    "Location": "Hamilton, OH",
+    "PublishTime": "11 hours ago",
+    "MinYOE": "5",
+    "MatchScore": 85.0579,
+    "MatchedSkills": [
+      "SQL",
+      "RESTful API development",
+      "Git version control",
+      "Containerized development and deployment"
+    ],
+    "MissingSkills": [
+      "Backend programming language",
+      "Component-based frontend framework",
+      "Work within a team"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b2f2e4d9320363686e1c0",
+    "JobId": "6a0b2f2e4d9320363686e1c0",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Rivian and Volkswagen Group Technologies",
+    "Title": "Senior IoT Full-Stack Software Engineer",
+    "Location": "Irvine, California",
+    "PublishTime": "6 hours ago",
+    "MinYOE": "4",
+    "MatchScore": 91.4316,
+    "MatchedSkills": [
+      "Python",
+      "Object-Oriented Programming",
+      "React",
+      "TypeScript",
+      "CSS frameworks",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "MongoDB",
+      "SQL databases"
+    ],
+    "MissingSkills": [
+      "NextJS",
+      "Automotive domain",
+      "Robotics domain",
+      "Embedded Systems",
+      "Hardware Testing"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b7107963f7a67d95cfa78",
+    "JobId": "6a0b7107963f7a67d95cfa78",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 14,
+      "matched_keyword_hits": [
+        "aws",
+        "docker",
+        "kubernetes",
+        "mongodb",
+        "python",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "NuAxis Innovations",
+    "Title": "Jr. Software Developer",
+    "Location": "Vienna, VA",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 92.8768,
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "C++",
+      "JavaScript",
+      "Angular",
+      "React",
+      "Node.js",
+      "SQL",
+      "AWS",
+      "Azure",
+      "Git"
+    ],
+    "MissingSkills": [
+      "Agile",
+      "Scrum",
+      "Google Cloud",
+      "Cybersecurity"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b798e0411d7417a1b1586",
+    "JobId": "6a0b798e0411d7417a1b1586",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "aws",
+        "c++",
+        "git",
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Luma AI",
+    "Title": "Software Engineer - Growth",
+    "Location": "San Francisco Bay Area",
+    "PublishTime": "5 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 82.0772,
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "CSS",
+      "Performance optimization",
+      "A/B testing"
+    ],
+    "MissingSkills": [
+      "State management",
+      "Component design",
+      "Frontend architecture",
+      "Framer Motion",
+      "GSAP"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69a05a160836fe79d8614042",
+    "JobId": "69a05a160836fe79d8614042",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "VRChat Inc.",
+    "Title": "Senior Engineer - Trust and Safety",
+    "Location": "United States",
+    "PublishTime": "16 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 93.0326,
+    "MatchedSkills": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js",
+      "RESTful APIs",
+      "CSS",
+      "Version control systems",
+      "CI/CD pipelines"
+    ],
+    "MissingSkills": [
+      "Redis",
+      "Database design"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0ae4a9963f7a67d95ca474",
+    "JobId": "6a0ae4a9963f7a67d95ca474",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 3,
+      "matched_keyword_hits": [
+        "mongodb"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "The Standard",
+    "Title": "Software Engineer III",
+    "Location": "United States",
+    "PublishTime": "5 hours ago",
+    "MinYOE": "4",
+    "MatchScore": 90.6383,
+    "MatchedSkills": [
+      "Python",
+      "Java",
+      "React",
+      "Angular",
+      "Docker",
+      "Kubernetes",
+      "Azure Application Gateway",
+      "Azure API Management",
+      "Azure Event Hub",
+      "Kafka",
+      "Pytest",
+      "REST API development",
+      "CI/CD pipelines",
+      "Multi-modal data preprocessing"
+    ],
+    "MissingSkills": [
+      "FastAPI",
+      "Flask",
+      "Kong Konnect",
+      "Apache JMeter",
+      "SOAPUI",
+      "Poetry",
+      "PyLint",
+      "Azure DevOps",
+      "Agile methodology",
+      "DevOps methodology"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b809c0411d7417a1b1a63",
+    "JobId": "6a0b809c0411d7417a1b1a63",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 12,
+      "matched_keyword_hits": [
+        "docker",
+        "java",
+        "kafka",
+        "kubernetes",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Salesforce",
+    "Title": "Software Engineering MTS, Salesforce Developer",
+    "Location": "Indiana - Indianapolis, US",
+    "PublishTime": "5 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 89.6986,
+    "MatchedSkills": [
+      "Lightning Aura",
+      "Lightning Web Components",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Java",
+      "Object-oriented programming",
+      "Design patterns",
+      "Service Cloud",
+      "JUnit",
+      "REST APIs",
+      "SOAP APIs",
+      "Event-driven integration",
+      "Git",
+      "VS Code",
+      "Eclipse"
+    ],
+    "MissingSkills": [
+      "Force.com development",
+      "Apex",
+      "Visualforce",
+      "Software architecture",
+      "Test-driven development",
+      "Salesforce SOQL",
+      "Salesforce SOSL",
+      "DML operations",
+      "Sales Cloud",
+      "Selenium",
+      "Batch integration",
+      "Real-time integration",
+      "IntelliJ",
+      "Jenkins"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b7f9922d0d34036c8d00f",
+    "JobId": "6a0b7f9922d0d34036c8d00f",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "git",
+        "java",
+        "rest apis"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Google",
+    "Title": "Software Engineer, AI/ML Agentic AI Systems, Cloud Security",
+    "Location": "San Francisco, CA, USA",
+    "PublishTime": "14 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Python",
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "Large Language Models",
+      "Agentic AI systems",
+      "Machine learning platform",
+      "Model evaluation",
+      "Model optimization",
+      "Data processing",
+      "Debugging",
+      "Distributed systems",
+      "Cloud services",
+      "Data platforms"
+    ],
+    "MissingSkills": [
+      "GenAI technologies",
+      "Model deployment",
+      "Security domains"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b06e74d9320363686c892",
+    "JobId": "6a0b06e74d9320363686c892",
+    "BaseTemplate": "AI_E",
+    "RoutingDetails": {
+      "family": "AI",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": [
+        "agentic",
+        "ai"
+      ]
+    }
+  },
+  {
+    "Company": "Bamboo Health",
+    "Title": "Cloud Engineer",
+    "Location": "United States",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 86.1268,
+    "MatchedSkills": [
+      "AWS",
+      "Terraform",
+      "Python",
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "GitHub Actions",
+      "CodePipeline",
+      "AWS Cloud Practitioner Certification",
+      "AWS Solutions Architect Associate Certification"
+    ],
+    "MissingSkills": [
+      "CloudFormation",
+      "Bash",
+      "Storage",
+      "Jenkins",
+      "HL7",
+      "FHIR"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b77c7a235d749afa85aeb",
+    "JobId": "6a0b77c7a235d749afa85aeb",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 12,
+      "matched_keyword_hits": [
+        "aws",
+        "ci cd",
+        "docker",
+        "git",
+        "kubernetes",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "NRG Energy",
+    "Title": "Software Engineer",
+    "Location": "Utah, United States",
+    "PublishTime": "1 hour ago",
+    "MinYOE": "3",
+    "MatchScore": 82.8973,
+    "MatchedSkills": [
+      "TypeScript",
+      "JavaScript",
+      "Java",
+      "Python",
+      "REST APIs",
+      "Git",
+      "GitHub Actions",
+      "CI/CD"
+    ],
+    "MissingSkills": [
+      "C#",
+      "Cypress",
+      "Selenium",
+      "NUnit",
+      "Jest",
+      "Vitest",
+      "Azure DevOps",
+      "Jenkins",
+      "Automated Testing"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bc0c9538d03366dc887f3",
+    "JobId": "6a0bc0c9538d03366dc887f3",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "ci cd",
+        "git",
+        "java",
+        "python",
+        "rest apis"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Lenovo",
+    "Title": "Software Engineer (Node.js, Python, Go, Azure)",
+    "Location": "Chicago, Illinois",
+    "PublishTime": "10 hours ago",
+    "MinYOE": "3",
+    "MatchScore": 96.9975,
+    "MatchedSkills": [
+      "Node.js",
+      "Python",
+      "Azure",
+      "Open Source RDBMS",
+      "NoSQL databases",
+      "Docker",
+      "Java"
+    ],
+    "MissingSkills": [
+      "Go",
+      "Agile practices"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b40930411d7417a1aeab6",
+    "JobId": "6a0b40930411d7417a1aeab6",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 9,
+      "matched_keyword_hits": [
+        "docker",
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": [
+        "python"
+      ]
+    }
+  },
+  {
+    "Company": "Cartography Biosciences",
+    "Title": "DevOps Engineer, Cloud Infrastructure & Scientific Computing (Remote, Americas)",
+    "Location": "United States",
+    "PublishTime": "8 hours ago",
+    "MinYOE": "4",
+    "MatchScore": 87.9312,
+    "MatchedSkills": [
+      "AWS",
+      "Terraform",
+      "GitHub Actions",
+      "Docker",
+      "Python",
+      "Unix",
+      "Linux",
+      "Data Security"
+    ],
+    "MissingSkills": [
+      "Google Cloud Platform",
+      "Cromwell"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b5a69a235d749afa8463b",
+    "JobId": "6a0b5a69a235d749afa8463b",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "aws",
+        "docker",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "BrothersTech",
+    "Title": "Software Engineer",
+    "Location": "United States",
+    "PublishTime": "5 hours ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Programming languages",
+      "SQL",
+      "Relational databases"
+    ],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b895da235d749afa867a4",
+    "JobId": "6a0b895da235d749afa867a4",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Yahoo",
+    "Title": "Data Engineer - AI Semantic Analytics",
+    "Location": "United States of America, US",
+    "PublishTime": "11 hours ago",
+    "MinYOE": null,
+    "MatchScore": 85.6442,
+    "MatchedSkills": [
+      "AI-assisted querying",
+      "Natural language query frameworks",
+      "SQL",
+      "Data modeling"
+    ],
+    "MissingSkills": [
+      "Semantic analytics",
+      "BigQuery",
+      "MCP services",
+      "AI-assisted development tools"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0b2bdaa235d749afa82460",
+    "JobId": "6a0b2bdaa235d749afa82460",
+    "BaseTemplate": "DE_E",
+    "RoutingDetails": {
+      "family": "DE",
+      "is_new_grad": false,
+      "score": 5,
+      "matched_keyword_hits": [
+        "data modeling",
+        "sql"
+      ],
+      "title_keyword_hits": []
+    }
+  }
+]

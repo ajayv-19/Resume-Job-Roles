@@ -1,0 +1,39 @@
+# Keywords for SELLM_E (SE_LLM/E)
+# Best matches for role archetypes: ML Systems Engineer, Inference Engineer, LLM Infrastructure Engineer, ML Platform Engineer, AI Hardware Systems Engineer
+
+PyTorch
+JAX
+Dynamo
+TensorRT
+vLLM
+SGLang
+TorchXLA
+fine-tuning
+LoRA
+PEFT
+RoBERTa
+transformer
+ResNet
+CIFAR-10
+Lookahead optimizer
+TensorBoard
+Python
+C++
+inference
+model deployment
+model evaluation
+training optimization
+AWS Bedrock
+AWS SageMaker
+RAG
+LangChain
+FAISS
+MCP
+distributed systems
+AWS CDK
+Kubernetes
+Docker
+CI/CD
+LLM
+LLMs
+agentic

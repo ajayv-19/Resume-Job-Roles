@@ -1,0 +1,168 @@
+{
+  "_description": "Master registry of base resume templates. Each entry lists the keywords this template is best suited to match against (drawn from the resume's skills section + bullet emphasis + project pool). Routing scores each template by overlap with a JD's matched/missing skills + title tokens, picks the highest.",
+  "_suffix_meanings": {
+    "E": "Entry / default — primary variant for most applications",
+    "NG": "No Gap — fresh-graduate framing, hides employment gap",
+    "L": "LinkedIn — LinkedIn-specific copy, NOT seniority. Never auto-routed."
+  },
+  "templates": [
+    {
+      "code": "SEP_E",
+      "path": "SE/P/E",
+      "role_archetypes": ["Software Engineer", "Backend Engineer", "Software Developer", "Application Engineer"],
+      "keywords": [
+        "Python", "Django", "FastAPI", "Flask", "REST API", "REST APIs", "GraphQL",
+        "microservices", "backend", "backend systems",
+        "PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "Redis",
+        "AWS", "AWS Lambda", "AWS CDK", "AWS S3", "AWS EC2", "AWS API Gateway", "AWS IAM",
+        "Docker", "Kubernetes", "CI/CD", "Git", "GitHub",
+        "unit testing", "integration testing", "Mockito",
+        "distributed systems", "event-driven", "Kafka",
+        "Java"
+      ]
+    },
+    {
+      "code": "SEP_NG",
+      "path": "SE/P/NG",
+      "role_archetypes": ["Early Career Software Engineer", "Junior Software Engineer", "New Grad SDE", "Software Engineer I", "Emerging Talent"],
+      "keywords": [
+        "Python", "Django", "FastAPI", "REST API", "microservices",
+        "PostgreSQL", "MySQL", "MongoDB",
+        "AWS", "Docker", "Kubernetes", "CI/CD", "Git",
+        "data structures", "algorithms", "operating systems",
+        "Java", "C++"
+      ]
+    },
+    {
+      "code": "SEJ_E",
+      "path": "SE/J/E",
+      "role_archetypes": ["Java Developer", "Backend Java Engineer", "Java Software Engineer", "Software Engineer (Java)"],
+      "keywords": [
+        "Java", "Spring", "Spring Boot", "Spring MVC", "J2EE", "Java EE", "Maven", "Hibernate", "JPA",
+        "microservices", "REST API", "REST APIs", "GraphQL",
+        "MySQL", "PostgreSQL", "MongoDB", "Cassandra", "Oracle",
+        "AWS", "Azure", "Docker", "Kubernetes", "CI/CD",
+        "JUnit", "Mockito", "TestNG", "Kafka", "RabbitMQ",
+        "concurrent programming", "multithreading"
+      ]
+    },
+    {
+      "code": "SEJ_NG",
+      "path": "SE/J/NG",
+      "role_archetypes": ["Java Developer (Entry)", "Junior Java Engineer", "Software Engineer I Java"],
+      "keywords": [
+        "Java", "Spring", "Spring Boot", "REST API", "microservices",
+        "MySQL", "PostgreSQL", "AWS", "Docker", "JUnit",
+        "data structures", "algorithms", "OOP", "design patterns"
+      ]
+    },
+    {
+      "code": "SEAI_E",
+      "path": "SE_AI/E",
+      "role_archetypes": ["Software Engineer with AI", "Full Stack AI Engineer", "AI-powered Application Engineer", "AI Software Engineer"],
+      "keywords": [
+        "Python", "AWS Bedrock", "LangChain", "FAISS", "RAG", "Retrieval-Augmented Generation",
+        "LLM", "LLMs", "agentic", "agentic workflow", "Model Context Protocol", "MCP",
+        "prompt engineering", "embedding", "embeddings", "semantic search",
+        "Hugging Face", "GPT-4", "Claude", "OpenAI",
+        "AWS", "AWS SageMaker", "Lambda", "ECS Fargate",
+        "REST API", "microservices", "backend", "Docker", "Kubernetes",
+        "PyTorch", "TensorFlow"
+      ]
+    },
+    {
+      "code": "SELLM_E",
+      "path": "SE_LLM/E",
+      "role_archetypes": ["ML Systems Engineer", "Inference Engineer", "LLM Infrastructure Engineer", "ML Platform Engineer", "AI Hardware Systems Engineer"],
+      "keywords": [
+        "PyTorch", "JAX", "Dynamo", "TensorRT", "vLLM", "SGLang", "TorchXLA",
+        "fine-tuning", "LoRA", "PEFT", "RoBERTa", "transformer",
+        "ResNet", "CIFAR-10", "Lookahead optimizer", "TensorBoard",
+        "Python", "C++",
+        "inference", "model deployment", "model evaluation", "training optimization",
+        "AWS Bedrock", "AWS SageMaker", "RAG", "LangChain", "FAISS", "MCP",
+        "distributed systems", "AWS CDK", "Kubernetes", "Docker", "CI/CD",
+        "LLM", "LLMs", "agentic"
+      ]
+    },
+    {
+      "code": "AI_E",
+      "path": "AI/E",
+      "role_archetypes": ["AI Engineer", "ML Engineer", "Machine Learning Engineer", "AI/ML Engineer", "Applied AI", "GenAI Engineer"],
+      "keywords": [
+        "PyTorch", "TensorFlow", "Hugging Face", "Transformers",
+        "LLM Fine-tuning", "RAG", "LangChain", "LangGraph", "FAISS",
+        "Bedrock", "AWS SageMaker", "prompt engineering", "embeddings",
+        "NLP", "Deep Learning", "Computer Vision", "YOLOv8", "EfficientNet",
+        "MLflow", "MLOps", "Pandas", "NumPy", "scikit-learn",
+        "agentic", "MCP", "GPT-4", "Claude", "OpenAI",
+        "Python", "machine learning", "AI"
+      ]
+    },
+    {
+      "code": "AI_NG",
+      "path": "AI/NG",
+      "role_archetypes": ["AI Engineer (Entry)", "ML Engineer (Junior)", "Applied AI Engineer New Grad"],
+      "keywords": [
+        "PyTorch", "TensorFlow", "Hugging Face", "machine learning",
+        "deep learning", "NLP", "computer vision",
+        "LLM", "RAG", "Python", "Pandas", "NumPy"
+      ]
+    },
+    {
+      "code": "DE_E",
+      "path": "DE/E",
+      "role_archetypes": ["Data Engineer", "Data Engineering", "Analytics Engineer", "Big Data Engineer", "BI Engineer", "ETL Engineer", "Data Platform Engineer"],
+      "keywords": [
+        "PySpark", "Apache Spark", "Spark SQL", "Spark MLlib",
+        "Hadoop", "HDFS", "ETL", "ELT", "data pipelines", "data modeling", "data warehousing",
+        "Airflow", "dbt", "Kafka",
+        "Snowflake", "BigQuery", "Redshift", "Glue", "Athena",
+        "SQL", "PostgreSQL", "MySQL", "SQL Server", "Oracle",
+        "AWS", "Azure Data Factory", "Azure Data Lake", "GCP",
+        "Python", "Scala", "Power BI", "QuickSight", "Tableau"
+      ]
+    },
+    {
+      "code": "FE_E",
+      "path": "FE/E",
+      "role_archetypes": ["Frontend Engineer", "Frontend Software Engineer", "UI Engineer", "React Engineer", "Web Frontend Developer"],
+      "keywords": [
+        "React", "React 18", "Next.js", "Angular", "Vue", "Vue.js",
+        "TypeScript", "JavaScript", "JavaScript (ES6)", "HTML", "HTML5", "CSS", "CSS3",
+        "Redux", "Context API", "state management",
+        "Webpack", "Vite", "Jest", "Vitest", "Cypress", "Playwright",
+        "responsive design", "accessibility", "design systems",
+        "Node.js", "REST API", "GraphQL"
+      ]
+    },
+    {
+      "code": "FS_E",
+      "path": "FS/E",
+      "role_archetypes": ["Full Stack Engineer", "Full Stack Developer", "Fullstack Software Engineer", "Web Application Engineer", "Mobile Engineer"],
+      "keywords": [
+        "React", "Next.js", "Angular", "Vue",
+        "Node.js", "Express", "Express.js", "Nest.js",
+        "TypeScript", "JavaScript", "Python", "Django", "FastAPI", "Java", "Spring Boot",
+        "REST API", "GraphQL", "microservices",
+        "MongoDB", "PostgreSQL", "MySQL", "DynamoDB", "Redis",
+        "AWS", "Docker", "Kubernetes", "CI/CD",
+        "Jest", "Vitest", "Cypress",
+        "iOS", "Android", "React Native", "mobile"
+      ]
+    },
+    {
+      "code": "CE_E",
+      "path": "CE/E",
+      "role_archetypes": ["Cloud Engineer", "Enterprise Software Engineer", ".NET Developer", "C# Developer", "Microsoft Stack Engineer", "Dynamics 365 Developer"],
+      "keywords": [
+        "C#", ".NET", ".NET Core", ".NET Framework", "ASP.NET",
+        "Azure", "Azure Functions", "Azure Logic Apps", "Azure DevOps", "Azure AI Services",
+        "SQL Server", "T-SQL", "Dataverse",
+        "Microsoft Dynamics", "CRM", "Power BI", "Power Automate", "Power Platform",
+        "REST API", "microservices", "Visual Studio",
+        "Microsoft technology stack"
+      ]
+    }
+  ]
+}

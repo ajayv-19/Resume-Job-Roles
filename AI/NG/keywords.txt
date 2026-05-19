@@ -1,0 +1,15 @@
+# Keywords for AI_NG (AI/NG)
+# Best matches for role archetypes: AI Engineer (Entry), ML Engineer (Junior), Applied AI Engineer New Grad
+
+PyTorch
+TensorFlow
+Hugging Face
+machine learning
+deep learning
+NLP
+computer vision
+LLM
+RAG
+Python
+Pandas
+NumPy

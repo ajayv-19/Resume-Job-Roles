@@ -1,0 +1,31 @@
+# Keywords for FE_E (FE/E)
+# Best matches for role archetypes: Frontend Engineer, Frontend Software Engineer, UI Engineer, React Engineer, Web Frontend Developer
+
+React
+React 18
+Next.js
+Angular
+Vue
+Vue.js
+TypeScript
+JavaScript
+JavaScript (ES6)
+HTML
+HTML5
+CSS
+CSS3
+Redux
+Context API
+state management
+Webpack
+Vite
+Jest
+Vitest
+Cypress
+Playwright
+responsive design
+accessibility
+design systems
+Node.js
+REST API
+GraphQL

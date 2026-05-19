@@ -1,0 +1,37 @@
+# Keywords for FS_E (FS/E)
+# Best matches for role archetypes: Full Stack Engineer, Full Stack Developer, Fullstack Software Engineer, Web Application Engineer, Mobile Engineer
+
+React
+Next.js
+Angular
+Vue
+Node.js
+Express
+Express.js
+Nest.js
+TypeScript
+JavaScript
+Python
+Django
+FastAPI
+Java
+Spring Boot
+REST API
+GraphQL
+microservices
+MongoDB
+PostgreSQL
+MySQL
+DynamoDB
+Redis
+AWS
+Docker
+Kubernetes
+CI/CD
+Jest
+Vitest
+Cypress
+iOS
+Android
+React Native
+mobile

@@ -1,0 +1,34 @@
+# Keywords for AI_E (AI/E)
+# Best matches for role archetypes: AI Engineer, ML Engineer, Machine Learning Engineer, AI/ML Engineer, Applied AI, GenAI Engineer
+
+PyTorch
+TensorFlow
+Hugging Face
+Transformers
+LLM Fine-tuning
+RAG
+LangChain
+LangGraph
+FAISS
+Bedrock
+AWS SageMaker
+prompt engineering
+embeddings
+NLP
+Deep Learning
+Computer Vision
+YOLOv8
+EfficientNet
+MLflow
+MLOps
+Pandas
+NumPy
+scikit-learn
+agentic
+MCP
+GPT-4
+Claude
+OpenAI
+Python
+machine learning
+AI

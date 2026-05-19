@@ -1,0 +1,25 @@
+# Keywords for CE_E (CE/E)
+# Best matches for role archetypes: Cloud Engineer, Enterprise Software Engineer, .NET Developer, C# Developer, Microsoft Stack Engineer, Dynamics 365 Developer
+
+C#
+.NET
+.NET Core
+.NET Framework
+ASP.NET
+Azure
+Azure Functions
+Azure Logic Apps
+Azure DevOps
+Azure AI Services
+SQL Server
+T-SQL
+Dataverse
+Microsoft Dynamics
+CRM
+Power BI
+Power Automate
+Power Platform
+REST API
+microservices
+Visual Studio
+Microsoft technology stack
