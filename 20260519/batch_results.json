@@ -1,0 +1,834 @@
+[
+  {
+    "Company": "CalAmp",
+    "Title": "Software Engineer II",
+    "Template": "SEJ_E",
+    "MatchScore": 97.8311,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d0adea235d749afa93062",
+    "PDF": "20260519/CalAmp/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Redis"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Production environment monitoring"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Cliff Services Inc",
+    "Title": "W2 Java Developer (Kotlin + AI Tools Preferred)",
+    "Template": "SEJ_E",
+    "MatchScore": 91.9228,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d34f44d9320363687fb69",
+    "PDF": "20260519/Cliff_Services_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Kotlin",
+      "Spring Boot"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend Development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Telnyx",
+    "Title": "Senior Software Engineer, Java",
+    "Template": "SEJ_E",
+    "MatchScore": 97.0418,
+    "JobLink": "https://jobright.ai/jobs/info/69efb8e058811370cb148043",
+    "PDF": "20260519/Telnyx/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Scala",
+      "ClickHouse",
+      "OpenSearch"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Loft Orbital",
+    "Title": "Frontend Engineer",
+    "Template": "FE_E",
+    "MatchScore": 82.8554,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d35ad0411d7417a1c01ad",
+    "PDF": "20260519/Loft_Orbital/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Single Page Applications (SPAs)",
+      "UI/UX sensibility"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Delta Dental Ins.",
+    "Title": "Software Engineer (Java back-end)",
+    "Template": "SEJ_E",
+    "MatchScore": 88.8727,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c810d538d03366dc8dfd4",
+    "PDF": "20260519/Delta_Dental_Ins/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "GCP",
+      "Collections"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Exception handling",
+      "Agile development methodologies",
+      "Cloud security",
+      "Cloud application development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "STERIS",
+    "Title": "Senior Software Engineer",
+    "Template": "SEP_E",
+    "MatchScore": 93.1478,
+    "JobLink": "https://jobright.ai/jobs/info/69d6a5f3e63cea7a8b66a6cb",
+    "PDF": "20260519/STERIS/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Azure AD"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "NET Core",
+      "ASP.NET Core",
+      "Test automation",
+      "IoT integration"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Live Nation Entertainment",
+    "Title": "Software Engineer II",
+    "Template": "SEJ_E",
+    "MatchScore": 87.7792,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cd283538d03366dc91955",
+    "PDF": "20260519/Live_Nation_Entertainment/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot MVC",
+      "Spring WebFlux",
+      "CloudFormation",
+      "Maven",
+      "Gradle"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Caching strategies"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Latitude AI",
+    "Title": "Software Engineer I",
+    "Template": "SEP_NG",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c8b2d4d9320363687921a",
+    "PDF": "20260519/Latitude_AI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Jenkins"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "TomoCredit",
+    "Title": "Software Engineer III",
+    "Template": "SEP_E",
+    "MatchScore": 96.7481,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d3544a235d749afa94257",
+    "PDF": "20260519/TomoCredit/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "AWS EBS",
+      "AWS RDS",
+      "AWS CloudWatch",
+      "Redshift"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Messaging queues"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Tristar AI",
+    "Title": "Full-Stack and Software Support Engineer",
+    "Template": "FS_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cc91d22d0d34036c98421",
+    "PDF": "20260519/Tristar_AI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "NextJS"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "WalkMe",
+    "Title": "Software Engineer",
+    "Template": "SEP_E",
+    "MatchScore": 97.2132,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c8c0e22d0d34036c95572",
+    "PDF": "20260519/WalkMe/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "JavaScript architecture",
+      "Chrome inspector debugging"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "KPMG",
+    "Title": "Front End Engineer- Senior Associate",
+    "Template": "FE_E",
+    "MatchScore": 95.8377,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d34bc0411d7417a1c015f",
+    "PDF": "20260519/KPMG/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Azure DevOps"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Agile development methodology"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Gen II Fund Services",
+    "Title": "Full Stack Software Engineer",
+    "Template": "FS_E",
+    "MatchScore": 95.7693,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c8ff322d0d34036c959c7",
+    "PDF": "20260519/Gen_II_Fund_Services/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data",
+      "Azure DevOps",
+      "Jest"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Secure coding practices"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Gamma",
+    "Title": "Software Engineer, Growth",
+    "Template": "SEP_E",
+    "MatchScore": 92.389,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d197122d0d34036c9b816",
+    "PDF": "20260519/Gamma/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Paywalls"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Onboarding systems",
+      "Referral systems"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Dave",
+    "Title": "Software Engineer II, Fullstack",
+    "Template": "FS_E",
+    "MatchScore": 96.9971,
+    "JobLink": "https://jobright.ai/jobs/info/6a04383e7c753c287f6edbdf",
+    "PDF": "20260519/Dave/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Go",
+      "Google Cloud Platform"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Component design",
+      "Give and receive constructive feedback"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "GEI Consultants, Inc.",
+    "Title": "Full Stack Engineer",
+    "Template": "FS_E",
+    "MatchScore": 95.5565,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d2c580411d7417a1bff7d",
+    "PDF": "20260519/GEI_Consultants_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Microsoft Azure AI",
+      "Azure Logic Apps",
+      "Azure monitoring tools",
+      "Azure DevOps",
+      "NET"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Authentication using Entra ID",
+      "Secure coding practices",
+      "Data privacy",
+      "Application security best practices"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Lightning AI",
+    "Title": "Fullstack Engineer",
+    "Template": "FS_E",
+    "MatchScore": 90.6434,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d02aa4d9320363687e4ab",
+    "PDF": "20260519/Lightning_AI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Go"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Fullstack Engineering",
+      "SaaS Technology"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Mastery Logistics Systems",
+    "Title": "Senior Full Stack Software Engineer",
+    "Template": "FS_E",
+    "MatchScore": 95.7849,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c7392963f7a67d95d7d5a",
+    "PDF": "20260519/Mastery_Logistics_Systems/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Event Sourcing",
+      "AI assisted engineering",
+      "Constructive Feedback"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Synchrony",
+    "Title": "Software Development Engineer - II",
+    "Template": "SEP_E",
+    "MatchScore": 87.8424,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c9896538d03366dc8f0ad",
+    "PDF": "20260519/Synchrony/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Framework",
+      "Spring Boot",
+      "Jira",
+      "JSON",
+      "XML"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "SOAP web services"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Capgemini",
+    "Title": "SRE / DevOps Engineer",
+    "Template": "SEP_E",
+    "MatchScore": 94.8381,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d46a4963f7a67d95dfd16",
+    "PDF": "20260519/Capgemini/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "JSON"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "The Real Deal",
+    "Title": "Full Stack Developer",
+    "Template": "FS_E",
+    "MatchScore": 82.3095,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c706b538d03366dc8d39c",
+    "PDF": "20260519/The_Real_Deal/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Next.js",
+      "WordPress"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Full Stack Development",
+      "Responsive Web Applications",
+      "Web Performance",
+      "Accessibility (WCAG)",
+      "SEO Best Practices"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "ADVATIX - Advanced Supply Chain and Logistics",
+    "Title": "Senior Full-stack Engineer",
+    "Template": "FS_E",
+    "MatchScore": 97.4936,
+    "JobLink": "https://jobright.ai/jobs/info/6a0ccbf0538d03366dc91420",
+    "PDF": "20260519/ADVATIX_-_Advanced_Supply_Chain_and_Logistics/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "AI-powered development tools"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Mem0",
+    "Title": "Backend Engineer",
+    "Template": "SEP_E",
+    "MatchScore": 88.719,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d18730411d7417a1bf330",
+    "PDF": "20260519/Mem0/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "FastAPI",
+      "Django",
+      "Flask"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Query tuning",
+      "Amazon Neptune",
+      "Root-cause analysis"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Lightning AI",
+    "Title": "Frontend Engineer",
+    "Template": "FE_E",
+    "MatchScore": 91.71,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d02d7a235d749afa92bed",
+    "PDF": "20260519/Lightning_AI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Frontend Engineering",
+      "SaaS Technology"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "VistalTech Inc",
+    "Title": "Java Software Engineer",
+    "Template": "SEJ_E",
+    "MatchScore": 97.3222,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c864a0411d7417a1b975a",
+    "PDF": "20260519/VistalTech_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring MVC",
+      "Spring REST"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "SOAP Web Services"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Arkhya Tech. Inc.",
+    "Title": "Full Stack Engineer",
+    "Template": "FS_E",
+    "MatchScore": 94.5447,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cbebb4d9320363687b7c6",
+    "PDF": "20260519/Arkhya_Tech_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "GRPC"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      ".NET",
+      "Cosmos DB"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Secureframe",
+    "Title": "New Grad Software Engineer, Growth",
+    "Template": "SEP_NG",
+    "MatchScore": 86.8315,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c8b354d9320363687922f",
+    "PDF": "20260519/Secureframe/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Ruby",
+      "RAG pipelines"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "AI-powered workflows"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Wells Fargo",
+    "Title": "Senior Software Engineer",
+    "Template": "SEP_E",
+    "MatchScore": 95.9714,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d15fb963f7a67d95de58a",
+    "PDF": "20260519/Wells_Fargo/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Framework",
+      "Google Cloud Platform",
+      "LangGraph",
+      "J2EE"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Agent-based Frameworks",
+      "Virtual Assistant Platforms"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Micron Technology",
+    "Title": "New College Grad - Software Engineer, Full Stack",
+    "Template": "FS_E",
+    "MatchScore": 88.4687,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c7e6e963f7a67d95d85bc",
+    "PDF": "20260519/Micron_Technology/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Model Context Protocol (MCP)",
+      "Retrieval-Augmented Generation (RAG)",
+      "ASP.NET"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend Development",
+      "Full-Stack Development",
+      "Data Persistence",
+      "AI-Assisted Development Tools",
+      "System Observability",
+      "System Performance"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Gen II Fund Services",
+    "Title": "Full Stack Software Engineer",
+    "Template": "FS_E",
+    "MatchScore": 95.7693,
+    "JobLink": "https://jobright.ai/jobs/info/6a0ca823a235d749afa8ec58",
+    "PDF": "20260519/Gen_II_Fund_Services/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data",
+      "Azure DevOps",
+      "Jest"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Secure coding practices"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Bedrock Security",
+    "Title": "Engineer, Backend",
+    "Template": "SEJ_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a0ce3b9963f7a67d95dcb34",
+    "PDF": "20260519/Bedrock_Security/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Golang"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "QXO",
+    "Title": "Senior Software Engineer",
+    "Template": "SEP_NG",
+    "MatchScore": 93.9045,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cba6422d0d34036c97b5b",
+    "PDF": "20260519/QXO/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Kotlin",
+      "Go",
+      "Next.js",
+      "GCP"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Commure",
+    "Title": "Software Engineer, Air AI",
+    "Template": "SEP_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d18500411d7417a1bf323",
+    "PDF": "20260519/Commure/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Fullstack development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Secureframe",
+    "Title": "Software Engineer",
+    "Template": "SEP_E",
+    "MatchScore": 81.7363,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c1aba538d03366dc8a776",
+    "PDF": "20260519/Secureframe/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Ruby on Rails",
+      "Elasticsearch"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend programming language",
+      "Product ownership"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Scribd, Inc.",
+    "Title": "Software Engineer II (Signup & Activation)",
+    "Template": "SEP_E",
+    "MatchScore": 81.8901,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cfb22963f7a67d95dd80a",
+    "PDF": "20260519/Scribd_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Next.js",
+      "Ruby on Rails",
+      "Accessibility"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "State management",
+      "Component architecture",
+      "Personalization systems"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Carvana",
+    "Title": "Software Engineer",
+    "Template": "SEP_NG",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cfcbda235d749afa92707",
+    "PDF": "20260519/Carvana/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Redis",
+      "Google Cloud Platform"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Major League Baseball (MLB)",
+    "Title": "Associate Software Engineer",
+    "Template": "SEP_E",
+    "MatchScore": 88.5905,
+    "JobLink": "https://jobright.ai/jobs/info/69efda104b0fa35a7078c23a",
+    "PDF": "20260519/Major_League_Baseball_MLB/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring",
+      "NestJS",
+      "BigQuery",
+      "Google Cloud Platform",
+      "ActiveMQ",
+      "Bigtable"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Afresh",
+    "Title": "Senior Full-Stack Engineer - Production Planning",
+    "Template": "FS_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c94c8538d03366dc8ee23",
+    "PDF": "20260519/Afresh/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "DBT"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "WHOOP",
+    "Title": "Software Engineer I (Frontend, Growth)",
+    "Template": "FE_E",
+    "MatchScore": 97.2775,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cfc89963f7a67d95dd8d0",
+    "PDF": "20260519/WHOOP/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Responsive design"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Spotify",
+    "Title": "Full Stack Engineer - Podcast",
+    "Template": "FS_E",
+    "MatchScore": 93.4737,
+    "JobLink": "https://jobright.ai/jobs/info/6a0ca79d538d03366dc8f64b",
+    "PDF": "20260519/Spotify/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend development",
+      "Frontend SDK development",
+      "Agile software development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Alarm.com",
+    "Title": "Software Engineer II",
+    "Template": "SEP_E",
+    "MatchScore": 85.7827,
+    "JobLink": "https://jobright.ai/jobs/info/69d424becfdc6132f94581cf",
+    "PDF": "20260519/Alarm_com/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Vue",
+      "Ember"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Database schema design",
+      "Database performance analysis",
+      "Front-end frameworks",
+      "Messaging technologies",
+      "High-availability service development",
+      "High-throughput service development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Vivid Seats",
+    "Title": "Software Engineer (Web)",
+    "Template": "SEP_E",
+    "MatchScore": 84.9212,
+    "JobLink": "https://jobright.ai/jobs/info/69a760b876bbe83d3afac306",
+    "PDF": "20260519/Vivid_Seats/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Next.js",
+      "Zustand",
+      "Jest",
+      "Mocha",
+      "Enzyme"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Egen",
+    "Title": "Senior Application Engineer- Python/JavaScript/Typescript",
+    "Template": "SEP_E",
+    "MatchScore": 97.5125,
+    "JobLink": "https://jobright.ai/jobs/info/69faaf8318b94b2515bdbf25",
+    "PDF": "20260519/Egen/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Agile",
+      "Scrum"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Google Cloud",
+      "12-factor app methodology",
+      "Configuration management",
+      "Secret management"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "ASSA ABLOY Group",
+    "Title": "Junior Software Engineer",
+    "Template": "SEJ_NG",
+    "MatchScore": 85.7067,
+    "JobLink": "https://jobright.ai/jobs/info/6a0ca2e022d0d34036c968e6",
+    "PDF": "20260519/ASSA_ABLOY_Group/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "DirectX",
+      "OpenGL"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Microsoft .NET Framework",
+      ".NET",
+      "Software development methodologies - Lean",
+      "Mobile device development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Proofpoint",
+    "Title": "Software Engineer",
+    "Template": "SEP_E",
+    "MatchScore": 88.5718,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cf2610411d7417a1be186",
+    "PDF": "20260519/Proofpoint/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Go",
+      "GCP",
+      "Goroutine"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend fundamentals",
+      "Messaging systems",
+      "Asynchronous development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Link Technologies",
+    "Title": "Full Stack Engineer",
+    "Template": "FS_E",
+    "MatchScore": 90.3075,
+    "JobLink": "https://jobright.ai/jobs/info/6a0ce1dfa235d749afa9172c",
+    "PDF": "20260519/Link_Technologies/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Next.js",
+      "Tailwind"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "C#/.NET Core"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Autodesk",
+    "Title": "Software Engineer",
+    "Template": "SEJ_E",
+    "MatchScore": 93.5436,
+    "JobLink": "https://jobright.ai/jobs/info/6a0c655a0411d7417a1b8549",
+    "PDF": "20260519/Autodesk/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Full stack development",
+      "Content Delivery Network (CDN) concepts",
+      "AI-assisted development tools"
+    ],
+    "Compile": "OK"
+  }
+]

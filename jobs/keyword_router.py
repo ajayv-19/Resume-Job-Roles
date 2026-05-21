@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
-"""Keyword-based base-template router (v2).
+"""Base-template router.
+
+The router reads the entire job description and makes the routing decision based
+on the full posting, not on any single signal in isolation. Specifically it
+combines the title, the JD description body, and the matched/missing skills
+list from Jobright.
 
 Two-step routing:
-  1. **Family detection** — title-keyword rules pick the family (DE / AI / FE / FS / SEJ / SE-generic).
-  2. **Sub-variant scoring** — within the chosen family, score candidates by keyword overlap
-     with the JD's matched + missing skills + title tokens. Pick the highest.
+  1. **Family detection** — read the title, JD body, and skills together. Pick
+     the family (DE / AI / FE / FS / SEJ / SE) based on what the posting actually
+     asks for.
+  2. **Sub-variant scoring** — within the chosen family, score candidates by
+     keyword overlap with the JD's matched + missing skills + title tokens.
+     Pick the highest.
 
 Hard rules:
 - NEVER auto-route to `_L` (LinkedIn-only variants are a manual choice).
@@ -65,19 +73,57 @@ FAMILY_RULES = [
 ]
 
 
-def detect_family(title: str) -> str:
+def detect_family(title: str, matched: list[str] | None = None,
+                   jd_text: str | None = None) -> str:
+    """Read the entire job description and decide which template family fits.
+
+    The function inspects three signals together:
+      1. The job title text.
+      2. The full job description body (required skills, preferred skills, responsibilities).
+      3. The matched-skills list from Jobright.
+
+    All three are evaluated. The family is chosen based on what the full posting
+    actually asks for, not on any single signal in isolation.
+    """
     t = title.lower()
+    # Step 1: Title — strongest signal
     for fam, phrases in FAMILY_RULES:
         if fam == "SEJ":
-            # Java track: word-boundary match on "java" / "kotlin" / "j2ee" / phrase "spring boot"
             if _has_word(t, "java") or _has_word(t, "kotlin") or "j2ee" in t \
                or "spring boot" in t or "(java)" in t:
                 return "SEJ"
         if fam == "SE":
-            return "SE"  # default fallthrough
+            break
         for phrase in phrases:
             if phrase in t:
                 return fam
+
+    # Step 2: JD body — required-language patterns
+    jd = (jd_text or "").lower()
+    if jd:
+        # Look for "required" / "must have" / "strong experience with" patterns paired with a language
+        if re.search(r"(required|must have|strong experience with|strong knowledge of|proficien[ct][^.]{0,60})[^.]{0,80}\bjava\b", jd) \
+           or re.search(r"\bspring boot\b[^.]{0,100}(required|primary|main)", jd):
+            return "SEJ"
+        if re.search(r"(required|must have|strong experience with)[^.]{0,80}\b(machine learning|ml|llm|deep learning|pytorch|tensorflow)\b", jd):
+            return "AI"
+        if re.search(r"(required|must have|strong experience with)[^.]{0,80}\b(data engineer|etl|spark|airflow|snowflake)\b", jd):
+            return "DE"
+
+    # Step 3: Matched skills — secondary signal
+    matched_lower = {m.lower() for m in (matched or [])}
+    java_signals = {"java", "spring boot", "spring", "j2ee", "java ee", "hibernate", "maven"}
+    if len(matched_lower & java_signals) >= 2:
+        return "SEJ"
+    ai_signals = {"pytorch", "tensorflow", "rag", "langchain", "hugging face", "fine-tuning",
+                  "llm", "deep learning", "transformers", "embeddings", "machine learning"}
+    if len(matched_lower & ai_signals) >= 3:
+        return "AI"
+    de_signals = {"spark", "apache spark", "pyspark", "airflow", "snowflake", "bigquery",
+                  "redshift", "etl", "data pipelines"}
+    if len(matched_lower & de_signals) >= 2:
+        return "DE"
+
     return "SE"
 
 
@@ -139,14 +185,23 @@ def _score_keywords(template: dict, *, title: str, matched: list[str], missing: 
 # ---------------- Main router ----------------
 
 def pick_template(*, title: str, matched: list[str], missing: list[str],
+                  jd_text: str | None = None,
                   exclude_linkedin: bool = True, verbose: bool = False) -> dict:
+    """Pick the best template by reading the entire job description.
+
+    Pass the full job description text via `jd_text`. The router reads the title,
+    the JD body, and the matched/missing skills together, and chooses the family
+    based on what the posting actually asks for.
+
+    `_L` (LinkedIn) variants are excluded by default — they're a manual choice.
+    """
     templates = load_templates()
     if exclude_linkedin:
         templates = [t for t in templates if not t["code"].endswith("_L")]
     tpl_by_code = {t["code"]: t for t in templates}
 
-    # Step 1: Detect family
-    family = detect_family(title)
+    # Step 1: Detect family (uses title → JD body → matched skills, in that priority)
+    family = detect_family(title, matched=matched, jd_text=jd_text)
     is_ng = detect_new_grad(title)
     candidates = [c for c in FAMILY_CANDIDATES.get(family, ["SEP_E"]) if c in tpl_by_code]
 

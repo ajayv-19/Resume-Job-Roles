@@ -1,0 +1,1575 @@
+[
+  {
+    "Company": "CalAmp",
+    "Title": "Software Engineer II",
+    "Location": "US-CA-Carlsbad",
+    "PublishTime": "1 day ago",
+    "MinYOE": "3",
+    "MatchScore": 97.8311,
+    "MatchedSkills": [
+      "Java",
+      "Object-oriented programming",
+      "Microservices",
+      "Distributed systems",
+      "AWS",
+      "System design",
+      "Debugging",
+      "Performance optimization",
+      "Kafka",
+      "Kubernetes",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Production environment monitoring",
+      "Redis"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0d0adea235d749afa93062",
+    "JobId": "6a0d0adea235d749afa93062",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SEJ",
+      "is_new_grad": false,
+      "score": 15,
+      "matched_keyword_hits": [
+        "aws",
+        "docker",
+        "java",
+        "kafka",
+        "kubernetes",
+        "microservices",
+        "postgresql"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Lightning AI",
+    "Title": "Fullstack Engineer",
+    "Location": "Buffalo-Niagara Area",
+    "PublishTime": "1 day ago",
+    "MinYOE": null,
+    "MatchScore": 90.6434,
+    "MatchedSkills": [
+      "React",
+      "Python",
+      "Software Engineering Principles"
+    ],
+    "MissingSkills": [
+      "Go",
+      "Fullstack Engineering",
+      "SaaS Technology"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0d02aa4d9320363687e4ab",
+    "JobId": "6a0d02aa4d9320363687e4ab",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "python",
+        "react"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Wolverine Trading",
+    "Title": "Entry-Level C++ Software Engineer",
+    "Location": "Chicago, IL",
+    "PublishTime": "1 hour ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "C++",
+      "Object-oriented design",
+      "Data structures",
+      "Algorithms",
+      "Multi-threaded programming",
+      "Performance tuning"
+    ],
+    "MissingSkills": [
+      "Real-time systems"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e941a47fea1610bcab1be",
+    "JobId": "6a0e941a47fea1610bcab1be",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 9,
+      "matched_keyword_hits": [
+        "algorithms",
+        "c++",
+        "data structures"
+      ],
+      "title_keyword_hits": [
+        "c++"
+      ]
+    }
+  },
+  {
+    "Company": "Stuller, Inc.",
+    "Title": "Business Analyst",
+    "Location": "Lafayette, LA 70508, USA",
+    "PublishTime": "1 hour ago",
+    "MinYOE": null,
+    "MatchScore": 65.6535,
+    "MatchedSkills": [
+      "SQL",
+      "Python",
+      "Artificial intelligence tools",
+      "Data preparation",
+      "Statistical concepts"
+    ],
+    "MissingSkills": [
+      "Snowflake",
+      "MicroStrategy",
+      "Business intelligence",
+      "Data validation",
+      "Jira",
+      "Excel",
+      "Forecasting"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e914f12f8b43cf39787bb",
+    "JobId": "6a0e914f12f8b43cf39787bb",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Genesis10",
+    "Title": "Dev10 Associate Software Developer - Remote",
+    "Location": "United States",
+    "PublishTime": "1 hour ago",
+    "MinYOE": "0",
+    "MatchScore": 90.7575,
+    "MatchedSkills": [
+      "Java",
+      "REST",
+      "React",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python",
+      "C",
+      "C++",
+      "SQL",
+      "TypeScript",
+      "Shell scripting",
+      "Team-oriented mindset"
+    ],
+    "MissingSkills": [
+      "Spring",
+      "IntelliJ",
+      "C#",
+      "R",
+      "MATLAB",
+      "Mathematica",
+      "Go",
+      "Kotlin"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e902b09ecfd704b3ea064",
+    "JobId": "6a0e902b09ecfd704b3ea064",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "c++",
+        "java",
+        "mysql",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Genesis10",
+    "Title": "Entry Level Software Developer",
+    "Location": "St Louis, MO",
+    "PublishTime": "1 hour ago",
+    "MinYOE": "0",
+    "MatchScore": 89.3551,
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "C",
+      "C++",
+      "JavaScript",
+      "SQL",
+      "TypeScript",
+      "Shell scripting",
+      "Collaboration abilities",
+      "Team-oriented mindset"
+    ],
+    "MissingSkills": [
+      "C#",
+      "R",
+      "MATLAB",
+      "Mathematica",
+      "Go",
+      "Kotlin"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e902b80bf0430c762dac1",
+    "JobId": "6a0e902b80bf0430c762dac1",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 6,
+      "matched_keyword_hits": [
+        "c++",
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "COGENT Infotech",
+    "Title": "Java Developer \u2013 Recent Graduates - Entry Level Positions",
+    "Location": "United States",
+    "PublishTime": "1 hour ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Java",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Angular",
+      "Git",
+      "Testing Methodologies",
+      "RESTful APIs"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Maven"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8f4647fea1610bcab013",
+    "JobId": "6a0e8f4647fea1610bcab013",
+    "BaseTemplate": "SEJ_NG",
+    "RoutingDetails": {
+      "family": "SEJ",
+      "is_new_grad": true,
+      "score": 7,
+      "matched_keyword_hits": [
+        "java"
+      ],
+      "title_keyword_hits": [
+        "java"
+      ]
+    }
+  },
+  {
+    "Company": "DentaQuest",
+    "Title": "Business Optimization Analyst",
+    "Location": "US-MA-Boston",
+    "PublishTime": "1 hour ago",
+    "MinYOE": "2",
+    "MatchScore": 32.2705,
+    "MatchedSkills": [
+      "Microsoft Office",
+      "Project management"
+    ],
+    "MissingSkills": [
+      "Health Care Insurance",
+      "Dental Insurance",
+      "SDLC methodologies",
+      "Application functionality",
+      "Microsoft Visio",
+      "Microsoft Project"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8ec009ecfd704b3e9fdc",
+    "JobId": "6a0e8ec009ecfd704b3e9fdc",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "The Johns Hopkins University",
+    "Title": "Research Assistant",
+    "Location": "Baltimore, MD",
+    "PublishTime": "1 hour ago",
+    "MinYOE": null,
+    "MatchScore": 68.2579,
+    "MatchedSkills": [
+      "Computer Vision",
+      "Deep Learning",
+      "Data Pipelines"
+    ],
+    "MissingSkills": [
+      "Medical Imaging",
+      "3D Medical Imaging Workflows",
+      "Medical AI Research",
+      "Annotation Tools",
+      "Model Deployment Workflows"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8d8380bf0430c762d9b8",
+    "JobId": "6a0e8d8380bf0430c762d9b8",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "CGI",
+    "Title": "Technical Writer",
+    "Location": "Fairfax, VA, US",
+    "PublishTime": "1 hour ago",
+    "MinYOE": null,
+    "MatchScore": 43.0324,
+    "MatchedSkills": [
+      "Detail-Oriented",
+      "Clear Communication"
+    ],
+    "MissingSkills": [
+      "Technical Writing",
+      "User Instruction Manuals",
+      "Technical Concepts Understanding",
+      "Documentation Translation"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8d30c152ac78244877c1",
+    "JobId": "6a0e8d30c152ac78244877c1",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Diverse Lynx",
+    "Title": "Java aws developer\u00a0",
+    "Location": "NY",
+    "PublishTime": "1 hour ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8cc109ecfd704b3e9f3b",
+    "JobId": "6a0e8cc109ecfd704b3e9f3b",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SEJ",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": [
+        "aws",
+        "java"
+      ]
+    }
+  },
+  {
+    "Company": "CGI",
+    "Title": "Python Backend Engineer",
+    "Location": "Lafayette, LA, US",
+    "PublishTime": "1 hour ago",
+    "MinYOE": null,
+    "MatchScore": 95.1945,
+    "MatchedSkills": [
+      "Python",
+      "AWS Cloud Services",
+      "DevOps",
+      "API development",
+      "CI/CD automation"
+    ],
+    "MissingSkills": [
+      "FastAPI",
+      "Backend engineering"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8c7980bf0430c762d90f",
+    "JobId": "6a0e8c7980bf0430c762d90f",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 9,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": [
+        "backend",
+        "python"
+      ]
+    }
+  },
+  {
+    "Company": "Google",
+    "Title": "Technical Account Manager Associate, Google Cloud Consulting",
+    "Location": "Sunnyvale, CA, USA",
+    "PublishTime": "1 hour ago",
+    "MinYOE": "2",
+    "MatchScore": 34.6002,
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "Cloud operations",
+      "Technical support",
+      "Escalation management",
+      "Consulting",
+      "Application migration to public cloud",
+      "Workload migration to public cloud",
+      "IT operations",
+      "Database systems",
+      "IT security",
+      "Application development",
+      "Service architecture",
+      "Cloud-native application development",
+      "Storage systems",
+      "Content delivery networks",
+      "Client management"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8b0cc152ac78244876bc",
+    "JobId": "6a0e8b0cc152ac78244876bc",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "JetBlue",
+    "Title": "Analyst Navigation Services",
+    "Location": "Orlando, FL",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "4",
+    "MatchScore": 60.6297,
+    "MatchedSkills": [
+      "SQL",
+      "Python",
+      "Microsoft Word",
+      "Microsoft Outlook",
+      "Project management"
+    ],
+    "MissingSkills": [
+      "FAA Advisory Circular 90-101A",
+      "Flight Management System (FMS)",
+      "Microsoft Excel",
+      "Microsoft VBA",
+      "Microsoft PowerPoint",
+      "Microsoft Access",
+      "Tableau",
+      "Jeppesen charting",
+      "Terminal Area Route Generation and Traffic Simulation (TARGETS)",
+      "Certified Flight Instructor - Instrument",
+      "PANS-OPS ICAO procedure design",
+      "Honeywell OneNav Tool",
+      "Rockwell-Collins NavDB",
+      "TERPS procedure design",
+      "Adobe Photoshop",
+      "Adobe Illustrator"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e882712f8b43cf3978254",
+    "JobId": "6a0e882712f8b43cf3978254",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "T-Mobile",
+    "Title": "Analyst, Business Systems",
+    "Location": "Overland Park, KS",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 46.9698,
+    "MatchedSkills": [
+      "SQL",
+      "Microsoft Office"
+    ],
+    "MissingSkills": [
+      "Business Systems Analysis",
+      "Business Systems Consulting",
+      "Microsoft Visio"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e881112f8b43cf3978217",
+    "JobId": "6a0e881112f8b43cf3978217",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Johnson & Johnson",
+    "Title": "Associate, Digital, Data & Analytics",
+    "Location": "Raynham, Massachusetts, United States of America",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "0",
+    "MatchScore": 65.8575,
+    "MatchedSkills": [
+      "Power BI",
+      "SQL",
+      "Data analysis",
+      "Effective written and verbal communication"
+    ],
+    "MissingSkills": [
+      "Microsoft Excel",
+      "Tableau",
+      "Data visualization",
+      "Dashboard development",
+      "Procurement data",
+      "Spend analysis",
+      "Supplier performance analysis",
+      "Work collaboratively in a team-based, matrixed environment"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e87b680bf0430c762d582",
+    "JobId": "6a0e87b680bf0430c762d582",
+    "BaseTemplate": "CE_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "power bi"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "T-Mobile",
+    "Title": "Data Scientists - Finance",
+    "Location": "Bellevue, WA",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 40.3495,
+    "MatchedSkills": [
+      "SQL",
+      "Python"
+    ],
+    "MissingSkills": [
+      "Linear Regression",
+      "Logistic Regression",
+      "Decision Tree",
+      "Cluster Analysis",
+      "Hypothesis Testing",
+      "SAS",
+      "Financial Modeling",
+      "ASC 820",
+      "IFRS 13",
+      "US GAAP",
+      "IFRS 15",
+      "ASC460",
+      "ASC 606",
+      "ASC 805"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e879747fea1610bcaab68",
+    "JobId": "6a0e879747fea1610bcaab68",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Nordstrom",
+    "Title": "Delivery Platform Software Engineer 1 - Developer Tools Team (Hybrid - Seattle, WA)",
+    "Location": "Seattle, WA, US",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 88.078,
+    "MatchedSkills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "GitHub Actions",
+      "GitLab",
+      "REST APIs",
+      "Docker",
+      "AWS",
+      "Azure",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "MissingSkills": [
+      "Golang",
+      "Jenkins",
+      "GRPC",
+      "GCP",
+      "CloudFormation",
+      "NewRelic",
+      "DataDog",
+      "Prometheus",
+      "Airflow",
+      "OpenAI API",
+      "Anthropic API",
+      "MCP server development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e869683d7144289819925",
+    "JobId": "6a0e869683d7144289819925",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 12,
+      "matched_keyword_hits": [
+        "aws",
+        "docker",
+        "java",
+        "kubernetes",
+        "python",
+        "rest apis"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Altamira Technologies Corporation",
+    "Title": "Software Engineer (Multiple Levels)",
+    "Location": "Washington, DC",
+    "PublishTime": "2 hours ago",
+    "MinYOE": null,
+    "MatchScore": 75.8564,
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Angular",
+      "NodeJS",
+      "ArangoDB",
+      "PostgreSQL",
+      "Kubernetes",
+      "Terraform",
+      "Kafka",
+      "PyTorch",
+      "LangChain"
+    ],
+    "MissingSkills": [
+      "Go",
+      "Rust",
+      "VueJs",
+      "OpenAPI",
+      "Valkey",
+      "MinIO",
+      "Istio ServiceMesh",
+      "Redis",
+      "Knative",
+      "Helm",
+      "OpenContainer Initiative",
+      "OTEL",
+      "Tensorflow",
+      "VLLM",
+      "PyTorch Lightning",
+      "SK Learn",
+      "LibreChat"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e860580bf0430c762d469",
+    "JobId": "6a0e860580bf0430c762d469",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 11,
+      "matched_keyword_hits": [
+        "java",
+        "kafka",
+        "kubernetes",
+        "postgresql",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Perpay Inc.",
+    "Title": "Software Engineer, New Grad",
+    "Location": "Philadelphia, Pennsylvania, United States",
+    "PublishTime": "2 hours ago",
+    "MinYOE": null,
+    "MatchScore": 82.6229,
+    "MatchedSkills": [
+      "React",
+      "Angular",
+      "Vue.js",
+      "RESTful API design",
+      "Python"
+    ],
+    "MissingSkills": [
+      "Fullstack software development",
+      "Django",
+      "Flask",
+      "Pick up new technologies quickly"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a070c6a24dcb03739f1fa2e",
+    "JobId": "6a070c6a24dcb03739f1fa2e",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 4,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "SpaceX",
+    "Title": "OS/Platform Software Engineer (Starlink)",
+    "Location": "Redmond, WA",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 90.4672,
+    "MatchedSkills": [
+      "C",
+      "C++",
+      "Python",
+      "Linux Kernel",
+      "Continuous integration",
+      "Build deployment",
+      "Debugging",
+      "Performance optimization",
+      "Unit testing"
+    ],
+    "MissingSkills": [
+      "Rust",
+      "Linux networking stack",
+      "Secure boot",
+      "ARM embedded systems"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e84fc80bf0430c762d3e8",
+    "JobId": "6a0e84fc80bf0430c762d3e8",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "python",
+        "unit testing"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Revel",
+    "Title": "Full Stack Software Engineer (Entry-Junior)",
+    "Location": "Los Angeles",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 96.957,
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "APIs",
+      "Databases"
+    ],
+    "MissingSkills": [
+      "Backend development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e84be47fea1610bcaa9b1",
+    "JobId": "6a0e84be47fea1610bcaa9b1",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": true,
+      "score": 6,
+      "matched_keyword_hits": [
+        "javascript",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "The University of Chicago Booth School of Business",
+    "Title": "Research Professional",
+    "Location": "Harper, OR",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 92.6136,
+    "MatchedSkills": [
+      "Python",
+      "Machine learning",
+      "Large language models",
+      "APIs for large language models",
+      "Generative AI systems",
+      "Data annotation",
+      "Model benchmarking",
+      "Natural language processing tools"
+    ],
+    "MissingSkills": [
+      "Evaluation pipelines",
+      "Text-based data analysis"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e836d12f8b43cf3977fcc",
+    "JobId": "6a0e836d12f8b43cf3977fcc",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "KPMG US",
+    "Title": "Associate, Tax GMS - Business Analyst",
+    "Location": "Irvine, CA",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 45.6287,
+    "MatchedSkills": [
+      "Microsoft Office",
+      "SQL",
+      "System Implementation",
+      "Quantitative Analysis"
+    ],
+    "MissingSkills": [
+      "Business Analysis",
+      "Microsoft Visio",
+      "Microsoft Access",
+      "International Human Resources",
+      "International Tax",
+      "Expatriate Services"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e836812f8b43cf3977fa0",
+    "JobId": "6a0e836812f8b43cf3977fa0",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "King & Prince Seafood",
+    "Title": "Business Systems Programmer",
+    "Location": "Brunswick, GA",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 62.2694,
+    "MatchedSkills": [
+      "Software Development",
+      "Microsoft SQL Server"
+    ],
+    "MissingSkills": [
+      "Application Support",
+      "ERP Systems",
+      "QAD",
+      "Warehouse Management",
+      "EDI",
+      "Order to Cash (O2C)",
+      "Procure to Pay (P2P)",
+      "SQL Stored Procedures",
+      "Transact-SQL",
+      "Software Analysis and Design",
+      "System Integration",
+      "Progress OpenEdge 4GL"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e834c12f8b43cf3977f96",
+    "JobId": "6a0e834c12f8b43cf3977f96",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "PAR Technology",
+    "Title": "Business Analyst",
+    "Location": "United States",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 30.5762,
+    "MatchedSkills": [
+      "API Integrations",
+      "Test Case Writing"
+    ],
+    "MissingSkills": [
+      "Business Analysis",
+      "Product Ownership",
+      "User Story Writing",
+      "Acceptance Criteria Writing",
+      "Requirements Documentation",
+      "Agile Methodologies",
+      "Scrum",
+      "Kanban",
+      "Jira",
+      "Confluence",
+      "Mobile Application Development",
+      "Middleware",
+      "Quality Assurance",
+      "User Acceptance Testing"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e832780bf0430c762d380",
+    "JobId": "6a0e832780bf0430c762d380",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Mercury Insurance",
+    "Title": "MLOps Catastrophe & Geo-Analytics",
+    "Location": "United States",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 88.3591,
+    "MatchedSkills": [
+      "MLOps engineering",
+      "Data engineering",
+      "Data science",
+      "SQL",
+      "Python",
+      "Cloud infrastructure",
+      "AWS",
+      "GitHub",
+      "GitLab",
+      "CI/CD pipelines"
+    ],
+    "MissingSkills": [
+      "Model deployment",
+      "Model monitoring",
+      "Feature store",
+      "Automated testing",
+      "Discrete global grid systems"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e832183d7144289819832",
+    "JobId": "6a0e832183d7144289819832",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "aws",
+        "github",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Lam Research",
+    "Title": "MES/IoT Developer for Tualatin R&D Center",
+    "Location": "Tualatin, OR",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 77.2803,
+    "MatchedSkills": [
+      "Web technologies",
+      "Object-oriented programming",
+      "Design patterns",
+      "Data structures",
+      "Multithreading",
+      "Asynchronous processes",
+      "REST APIs",
+      "MQTT",
+      "Debugging"
+    ],
+    "MissingSkills": [
+      "SECS/GEM equipment integration",
+      "C#",
+      "NET",
+      "Finite state machine control flows",
+      "Real-time communication handling",
+      "IoT connectivity",
+      "Data ingestion",
+      "Equipment sensor integration",
+      "AMQP",
+      "Critical Manufacturing Automation Developer Certification",
+      "Critical Manufacturing Back-end Certification"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e82a747fea1610bcaa941",
+    "JobId": "6a0e82a747fea1610bcaa941",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "rest apis"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "The University of Alabama",
+    "Title": "Data Scientist I",
+    "Location": "Tuscaloosa, AL",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 74.8254,
+    "MatchedSkills": [
+      "Data Management",
+      "Data Integration",
+      "Extract Transform Load (ETL)",
+      "Database Administration",
+      "Statistical Analysis",
+      "Multivariate Analysis",
+      "Programming Languages - Python",
+      "Programming Languages - mySQL",
+      "Programming Languages - JavaScript",
+      "Bayesian Statistics"
+    ],
+    "MissingSkills": [
+      "Database Backup and Restore",
+      "Database Performance Optimization",
+      "Regression Analysis",
+      "T-tests",
+      "Nonparametric Tests",
+      "Power Analysis",
+      "Ordination Techniques",
+      "Programming Languages - R",
+      "Programming Languages - MATLAB",
+      "Environmental Data Analysis",
+      "Censored Data Analysis",
+      "Analytical Creativity",
+      "Inquisitiveness"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e817d80bf0430c762d335",
+    "JobId": "6a0e817d80bf0430c762d335",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "CBRE",
+    "Title": "Software Engineer Analyst",
+    "Location": "Richardson, TX",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "0",
+    "MatchScore": 95.3092,
+    "MatchedSkills": [
+      "Python",
+      "Angular",
+      "React",
+      "REST API",
+      "Design Patterns",
+      "SQL",
+      "SQL Server",
+      "Docker",
+      "DevOps"
+    ],
+    "MissingSkills": [
+      "Golang",
+      "RDBMS Concepts",
+      "YAML",
+      "Scrum"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e7cd280bf0430c762d2c7",
+    "JobId": "6a0e7cd280bf0430c762d2c7",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "docker",
+        "python",
+        "rest api"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Dana-Farber Cancer Institute",
+    "Title": "Bioinformatics Engineer",
+    "Location": "Boston, MA",
+    "PublishTime": "2 hours ago",
+    "MinYOE": "0",
+    "MatchScore": 87.8337,
+    "MatchedSkills": [
+      "Python programming",
+      "Java programming",
+      "SQL",
+      "Data analysis"
+    ],
+    "MissingSkills": [
+      "Perl programming",
+      "R programming",
+      "Experimental design"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e7cba80bf0430c762d2b3",
+    "JobId": "6a0e7cba80bf0430c762d2b3",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Odoo",
+    "Title": "Technical Content Writer",
+    "Location": "San Francisco Bay Area",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 48.6872,
+    "MatchedSkills": [
+      "Git",
+      "GitHub"
+    ],
+    "MissingSkills": [
+      "RST Markup",
+      "ERP",
+      "SaaS"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e79c847fea1610bcaa7f1",
+    "JobId": "6a0e79c847fea1610bcaa7f1",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "git",
+        "github"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "CGI",
+    "Title": "Business Analyst \u2013 Entry Level",
+    "Location": "Frankfort, KY",
+    "PublishTime": "3 hours ago",
+    "MinYOE": null,
+    "MatchScore": 55.604,
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "Business analysis",
+      "Data-driven decision making"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e751a47fea1610bcaa72b",
+    "JobId": "6a0e751a47fea1610bcaa72b",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Odoo",
+    "Title": "Full Stack Engineer - Upgrade Services",
+    "Location": "Buffalo, NY",
+    "PublishTime": "3 hours ago",
+    "MinYOE": null,
+    "MatchScore": 97.1271,
+    "MatchedSkills": [
+      "Python",
+      "SQL",
+      "JavaScript",
+      "PostgreSQL",
+      "Object-oriented programming",
+      "GitHub",
+      "Unix-like systems"
+    ],
+    "MissingSkills": [
+      "Odoo framework"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69e87a0758811370cb126925",
+    "JobId": "69e87a0758811370cb126925",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "javascript",
+        "postgresql",
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Uber",
+    "Title": "Application Developer L3 - Identity & Access Management (IAM)",
+    "Location": "Sunnyvale, CA",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 83.9287,
+    "MatchedSkills": [
+      "Identity and Access Management (IAM)",
+      "Authentication",
+      "Access control",
+      "APIs",
+      "Programming languages",
+      "Scripting languages",
+      "Cloud environments",
+      "Distributed systems",
+      "Version control",
+      "CI/CD",
+      "Testing",
+      "Security and compliance requirements"
+    ],
+    "MissingSkills": [
+      "Authorization",
+      "Identity lifecycle management",
+      "System integrations",
+      "Automation workflows",
+      "Identity-related protocols",
+      "Directory concepts",
+      "Production support",
+      "Incident management",
+      "Operational troubleshooting",
+      "Access provisioning",
+      "Reconciliation",
+      "Governance processes"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e724512f8b43cf3977953",
+    "JobId": "6a0e724512f8b43cf3977953",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "ci cd",
+        "distributed systems"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "University of Michigan",
+    "Title": "Data Scientist (Hybrid)",
+    "Location": "Ann Arbor, MI",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 89.9129,
+    "MatchedSkills": [
+      "SQL",
+      "Data munging",
+      "Data wrangling",
+      "Data analysis",
+      "Statistical analysis",
+      "Data mining",
+      "Machine learning",
+      "Web application development"
+    ],
+    "MissingSkills": [
+      "Data visualization",
+      "Dashboard development",
+      "Cloud-based analytics"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e723a09ecfd704b3e91a7",
+    "JobId": "6a0e723a09ecfd704b3e91a7",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "San Diego State University",
+    "Title": "Data Scientist (Data Analytics Developer II)",
+    "Location": "SD Metro Area",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 89.7506,
+    "MatchedSkills": [
+      "SQL",
+      "Python",
+      "Data modeling",
+      "Statistical analysis",
+      "Data engineering",
+      "Data pipelines",
+      "Data quality management",
+      "Data governance",
+      "Project management"
+    ],
+    "MissingSkills": [
+      "R",
+      "Tableau",
+      "AWS QuickSight",
+      "Metadata practices"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e721483d7144289819161",
+    "JobId": "6a0e721483d7144289819161",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Progress Rail, A Caterpillar Company",
+    "Title": "Business Data Analyst",
+    "Location": "Albertville, AL",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 59.3533,
+    "MatchedSkills": [
+      "Data Analytics",
+      "Power BI",
+      "SQL"
+    ],
+    "MissingSkills": [
+      "Supply Chain Management",
+      "Operations",
+      "Tableau",
+      "Microsoft Access",
+      "Microsoft Excel",
+      "R",
+      "SAS",
+      "Minitab",
+      "Matlab",
+      "SAP",
+      "LN ERP",
+      "MS D365 ERP"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e7205c152ac7824486c3c",
+    "JobId": "6a0e7205c152ac7824486c3c",
+    "BaseTemplate": "CE_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "power bi"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "ManTech",
+    "Title": "Junior Developer",
+    "Location": "USA-MD-Annapolis Junction",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 97.4119,
+    "MatchedSkills": [
+      "Python",
+      "RESTful APIs",
+      "Git version control",
+      "SQL",
+      "PostgreSQL",
+      "MySQL",
+      "SQLite",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React.js",
+      "TypeScript",
+      "Docker",
+      "Linux system administration",
+      "Unit testing",
+      "Pytest"
+    ],
+    "MissingSkills": [
+      "Ansible"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e71f312f8b43cf3977902",
+    "JobId": "6a0e71f312f8b43cf3977902",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 10,
+      "matched_keyword_hits": [
+        "docker",
+        "mysql",
+        "postgresql",
+        "python",
+        "unit testing"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "SpaceX",
+    "Title": "ML Surrogate Modeling Engineer (Vehicle Engineering)",
+    "Location": "Hawthorne, CA",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 71.1234,
+    "MatchedSkills": [
+      "Python",
+      "Machine learning",
+      "Neural operators",
+      "PyTorch",
+      "Linux",
+      "Software engineering best practices",
+      "Statistics"
+    ],
+    "MissingSkills": [
+      "Surrogate modeling",
+      "Fourier Neural Operators",
+      "MeshGraphNet",
+      "Transolver",
+      "Graph neural networks",
+      "Physics-informed neural networks",
+      "Geometry optimization",
+      "Design under uncertainty",
+      "Computational Fluid Dynamics (CFD)",
+      "Finite Element Analysis (FEA)",
+      "Thermal analysis",
+      "Uncertainty quantification",
+      "Active learning",
+      "TensorFlow",
+      "JAX",
+      "NVIDIA PhysicsNemo",
+      "GPU accelerators",
+      "Numerical methods"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e71db80bf0430c762cd6f",
+    "JobId": "6a0e71db80bf0430c762cd6f",
+    "BaseTemplate": "SEAI_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 5,
+      "matched_keyword_hits": [
+        "python",
+        "pytorch"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "Uber Advertising",
+    "Title": "Strategy & Planning Analyst, Uber Advertising",
+    "Location": "Chicago, IL",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 46.7391,
+    "MatchedSkills": [
+      "SQL",
+      "Power BI",
+      "Python",
+      "Data Modeling",
+      "ETL Processes",
+      "Data Science",
+      "Project Management"
+    ],
+    "MissingSkills": [
+      "Looker",
+      "Tableau",
+      "Cloud-based Data Warehouses",
+      "BigQuery",
+      "Snowflake",
+      "Business KPIs",
+      "Data Product Management",
+      "Business Strategy"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e71c5c152ac7824486bec",
+    "JobId": "6a0e71c5c152ac7824486bec",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": []
+    }
+  },
+  {
+    "Company": "M.C. Dean, Inc.",
+    "Title": "Associate Engineer 1",
+    "Location": "McLean, VA",
+    "PublishTime": "3 hours ago",
+    "MinYOE": "0",
+    "MatchScore": 66.8318,
+    "MatchedSkills": [
+      "System Engineering",
+      "Computer Science",
+      "Engineering Science",
+      "Microsoft Word"
+    ],
+    "MissingSkills": [
+      "Information Systems",
+      "Engineering Management",
+      "Physical Security Systems",
+      "IT Solutions",
+      "Network Installation and Configuration",
+      "High Performance Computing Systems",
+      "System Documentation",
+      "System Performance Analysis",
+      "System Security",
+      "Automation Systems Design",
+      "Microsoft Excel",
+      "Microsoft PowerPoint"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e6e0080bf0430c762cb9a",
+    "JobId": "6a0e6e0080bf0430c762cb9a",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    }
+  }
+]

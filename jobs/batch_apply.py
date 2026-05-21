@@ -281,6 +281,27 @@ def classify(skill: str) -> tuple[str, str | None]:
     return ("skip", None)
 
 
+def latex_escape(s: str) -> str:
+    """Escape LaTeX special characters that show up in skill names.
+    The full set is # $ % & _ { } ~ ^ \\ — for skill names we mainly worry about
+    # (C#), & (Q&A-style), % (rare), _ (rare). Don't escape characters that are
+    already preceded by a backslash."""
+    out = []
+    i = 0
+    while i < len(s):
+        ch = s[i]
+        if ch in {"#", "$", "%", "&", "_"}:
+            # Don't double-escape if already escaped
+            if i > 0 and s[i - 1] == "\\":
+                out.append(ch)
+            else:
+                out.append("\\" + ch)
+        else:
+            out.append(ch)
+        i += 1
+    return "".join(out)
+
+
 def inject_skills_line(text: str, prefix: str, items: list[str]) -> tuple[str, list[str]]:
     body_lower = text.lower()
     # Word-boundary check so short tokens like "Go" don't match "MongoDB"/"Django"
@@ -290,15 +311,17 @@ def inject_skills_line(text: str, prefix: str, items: list[str]) -> tuple[str, l
     items = [i for i in items if not already_present(i)]
     if not items:
         return text, []
+    # LaTeX-escape items before injection (e.g., C# → C\#, Q&A → Q\&A)
+    escaped_items = [latex_escape(i) for i in items]
     first_word = prefix.split()[0]
     pat_b = rf"(\\resumeSubItem\{{[^}}]*?{re.escape(first_word)}[^}}]*?:\}}\{{[^}}]*?)(\}})"
     pat_a = rf"(\\textbf\{{[^}}]*?{re.escape(first_word)}[^}}]*?:\}}[^\n]*?)( ?\\\\)"
     for pat in (pat_b, pat_a):
         m = re.search(pat, text, re.IGNORECASE)
         if m:
-            new = re.sub(pat, lambda mm: mm.group(1).rstrip().rstrip(",") + ", " + ", ".join(items) + mm.group(2),
+            new = re.sub(pat, lambda mm: mm.group(1).rstrip().rstrip(",") + ", " + ", ".join(escaped_items) + mm.group(2),
                          text, count=1, flags=re.IGNORECASE)
-            return new, items
+            return new, items  # report unescaped names to caller
     # Fallback to Tools line
     if first_word != "Tools":
         return inject_skills_line(text, "Tools", items)
