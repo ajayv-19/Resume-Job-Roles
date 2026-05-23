@@ -168,6 +168,17 @@
 \item \footnotesize{Fine-tuned a \textbf{Hugging Face transformer-based model} achieving \textbf{88\% accuracy} for health condition prediction and deployed it on \textbf{AWS SageMaker} for real-time diagnostic support in the doctor dashboard.}
 \resumeItemListEnd
 
+\resumeProject
+{RoBERTa Fine-Tuning with Custom LoRA}
+{Python, PyTorch, Hugging Face, AGNews}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected a \textbf{parameter-efficient fine-tuning (PEFT)} pipeline using a custom \textbf{Low-Rank Adaptation (LoRA)} implementation to optimize a \textbf{RoBERTa-base} model for news classification.}
+\item \footnotesize{Optimized model efficiency by freezing pretrained weights and injecting trainable rank-decomposition matrices, reducing trainable parameters to under \textbf{1M (934K)} while achieving \textbf{83.45\%} accuracy on the private leaderboard.}
+\item \footnotesize{Conducted extensive hyperparameter sweeps for rank ($r$) and alpha ($\alpha$) values, utilizing \textbf{AdamW} and linear decay schedulers to stabilize training under strict memory and parameter constraints.}
+\resumeItemListEnd
+
 \resumeSubHeadingListEnd
 \vspace{-4mm}
 

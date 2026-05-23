@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Advanced Expense Tracker (Python Desktop Application)",
+    "stack": "Python, Tkinter, SQLite3, Pandas, Matplotlib",
+    "bullets": [
+      "Architected a modular \\textbf{Python application} for individual and group expenses with secure login, applying \\textbf{OOP principles} and \\textbf{MVC \\& DAO design patterns} over \\textbf{SQLite3}.",
+      "Implemented concurrent transaction handling and real-time cost splitting using \\textbf{Python threading} and locks for thread-safe DB writes; visualized spending trends with \\textbf{Matplotlib}."
+    ],
+    "seen_in_templates": [
+      "SE/P/E",
+      "SE/J/E",
+      "SE_AI/E",
+      "DE/E"
+    ]
+  },
+  {
+    "name": "Hospital Management System (Full-Stack Application)",
+    "stack": "React, Node.js, Express, MongoDB, SageMaker, Hugging Face",
+    "bullets": [
+      "Built a \\textbf{full-stack healthcare platform} (React, Node.js, Express, MongoDB) managing appointments, patient records, lab reports, and medical history with \\textbf{role-based access control}.",
+      "Fine-tuned a \\textbf{Hugging Face transformer-based model} reaching \\textbf{88\\% accuracy} for health condition prediction and deployed on \\textbf{AWS SageMaker} for real-time diagnostic support."
+    ],
+    "seen_in_templates": [
+      "SE/P/E",
+      "SE/J/E",
+      "SE/J/NG",
+      "SE_AI/E",
+      "AI/E",
+      "FE/E",
+      "FS/E",
+      "FS/L"
+    ]
+  },
+  {
+    "name": "InviLite",
+    "stack": "AWS, SageMaker, Bedrock, FAISS, Python",
+    "bullets": [
+      "Architected a cloud-native data pipeline (Kinesis, Lambda, S3, Glue, DynamoDB) ingesting structured and unstructured enterprise data into governed ML pipelines.",
+      "Built a \\textbf{RAG system} (SVM + FAISS + \\textbf{Bedrock LLM}), cutting incident resolution from \\textbf{1--2 hours to minutes} and lifting root-cause classification accuracy from \\textbf{56\\% to 92\\%}."
+    ],
+    "seen_in_templates": [
+      "SE/P/E",
+      "SE_AI/E",
+      "SE_LLM/E",
+      "AI/E",
+      "AI/L"
+    ]
+  },
+  {
+    "name": "RoBERTa Fine-Tuning with Custom LoRA",
+    "stack": "Python, PyTorch, Hugging Face, AGNews",
+    "bullets": [
+      "Architected a \\textbf{parameter-efficient fine-tuning (PEFT)} pipeline using a custom \\textbf{Low-Rank Adaptation (LoRA)} implementation to optimize a \\textbf{RoBERTa-base} model for news classification.",
+      "Optimized model efficiency by freezing pretrained weights and injecting trainable rank-decomposition matrices, reducing trainable parameters to under \\textbf{1M (934K)} while achieving \\textbf{83.45\\%} accuracy on the private leaderboard.",
+      "Conducted extensive hyperparameter sweeps for rank ($r$) and alpha ($\\alpha$) values, utilizing \\textbf{AdamW} and linear decay schedulers to stabilize training under strict memory and parameter constraints."
+    ],
+    "seen_in_templates": [
+      "SE_LLM/E"
+    ]
+  },
+  {
+    "name": "High-Efficiency ResNet Image Classifier",
+    "stack": "Python, PyTorch, Torchvision, Matplotlib",
+    "bullets": [
+      "Designed and implemented a specialized \\textbf{ResNet} architecture optimized for the \\textbf{CIFAR-10} dataset, adhering to a strict \\textbf{5M parameter} limit for edge-ready deployment.",
+      "Enhanced model convergence and generalization by integrating the \\textbf{Lookahead optimizer} and advanced data augmentation techniques, including horizontal flips and random cropping.",
+      "Developed a modular training and evaluation framework with real-time visualization via \\textbf{TensorBoard}, managing checkpoints and learning rate scheduling for reproducible experimentation."
+    ],
+    "seen_in_templates": [
+      "SE_LLM/E"
+    ]
+  },
+  {
+    "name": "Flight Delay Prediction",
+    "stack": "PySpark, HDFS, Random Forest, Gradient Boosted Tree",
+    "bullets": [
+      "Built a scalable \\textbf{PySpark ML pipeline} on HDFS to process and engineer features from over \\textbf{7M flight records} using SQL-based aggregation and anomaly detection.",
+      "Performed extensive EDA to identify delay patterns; trained and optimized \\textbf{Random Forest and Gradient Boosted Tree} models achieving \\textbf{85\\%+} accuracy.",
+      "Converted model outputs into actionable insights, enabling data-driven scheduling and operational planning for delay reduction."
+    ],
+    "seen_in_templates": [
+      "CE/E"
+    ]
+  }
+]

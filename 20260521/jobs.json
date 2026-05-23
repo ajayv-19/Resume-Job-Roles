@@ -1,0 +1,1606 @@
+[
+  {
+    "Company": "PAR Technology",
+    "Title": "Software Engineer",
+    "Location": "Illinois, United States",
+    "PublishTime": "16 hours ago",
+    "MinYOE": "0",
+    "MatchScore": 92.9759,
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "Object-oriented programming",
+      "Data structures and algorithms",
+      "SQL",
+      "AWS EC2",
+      "AWS S3",
+      "AWS Lambda",
+      "Collaborative mindset"
+    ],
+    "MissingSkills": [
+      "AWS RDS",
+      "AWS EMR",
+      "Snowflake",
+      "Cloud data platforms"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69f284798d8d624381aa1370",
+    "JobId": "69f284798d8d624381aa1370",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "aws ec2",
+        "aws lambda",
+        "aws s3",
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>PAR Technology Corporation is a leader in restaurant technology, providing software and hardware solutions that enhance customer experiences for over 100,000 restaurants worldwide. As a Software Engineer, you will work on Bridg, an Identity Resolution platform, contributing to the software development lifecycle and collaborating with various teams to deliver scalable software solutions.</p><br><p>Responsibilities</p><ul><li>Build meaningful software: Design, develop, test, and maintain scalable services for our Identity Resolution platform, working primarily in Java with supporting technologies such as SQL, Python, and AWS</li><li>Work with big data: Help process and transform large datasets using modern data platforms and distributed systems. You\u2019ll learn tools and patterns that go beyond typical academic coursework</li><li>Grow through mentorship: You\u2019ll be paired with a dedicated mentor and embedded in a collaborative delivery team\u2014never working in isolation. We prioritize coaching, feedback, and steady ownership growth</li><li>Operate with ownership: Contribute across the full software lifecycle\u2014design, implementation, deployment, monitoring, and continuous improvement\u2014supporting a customer facing, production system</li><li>Collaborate cross functionally: Partner with product managers, client partners, and fellow engineers to translate business needs into thoughtful technical solutions</li><li>Leverage AI responsibly: Use AI assisted development tools to augment coding, testing, and documentation\u2014while still demonstrating strong fundamentals and critical thinking</li></ul><br><p>Skills</p><ul><li>Bachelor's degree (or higher) in Computer Science, Computer Engineering, or a closely related field</li><li>0-2 years of related experience</li><li>Strong computer science fundamentals, including: Object\u2011oriented programming (Java preferred; Python also used), Data structures and algorithms</li><li>Clear communication skills and a collaborative mindset</li><li>Experience with SQL and working with structured datasets</li><li>Exposure to AWS services (e.g., EC2, S3, Lambda, RDS, EMR)</li><li>Familiarity with Snowflake or other cloud data platforms</li><li>Comfort using AI\u2011assisted development tools (e.g., for code generation, testing, or documentation), with an understanding of how the code works\u2014not just the output</li></ul><br><p>Company Overview</p><li>PAR Technology creates and markets products that help restaurant and retail operators. It was founded in 1968, and is headquartered in New Hartford, New York, USA, with a workforce of 1001-5000 employees. Its website is http://www.partech.com.</li><br><p>Company H1B Sponsorship</p><li>PAR Technology has a track record of offering H1B sponsorships, with 2 in 2025, 1 in 2024, 1 in 2022. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "DigiCert",
+    "Title": "Associate Software Engineer",
+    "Location": "Lehi, Utah",
+    "PublishTime": "8 hours ago",
+    "MinYOE": null,
+    "MatchScore": 97.0856,
+    "MatchedSkills": [
+      "PHP",
+      "Java",
+      "React",
+      "SQL",
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "REST API",
+      "HTTP",
+      "Postman",
+      "Git",
+      "CI/CD"
+    ],
+    "MissingSkills": [
+      "Go",
+      "Vue",
+      "Curl"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f4b4480bf0430c7632678",
+    "JobId": "6a0f4b4480bf0430c7632678",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "ci cd",
+        "git",
+        "java",
+        "rest api"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>DigiCert is a global leader in intelligent trust, ensuring the security and authenticity of digital interactions. They are seeking a driven Associate Software Engineer to join a fast-paced product team, where the individual will work on building and maintaining features across a PHP-based API and UI platform.</p><br><p>Responsibilities</p><ul><li>Work from our sprint board to deliver features and bug fixes, taking tasks from requirements to production</li><li>Write, test, and maintain code across both API and UI layers of our platform</li><li>Collaborate with engineers, product managers, and QA to understand requirements, surface risks, and ship quality work</li><li>Participate in code reviews, both giving and receiving feedback constructively</li><li>Learn the architecture and patterns of the codebase and apply them consistently</li><li>Investigate and resolve defects, working with support and cross-functional teams as needed</li><li>Use AI tools (Copilot and others) to accelerate development and improve quality</li><li>Ask questions when something is unclear, and follow through until it isn't</li></ul><br><p>Skills</p><ul><li>A degree in Computer Science, Software Engineering, or a related field, or currently pursuing one</li><li>Familiarity with at least one server-side programming language like Java, PHP, or Go, or a client-side framework like Vue or React</li><li>Basic understanding of relational databases and SQL</li><li>Exposure to HTML, JavaScript, and CSS</li><li>Ability to read and reason about existing code, not just write new code</li><li>Strong problem-solving instincts and attention to detail</li><li>Good communication skills and comfort working in a collaborative team environment</li><li>A genuine desire to grow, with a habit of doing the work it takes to get there</li><li>A team of people who want to help you succeed</li><li>Experience writing web applications (UI and APIs)</li><li>Understanding of REST API concepts, HTTP fundamentals, and experience with tools like Postman or curl</li><li>Familiarity with Git, CI/CD, and modern developer workflows</li></ul><br><p>Benefits</p><ul><li>DigiCert offers a competitive benefits package for all of our full-time employees.</li></ul><br><p>Company Overview</p><li>DigiCert  is a  technology company focused on digital security. It was founded in 2003, and is headquartered in Lindon, Utah, USA, with a workforce of 1001-5000 employees. Its website is http://www.digicert.com/.</li><br><p>Company H1B Sponsorship</p><li>DigiCert has a track record of offering H1B sponsorships, with 12 in 2025, 8 in 2024, 13 in 2023, 10 in 2022, 13 in 2021, 7 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Droisys",
+    "Title": "Software Engineer",
+    "Location": "San Jose, CA",
+    "PublishTime": "7 hours ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "React",
+      "Node.js",
+      "REST APIs",
+      "SOAP APIs",
+      "GraphQL",
+      "CI/CD pipelines",
+      "AWS",
+      "Serverless architecture",
+      "Microservices",
+      "SQL Server",
+      "PostgreSQL",
+      "DynamoDB"
+    ],
+    "MissingSkills": [
+      "Microsoft .NET",
+      "DevSecOps"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f53fb12f8b43cf397d7e0",
+    "JobId": "6a0f53fb12f8b43cf397d7e0",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 12,
+      "matched_keyword_hits": [
+        "aws",
+        "dynamodb",
+        "graphql",
+        "microservices",
+        "postgresql",
+        "rest apis"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Droisys is an innovation technology company focused on helping companies accelerate their digital initiatives. They are seeking a Software Engineer to design, develop, and deliver end-to-end web solutions while collaborating with cross-functional teams to translate business needs into scalable technical solutions.</p><br><p>Responsibilities</p><ul><li>Design, development, and delivery of end\u2011to\u2011end web solutions that elevate the customer journey</li><li>Collaborate with cross\u2011functional teams to translate business needs into scalable technical solutions</li><li>Own full feature lifecycle\u2014from concept and architecture to deployment and optimization</li><li>Build modern, responsive web applications using React and strong server\u2011side skills in .NET or Node.js</li><li>Develop secure, high\u2011performance APIs using REST, SOAP, and GraphQL</li><li>Implement CI/CD pipelines and follow DevSecOps best practices for continuous delivery</li><li>Work with AWS cloud services, serverless components, and microservices\u2011based architectures</li><li>Manage databases across SQLServer, PostgreSQL, and DynamoDB environments</li><li>Troubleshoot performance, security, and stability issues across the full stack</li><li>Bring strong communication, problem\u2011solving skills, and the ability to thrive in a collaborative team</li></ul><br><p>Skills</p><ul><li>Design, development, and delivery of end\u2011to\u2011end web solutions that elevate the customer journey</li><li>Collaborate with cross\u2011functional teams to translate business needs into scalable technical solutions</li><li>Own full feature lifecycle\u2014from concept and architecture to deployment and optimization</li><li>Build modern, responsive web applications using React and strong server\u2011side skills in .NET or Node.js</li><li>Develop secure, high\u2011performance APIs using REST, SOAP, and GraphQL</li><li>Implement CI/CD pipelines and follow DevSecOps best practices for continuous delivery</li><li>Work with AWS cloud services, serverless components, and microservices\u2011based architectures</li><li>Manage databases across SQLServer, PostgreSQL, and DynamoDB environments</li><li>Troubleshoot performance, security, and stability issues across the full stack</li><li>Bring strong communication, problem\u2011solving skills, and the ability to thrive in a collaborative team</li></ul><br><p>Company Overview</p><li>Droisys is leading innovative company working on technologies like gamification, Artificial Intelligence, app development, etc. It was founded in 2003, and is headquartered in Fremont, California, USA, with a workforce of 201-500 employees. Its website is http://www.droisys.com.</li><br><p>Company H1B Sponsorship</p><li>Droisys has a track record of offering H1B sponsorships, with 13 in 2023, 9 in 2022, 12 in 2021, 14 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "TickPick",
+    "Title": "Software Engineer",
+    "Location": "New York, New York, United States",
+    "PublishTime": "12 hours ago",
+    "MinYOE": "0",
+    "MatchScore": 92.5497,
+    "MatchedSkills": [
+      "TypeScript/Node.js",
+      "React",
+      "React Native",
+      "SQL Server",
+      "PostgreSQL",
+      "Azure Cloud Platform"
+    ],
+    "MissingSkills": [
+      "C#/.NET",
+      "AI coding agents",
+      "Curious problem solving"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f08ae619335383fb28cce",
+    "JobId": "6a0f08ae619335383fb28cce",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "postgresql"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>TickPick is a fast-growing technology company revolutionizing the secondary ticket marketplace. They are seeking a Software Engineer who is early in their career and eager to contribute across the full stack, utilizing AI tools to enhance their development process.</p><br><p>Responsibilities</p><ul><li>Contribute across the entire stack \u2014 .NET APIs, React/Next.js web, and React Native mobile</li><li>Use AI coding agents daily to help with implementation, debugging, code review, and learning new parts of the codebase</li><li>Pair with senior engineers and AI agents to solve problems that would traditionally require much more experience</li><li>Help build and improve agentic workflows \u2014 testing loops, code review pipelines, and internal automation that reduce manual overhead</li><li>Design and develop new APIs and product features</li><li>Create integrations to third party providers (e.g. fintech, ticket brokers, primary marketplaces) in order to offer more services to our users</li><li>Explore ways to make the user experience more personalized (event notifications, recommendations, pricing alerts, etc.)</li><li>Identify tedious engineering tasks and help automate them so the team can focus on higher-impact work</li><li>Use data to help drive decisions in our business logic</li></ul><br><p>Skills</p><ul><li>0-3 years of professional software engineering experience, or equivalent experience through internships, open source work, freelance work, or substantial personal projects</li><li>Strong in at least one of C#/.NET, TypeScript/Node.js, or React \u2014 and excited to work across the stack with the help of AI agents</li><li>You've used AI coding agents in your workflow and can talk about how they've helped you build or learn</li><li>You've shipped something real - a product, side project, internship work, open source contribution, or anything else that demonstrates you can turn ideas into working software</li><li>Experience with relational databases (SQL Server or PostgreSQL) is a plus</li><li>Azure Cloud Platform experience is a plus</li></ul><br><p>Benefits</p><ul><li>Health Care Plan (Medical, Dental & Vision)</li><li>Retirement Plan (401k, IRA)</li><li>Life Insurance (Basic, Voluntary & AD&D)</li><li>Paid Time Off (Vacation, Sick & Public Holidays)</li><li>Family Leave (Maternity, Paternity)</li><li>Training & Development</li><li>Employee Outings</li><li>Free Lunch & Snacks</li></ul><br><p>Company Overview</p><li>TickPick is a ticket marketplace to buy, bid on and sell tickets on sports, concerts and other live events. It was founded in 2011, and is headquartered in New York, New York, USA, with a workforce of 11-50 employees. Its website is https://www.tickpick.com.</li><br><p>Company H1B Sponsorship</p><li>TickPick has a track record of offering H1B sponsorships, with 1 in 2025, 1 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "iPipeline",
+    "Title": "Software Development Engineer",
+    "Location": "iPipeline - Florida",
+    "PublishTime": "11 hours ago",
+    "MinYOE": null,
+    "MatchScore": 94.549,
+    "MatchedSkills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "DevOps practices",
+      "Software development lifecycle",
+      "Git",
+      "Unit testing",
+      "Debugging"
+    ],
+    "MissingSkills": [
+      "C#",
+      "NET",
+      "XSLT",
+      "Web application security principles"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f1c3212f8b43cf397bd9c",
+    "JobId": "6a0f1c3212f8b43cf397bd9c",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "git",
+        "unit testing"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>iPipeline is a global market leader in providing innovative software solutions for the life insurance and financial services industries. The Associate Software Development Engineer will be responsible for developing, testing, and maintaining software applications while learning foundational software development skills under the guidance of senior engineers.</p><br><p>Responsibilities</p><ul><li>Write, test, and debug basic software code according to task specifications</li><li>Participate in code reviews to learn best practices and improve code quality</li><li>Responsible for creating supporting documentation associated with assigned tasks</li><li>Work in teams, communicate effectively with peers and management</li><li>Engage in ongoing professional development to improve technical skills and stay updated with latest technology trends</li><li>All other duties as assigned</li></ul><br><p>Skills</p><ul><li>Basic proficiency in one or more programming languages (e.g., C#, .NET, HTML, CSS, JavaScript, XSLT) and devOps practices</li><li>Familiarity with software development lifecycle</li><li>Understand and familiarity with version control systems (e.g., Git)</li><li>Basic knowledge of web application security principles</li><li>Knowledge of basic testing methods, unit testing, and tools</li><li>Ability to debug code using browser developer tools (for front-end) or using breakpoints and logging in back-end code</li><li>Ability to identify and resolve simple software issues</li><li>Basic foundational knowledge and skills related to the role</li><li>Strong analytical and problem-solving skills</li><li>Ability to work in teams, communicate effectively with peers, seniors and management</li><li>Willingness to learn and adopt new technologies and tools, as well as staying updated with the latest trends</li></ul><br><p>Company Overview</p><li>Pipeline is an on-demand service providing suite of sales distribution software to insurance and financial services markets. It was founded in 1995, and is headquartered in Exton, Pennsylvania, USA, with a workforce of 501-1000 employees. Its website is http://www.ipipeline.com.</li><br><p>Company H1B Sponsorship</p><li>iPipeline has a track record of offering H1B sponsorships, with 4 in 2025, 2 in 2024, 3 in 2023, 5 in 2022, 8 in 2021, 3 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "GEICO",
+    "Title": "Engineer II- .Net",
+    "Location": "Palo Alto, CA",
+    "PublishTime": "15 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 96.7284,
+    "MatchedSkills": [
+      "Java",
+      "C++",
+      "Object-oriented design",
+      "Microservices architecture",
+      "REST APIs",
+      "HTML5",
+      "JavaScript",
+      "TypeScript",
+      "Data structures",
+      "Algorithms",
+      "Git",
+      "Azure Portal",
+      "Continuous delivery",
+      "Infrastructure as Code",
+      "PowerShell scripting",
+      "Docker",
+      "Kubernetes",
+      "Azure tools and services",
+      "AWS",
+      "Cloud services"
+    ],
+    "MissingSkills": [
+      "C#",
+      "Go",
+      "XML",
+      "JSON",
+      "Splunk",
+      "Application Insights",
+      "Agile methodology",
+      "GCP"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69f21485ab4ec4779fff7169",
+    "JobId": "69f21485ab4ec4779fff7169",
+    "BaseTemplate": "CE_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 16,
+      "matched_keyword_hits": [
+        "algorithms",
+        "aws",
+        "c++",
+        "data structures",
+        "docker",
+        "git",
+        "java",
+        "kubernetes"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEP_NG",
+      "override_reason": "JD requires C#/Azure/PowerShell \u2014 Microsoft stack"
+    },
+    "JDText": "<p>GEICO is a leading insurance company that prioritizes innovation and customer satisfaction. They are seeking an Engineer II to build high-performance platforms and applications, contributing to the company's transformation into a tech-focused organization.</p><br><p>Responsibilities</p><ul><li>Scope, design, and build scalable, resilient distributed systems</li><li>Engage in cross-functional collaboration throughout the entire software lifecycle</li><li>Participate in design sessions and code reviews with peers to elevate the quality of engineering across the organization</li><li>Define, create, and support reusable application components/patterns from a business and technology perspective</li><li>Utilize programming languages like C# or other object-oriented languages, SQL, and NoSQL databases, Container Orchestration services including Docker and Kubernetes, and a variety of Azure tools and services</li><li>Execute software delivery utilizing an Agile methodology (Scrum/Kanban/SAFe), continuous delivery, Infrastructure as Code, PowerShell scripting, Operation Portals (e.g., Azure Portal) and Monitoring Portals (e.g., Splunk and Application Insights)</li><li>Build product definitions and leverage technical skills to determine solutions</li><li>Share best practices and improve processes within and across teams</li></ul><br><p>Skills</p><ul><li>Programming experience with at least one modern language such as C#, GO, Java, or C++ including object-oriented design</li><li>Proven understanding of microservices oriented architecture and extensible REST APIs</li><li>Experience contributing to the architecture and design (architecture, design patterns, reliability, and scaling) of new and current systems</li><li>Understanding of HTML-5, JavaScript/TypeScript, XML, and JSON</li><li>In-depth knowledge of CS data structures and algorithms</li><li>Experience with GIT and the overall GIT lifestyle</li><li>Understanding of existing Operational Portals such as Azure Portal</li><li>Experience with continuous delivery and infrastructure as code</li><li>Strong oral and written communication skills</li><li>Strong problem-solving ability</li><li>Practical knowledge working in an Agile environment</li><li>Ability to excel in a fast-paced environment</li><li>Knowledge of developer tooling across the software development life cycle (task management, source code, building, deployment, operations, real-time communication)</li><li>2+ years of non-internship professional software development experience</li><li>2+ years of experience with architecture and design</li><li>2+ years of experience building products in microservices-oriented architecture and extensible REST APIs</li><li>2+ years of experience with AWS, GCP, Azure, or another cloud service</li><li>Bachelor's degree in Computer Science, Information Systems, or equivalent education or work experience</li></ul><br><p>Benefits</p><ul><li>GEICO will consider sponsoring a new qualified applicant for employment authorization for this position.</li><li>Comprehensive Total Rewards program that offers personalized coverage tailor-made for you and your family\u2019s overall well-being.</li><li>Financial benefits including market-competitive compensation; a 401K savings plan vested from day one that offers a 6% match; performance and recognition-based incentives; and tuition assistance.</li><li>Access to additional benefits like mental healthcare as well as fertility and adoption assistance.</li><li>Supports flexibility- We provide workplace flexibility as well as our GEICO Flex program, which offers the ability to work from anywhere in the US for up to four weeks per year.</li></ul><br><p>Company Overview</p><li>GEICO, Government Employees Insurance Company, has been providing affordable auto insurance since 1936. It is a sub-organization of Berkshire Hathaway. It was founded in 1936, and is headquartered in Chase, Maryland, USA, with a workforce of 10,001+ employees. Its website is http://www.geico.com.</li><br>"
+  },
+  {
+    "Company": "Pear VC",
+    "Title": "Founding AI Engineer - Manhattan Labs",
+    "Location": "San Francisco Bay Area",
+    "PublishTime": "1 day ago",
+    "MinYOE": "1",
+    "MatchScore": 94.1268,
+    "MatchedSkills": [
+      "TypeScript",
+      "Python",
+      "LLM integrations",
+      "Structured data extraction",
+      "API design",
+      "Relational databases",
+      "Debugging",
+      "CI/CD",
+      "Deployment pipelines",
+      "Ownership mindset"
+    ],
+    "MissingSkills": [
+      "RAG systems",
+      "Document processing",
+      "Entity extraction",
+      "Async job processing",
+      "Incident response"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e4cd247fea1610bca8ebc",
+    "JobId": "6a0e4cd247fea1610bca8ebc",
+    "BaseTemplate": "SE_LLM_E",
+    "RoutingDetails": {
+      "family": "AI",
+      "is_new_grad": false,
+      "score": 5,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": [
+        "ai"
+      ]
+    },
+    "JDText": "<p>Pear VC is building an AI-native compliance platform for community banks and financial institutions. The Founding AI Engineer will architect and build a platform that serves as the investigative brain for compliance teams, focusing on developing scalable backend services and AI systems to modernize financial crime compliance.</p><br><p>Responsibilities</p><ul><li>Design, build, and operate RAG and agentic systems over complex financial data (corporate registries, sanctions lists, beneficial ownership, adverse media), with clear evaluation metrics for accuracy, latency, and cost</li><li>Develop scalable backend services for document processing (PDF/OCR/CSV), async job queues, case lifecycle orchestration, and risk scoring with confidence-driven UX and human-in-the-loop controls</li><li>Own the productionization of AI systems, including evaluation pipelines, dataset/version management, and safe rollout strategies (A/B testing, guardrails, fallback behavior)</li><li>Harden the platform for enterprise: auth controls, role-based access, audit trails, backups, and monitoring with measurable SLOs</li><li>Establish CI/CD, deployment pipelines, runbooks, and incident response practices from the ground up</li><li>Propose and engage in cutting-edge AI research related to our mission, particularly around agentic reasoning over regulatory and financial data</li><li>Work directly with the founding team to define architecture, technical roadmap, and product direction</li></ul><br><p>Skills</p><ul><li>1+ years of experience on technical projects with startup experience strongly preferred</li><li>Strong TypeScript and Python skills across modern frontend and backend stacks</li><li>Hands-on experience shipping LLM integrations or RAG systems into production user-facing products</li><li>Experience with document processing, entity extraction, and structured data extraction from messy real-world sources</li><li>Solid grasp of API design, relational databases, and async job processing systems</li><li>Proven track record taking a product from 'works locally' to reliable production at growing scale</li><li>Debugging instincts across frontend, backend, infra, and data boundaries - and an ownership mindset to match</li><li>Knowledge of KYC/KYB/AML workflows, sanctions screening, beneficial ownership data, or regulated fintech</li><li>Experience with LangChain, LlamaIndex, or similar AI orchestration frameworks</li><li>Familiarity with banking APIs, core banking systems, or financial data providers</li><li>Familiarity with OCR and document intelligence pipelines</li><li>Background in fintech, compliance, RegTech, or other regulated industries</li><li>Cloud deployment experience and DevOps knowledge in security-sensitive environments</li><li>Strong product intuition and user experience focus</li></ul><br><p>Benefits</p><ul><li>Competitive salary and equity</li><li>100% health, dental, and vision coverage</li><li>Commuter stipend</li><li>Regular team events and off-sites</li></ul><br><p>Company Overview</p><li>Pear VC is a venture capital firm that focuses on investing in Pre seed, and seed technology companies. It was founded in 2013, and is headquartered in Menlo Park, California, USA, with a workforce of 11-50 employees. Its website is http://www.pear.vc/.</li><br><p>Company H1B Sponsorship</p><li>Pear VC has a track record of offering H1B sponsorships, with 1 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "MeridianLink",
+    "Title": "Software Engineer II",
+    "Location": "United States",
+    "PublishTime": "6 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 83.1306,
+    "MatchedSkills": [
+      "Software development",
+      "Version control - Git"
+    ],
+    "MissingSkills": [
+      "Agile",
+      "Scrum"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f67eb619335383fb2c0a5",
+    "JobId": "6a0f67eb619335383fb2c0a5",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. MeridianLink is seeking a Software Engineer II to join their innovation team, where they will play a pivotal role in shaping innovative software solutions. The role focuses on the development and maintenance of software products, encompassing the full software development life cycle from design to deployment.</p><br><p>Responsibilities</p><ul><li>Design and develop the overall structure of software systems and applications to meet business needs, both in the cloud and on-premises</li><li>Provide ongoing guidance on business domain knowledge and product architecture</li><li>Utilize tools and methodologies to create functional representations and user interfaces for desired products</li><li>Evaluate and recommend tools, technologies, and processes to ensure the highest quality product platform, presenting insights to senior team members</li><li>Ensure the security, performance, manageability, quality, and consistency of the software architecture across the system, offering technical guidance to development teams</li><li>Conduct research, gather information, interpret data, identify requirements, and develop effective solutions</li></ul><br><p>Skills</p><ul><li>Bachelor's degree in a related field and 2-4 years of relevant experience, or equivalent work experience</li><li>Ability to determine a course of action based on established guidelines, modifying processes and methods as necessary</li><li>Genuine passion for software development and curiosity to keep learning</li><li>Exercise judgment within defined procedures and practices to identify appropriate actions</li><li>Strong interpersonal skills to build productive internal and external working relationships, collaboratively resolving mutual problems</li><li>Ability to work collaboratively in a team environment and ask good questions</li><li>Exposure to version control (Git)</li><li>Familiarity with Agile/Scrum concepts</li><li>Familiarity with AI coding tools (GitHub Copilot, etc.) is a plus</li><li>Finance or fintech background is a plus but not required</li></ul><br><p>Company Overview</p><li>MeridianLink is a digital lending platform that helps financial institutions through a configurable platform. It was founded in 1998, and is headquartered in Costa Mesa, California, USA, with a workforce of 501-1000 employees. Its website is https://www.meridianlink.com.</li><br><p>Company H1B Sponsorship</p><li>MeridianLink has a track record of offering H1B sponsorships, with 14 in 2025, 5 in 2024, 1 in 2023, 12 in 2022, 11 in 2021, 1 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Benchling",
+    "Title": "Software Engineer, Full Stack (Study Lifecycle)",
+    "Location": "Boston, MA",
+    "PublishTime": "14 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 95.8904,
+    "MatchedSkills": [
+      "React",
+      "JavaScript",
+      "API Design",
+      "Web Application Development"
+    ],
+    "MissingSkills": [
+      "Backend Development",
+      "Frontend Development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69d6dcd3cfdc6132f946dcd2",
+    "JobId": "69d6dcd3cfdc6132f946dcd2",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "javascript",
+        "react"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Benchling is an AI platform for biotech R&D, aiming to accelerate the pace of life sciences research. They are seeking a Software Engineer to join their Study Lifecycle team, focusing on developing software for regulated environments and improving scientific workflows.</p><br><p>Responsibilities</p><ul><li>Own projects end-to-end, from initial design, to prototype, to large-scale rollout</li><li>Engineer across our stack, from designing and implementing backend models & APIs to crafting rich frontend components and architecture</li><li>Work closely with product managers, designers, and other teams to build the best product possible for our users</li><li>Create entirely net-new products, while also investing in taking existing products to feature completeness</li><li>Writes extremely well-documented and well-tested code that follows company best practices</li><li>As a member of the engineering team, you'll be an integral part of how we mature our tooling, best practices, and engineering processes</li></ul><br><p>Skills</p><ul><li>Have around 2-4 years of experience in a full-time software engineering role</li><li>Build software with a product-first approach. You ship code quickly and care about the real world impact of your code</li><li>Experience developing both user-facing & backend experiences in a web application</li><li>Experience with React, or similar javascript-based frontend application frameworks</li><li>Enjoy a high-degree of ownership in key areas of the software product you're building</li><li>Are interested in learning more about life science (prior knowledge is not required; desire to learn is a must)</li></ul><br><p>Benefits</p><ul><li>We offer a flexible hybrid work arrangement that prioritizes in-office collaboration. Employees are expected to be on-site 3 days per week (Monday, Tuesday, and Thursday).</li></ul><br><p>Company Overview</p><li>Benchling is a cloud-based software platform for biology researchers and research and development organizations. It was founded in 2012, and is headquartered in San Francisco, California, USA, with a workforce of 501-1,000 employees. Its website is http://www.benchling.com.</li><br><p>Company H1B Sponsorship</p><li>Benchling has a track record of offering H1B sponsorships, with 7 in 2023, 17 in 2022, 14 in 2021, 9 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "IXL Learning",
+    "Title": "Software Engineer, New Grad",
+    "Location": "San Mateo, CA",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 83.3768,
+    "MatchedSkills": [
+      "Python",
+      "Java",
+      "SQL",
+      "JavaScript",
+      "React",
+      "Linux",
+      "Unix"
+    ],
+    "MissingSkills": [
+      "D3",
+      "Scala",
+      "Swift",
+      "Apache",
+      "Oracle",
+      "Analytical reasoning"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69f405151f90bd6ae23d33c1",
+    "JobId": "69f405151f90bd6ae23d33c1",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 4,
+      "matched_keyword_hits": [
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>IXL Learning is a leading EdTech company that develops personalized learning products used by millions globally. They are seeking new graduates passionate about technology and education to contribute to their impactful educational products and build innovative solutions.</p><br><p>Responsibilities</p><ul><li>As a Software Engineer, you will build the back-end wiring, application logic, and UI that engage our users</li><li>You will find and use the best technologies to add features and create new products</li><li>You\u2019ll be involved in all aspects of the development process \u2013 including design, coding, testing, debugging, and tuning</li><li>You will own your projects from start to end as they travel through our fast-paced development cycle</li><li>In addition to working with your fellow engineers, you\u2019ll collaborate with other teams to design amazing products that meet the needs of our users, who are students and teachers all over the world</li></ul><br><p>Skills</p><ul><li>Bachelor's or advanced degree in computer science or a related discipline</li><li>Excellent programming skills</li><li>Strong analytical-reasoning and problem-solving skills</li><li>Ability to work both independently and with a wide variety of teams</li><li>Knowledge of Unix, Python, Java, SQL, or JavaScript is a plus</li><li>Passion for improving education through technology</li></ul><br><p>Benefits</p><ul><li>H1B sponsorship is available for this position.</li><li>Equity</li><li>Benefits</li></ul><br><p>Company Overview</p><li>At IXL Learning, we are passionate about improving learning for all. It was founded in 1996, and is headquartered in San Mateo, California, USA, with a workforce of 1001-5000 employees. Its website is https://www.ixl.com/.</li><br><p>Company H1B Sponsorship</p><li>IXL Learning has a track record of offering H1B sponsorships, with 2 in 2026, 31 in 2025, 60 in 2024, 28 in 2023, 17 in 2022, 12 in 2021, 20 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Remitly",
+    "Title": "Software Development Engineer",
+    "Location": "Seattle, Washington United States, US",
+    "PublishTime": "1 day ago",
+    "MinYOE": "2",
+    "MatchScore": 91.6801,
+    "MatchedSkills": [
+      "Software design",
+      "Software development",
+      "Software testing",
+      "Distributed system architectures",
+      "Code reviews",
+      "Version control",
+      "Continuous integration",
+      "Continuous deployment",
+      "AWS DynamoDB",
+      "AWS S3",
+      "Kubernetes",
+      "Go programming",
+      "Git",
+      "MySQL",
+      "Python"
+    ],
+    "MissingSkills": [
+      "Modular software solutions",
+      "Backend development",
+      "Rollout strategies",
+      "Experimentation plans",
+      "Instrumentation",
+      "Supportability processes",
+      "Automated testing",
+      "Redis"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e5b4647fea1610bca9b17",
+    "JobId": "6a0e5b4647fea1610bca9b17",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 11,
+      "matched_keyword_hits": [
+        "aws s3",
+        "git",
+        "kubernetes",
+        "mysql",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Remitly is a financial services company that provides secure and reliable ways for customers to manage their money globally. They are seeking a Software Development Engineer to design and develop software platform services that are central to the company\u2019s core products and growth.</p><br><p>Responsibilities</p><ul><li>Gather and analyze technical requirements in developing maintainable code</li><li>Develop consumer-facing software features by contributing across the development of the product software stack</li><li>Design, develop, and implement mobile application features that optimize systems</li><li>Analyze user requirements and software requirements to determine feasibility of systems design</li><li>Provide expertise in technical writing, coding and software development across engineering teams, with a focus on overall product quality and build</li></ul><br><p>Skills</p><ul><li>Position requires a Master's degree in Computer Science, Computer Engineering, or a directly related technical field, and 2 years of software design, development, testing, and implementation experience</li><li>1 year of experience with designing and implementing scalable distributed system architectures and modular software solutions, ensuring high availability, reliability, and long-term extensibility throughout the full software development lifecycle</li><li>1 year of experience with participating in technical design discussions and evaluating solution trade-offs to ensure feasible architectures aligned with product and business goals</li><li>1 year of experience with implementing backend features and functionality in collaboration with product, design, business, and engineering teams</li><li>1 year of experience with developing rollout strategies, experimentation plans, instrumentation, and supportability processes for new and existing services</li><li>1 year of experience with applying industry-standard engineering practices, including code reviews, version control, automated testing, and continuous integration/continuous deployment</li><li>1 year of experience with troubleshooting and resolving software defects by analyzing logs, metrics, and system behavior to identify root causes and maintain stable system operation</li><li>1 year of experience with mentoring and coaching junior engineers to strengthen technical depth and adherence to engineering best practices</li><li>1 year of experience with utilizing modern development tools and technologies, including AWS (DynamoDB, S3), Kubernetes, backend languages such as Go, Git, relational and non-relational databases (MySQL, Redis), and scripting languages such as Python</li></ul><br><p>Benefits</p><ul><li>Flexible paid time off</li><li>Health, dental, and vision + 401k plan with company matching</li><li>Paid parental, medical, military and family care leave</li><li>Mental Health & Family Forming Benefits</li><li>Employee Stock Purchase Plan (ESPP)</li><li>Continuing education and travel benefits</li></ul><br><p>Company Overview</p><li>Remitly is a mobile payments service that enables users to make person-to-person international money transfers. It was founded in 2011, and is headquartered in Seattle, Washington, USA, with a workforce of 1001-5000 employees. Its website is http://www.remitly.com.</li><br><p>Company H1B Sponsorship</p><li>Remitly has a track record of offering H1B sponsorships, with 4 in 2026, 76 in 2025, 54 in 2024, 59 in 2023, 42 in 2022, 25 in 2021, 10 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Skio",
+    "Title": "Software Engineer",
+    "Location": "United States",
+    "PublishTime": "14 hours ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "TypeScript",
+      "React"
+    ],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/6a0ef59612f8b43cf397aeb6",
+    "JobId": "6a0ef59612f8b43cf397aeb6",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Skio is a company dedicated to helping Shopify brands grow by simplifying subscriptions. They are seeking a Software Engineer to build product features, handle product ambiguity, and contribute to the engineering culture by raising technical quality and team collaboration.</p><br><p>Responsibilities</p><ul><li>Build entire product features end-to-end and own their success</li><li>Handle product ambiguity and bring clarity, obsessing over user details to ship experiences that delight merchants and customers</li><li>Work heavily in TypeScript and React, building scalable systems that keep us fast today and resilient tomorrow</li><li>Use AI tools (like Claude Code, Cursor, and others) to supercharge your output, improve quality, and automate the boring parts of software development</li><li>Contribute to our engineering culture. This means raising the bar for technical quality, team collaboration, and speed of execution</li></ul><br><p>Skills</p><ul><li>Experience in building entire product features end-to-end</li><li>Ability to handle product ambiguity and bring clarity</li><li>Proficiency in TypeScript and React</li><li>Experience in building scalable systems</li><li>Familiarity with AI tools (like Claude Code, Cursor, and others) to improve quality and automate software development</li><li>Ability to contribute to engineering culture by raising the bar for technical quality, team collaboration, and speed of execution</li></ul><br><p>Company Overview</p><li>Skio ($105M cash exit, $32M ARR, $8M seed) is subscription management software for brands on Shopify. It was founded in 2021, and is headquartered in New York, New York, USA, with a workforce of 51-200 employees. Its website is https://skio.com.</li><br><p>Company H1B Sponsorship</p><li>Skio has a track record of offering H1B sponsorships, with 2 in 2025, 3 in 2023, 1 in 2022. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Experis",
+    "Title": "Full Stack Developer",
+    "Location": "San Francisco, CA",
+    "PublishTime": "9 hours ago",
+    "MinYOE": null,
+    "MatchScore": 97.7266,
+    "MatchedSkills": [
+      "Python",
+      "Angular",
+      "SQL",
+      "Data Governance"
+    ],
+    "MissingSkills": [
+      "Google Cloud Platform",
+      "Pantheon"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f577280bf0430c7632c26",
+    "JobId": "6a0f577280bf0430c7632c26",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "angular",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": ""
+  },
+  {
+    "Company": "REEKON Tools",
+    "Title": "Software Engineer",
+    "Location": "Boston, MA",
+    "PublishTime": "1 day ago",
+    "MinYOE": null,
+    "MatchScore": 87.0413,
+    "MatchedSkills": [
+      "Typescript",
+      "React",
+      "React Native",
+      "MongoDB",
+      "Firebase",
+      "CI/CD",
+      "AWS",
+      "GitHub",
+      "API development"
+    ],
+    "MissingSkills": [
+      "Next.js",
+      "Electron",
+      "Canvas/2D graphics",
+      "Thrive in an ambiguous, fast-paced startup environment",
+      "Working individually or on small teams"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e30d347fea1610bca7d39",
+    "JobId": "6a0e30d347fea1610bca7d39",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "aws",
+        "ci cd",
+        "github",
+        "mongodb"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>REEKON Tools is developing innovative hardware products for the construction and home improvement industry. As a Software Engineer, you will collaborate with engineering and design teams to advance software that connects physical tools with digital platforms, ensuring performance and usability across multiple devices.</p><br><p>Responsibilities</p><ul><li>Collaborate with engineering and design team to manage 0 to 1 projects, from ideation through deployment</li><li>Work with design team to implement best in class designs and usability</li><li>Ensure the performance, scalability, and responsiveness of applications</li><li>Develop software across our web, desktop, and mobile platforms for connecting together construction projects</li><li>Internal tooling CI/CD (AWS/Github)</li><li>Comfortable in conducting independent research, explorations and determining tech stacks</li><li>Develop and integrate APIs for seamless communication between applications and adjacent software</li></ul><br><p>Skills</p><ul><li>Ability to thrive in an ambiguous, fast-paced startup environment</li><li>Generalist mindset with a passion for working across the stack</li><li>Experience with Typescript, React, React Native, Next.js, MongoDB, Electron, Firebase, Canvas/2D graphics, and CI/CD</li><li>Working individually or on small teams on complex projects</li><li>Collaborate with engineering and design team to manage 0 to 1 projects, from ideation through deployment</li><li>Work with design team to implement best in class designs and usability</li><li>Ensure the performance, scalability, and responsiveness of applications</li><li>Develop software across our web, desktop, and mobile platforms for connecting together construction projects</li><li>Internal tooling CI/CD (AWS/Github)</li><li>Comfortable in conducting independent research, explorations and determining tech stacks</li><li>Develop and integrate APIs for seamless communication between applications and adjacent software</li><li>Bluetooth or Wi-Fi stacks</li><li>Android and iOS native experience</li><li>Embedded firmware development (RTOS, Zephyr, or bare metal)</li><li>Passion for making things, extensive portfolio of hobby projects</li></ul><br><p>Company Overview</p><li>REEKON Tools is upgrading construction jobsites with a suite of interconnected software and hardware tools. It was founded in 2020, and is headquartered in Boston, Massachusetts, USA, with a workforce of 11-50 employees. Its website is https://www.reekon.tools/.</li><br><p>Company H1B Sponsorship</p><li>REEKON Tools has a track record of offering H1B sponsorships, with 1 in 2026, 1 in 2023, 1 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Leadership Circle",
+    "Title": "Full Stack Software Engineer - CET Time Zone Preferred",
+    "Location": "United States",
+    "PublishTime": "1 day ago",
+    "MinYOE": "2",
+    "MatchScore": 87.9649,
+    "MatchedSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "PostgreSQL",
+      "RESTful API design",
+      "Git workflows",
+      "AWS S3",
+      "AWS Lambda",
+      "Auth0",
+      "OAuth",
+      "Code review feedback"
+    ],
+    "MissingSkills": [
+      "Ruby on Rails",
+      "Next.js",
+      "AI-assisted development tools",
+      "NestJS",
+      "AWS SQS",
+      "RSpec",
+      "Jest"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e33dbc152ac7824484738",
+    "JobId": "6a0e33dbc152ac7824484738",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "javascript",
+        "postgresql",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Leadership Circle is reimagining how leadership grows through personalized, continuous experiences. They are seeking a Full Stack Software Engineer to support Project Center and LeadHub, working across backend services, APIs, and frontend user experiences while embracing AI-assisted development tools.</p><br><p>Responsibilities</p><ul><li>Develop and maintain full stack features across our current platform including Ruby on Rails backend services and Next.js and React frontend applications</li><li>Support and troubleshoot production issues across Project Center and LeadHub including participation in on-call rotations</li><li>Collaborate with teammates to ensure system stability, performance, and reliability across both frontend and backend systems</li><li>Contribute to platform transition efforts by migrating and re-imagining features across the full stack in the new architecture, improving service design, and ensuring data integrity</li><li>Build new full stack features on the next-generation platform using Next.js for the frontend, NestJS for the API layer, and Aurora PostgreSQL for the database</li><li>Build and consume RESTful APIs and support integrations with internal and external systems</li><li>Work with PostgreSQL databases including writing queries, optimizing performance, and supporting schema evolution</li><li>Collaborate with AWS services such as S3, Lambda and SQS for storage and asynchronous processing</li><li>Implement and maintain authentication flows using Auth0 and OAuth standards</li><li>Write automated tests such as RSpec and Jest and maintain code quality through thoughtful code reviews</li><li>Actively use AI-assisted development tools such as Claude Code as a core part of daily development including code generation, refactoring, debugging, and system comprehension</li><li>Continuously improve how AI tools are used within the team to increase development speed, reduce friction, and improve overall engineering effectiveness</li><li>Collaborate closely with Product, UX, and fellow engineers by communicating proactively, sharing context, and contributing to team discussions</li></ul><br><p>Skills</p><ul><li>2 to 5 years of software engineering experience with full stack development responsibilities</li><li>Experience with Ruby on Rails preferably Rails 6 or higher</li><li>Proficiency in JavaScript or TypeScript with React or Next.js</li><li>Experience building and maintaining both frontend and backend systems</li><li>Experience with PostgreSQL or similar relational databases</li><li>Familiarity with RESTful API design and implementation</li><li>Comfort working across both existing systems and newer architectures</li><li>Ability to balance short-term maintenance needs with long-term platform evolution</li><li>Experience with Git workflows and collaborative development practices</li><li>Strong communication skills and a team-first mindset with a willingness to ask questions when stuck, share context proactively, and believe the best solutions come from collaboration</li><li>Comfort giving and receiving feedback in code reviews and team discussions</li><li>Demonstrated experience using AI tools such as Claude Code, GitHub Copilot, or ChatGPT as a regular part of the development workflow</li><li>Strong ability to evaluate, validate, and improve AI-generated code to ensure production-quality outcomes</li><li>Mindset that embraces AI as a force multiplier for engineering productivity and continuous learning</li><li>Experience with NestJS or similar Node.js backend frameworks</li><li>Experience participating in system migrations or platform transitions</li><li>Familiarity with AWS services such as S3, SQS, and RDS or Aurora as well as Auth0, OAuth, Docker, or background job systems</li><li>Experience helping teams adopt AI-assisted development practices</li></ul><br><p>Company Overview</p><li>Welcome to the global brand hub of Leadership Circle! This page shares bold thinking, research-backed models, and flagship offerings shaping conscious leadership worldwide. It was founded in 1985, and is headquartered in Draper, Utah, USA, with a workforce of 51-200 employees. Its website is https://leadershipcircle.com/.</li><br><p>Company H1B Sponsorship</p><li>Leadership Circle has a track record of offering H1B sponsorships, with 1 in 2023. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Snap Finance",
+    "Title": "Full - Stack Developer I",
+    "Location": "Arizona, US",
+    "PublishTime": "13 hours ago",
+    "MinYOE": null,
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "React",
+      "TypeScript",
+      "Java",
+      "RESTful API",
+      "HTTP protocols",
+      "Git",
+      "Bitbucket",
+      "PostgreSQL",
+      "MySQL",
+      "JUnit",
+      "AWS",
+      "CI/CD pipelines",
+      "Cross-browser compatibility"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Jest",
+      "Responsive design"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f039812f8b43cf397b307",
+    "JobId": "6a0f039812f8b43cf397b307",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "aws",
+        "git",
+        "java",
+        "mysql",
+        "postgresql"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Snap Finance is a company dedicated to providing flexible financing solutions that empower individuals regardless of their credit history. They are seeking a Full Stack Engineer I to develop user interfaces and backend services, collaborating with experienced engineers and contributing to applications that serve real users.</p><br><p>Responsibilities</p><ul><li>Develop responsive and maintainable user interfaces using React and TypeScript under guidance</li><li>Build and test backend services using Java and Spring Boot with support from senior engineers</li><li>Work with RESTful APIs and JSON to integrate frontend and backend components</li><li>Implement features based on requirements gathered with product and design teams</li><li>Write clean, readable code following team standards and best practices</li><li>Participate in code reviews and incorporate feedback from peer engineers</li><li>Debug issues and troubleshoot problems across the stack with team support</li><li>Write unit and integration tests to ensure code quality and reliability</li><li>Learn and apply cloud deployment practices in AWS environments</li></ul><br><p>Skills</p><ul><li>Bachelor's Degree in Computer Science, Engineering, or related field (or equivalent experience)</li><li>Strong foundation in React and TypeScript for frontend development</li><li>Solid understanding of Java fundamentals for backend development</li><li>Working knowledge of RESTful API design and HTTP protocols</li><li>Proficiency with Git/Bitbucket for version control and collaboration</li><li>Experience with relational databases (PostgreSQL or MySQL)</li><li>Familiarity with testing frameworks (Jest, JUnit, or similar)</li><li>Strong problem-solving skills and ability to learn new technologies</li><li>Excellent communication skills and ability to work effectively in teams</li><li>Experience with Spring Boot framework</li><li>Exposure to cloud platforms (AWS)</li><li>Knowledge of CI/CD pipelines and deployment practices</li><li>Understanding of responsive design and cross-browser compatibility</li><li>Contributions to open source or personal projects on GitHub</li><li>Experience with agile development practices</li></ul><br><p>Benefits</p><ul><li>Generous paid time off</li><li>Competitive medical, dental & vision coverage</li><li>401K with company match for US</li><li>Company-paid life insurance</li><li>Company-paid short-term and long-term disability</li><li>Access to mental health and wellness resources</li><li>Company-paid volunteer time to do good in your community</li><li>Legal coverage and other supplemental options</li><li>A value-based culture where growth opportunities are endless</li></ul><br><p>Company Overview</p><li>Snap Finance is a fintech company that specializes in providing consumer financing and lease-to-own purchase options. It was founded in 2012, and is headquartered in Salt Lake City, Utah, USA, with a workforce of 1001-5000 employees. Its website is http://snapfinance.com.</li><br><p>Company H1B Sponsorship</p><li>Snap Finance has a track record of offering H1B sponsorships, with 1 in 2026, 11 in 2025, 25 in 2024, 5 in 2023, 21 in 2022, 14 in 2021. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Salesforce",
+    "Title": "DevOps Engineering AMTS",
+    "Location": "Virginia - Herndon, US",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 88.4657,
+    "MatchedSkills": [
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Linux",
+      "Unix",
+      "Shell scripting",
+      "Python",
+      "Security Groups",
+      "CI/CD",
+      "GitHub Actions",
+      "Infrastructure as Code"
+    ],
+    "MissingSkills": [
+      "Ansible",
+      "CloudFormation",
+      "Golang",
+      "TCP/IP",
+      "DNS",
+      "VPC",
+      "Jenkins"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f662a72b52f7225f3d76d",
+    "JobId": "6a0f662a72b52f7225f3d76d",
+    "BaseTemplate": "CE_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "aws",
+        "ci cd",
+        "docker",
+        "kubernetes",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Salesforce is the #1 AI CRM, dedicated to driving innovation and customer success. They are seeking an early-career DevOps engineer to join a team focused on infrastructure at scale, solving deployment problems with software and delivering high-quality infrastructure in public cloud environments.</p><br><p>Responsibilities</p><ul><li>Build a foundation in solving infrastructure problems with code, with a focus on compute capacity and Kubernetes deployments at scale</li><li>Come up to speed with Hyperforce platform tooling supporting Commercial and GovCloud deployments, developing expertise in Infrastructure and Service builds (Day0) and redeployment (Day2) operations</li><li>Transform manual processes into automated governance solutions</li><li>Create and maintain documentation for systems and processes</li><li>Collaborate with various Infrastructure teams across Salesforce, growing your influence and cross-functional skills</li><li>Work with a highly innovative team of developers, open-source committers, and architects \u2014 researching the right tools for the job, and helping build them when they don't exist yet</li></ul><br><p>Skills</p><ul><li>Strong background in Computer Science, Computer Engineering, or a related field</li><li>Must be located in North America</li><li>Familiarity with AWS or other cloud environments through coursework, personal projects, or internships</li><li>Exposure to containers (Docker) and container orchestration concepts (Kubernetes)</li><li>Coursework or project experience with Infrastructure as Code tools (Terraform, Ansible, CloudFormation, or similar)</li><li>Foundational Linux/Unix knowledge (command line proficiency, basic system administration)</li><li>Experience with at least one scripting or programming language (Shell, Python, or Golang)</li><li>Basic understanding of networking concepts (TCP/IP, DNS, VPCs, security groups)</li><li>Familiarity with CI/CD concepts and tools (Jenkins, GitHub Actions, or similar)</li><li>Experience using AI tools (e.g., AI coding assistants, generative AI) to accelerate development or automate workflows</li><li>Strong analytical skills and a demonstrated desire for continuous learning</li><li>Excellent communication skills, both written and verbal</li><li>Internship experience in a DevOps, SRE, or cloud infrastructure role</li><li>Familiarity with monitoring and observability tools (Grafana, Prometheus, Splunk, ELK)</li><li>Exposure to security and compliance concepts or tooling (IAM, PKI, OPA, Checkov, or similar)</li><li>Contributions to open-source projects</li><li>Exposure to on-call concepts, service monitoring, and SLI/SLO frameworks</li></ul><br><p>Benefits</p><ul><li>Certain roles may be eligible for incentive compensation, equity, and benefits.</li><li>Salesforce offers a variety of benefits to help you live well including: time off programs, medical, dental, vision, mental health support, paid parental leave, life and disability insurance, 401(k), and an employee stock purchasing program.</li></ul><br><p>Company Overview</p><li>Salesforce is a cloud-based software company that provides customer relationship management software and applications. It was founded in 1999, and is headquartered in San Francisco, California, USA, with a workforce of 10001+ employees. Its website is https://www.salesforce.com.</li><br><p>Company H1B Sponsorship</p><li>Salesforce has a track record of offering H1B sponsorships, with 324 in 2026, 1883 in 2025, 2296 in 2024, 1850 in 2023, 2849 in 2022, 2124 in 2021, 1960 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Microsoft",
+    "Title": "Software Engineer II",
+    "Location": "Redmond, WA",
+    "PublishTime": "8 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "Python",
+      "ReactJS",
+      "Identity management"
+    ],
+    "MissingSkills": [
+      "C#",
+      "PowerShell"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69343653f131d96e48469fb2",
+    "JobId": "69343653f131d96e48469fb2",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "c++",
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEP_NG",
+      "override_reason": "Engineer II is mid-level (2+ yrs), not new grad"
+    },
+    "JDText": "<p>Microsoft is a leading enterprise service company focused on securing digital technology platforms and clouds. They are seeking a Software Engineer II to design and implement full stack systems, collaborate with teams, and ensure effective coding practices while addressing production issues.</p><br><p>Responsibilities</p><ul><li>Design and implement full stack systems working with the team</li><li>Adhere to modern engineering practices, effective coding, writing unit test cases, debugging, code reviewing and creating CI/CD pipelines</li><li>Work with customers and collaborate with other teams to own end to end solutions and delivery</li><li>Translate business requirements into technical specifications and help implement them</li><li>Debug bugs, production issues and address them in a timely manner</li><li>Review work of peer members</li></ul><br><p>Skills</p><ul><li>Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience</li><li>Ability to meet Microsoft, customer and / or government security screening requirements are required for this role. These requirements include, but are not limited to the following specialized security screenings: Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud Background Check upon hire / transfer and every two years thereafter</li><li>Master's Degree in Computer Science or related technical field AND 3+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 5+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience</li><li>Experience in Identity management principles</li><li>Demonstrate passion and ability in collaborating with external teams, partners and customers</li><li>Experience with one or more general purpose programming languages including, but not limited to: C#, ReactJS, JavaScript, PowerShell</li></ul><br><p>Benefits</p><ul><li>Certain roles may be eligible for benefits and other compensation.</li><li>Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-corporate-pay</li></ul><br><p>Company Overview</p><li>Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services. It was founded in 1975, and is headquartered in Redmond, Washington, USA, with a workforce of 10001+ employees. Its website is https://www.microsoft.com.</li><br><p>Company H1B Sponsorship</p><li>Microsoft has a track record of offering H1B sponsorships, with 1317 in 2026, 9192 in 2025, 9343 in 2024, 7677 in 2023, 11403 in 2022, 7210 in 2021, 7852 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Stryker",
+    "Title": "Software Engineer, Cloud",
+    "Location": "United States",
+    "PublishTime": "10 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 89.2927,
+    "MatchedSkills": [
+      "Python",
+      "Java",
+      "API development",
+      "Cloud platforms",
+      "IaaS",
+      "React",
+      "Angular",
+      "Docker",
+      "OAuth"
+    ],
+    "MissingSkills": [
+      "C#",
+      "Backend services development",
+      "PaaS",
+      "SaaS",
+      "Distributed systems debugging",
+      "SSL/TLS",
+      "Medical device software"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f2da180bf0430c7631481",
+    "JobId": "6a0f2da180bf0430c7631481",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "docker",
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Stryker Corporation is a leading medical technology company, and they are seeking a Cloud Software Engineer to design and maintain platforms and APIs for their digital health ecosystem. The role involves delivering secure and scalable backend solutions that support various applications while collaborating with cross-functional teams to ensure high reliability and quality in a regulated environment.</p><br><p>Responsibilities</p><ul><li>Implement secure, reliable, high\u2011performance APIs hosted in the Cloud that support Stryker medical device classified mobile, XR, web, and desktop applications</li><li>Implement secure, reliable, scalable data-processing and data-ingestion Cloud hosted pipeline components for large data objects such as images, videos, and STL files</li><li>Contribute to front-end implementation of Web applications</li><li>Perform code reviews ensuring adherence to coding standards, architectural guidelines, and best practices</li><li>Implement automated unit tests and enabling Behavior-Driven Development (BDD) test suites</li><li>Implement proof of concepts to benchmark and validate design approaches for backend Cloud solutions</li><li>Close collaboration with Product Owners, QA testers, mobile/XR/web/desktop software engineers, product security, regulatory, and other project stakeholders</li><li>Translate functional requirements into secure, reliable, scalable backend components</li></ul><br><p>Skills</p><ul><li>Bachelor's degree in Computer Science, Software Engineering, or related discipline along with 2+ years of professional software development experience</li><li>Experience writing maintainable and testable code using modern programming languages (e.g., C#, Python, Java), with application of established design principles and patterns</li><li>Experience developing backend services, and APIs hosted in the Cloud leveraging PaaS, SaaS, and IaaS applying design patterns/principles</li><li>Strong debugging, troubleshooting, and problem-solving skills across distributed systems</li><li>Experience with Single Page Application frameworks such as React or Angular</li><li>Experience implementing and working with Docker containers</li><li>Familiarity with security considerations and protocols (e.g., OAuth, SSL/TLS)</li><li>Exposure to regulated environments or working on medical device software</li></ul><br><p>Benefits</p><ul><li>Work Flexibility: Remote</li><li>Travel Percentage: 10%</li></ul><br><p>Company Overview</p><li>Stryker is a medical technology company that offers products and services in orthopaedics. It was founded in 1941, and is headquartered in Kalamazoo, Michigan, USA, with a workforce of 10,001+ employees. Its website is http://www.stryker.com/en-us/index.htm.</li><br><p>Company H1B Sponsorship</p><li>Stryker has a track record of offering H1B sponsorships, with 36 in 2023, 76 in 2022, 73 in 2021, 69 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "G3",
+    "Title": "Legal Technology Entry-Level Developer",
+    "Location": "Myrtle Beach, US",
+    "PublishTime": "5 hours ago",
+    "MinYOE": null,
+    "MatchScore": 92.4822,
+    "MatchedSkills": [
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "React",
+      "Git",
+      "API",
+      "QA testing"
+    ],
+    "MissingSkills": [
+      "Selenium",
+      "Responsive web design",
+      "UI/UX principles"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f74de9f654b3359ce5ef8",
+    "JobId": "6a0f74de9f654b3359ce5ef8",
+    "BaseTemplate": "FS_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 4,
+      "matched_keyword_hits": [
+        "git",
+        "mysql"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>TransPerfect is seeking motivated and tech-savvy Entry-Level Developers to join the team supporting Virtual Reef, TransPerfect\u2019s internal business platform. This role is ideal for early-career professionals who are passionate about software development and building scalable technology solutions in a collaborative environment.</p><br><p>Responsibilities</p><ul><li>Support the development, maintenance, and enhancement of the Virtual Reef platform</li><li>Collaborate with developers, analysts, and cross-functional teams on new features and improvements</li><li>Assist with troubleshooting, debugging, and resolving technical issues</li><li>Write clean, maintainable, and efficient code</li><li>Participate in testing and quality assurance efforts to ensure platform reliability</li><li>Contribute to front-end and/or back-end development projects</li><li>Help document technical processes, workflows, and system updates</li><li>Support ongoing optimization and performance improvement initiatives</li><li>Stay current on emerging technologies and development best practices</li></ul><br><p>Skills</p><ul><li>Bachelor's degree in Computer Science, Information Technology, Software Engineering, or a related field preferred</li><li>Exposure to or experience with one or more of the following: PHP, MySQL, JavaScript, React, QA automation platforms such as Playwright or Selenium</li><li>Strong problem-solving and analytical skills</li><li>Basic understanding of software development principles and web technologies</li><li>Ability to work both independently and collaboratively in a team environment</li><li>Strong attention to detail and organizational skills</li><li>Excellent communication skills and willingness to learn</li><li>Internship, academic project, or personal project experience is a plus</li><li>Familiarity with version control systems such as Git</li><li>Experience working with APIs or databases</li><li>Exposure to QA testing methodologies or automation frameworks</li><li>Understanding of responsive web design and modern UI/UX principles</li></ul><br><p>Company Overview</p><li>At G3, we go beyond translation\u2014we enable businesses to thrive in a multilingual, multicultural world. It was founded in 2006, and is headquartered in New York, New York, USA, with a workforce of 51-200 employees. Its website is https://g3translate.com/.</li><br><p>Company H1B Sponsorship</p><li>G3 has a track record of offering H1B sponsorships, with 1 in 2023, 1 in 2022, 2 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "IXL Learning",
+    "Title": "Software Engineer, New Grad",
+    "Location": "Raleigh, NC",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 83.3768,
+    "MatchedSkills": [
+      "Python",
+      "Java",
+      "SQL",
+      "JavaScript",
+      "React",
+      "Linux",
+      "Unix"
+    ],
+    "MissingSkills": [
+      "D3",
+      "Scala",
+      "Swift",
+      "Apache",
+      "Oracle",
+      "Analytical reasoning"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69f40496461b9b613a6255d6",
+    "JobId": "69f40496461b9b613a6255d6",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 4,
+      "matched_keyword_hits": [
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>IXL Learning is the country's largest EdTech company, seeking new graduates who are passionate about technology and education. In this role, you will build back-end wiring, application logic, and UI for impactful educational products, collaborating with various teams throughout the development process.</p><br><p>Responsibilities</p><ul><li>As a Software Engineer, you will build the back-end wiring, application logic, and UI that engage our users</li><li>You will find and use the best technologies to add features and create new products</li><li>You\u2019ll be involved in all aspects of the development process \u2013 including design, coding, testing, debugging, and tuning</li><li>You will own your projects from start to end as they travel through our fast-paced development cycle</li><li>In addition to working with your fellow engineers, you\u2019ll collaborate with other teams to design amazing products that meet the needs of our users, who are students and teachers all over the world</li></ul><br><p>Skills</p><ul><li>Bachelor's or advanced degree in computer science or a related discipline</li><li>Excellent programming skills</li><li>Strong analytical-reasoning and problem-solving skills</li><li>Ability to work both independently and with a wide variety of teams</li><li>Knowledge of Unix, Python, Java, SQL, or JavaScript is a plus</li><li>Passion for improving education through technology</li></ul><br><p>Benefits</p><ul><li>H1B sponsorship is available for this position.</li></ul><br><p>Company Overview</p><li>IXL provides comprehensive, standards-aligned math and language arts practice for K\u201312. It was founded in 1996, and is headquartered in San Mateo, California, USA, with a workforce of 501-1,000 employees. Its website is https://www.ixl.com/.</li><br>"
+  },
+  {
+    "Company": "Charles Schwab",
+    "Title": "Specialist, Software Developer",
+    "Location": "US-TX-Southlake",
+    "PublishTime": "9 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 95.4911,
+    "MatchedSkills": [
+      "Java",
+      "Web Services",
+      "Angular",
+      "TypeScript",
+      "Microservices",
+      "Containers",
+      "CI/CD Pipeline",
+      "Cloud Platforms - AWS",
+      "MongoDB",
+      "SQL Server"
+    ],
+    "MissingSkills": [
+      "Spring",
+      "Cloud Platforms - PCF",
+      "Cloud Platforms - GCP",
+      "Redis"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f3d6e80bf0430c7631f4f",
+    "JobId": "6a0f3d6e80bf0430c7631f4f",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 7,
+      "matched_keyword_hits": [
+        "java",
+        "microservices",
+        "mongodb"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Charles Schwab is a leading financial services company committed to transforming the finance industry through innovative technology. The Specialist, Software Developer role involves building and improving a distributed Java-based application ecosystem, focusing on developing Angular user interfaces and collaborating within an agile environment to deliver high-performance web experiences.</p><br><p>Responsibilities</p><ul><li>Contribute to building and improving a distributed Java-based application ecosystem that uses modern microservices and micro-frontend patterns</li><li>Develop Angular user interfaces (including TypeScript, RxJS, state management, and component-based architecture) that integrate with Java back-end services</li><li>Work within an agile delivery environment, partnering with product owners, architects, and technology teams to clarify requirements, align to enterprise standards, and deliver resilient solutions</li><li>Span the software development lifecycle, from solution design and development through testing, release, and production support</li><li>Apply and grow capabilities in areas such as front-end engineering standards, design systems, observability, CI/CD quality gates, performance considerations, and accessibility practices</li></ul><br><p>Skills</p><ul><li>Bachelor's degree in computer science or a related field</li><li>2+ years of experience (or relevant internship/academic projects) building applications using Java, Spring, and web services</li><li>1+ years of experience (or relevant internship/academic projects) using Angular for front-end development (or a similar TypeScript-based framework)</li><li>Exposure to containers and microservices concepts in cloud environments</li><li>Understanding of CI/CD pipeline concepts and cloud deployment workflows</li><li>Awareness of cloud platforms such as PCF, AWS, and/or GCP</li><li>Basic knowledge of databases such as MongoDB, Redis, or SQL Server</li><li>Ability to collaborate across product management, architecture, SRE, and adjacent engineering teams, with a demonstrated willingness to learn and contribute</li><li>Comfort working with distributed teams, including offshore partners and external stakeholders</li><li>Strong written and verbal communication skills, with demonstrated curiosity and a creative problem-solving mindset</li><li>Basic understanding of common design patterns, development standards, and engineering guidelines within modern application ecosystems</li><li>Exposure to .NET technologies (e.g., C#, ASP.NET Core), REST APIs, and unit/integration testing practices</li><li>Familiarity with AI-enabled development tools (e.g., code assistants, intelligent automation, AI-driven code analysis)</li><li>Awareness of quality-first engineering practices such as test-driven development (TDD), QA automation, and maintaining automated test suites in CI/CD</li><li>Front-end framework experience or coursework beyond Angular (e.g., React, Vue.js)</li><li>Familiarity with HTML, CSS/Sass, responsive design, and accessibility fundamentals (WCAG)</li><li>Interest in performance optimization concepts for web applications and contributing to technical documentation</li><li>Interest in, or exposure to, the financial services industry</li></ul><br><p>Company Overview</p><li>We have plans for every turn you take. It was founded in 1973, and is headquartered in San Francisco, California, USA, with a workforce of 10001+ employees. Its website is https://www.schwab.com/.</li><br><p>Company H1B Sponsorship</p><li>Charles Schwab has a track record of offering H1B sponsorships, with 92 in 2026, 579 in 2025, 468 in 2024, 455 in 2023, 705 in 2022, 483 in 2021, 282 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Loop",
+    "Title": "Software Engineer, Full-Stack",
+    "Location": "Chicago, IL",
+    "PublishTime": "14 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 81.4531,
+    "MatchedSkills": [
+      "TypeScript",
+      "GraphQL",
+      "React",
+      "Node.js",
+      "AWS",
+      "PostgreSQL",
+      "Kafka"
+    ],
+    "MissingSkills": [
+      "Relay",
+      "CDK",
+      "Fargate ECS",
+      "Prisma",
+      "NestJS",
+      "Redis",
+      "Elasticsearch",
+      "Technical Knowledge Sharing"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69f1fbf1825a315d7ca3a328",
+    "JobId": "69f1fbf1825a315d7ca3a328",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 13,
+      "matched_keyword_hits": [
+        "aws",
+        "graphql",
+        "node.js",
+        "postgresql",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Loop is a company focused on improving logistics payments by leveraging AI to streamline operations and enhance customer insights. As a full-stack engineer, you will collaborate with teams to define products and features that address customer pain points while tackling complex technical challenges.</p><br><p>Responsibilities</p><ul><li>Work cross-functionally with product, design, and sales to understand requirements and ship thoughtful solutions</li><li>Write high-quality code optimized for extensibility</li><li>Engage in code reviews to maintain a high bar of engineering excellence</li><li>Lead discussions and documentation to communicate and arrive at the best technical design</li><li>Work across different component boundaries, from frontend to backend, and even infrastructure layers</li><li>Promote better practices and share technical knowledge across the team</li><li>Help grow Loop through deliberate feedback on product, process, and culture</li></ul><br><p>Skills</p><ul><li>Willing to work in the SF or Chicago office three days a week</li><li>Two years of software engineering experience</li><li>Experience with TypeScript and tools such as GraphQL, Relay, React, and Node.js</li><li>Experience working at early-stage companies where you shipped products end-to-end and wore many hats</li></ul><br><p>Benefits</p><ul><li>Premium Medical, Dental, and Vision Insurance plans</li><li>Insurance premiums covered 100% for you</li><li>Unlimited PTO</li><li>Fireside chats with industry leading keynote speakers</li><li>Generous professional development budget to feed your curiosity</li><li>Physical and Mental fitness subsidies for yoga, meditation, gym, or ski memberships</li></ul><br><p>Company Overview</p><li>Loop provides a platform that manages logistics and supply chain data through automation and analytics tools. It was founded in 2021, and is headquartered in San Francisco, California, USA, with a workforce of 201-500 employees. Its website is https://loop.com.</li><br><p>Company H1B Sponsorship</p><li>Loop has a track record of offering H1B sponsorships, with 1 in 2025, 1 in 2024. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "ServiceNow",
+    "Title": "Associate Software Engineer, Search Infrastructure - Moveworks",
+    "Location": "Mountain View, CA",
+    "PublishTime": "8 hours ago",
+    "MinYOE": "0",
+    "MatchScore": 86.8761,
+    "MatchedSkills": [
+      "Python",
+      "Java",
+      "C++",
+      "Docker",
+      "AWS",
+      "Azure",
+      "Kafka",
+      "Performance Optimization"
+    ],
+    "MissingSkills": [
+      "Golang",
+      "GCP",
+      "Elasticsearch",
+      "Opensearch",
+      "Istio",
+      "Vector DB",
+      "Scalability",
+      "Latency Monitoring"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a03da91f3d6cc51d637a246",
+    "JobId": "6a03da91f3d6cc51d637a246",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "aws",
+        "docker",
+        "java",
+        "kafka",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>ServiceNow is a global market leader bringing innovative AI-enhanced technology to over 8,100 customers. The Associate Software Engineer will build core infrastructure services and improve the performance and scalability of the Moveworks cloud infrastructure while collaborating with various engineering teams.</p><br><p>Responsibilities</p><ul><li>Build out core infrastructure services and microservices that impact our machine learning, frontend, and platform teams</li><li>Build out core infrastructure for various functionalities such as: distributed configuration management, rate limiting, feature flag, A/B testing, and traffic capture and replay</li><li>Improve the performance, scalability and observability of the Moveworks cloud infrastructure</li><li>Deliver deadline sensitive work regularly that is interdependent with other engineering teams</li><li>Own features end-to-end, and regularly influence the infrastructure roadmap</li><li>This is a highly collaborative, in-person role, working cross functionally with Core and ML engineering teams, and more</li></ul><br><p>Skills</p><ul><li>0-3 years of experience</li><li>Familiarity with Python/Golang/Java/C++</li><li>Experience with containers/Docker, and with cloud infrastructure like AWS/GCP/Azure</li><li>Experience working with and operating open source technologies like Kafka, Elasticsearch or Opensearch, Istio, Vector DB, etc. at scale</li><li>Desire to work at a startup pace with a high degree of ownership</li><li>Experience solving for performance, optimization, scalability, latency, and monitoring</li><li>Strong motivation, gumption, and an appetite for continuous, incremental changes and completing challenging projects quickly</li><li>BS in computer science or a related field</li><li>High level of curiosity about engineering outside of your immediate discipline and an incessant desire to learn</li></ul><br><p>Company Overview</p><li>ServiceNow is an AI platform that delivers IT operations, field service management and app engine solutions. It was founded in 2004, and is headquartered in Santa Clara, California, USA, with a workforce of 10001+ employees. Its website is http://www.servicenow.com.</li><br><p>Company H1B Sponsorship</p><li>ServiceNow has a track record of offering H1B sponsorships, with 141 in 2026, 910 in 2025, 876 in 2024, 807 in 2023, 840 in 2022, 447 in 2021, 439 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "PayPal",
+    "Title": "Software Engineer",
+    "Location": "Scottsdale, AZ",
+    "PublishTime": "1 day ago",
+    "MinYOE": "2",
+    "MatchScore": 89.1518,
+    "MatchedSkills": [
+      "Java",
+      "RESTful APIs",
+      "WebSocket",
+      "AWS",
+      "SQL",
+      "NoSQL databases",
+      "Apache Kafka",
+      "Distributed Systems",
+      "Microservices",
+      "Unit Testing",
+      "Integration Testing",
+      "Junit",
+      "Mockito",
+      "Postman",
+      "Git"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Spring Batch",
+      "Spring Security",
+      "Spring Data",
+      "Spring MVC",
+      "Spring Cloud",
+      "GCP",
+      "Hibernate",
+      "Selenium"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e31eb47fea1610bca7e36",
+    "JobId": "6a0e31eb47fea1610bca7e36",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 16,
+      "matched_keyword_hits": [
+        "aws",
+        "distributed systems",
+        "git",
+        "integration testing",
+        "java",
+        "microservices",
+        "mockito",
+        "unit testing"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEP_E",
+      "override_reason": "JD explicitly: 'backend services using Java, Spring Boot, Spring Batch'"
+    },
+    "JDText": "<p>PayPal is a global leader in commerce, providing innovative payment solutions for consumers and businesses. The Software Engineer role involves developing and maintaining backend software services, designing RESTful APIs, and collaborating with cross-functional teams to ensure high-quality products.</p><br><p>Responsibilities</p><ul><li>Develop and maintain backend software services using Java, Spring Boot, and Spring Batch</li><li>Design and implement RESTful APIs for PayPal Credit features and integrations</li><li>Troubleshoot and debug live issues to ensure software system reliability and quick recovery</li><li>Write unit and integration tests to ensure high software code quality and coverage</li><li>Optimize performance of backend software systems and improve service efficiency</li><li>Collaborate with cross-functional teams to align technical solutions with business goals and to deliver high-quality products</li><li>Apply secure software coding practices and follow industry standards to protect user data</li></ul><br><p>Skills</p><ul><li>Master's degree, or foreign equivalent, in Computer Science, Engineering, or a closely related field plus two years of experience in the job offered or a related occupation</li><li>Experience in designing and developing large-scale distributed software applications using Object-Oriented Design and Java (2 years)</li><li>Designing and building RESTful APIs for microservices (2 years)</li><li>Developing enterprise system using Spring Frameworks such as Spring Boot, Spring Security, Spring Data, Spring MVC, Spring Cloud, Spring Batch, and WebSocket. (1 year)</li><li>Experience working with cloud platforms such as AWS or GCP or equivalent (1 year)</li><li>Applying data structures and algorithms, along with using enterprise design patterns (2 years)</li><li>Strong understanding of database design, including SQL and NoSQL databases, and experience with ORM tools and framework like Hibernate. (2 years)</li><li>Experience in building asynchronous event-driven enterprise system using messaging frameworks like Apache Kafka or equivalent, etc. (1 year)</li><li>Experience in optimizing system performance and reliability (1 year)</li><li>Experience in designing and developing scalable, high-performance microservices (1 year)</li></ul><br><p>Benefits</p><ul><li>Additional compensation for this role may include an annual performance bonus, equity, or other incentive compensation, as applicable.</li><li>Partial telecommuting permitted from within a commutable distance.</li><li>For the majority of employees, PayPal's balanced hybrid work model offers 3 days in the office for effective in-person collaboration and 2 days at your choice of either the PayPal office or your home workspace, ensuring that you equally have the benefits and conveniences of both locations.</li><li>Generous paid time off</li><li>Healthcare coverage for you and your family</li><li>Resources to create financial security and support your mental health</li></ul><br><p>Company Overview</p><li>PayPal is a financial service company that provides online payment solutions to its users worldwide. It was founded in 1998, and is headquartered in San Jose, California, USA, with a workforce of 10,001+ employees. Its website is https://www.paypal.com/home.</li><br><p>Company H1B Sponsorship</p><li>PayPal has a track record of offering H1B sponsorships, with 561 in 2023, 921 in 2022, 1115 in 2021, 1169 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Apple",
+    "Title": "Software Engineering Masters Internships",
+    "Location": "United States",
+    "PublishTime": "5 hours ago",
+    "MinYOE": null,
+    "MatchScore": 86.8227,
+    "MatchedSkills": [
+      "Object-oriented design",
+      "Data structures",
+      "Algorithms",
+      "Java",
+      "C++",
+      "PHP",
+      "Python",
+      "Unix",
+      "MySQL",
+      "Clojure",
+      "JavaScript",
+      "CSS",
+      "HTML5",
+      "Data modeling",
+      "Data processing",
+      "MongoDB",
+      "AngularJS",
+      "NodeJS"
+    ],
+    "MissingSkills": [
+      "Ruby",
+      "Scala",
+      "Swift",
+      "Data validation",
+      "MapReduce",
+      "HDFS",
+      "Spark",
+      "Golang",
+      "Hadoop",
+      "Pig",
+      "Hive",
+      "SproutCore"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f6b6b80bf0430c76339d3",
+    "JobId": "6a0f6b6b80bf0430c76339d3",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SEJ",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "algorithms",
+        "data structures",
+        "java",
+        "mysql"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEJ_NG",
+      "override_reason": "broad multi-language internship; masters intern \u2192 NG breadth"
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Apple is a company known for its extraordinary ideas that turn into phenomenal products and services. They are seeking highly motivated engineering students for Software Engineering Masters Internships, where interns will work on back-end development, user experience design, and information security, contributing to products like Siri and iCloud.</p><br><p>Responsibilities</p><ul><li>Back-end development \u2014 You\u2019ll help build the features that Apple users love, like Siri, Apple Music, iCloud, Apple Maps, by presenting data to the user-facing applications</li><li>Design and build - You\u2019ll help develop fully integrated operating systems that combine hardware, software, and services into a single Apple experience</li><li>User Experience (UX) \u2014 Assist in building elegant UX experiences that are simple, intuitive, and impactful. They are working in a constantly evolving environment and performing effectively under dynamic fast-paced conditions</li><li>User Interface (UI) - You will work with the UX team, back-end engineers and other front end engineers to develop a web portal for building an end to end software development journey</li><li>IOS and Web Development - You\u2019ll help build web-based and iOS tools and applications to improve our products and do more for our customers. Our developers are responsible for crafting the direction of our products by considering the architecture, performance, testing, design, and implementation</li><li>Information Systems & Technology (IS&T) - You\u2019ll assist in producing key business and technical infrastructure at Apple. You\u2019ll build applications that improve the Apple Store experience, develop solutions that enable customers to learn about and support their devices, and provide network bandwidth for our services around the world</li><li>Information Security - Help protect Apple's information, including business, employee, and customer data wherever it goes. Our tools and services protect against threats that seek to compromise our systems, monitor the stability and security of our internal environment, and track emerging threats and vulnerabilities that might build an opportunity for an attacker</li></ul><br><p>Skills</p><ul><li>Pursuing a graduate (MS) degree in Computer Science, Electrical Engineering, Computer Engineering, Data Science, Design, Information Security or related fields</li><li>At the end of the internship, you must return to school to continue your education or the internship must be the last requirement for you to graduate</li><li>Strong object-oriented design skills, coupled with a deep knowledge of data structures and algorithms</li><li>Proficiency in one or more developer skills: Java, C/C++, PHP, Python, Ruby, Unix, MySQL, Clojure, Scala, Java Script, CSS, HTML5, Swift</li><li>Experience in sophisticated methodologies such as Data Modeling, Validation, Processing, MapReduce</li><li>Experience with distributed technologies such as HDFS, Spark, Golang, Hadoop, Mongo, Pig, Hive</li><li>Experience with web frameworks such as AngularJS, NodeJS, SproutCore</li><li>Experience with iOS and macOS developing in Swift, XCode or Objective-C</li><li>Client-Server protocol and API design Skills</li><li>Able to craft multi-functional requirements and translate them into practical engineering tasks</li><li>A fundamental knowledge of embedded processors, with in-depth knowledge of real time operating system concepts</li><li>Excellent debugging and critical thinking skills</li><li>Excellent analytical and problem-solving skills</li><li>Ability to work in a fast paced, team-based environment</li></ul><br><p>Company Overview</p><li>Apple is a technology company that designs, manufactures, and markets consumer electronics, personal computers, and software. It was founded in 1976, and is headquartered in Cupertino, California, USA, with a workforce of 10001+ employees. Its website is https://www.apple.com.</li><br><p>Company H1B Sponsorship</p><li>Apple has a track record of offering H1B sponsorships, with 1629 in 2026, 6535 in 2025, 3766 in 2024, 3939 in 2023, 4822 in 2022, 4060 in 2021, 3656 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Northwell Health",
+    "Title": "Software Engineer",
+    "Location": "Lake Success, NY",
+    "PublishTime": "8 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 89.5149,
+    "MatchedSkills": [
+      "APIs",
+      "Data pipelines",
+      "AI/ML services",
+      "NoSQL databases",
+      "Relational databases",
+      "Azure Functions",
+      "Azure App Services",
+      "Azure Containers",
+      "Azure Cosmos DB",
+      "Azure Event Hubs",
+      "REST",
+      "Kafka",
+      "Cloud platforms",
+      "Containerized applications",
+      "CI/CD",
+      "Infrastructure as code"
+    ],
+    "MissingSkills": [
+      "Messaging frameworks",
+      "Azure Logic Apps",
+      "AMQP",
+      "HL7",
+      "FHIR",
+      "DICOM",
+      "PACS",
+      "LIS",
+      "RIS",
+      "EMR platforms"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f40d19f654b3359ce3dd0",
+    "JobId": "6a0f40d19f654b3359ce3dd0",
+    "BaseTemplate": "CE_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "ci cd",
+        "kafka"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Northwell Health is a healthcare organization seeking a Software Engineer to develop and support software solutions that enhance healthcare workflows across various platforms. The role involves collaborating with clinical and operational teams, developing integrations, and ensuring high-quality performance of applications.</p><br><p>Responsibilities</p><ul><li>Develops integrations between clinical systems and enterprise platforms using APIs, messaging frameworks, and data pipelines</li><li>Supports development and integration of AI-assisted workflows, including evaluation, orchestration, and monitoring of AI services used in clinical operations</li><li>Collaborates with clinical stakeholders to translate operational workflows into scalable software solutions</li><li>Assists with development of data pipelines and services that support analytics, operational reporting, and machine learning use cases</li><li>Designs and develops solutions to various problems either independently or in a team environment; designs and maintains efficient code that is reliable</li><li>Forms technical documents such as a design specification document</li><li>Utilizes NoSQL and relational databases by integrating data storage solutions. Utilizes Azure services such as, but not limited to, Functions, Logic Apps, App Services, Containers, Cosmos DB, and event hubs. Utilizes messaging patterns (REST, AMQP, Kafka, etc.) for system-to-system communication</li><li>Ensures applications are performing at high capacity, responsiveness, and quality</li><li>Finds solutions to reduce issues and defects</li><li>Maintains that the platform's code and data are organized, automated, and of high quality</li><li>Guides junior team members by recommending software design and development opportunities/best practices</li><li>Operates under general guidance and work assignments are varied and require interpretation and independent decisions on course of action</li><li>Performs related duties as required. All responsibilities noted here are considered essential functions of the job under the Americans with Disabilities Act. Duties not mentioned here, but considered related are not essential functions</li></ul><br><p>Skills</p><ul><li>Bachelor's Degree required, or equivalent combination of education and related experience</li><li>1-3 years of relevant experience, required</li><li>Experience working with healthcare data standards such as HL7, FHIR, or DICOM</li><li>Familiarity with imaging or laboratory workflows and clinical systems (PACS, LIS, RIS, or EMR platforms)</li><li>Experience integrating or consuming AI/ML services or APIs within applications</li><li>Experience with cloud platforms (Azure, GCP, or AWS) and cloud-native application development</li><li>Familiarity with data pipeline development, event-driven architectures, or streaming platforms</li><li>Experience working with containerized applications and modern development practices (CI/CD, infrastructure as code)</li></ul><br><p>Company Overview</p><li>Northwell Health is a health care provider that provides service and compassionate care that is focused on the patient and customer. It was founded in 1997, and is headquartered in New Hyde Park, New York, USA, with a workforce of 10001+ employees. Its website is https://www.northwell.edu/.</li><br><p>Company H1B Sponsorship</p><li>Northwell Health has a track record of offering H1B sponsorships, with 25 in 2026, 181 in 2025, 154 in 2024, 162 in 2023, 128 in 2022, 117 in 2021, 81 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Canonical",
+    "Title": "Microservices Engineer",
+    "Location": "Latin America",
+    "PublishTime": "11 hours ago",
+    "MinYOE": null,
+    "MatchScore": 97.3825,
+    "MatchedSkills": [
+      "Python",
+      "Relational database systems",
+      "Non-relational database systems",
+      "Continuous integration",
+      "Continuous delivery",
+      "Linux",
+      "Container technology",
+      "Distributed systems",
+      "Performance engineering",
+      "API design",
+      "Excellent interpersonal skills",
+      "Curiosity",
+      "Flexibility",
+      "Accountability",
+      "Excellent communication and presentation skills",
+      "Result-oriented",
+      "Self-motivation"
+    ],
+    "MissingSkills": [
+      "Go",
+      "Security analysis techniques"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6916e8a29c388539cbdffb4c",
+    "JobId": "6916e8a29c388539cbdffb4c",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 7,
+      "matched_keyword_hits": [
+        "distributed systems",
+        "python"
+      ],
+      "title_keyword_hits": [
+        "microservices"
+      ]
+    },
+    "JDText": "<p>Canonical is a leading provider of open source software and operating systems, known for its platform, Ubuntu. The Microservices Engineer role focuses on back-end REST API microservices engineering in Go and Python, requiring the design of scalable, reliable software and collaboration with a globally distributed team.</p><br><p>Responsibilities</p><ul><li>Write high-quality, well-designed, and robust software that works at scale</li><li>Design APIs and software architecture for collegial review</li><li>Write tests that validate software behaviour</li><li>Build and maintain reliable, fault-tolerant applications and services</li><li>Collaborate proactively with a globally distributed team</li><li>Display technical leadership internally and within our external communities</li><li>Debug issues and produce high-quality solutions to resolve them</li><li>Contribute to technical documentation to make it the best of its kind</li><li>Discuss, contribute to, and collaborate across teams at Canonical</li><li>Work from home with global travel twice annually for company events</li></ul><br><p>Skills</p><ul><li>An exceptional academic track record from both high school and university</li><li>Undergraduate degree in Computer Science or STEM, or a compelling narrative about your alternative path</li><li>Drive and a track record of going above-and-beyond expectations</li><li>Proficiency in Python and / or Go</li><li>History of writing modern, maintainable software</li><li>Experience with relational and non-relational database systems</li><li>Continuous integration and continuous delivery experience</li><li>Experience with systems programming or scalable web services</li><li>Professional written and spoken English</li><li>Experience with Linux (Debian or Ubuntu preferred)</li><li>Excellent interpersonal skills, curiosity, flexibility, and accountability</li><li>Passion, thoughtfulness, and self-motivation</li><li>Excellent communication and presentation skills</li><li>Result-oriented, with a personal drive to meet commitments</li><li>Ability to travel twice a year, for company events up to two weeks each</li><li>Experience with container tech such as LXD, Docker, and Kubernetes</li><li>Understanding of build systems and toolchains</li><li>Experience with cross-compilation</li><li>Experience with hyperscale public clouds and / or private clouds</li><li>Experience with designing, building, and running distributed systems</li><li>Performance engineering and security experience</li></ul><br><p>Benefits</p><ul><li>Distributed work environment with twice-yearly team sprints in person</li><li>Personal learning and development budget of USD 2,000 per year</li><li>Annual compensation review</li><li>Recognition rewards</li><li>Annual holiday leave</li><li>Maternity and paternity leave</li><li>Employee Assistance Programme</li><li>Opportunity to travel to new locations to meet colleagues</li><li>Priority Pass, and travel upgrades for long haul company events</li></ul><br><p>Company Overview</p><li>We deliver open source to the world faster, more securely and more cost effectively than any other company. It was founded in 2004, and is headquartered in London, England, GB, with a workforce of 1001-5000 employees. Its website is http://www.canonical.com/.</li><br><p>Company H1B Sponsorship</p><li>Canonical has a track record of offering H1B sponsorships, with 4 in 2025, 1 in 2024, 1 in 2023, 3 in 2022, 1 in 2021, 1 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Goldman Sachs",
+    "Title": "Engineering-Jersey City-Associate, Software Engineering-039312",
+    "Location": "Jersey City, NJ, United States",
+    "PublishTime": "7 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 89.5273,
+    "MatchedSkills": [
+      "C++",
+      "Java",
+      "Software Development Lifecycle",
+      "Multi-threaded Programming",
+      "Unix",
+      "Kafka",
+      "Micro-services Architecture",
+      "REST",
+      "SQL",
+      "NoSQL",
+      "MongoDB"
+    ],
+    "MissingSkills": [
+      "Multi-process Programming",
+      "Spring",
+      "Hibernate",
+      "RabbitMQ",
+      "Sybase",
+      "Oracle"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f59bf80bf0430c7632d9c",
+    "JobId": "6a0f59bf80bf0430c7632d9c",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "java",
+        "kafka",
+        "mongodb"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEP_E",
+      "override_reason": "JD heavy on Java/C++/Spring/Hibernate/multi-threading"
+    },
+    "JDText": "<p>Goldman Sachs is a leading global investment banking, securities and investment management firm. They are seeking an Associate in Software Engineering to develop and maintain software solutions that support their global businesses.</p><br><p>Responsibilities</p><ul><li>Develop, enhance, support and maintain the Firm\u2019s software solutions in support of its global businesses</li><li>Design and implement high-quality, scalable and thoughtful technology solutions leveraging both internal and open-source services</li><li>Assist in requirements gathering, user story refinement, development, testing (unit, integration and regression), User Acceptance Testing (UAT) and deployment</li><li>Work with internal teams to develop solution designs</li><li>Identify new external technologies that can be used to transform our financial businesses and internal platforms in innovative and disruptive ways</li><li>Work in all phases of the Software Development Lifecycle (SDLC) to meet internal and regulatory requirements</li><li>Design, implement and maintain robust testing suites to enable safe, complete, and scalable solutions across our business lines</li></ul><br><p>Skills</p><ul><li>Master's (U.S. or foreign equivalent) in Computer Science, Computer Engineering, Electrical Engineering, Information Systems or a related field and one (1) year of experience in the job offered or related software engineering role OR Bachelor's (U.S. or foreign equivalent) in Computer Science, Computer Engineering, Electrical Engineering, Information Systems or a related field and two (2) years of experience in the job offered or related software engineering role</li><li>Prior experience must include one (1) year of experience (with a Master's degree) OR two (2) years of experience (with a Bachelor's degree) with 5 of the 7 following skills: C++ or Java; full software development lifecycle, including requirements gathering, design, coding, testing, documentation, deployment, and production support; building multi-threaded and multi-process service-oriented enterprise applications within Unix environment; programming technologies including Spring, Hibernate, RabbitMQ, or Kafka; relational database management system (RDBMS) such as Sybase or Oracle; micro-services architecture design and development including REST, Spring, or other back-end technologies; and database query languages, including SQL or NoSQL technologies such as MongoDB</li></ul><br><p>Company Overview</p><li>Goldman Sachs is a multinational financial services firm providing securities, investment banking, and management services. It was founded in 1869, and is headquartered in New York, New York, USA, with a workforce of 10001+ employees. Its website is https://www.goldmansachs.com.</li><br><p>Company H1B Sponsorship</p><li>Goldman Sachs has a track record of offering H1B sponsorships, with 85 in 2026, 1954 in 2025, 1685 in 2024, 2060 in 2023, 2326 in 2022, 2258 in 2021, 1572 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Goldman Sachs",
+    "Title": "Engineering-Dallas-Associate, Software Engineering-046294",
+    "Location": "Dallas, TX, United States",
+    "PublishTime": "7 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 89.5273,
+    "MatchedSkills": [
+      "C++",
+      "Java",
+      "Software Development Lifecycle",
+      "Multi-threaded Programming",
+      "Unix",
+      "Kafka",
+      "Micro-services Architecture",
+      "REST",
+      "SQL",
+      "NoSQL",
+      "MongoDB"
+    ],
+    "MissingSkills": [
+      "Multi-process Programming",
+      "Spring",
+      "Hibernate",
+      "RabbitMQ",
+      "Sybase",
+      "Oracle"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f588172b52f7225f3ce9e",
+    "JobId": "6a0f588172b52f7225f3ce9e",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "java",
+        "kafka",
+        "mongodb"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEP_E",
+      "override_reason": "JD heavy on Java/C++/Spring/Hibernate/multi-threading"
+    },
+    "JDText": "<p>Goldman Sachs is a leading global investment banking, securities and investment management firm. They are seeking an Associate in Software Engineering to develop, enhance, support, and maintain software solutions for their global businesses, focusing on high-quality technology solutions and participating in all phases of the Software Development Lifecycle.</p><br><p>Responsibilities</p><ul><li>Develop, enhance, support and maintain the Firm\u2019s software solutions in support of its global businesses</li><li>Design and implement high-quality, scalable and thoughtful technology solutions leveraging both internal and open-source services</li><li>Assist in requirements gathering, user story refinement, development, testing (unit, integration and regression), User Acceptance Testing (UAT) and deployment</li><li>Work with internal teams to develop solution designs</li><li>Identify new external technologies that can be used to transform our financial businesses and internal platforms in innovative and disruptive ways</li><li>Work in all phases of the Software Development Lifecycle (SDLC) to meet internal and regulatory requirements</li><li>Design, implement and maintain robust testing suites to enable safe, complete, and scalable solutions across our business lines</li></ul><br><p>Skills</p><ul><li>Master's degree (U.S. or foreign equivalent) in Computer Science, Computer Engineering, Electrical Engineering, Information Systems or a related field and one (1) year of experience in job offered or a related software engineering role</li><li>Bachelor's degree (U.S. or foreign equivalent) in Computer Science, Computer Engineering, Electrical Engineering, Information Systems or a related field and two (2) years of experience in job offered or a related software engineering role</li><li>Prior experience must include one (1) year of experience (with a Master's degree) OR two (2) years of experience (with a Bachelor's degree) with 5 of the 7 following skills: C++ or Java; full software development lifecycle, including requirements gathering, design, coding, testing, documentation, deployment, and production support; building multi-threaded and multi-process service-oriented enterprise applications within Unix environment; programming technologies including Spring, Hibernate, RabbitMQ, or Kafka; relational database management system (RDBMS) such as Sybase or Oracle; micro-services architecture design and development including REST, Spring, or other back-end technologies; and database query languages, including SQL or NoSQL technologies such as MongoDB</li></ul><br><p>Company Overview</p><li>Goldman Sachs is a multinational financial services firm providing securities, investment banking, and management services. It was founded in 1869, and is headquartered in New York, New York, USA, with a workforce of 10001+ employees. Its website is https://www.goldmansachs.com.</li><br><p>Company H1B Sponsorship</p><li>Goldman Sachs has a track record of offering H1B sponsorships, with 85 in 2026, 1954 in 2025, 1685 in 2024, 2060 in 2023, 2326 in 2022, 2258 in 2021, 1572 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "iCapital",
+    "Title": "Full Stack Engineer - Associate",
+    "Location": "New York, NY",
+    "PublishTime": "22 hours ago",
+    "MinYOE": null,
+    "MatchScore": 92.2168,
+    "MatchedSkills": [
+      "TypeScript",
+      "Microservices Architecture",
+      "API Design"
+    ],
+    "MissingSkills": [
+      "Frontend Development",
+      "Scala",
+      "Ruby on Rails"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8372c152ac78244871f2",
+    "JobId": "6a0e8372c152ac78244871f2",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>iCapital is seeking an Associate Full Stack Engineer to join the Post-Investments Technology team, focusing initially on frontend development. The role involves collaborating with multiple Engineering teams to build and evolve a TypeScript-based microservice frontend and contribute across the stack over time.</p><br><p>Responsibilities</p><ul><li>Design, develop, and maintain frontend applications using TypeScript, with a strong focus on usability, performance, and upkeep</li><li>Collaborate with multiple Backend teams working in Scala and Ruby on Rails to integrate frontend services with distributed microservice architectures</li><li>Contribute to API design and backend development as needed to support end-to-end feature delivery</li><li>Partner with Product Managers, Designers, and other Engineering teams to translate business requirements into scalable technical solutions</li><li>Participate in code reviews, architectural discussions, and continuous improvement of engineering practices</li><li>Support and enhance critical, client-facing platforms and workflows</li></ul><br><p>Skills</p><ul><li>Experience as a full stack engineer, with stronger depth on the frontend</li><li>Strong proficiency in TypeScript and modern frontend frameworks</li><li>Working knowledge of backend technologies such as Scala or Ruby on Rails</li><li>Experience working in a microservices-based architecture</li><li>Able to collaborate effectively across multiple teams</li><li>Experience supporting complex, high-scale, client-facing applications</li><li>Familiar with document-heavy or workflow-driven user interfaces</li><li>Willingness to grow deeper into backend ownership over time</li></ul><br><p>Benefits</p><ul><li>Equity for all full-time employees</li><li>An annual performance bonus</li><li>A comprehensive benefits package that includes an employer matched retirement plan</li><li>Generously subsidized healthcare with 100% employer paid dental, vision, telemedicine, and virtual mental health counseling</li><li>Parental leave</li><li>Unlimited paid time off (PTO)</li><li>Employees in this role will work in the office Monday-Thursday, with the flexibility to work remotely on Friday</li></ul><br><p>Company Overview</p><li>iCapital streamlines financial operations for alternative investments, structured products, and annuities. It was founded in 2013, and is headquartered in New York, New York, USA, with a workforce of 1001-5000 employees. Its website is https://icapital.com.</li><br><p>Company H1B Sponsorship</p><li>iCapital has a track record of offering H1B sponsorships, with 7 in 2026, 33 in 2025, 20 in 2024, 27 in 2023, 11 in 2022. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "H&R Block",
+    "Title": "Software Engineer-C# Angular Azure",
+    "Location": "United States",
+    "PublishTime": "9 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 86.5563,
+    "MatchedSkills": [
+      "Angular 15+",
+      "TypeScript",
+      "REST APIs",
+      "Event-driven architecture",
+      "Unit testing",
+      "Source control",
+      "CI/CD pipelines",
+      "Azure cloud services",
+      "Microservices architecture",
+      "GitHub"
+    ],
+    "MissingSkills": [
+      "C#",
+      "NET 8",
+      "Azure DevOps",
+      "AI-assisted coding tools",
+      "Swift",
+      "SwiftUI",
+      "Kotlin",
+      "Jetpack Compose",
+      "Datadog"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f39b212f8b43cf397ca0e",
+    "JobId": "6a0f39b212f8b43cf397ca0e",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": [
+        "azure",
+        "c#"
+      ]
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. H&R Block is a leader in tax preparation and financial services, seeking a Software Engineer to design, develop, and maintain software components that support its business applications. The role involves developing features, building APIs, collaborating with teams, and ensuring compliance with data security standards.</p><br><p>Responsibilities</p><ul><li>Develop features and enhance existing functionality using Angular 15+, TypeScript, and .NET 8</li><li>Build and maintain secure, scalable APIs and backend services using REST and event\u2011driven patterns</li><li>Translate business requirements into clear, maintainable technical implementations</li><li>Write and maintain unit tests; assist in identifying and fixing defects and security issues</li><li>Collaborate with QA engineers to define test cases and support scalable testing practices</li><li>Participate in CI/CD pipelines using Azure DevOps</li><li>Adhere to data security and compliance standards</li><li>Contribute to monitoring, alerting, and observability solutions (e.g., Datadog)</li><li>Help document operational processes, runbooks, and support procedures</li><li>Participate in code reviews, incorporating feedback to improve quality and maintainability</li><li>Collaborate with Product, QA, UX, Architects, and other Engineers in an Agile team</li><li>Assist in resolving production issues and support ongoing product operations</li><li>Explore and prototype new technologies and features under team guidance</li></ul><br><p>Skills</p><ul><li>Bachelor's degree in a related field or the equivalent through a combination of education and related work experience</li><li>2\u20134 years of hands-on experience developing and testing applications using C# and .NET</li><li>Experience building full\u2011stack applications with Angular (15+) and backend services</li><li>Solid understanding of object-oriented programming principles</li><li>Familiarity with Azure cloud services</li><li>Experience or working knowledge of Azure DevOps, including source control and CI/CD pipelines</li><li>Exposure to microservices or modular architectures and modern backend patterns</li><li>Willingness to learn and grow in areas such as cloud, testing, CI/CD, and observability</li><li>Strong problem-solving skills and attention to detail</li><li>Collaborative mindset and ability to work effectively in a team environment</li><li>Experience with GitHub, Copilot or similar AI-assisted coding tools to improve development velocity and code quality</li><li>Basic understanding of IOS and Android native languages such as Swift, SwiftUI, Kotlin, and Jetpack Compose</li></ul><br><p>Benefits</p><ul><li>Qualifying associates can enroll themselves and/or their eligible dependents in medical and prescription drug coverage</li><li>Can participate in the H&R Block Retirement Savings Plan (401(k) Plan)</li><li>The Employee Assistance Program</li><li>(virtual) fitness center programs</li><li>The associate discount program</li><li>Are automatically enrolled in Business Travel Accident Insurance</li><li>Receive Associate Tax Prep benefit</li></ul><br><p>Company Overview</p><li>H&R Block is a tax solutions provider that offers tax returns, filings, and advisory services for individuals and businesses. It is a sub-organization of Ameriprise Financial. It was founded in 1955, and is headquartered in Kansas City, Missouri, USA, with a workforce of 10001+ employees. Its website is https://www.hrblock.com.</li><br><p>Company H1B Sponsorship</p><li>H&R Block has a track record of offering H1B sponsorships, with 1 in 2024. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Twitch",
+    "Title": "Software Engineer, ML Products",
+    "Location": "San Francisco, CA",
+    "PublishTime": "9 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 90.704,
+    "MatchedSkills": [
+      "Machine Learning",
+      "API Design",
+      "Data Modeling",
+      "Distributed Systems",
+      "AWS S3",
+      "AWS ECS",
+      "AWS Lambda",
+      "AWS DynamoDB",
+      "AWS Sagemaker",
+      "Go programming language",
+      "Recommendations Systems"
+    ],
+    "MissingSkills": [
+      "Redis",
+      "AWS SQS",
+      "Apache Flink",
+      "OpenSearch",
+      "Search Systems",
+      "Notification Systems"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/68d6132c63d77d6f6f3f444d",
+    "JobId": "68d6132c63d77d6f6f3f444d",
+    "BaseTemplate": "DE_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 7,
+      "matched_keyword_hits": [
+        "aws lambda",
+        "aws s3",
+        "distributed systems"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Twitch is the world\u2019s biggest live streaming service, and they are seeking Software Engineers to join the ML Products team. This role focuses on improving systems that power recommendations, search, notifications, and onboarding to enhance Twitch discovery for viewers and creators.</p><br><p>Responsibilities</p><ul><li>Maintain and improve the systems which power discovery on Twitch</li><li>Partner with Applied Scientists to improve ML models that match interested viewers with relevant creators</li><li>Collaborate with Product Managers to build, experiment, and roll out new Twitch discovery experiences</li></ul><br><p>Skills</p><ul><li>Bachelor's degree in Computer Science or a related field (or equivalent industry experience as a Software Engineer)</li><li>1+ years of experience delivering high quality software in a production environment</li><li>Proficient coding skills in modern languages and frameworks</li><li>Familiarity with scalability, concurrency, API design, data modeling, and distributed systems fundamentals</li><li>Willingness to try new things and collaborate with a diverse group of people</li><li>Experience with AWS technologies (such as S3, ECS, Lambda, DynamoDB, Redis, SQS, Flink, OpenSearch, and Sagemaker)</li><li>Experience writing Go in production systems</li><li>Experience with recommendations, search, or notification systems</li><li>Experience building and maintaining ML systems in production environments</li><li>Familiarity with Twitch and/or streaming on Twitch</li></ul><br><p>Benefits</p><ul><li>Medical, Dental, Vision & Disability Insurance</li><li>401(k)</li><li>Maternity & Parental Leave</li><li>Flexible PTO</li><li>Amazon Employee Discount</li><li>Equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package</li></ul><br><p>Company Overview</p><li>Twitch is a social video platform where gamers can broadcast, watch, and talk about video games. It is a sub-organization of Amazon. It was founded in 2007, and is headquartered in San Francisco, California, USA, with a workforce of 1001-5000 employees. Its website is https://www.twitch.tv.</li><br><p>Company H1B Sponsorship</p><li>Twitch has a track record of offering H1B sponsorships, with 10 in 2026, 60 in 2025, 72 in 2024, 113 in 2023, 173 in 2022, 102 in 2021, 71 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Ramp",
+    "Title": "Software Engineer, Frontend",
+    "Location": "United States",
+    "PublishTime": "12 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 89.5813,
+    "MatchedSkills": [
+      "JavaScript",
+      "React",
+      "TypeScript"
+    ],
+    "MissingSkills": [
+      "Web Performance",
+      "Frontend Engineering"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69bb10b456973837414103e2",
+    "JobId": "69bb10b456973837414103e2",
+    "BaseTemplate": "FE_E",
+    "RoutingDetails": {
+      "family": "FE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "javascript",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Ramp is building the smart infrastructure for finance teams, automating the transaction flow of business spending. They are seeking a Software Engineer with a deep understanding of JavaScript to design and build performant web interfaces while collaborating on technical vision and mentoring less experienced engineers.</p><br><p>Responsibilities</p><ul><li>Build!</li><li>Design performant, beautiful, and usable interfaces</li><li>Collaborate on our technical vision. Lead discussions and implementation of multiple complex projects</li><li>Foster a culture of upholding industry-leading UX</li><li>Continuously improve our engineering processes, tools, and systems that allow us to scale the code base, productivity, and the team</li><li>Recruit, interview and develop your own interview questions, while fostering the culture of excellence, velocity and humility</li><li>Inspire and mentor less experienced engineers and interns</li></ul><br><p>Skills</p><ul><li>Proficiency in JavaScript and React</li><li>Knack for getting the visuals right</li><li>Track record of shipping high-quality products and developing projects at scale</li><li>Ability to turn business and product ideas into engineering solutions</li><li>Desire to work in a fast-paced environment, continuously grow, and master your craft</li><li>Alignment with Ramp's core values of enabling businesses to grow more by spending less</li><li>Minimum of 2 years of frontend engineering experience preferred</li></ul><br><p>Benefits</p><ul><li>Flexible PTO</li><li>Unlimited AI token usage</li><li>Centralized home-office equipment ordering</li><li>Health and wellness stipend</li><li>Budget for intra-office travel</li><li>Weekly coffee stipend</li><li>100% medical, dental & vision insurance coverage for you, with partial coverage for dependents</li><li>One Medical annual membership</li><li>401(k), including employer match on contributions made while employed by Ramp</li><li>Fertility HRA (up to $10,000 per year)</li><li>Parental leave: up to 16 weeks (80 days) at 100% pay</li><li>Pet insurance</li><li>In-office perks: lunch, snacks, drinks, and more</li><li>Relocation support to NYC or SF (as needed)</li><li>Group medical, dental, and vision coverage through Sun Life</li><li>Life, AD&D, and disability coverage</li><li>Fertility drug coverage (up to $4,000 lifetime)</li><li>Group Retirement Plan with employer match (RRSP + DPSP)</li><li>Parental leave: up to 16 weeks (80 days) at 100% pay, with additional time available at reduced pay</li><li>Employee Assistance Program and virtual care through Lumino Health</li><li>Private medical insurance through Freedom Elite</li><li>Virtual GP and at-home care via eMed x Livi</li><li>Workplace pension through Penfold, with salary sacrifice option</li><li>Parental leave: up to 16 weeks (80 days) at 100% pay, with additional time available at reduced pay</li></ul><br><p>Company Overview</p><li>Ramp is a financial operations platform designed to save companies time and money It was founded in 2019, and is headquartered in New York, New York, USA, with a workforce of 1001-5000 employees. Its website is https://ramp.com.</li><br><p>Company H1B Sponsorship</p><li>Ramp has a track record of offering H1B sponsorships, with 3 in 2026, 29 in 2025, 24 in 2024, 11 in 2023, 10 in 2022, 2 in 2021, 2 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Accrete AI",
+    "Title": "Junior DevOps Engineer",
+    "Location": "New York, NY",
+    "PublishTime": "8 hours ago",
+    "MinYOE": "1",
+    "MatchScore": 90.1408,
+    "MatchedSkills": [
+      "CI/CD tools",
+      "AWS",
+      "Linux systems administration",
+      "Shell scripting",
+      "Docker",
+      "Kubernetes",
+      "Infrastructure-as-Code",
+      "Terraform",
+      "Terragrunt"
+    ],
+    "MissingSkills": [
+      "Helm",
+      "Prometheus",
+      "Grafana",
+      "CloudWatch"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f4c729f654b3359ce444c",
+    "JobId": "6a0f4c729f654b3359ce444c",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 6,
+      "matched_keyword_hits": [
+        "aws",
+        "docker",
+        "kubernetes"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Accrete is a dynamic and innovative company focused on transforming the future of artificial intelligence. They are seeking a Junior DevOps Engineer to support the design, deployment, and maintenance of CI/CD pipelines, monitor cloud infrastructure, and collaborate with various teams to enhance operational efficiency.</p><br><p>Responsibilities</p><ul><li>Support the design, deployment, and maintenance of CI/CD pipelines across development and production environments</li><li>Monitor and maintain cloud infrastructure (AWS, Kubernetes, etc.) to ensure uptime, scalability, and performance</li><li>Implement infrastructure-as-code (IaC) using tools like Terraform, Terragrunt, and Helm</li><li>Assist in automating build, deployment, and monitoring processes</li><li>Collaborate with development, InfoSec, and platform teams to improve reliability and deployment efficiency</li><li>Troubleshoot and resolve environment, build, and deployment issues</li><li>Support security, compliance, and documentation requirements across environments</li></ul><br><p>Skills</p><ul><li>Bachelor's degree in Computer Science, Information Systems, Engineering, or equivalent practical experience</li><li>1\u20133 years of hands-on experience in DevOps, cloud engineering, or related fields (internship or project experience acceptable)</li><li>Basic understanding of CI/CD tools (e.g., GitLab CI, Jenkins, GitHub Actions)</li><li>Basic understanding of cloud platforms (AWS preferred)</li><li>Basic understanding of Linux systems administration and shell scripting</li><li>Basic understanding of containers and orchestration (Docker, Kubernetes)</li><li>Basic understanding of Infrastructure-as-Code (Terraform, Terragrunt, and Helm)</li><li>Familiarity with monitoring and logging tools (e.g., Prometheus, Grafana, CloudWatch)</li><li>Excellent problem-solving skills and a strong desire to learn new technologies</li><li>Exposure to security and compliance automation (FedRAMP, IL environments)</li><li>Experience working in regulated or government environments</li><li>Familiarity with GitOps practices or automated testing in CI/CD</li></ul><br><p>Benefits</p><ul><li>Comprehensive Insurance:  Health, dental, and vision coverage for you and your family</li><li>401(k) Plan:  Build your financial future with our retirement savings plan</li><li>Flexible PTO & Hybrid Work:  Take time off when needed and enjoy remote flexibility per company guidelines</li><li>Growth & Development:  Access professional learning opportunities and career advancement support</li><li>Onsite Perks:  Enjoy catered lunches, snacks, and a fully stocked kitchen</li><li>Team Bonding:  Company-sponsored happy hours and social events to connect and unwind</li></ul><br><p>Company Overview</p><li>Accrete, Inc.\u2019s Knowledge Engine platform enables complex organizations to employ Expert AI Agents capable of autonomous decisions. It was founded in 2017, and is headquartered in New York, New York, USA, with a workforce of 201-500 employees. Its website is http://accrete.ai.</li><br><p>Company H1B Sponsorship</p><li>Accrete has a track record of offering H1B sponsorships, with 1 in 2026, 2 in 2025, 4 in 2024, 4 in 2023, 1 in 2022, 2 in 2021, 4 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Flex",
+    "Title": "Software Engineer II, Core Platform",
+    "Location": "USA",
+    "PublishTime": "16 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 96.2313,
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "MySQL",
+      "PostgreSQL",
+      "DynamoDB",
+      "AWS ECS",
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS S3",
+      "AWS CLI",
+      "AWS CDK",
+      "Terraform",
+      "Payments domain",
+      "Distributed systems"
+    ],
+    "MissingSkills": [
+      "AWS EKS",
+      "AWS VPN",
+      "AWS RDS",
+      "Proactive working style"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0eda1c83d714428981b846",
+    "JobId": "6a0eda1c83d714428981b846",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SEJ",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "java",
+        "mysql",
+        "postgresql"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Flex is a growth-stage FinTech company headquartered in NYC that aims to revolutionize the rent payment experience. They are seeking a backend engineer to join their core platform team, responsible for designing, implementing, and maintaining core services while scaling the platform to support business growth.</p><br><p>Responsibilities</p><ul><li>Design, implement and maintain our core service, such as Identity, Auth, Payment, Financial, Risk etc</li><li>Scale out core platform to support business growth while maintaining performance and reliability</li><li>Continuously improving our daily operations with automation, tooling, design evolution, observability etc</li></ul><br><p>Skills</p><ul><li>2+ years of experience in software development or a related field</li><li>Strong experience with Java and Python</li><li>Experience with relational and NoSQL databases, such as MySQL, PostgreSQL, and DynamoDB</li><li>Proactive working style with strong ownership</li><li>Experience in the payments domain; familiarity with the payment industry</li><li>Experience designing and developing fault-tolerant, scalable distributed systems</li><li>Experience with AWS cloud services, including ECS/EKS, Lambda, API Gateway, VPN, S3, and RDS</li><li>Experience with infrastructure as code (e.g., AWS CLI, AWS CDK, Terraform)</li><li>Strong communication skills, with the ability to explain technical concepts to non-technical audiences</li><li>Adherence to engineering best practices, with the ability to propose and drive new improvements</li></ul><br><p>Benefits</p><ul><li>Competitive medical, dental, and vision</li><li>Company equity</li><li>401(k) plan with company match</li><li>Unlimited paid time off + 13 company paid holidays</li><li>Parental leave</li><li>Flex Cares Program: Non-profit company match + pet adoption coverage</li><li>Free Flex subscription</li><li>Competitive compensation + company equity</li><li>Unlimited PTO</li></ul><br><p>Company Overview</p><li>Flex enables people to pay bills on a schedule that fits their personal finances. It was founded in 2019, and is headquartered in New York, New York, USA, with a workforce of 201-500 employees. Its website is https://getflex.com.</li><br><p>Company H1B Sponsorship</p><li>Flex has a track record of offering H1B sponsorships, with 2 in 2023, 11 in 2022, 3 in 2021, 2 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "CAMP Systems International, Inc.",
+    "Title": "Associate Software Engineer",
+    "Location": "Ronkonkoma, NY",
+    "PublishTime": "9 hours ago",
+    "MinYOE": "2",
+    "MatchScore": 77.7264,
+    "MatchedSkills": [
+      "ASP.NET MVC",
+      "Web API",
+      "Angular",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "TypeScript",
+      "REST APIs"
+    ],
+    "MissingSkills": [
+      ".NET",
+      "C#",
+      "NHibernate",
+      "Oracle",
+      "XUnit",
+      "NUnit",
+      "Jasmine",
+      "Agile",
+      "Scrum",
+      "AI-Assisted Development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f3a57619335383fb2a317",
+    "JobId": "6a0f3a57619335383fb2a317",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "rest apis"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>CAMP Systems International, Inc. is a leader in aircraft compliance and health management for the global business aviation industry. They are seeking a full stack Associate Software Engineer with expertise in .NET and Angular to build, scale, and maintain enterprise-grade web applications as part of an Agile Scrum team.</p><br><p>Responsibilities</p><ul><li>Implement, enhance and maintain robust, scalable, and high-performance web applications using .NET (Core, ASP.Net, Web API) and Angular & ExtJS</li><li>Build and integrate front-end and back-end components, ensuring performance, responsiveness, and security</li><li>Utilize state-of-the-art AI coding tools, LLMs, and frameworks to accelerate software development, automate testing, and improve code quality</li><li>Collaborate with cross-functional teams including product managers, designers, QA, and DevOps</li><li>Participate in code reviews and contribute to maintaining high standards of code quality and best practices</li><li>Assist in troubleshooting and debugging issues in production and lower environments</li><li>Write unit and integration tests to ensure code quality and reliability</li><li>Contribute to the continuous improvement of software development practices, tools, and processes</li></ul><br><p>Skills</p><ul><li>Experience in .NET (C#), ASP.NET MVC, Web API, NHibernate, and Oracle (or equivalent relational database systems)</li><li>Proficiency with Angular, JavaScript, HTML5, CSS3, and TypeScript</li><li>Experience in implementing and integrating with REST APIs</li><li>Experience with automated testing frameworks such as xUnit, NUnit, Jasmine</li><li>Education: Bachelor's degree in computer science, Information Technology, or a related field</li><li>Experience: Minimum of 2+ years of professional software development experience, with at least 2 years of experience working as a full-stack engineer in .NET and Angular</li><li>Strong problem-solving skills and the ability to think critically and creatively</li><li>Excellent communication skills, both written and verbal, with the ability to collaborate effectively with technical and non-technical team members</li><li>Experience in building and maintaining enterprise-grade data-driven web applications using .NET, Angular, other JavaScript frameworks</li><li>Understanding of object-oriented design and software engineering principles</li><li>Experience working in Agile or Scrum development environments</li><li>Experience with AI-Assisted Development tools and techniques</li></ul><br><p>Company Overview</p><li>CAMP Systems is the industry\u2019s leading Aircraft Maintenance and Regulatory Compliance Management solution for fixed and rotor wing aircraft. It was founded in 1968, and is headquartered in Merrimack, New Hampshire, USA, with a workforce of 501-1000 employees. Its website is http://www.campsystems.com.</li><br><p>Company H1B Sponsorship</p><li>CAMP Systems International, Inc. has a track record of offering H1B sponsorships, with 1 in 2026, 9 in 2025, 4 in 2024, 13 in 2023, 9 in 2022, 12 in 2021, 14 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  },
+  {
+    "Company": "Appian",
+    "Title": "Associate Application Engineer",
+    "Location": "Appian Corporation - US",
+    "PublishTime": "6 hours ago",
+    "MinYOE": null,
+    "MatchScore": 67.1332,
+    "MatchedSkills": [
+      "Cloud Computing",
+      "AWS"
+    ],
+    "MissingSkills": [
+      "Appian platform",
+      "Business Process Management",
+      "Knowledge Management",
+      "Business Intelligence",
+      "Application Integration",
+      "Quality Assurance",
+      "Load Testing",
+      "AI-driven Innovation",
+      "Customer Management"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f67e283d714428981fc83",
+    "JobId": "6a0f67e283d714428981fc83",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "aws"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Appian is a company that provides process automation technology, and they are seeking an Associate Application Engineer to develop large-scale applications that support internal Appian employees. The role involves working with stakeholders to define, design, and implement business process-based solutions using Appian software.</p><br><p>Responsibilities</p><ul><li>To leverage experience in a range of critical process improvement disciplines, including business process management, knowledge management, personalization, business intelligence, and application integration on the Appian platform</li><li>To utilize a varied skill set and experience to construct, implement, and deploy process-centric business process management solutions based on Appian software</li><li>To analyze a client\u2019s business strategy, their business processes, and develop technical solutions to support their business strategy</li><li>To design prototypes, model business processes, and analyze requirements</li><li>To implement quality assurance plans, load testing and roll-out plans</li><li>To triage and troubleshoot production issues and provide ongoing support to various business applications</li><li>To have excellent communication skills and a solid foundation of, or passion for, technology</li></ul><br><p>Skills</p><ul><li>To leverage experience in a range of critical process improvement disciplines, including business process management, knowledge management, personalization, business intelligence, and application integration on the Appian platform</li><li>To utilize a varied skill set and experience to construct, implement, and deploy process-centric business process management solutions based on Appian software</li><li>To analyze a client's business strategy, their business processes, and develop technical solutions to support their business strategy</li><li>To design prototypes, model business processes, and analyze requirements</li><li>To implement quality assurance plans, load testing and roll-out plans</li><li>To triage and troubleshoot production issues and provide ongoing support to various business applications</li><li>To have excellent communication skills and a solid foundation of, or passion for, technology</li><li>B.S./B.A. in Engineering, Computer Science, Information Systems, Mathematics, or a related technical field</li><li>Experience with cloud computing technologies like AWS</li><li>Strong problem-solving skills, with a passion for AI-driven innovation</li><li>Professional English proficiency</li><li>Exceptional communication and customer management skills (verbal/written)</li></ul><br><p>Benefits</p><ul><li>Health coverage</li><li>Employee Assistance Program (EAP) with free mental health support</li><li>Life and disability insurance</li><li>Employee Stock Purchase Program (ESPP)</li><li>Retirement/pension plan</li><li>Wellness dollars</li><li>Tuition reimbursement</li><li>Family-forming benefits</li></ul><br><p>Company Overview</p><li>Appian is a software company that provides digital transformation, low-code application development, and business process management. It was founded in 1999, and is headquartered in Mclean, Virginia, USA, with a workforce of 1001-5000 employees. Its website is http://www.appian.com.</li><br><p>Company H1B Sponsorship</p><li>Appian has a track record of offering H1B sponsorships, with 5 in 2026, 37 in 2025, 43 in 2024, 30 in 2023, 38 in 2022, 31 in 2021, 24 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>"
+  }
+]

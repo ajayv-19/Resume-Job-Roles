@@ -1,0 +1,849 @@
+[
+  {
+    "Company": "CalAmp",
+    "Title": "Software Engineer II",
+    "Template": "SEJ_E",
+    "MatchScore": 97.8311,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d0adea235d749afa93062",
+    "PDF": "20260520/CalAmp/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Redis"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Production environment monitoring"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Lightning AI",
+    "Title": "Fullstack Engineer",
+    "Template": "FS_E",
+    "MatchScore": 90.6434,
+    "JobLink": "https://jobright.ai/jobs/info/6a0d02aa4d9320363687e4ab",
+    "PDF": "20260520/Lightning_AI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Go"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Fullstack Engineering",
+      "SaaS Technology"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Wolverine Trading",
+    "Title": "Entry-Level C++ Software Engineer",
+    "Template": "SEP_NG",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e941a47fea1610bcab1be",
+    "PDF": "20260520/Wolverine_Trading/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Real-time systems"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Stuller, Inc.",
+    "Title": "Business Analyst",
+    "Template": "SEP_E",
+    "MatchScore": 65.6535,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e914f12f8b43cf39787bb",
+    "PDF": "20260520/Stuller_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Snowflake",
+      "MicroStrategy",
+      "Jira",
+      "Forecasting"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Business intelligence",
+      "Data validation"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Genesis10",
+    "Title": "Dev10 Associate Software Developer - Remote",
+    "Template": "SEP_NG",
+    "MatchScore": 90.7575,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e902b09ecfd704b3ea064",
+    "PDF": "20260520/Genesis10/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "MATLAB",
+      "Go",
+      "Kotlin",
+      "Spring",
+      "IntelliJ",
+      "Mathematica"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Genesis10",
+    "Title": "Entry Level Software Developer",
+    "Template": "SEP_NG",
+    "MatchScore": 89.3551,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e902b80bf0430c762dac1",
+    "PDF": "20260520/Genesis10/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "MATLAB",
+      "Go",
+      "Kotlin",
+      "Mathematica"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "COGENT Infotech",
+    "Title": "Java Developer \u2013 Recent Graduates - Entry Level Positions",
+    "Template": "SEJ_NG",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8f4647fea1610bcab013",
+    "PDF": "20260520/COGENT_Infotech/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Maven"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "DentaQuest",
+    "Title": "Business Optimization Analyst",
+    "Template": "SEP_E",
+    "MatchScore": 32.2705,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8ec009ecfd704b3e9fdc",
+    "PDF": "20260520/DentaQuest/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [
+      "SDLC methodologies"
+    ],
+    "Skipped": [
+      "Health Care Insurance",
+      "Dental Insurance",
+      "Application functionality",
+      "Microsoft Visio",
+      "Microsoft Project"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "The Johns Hopkins University",
+    "Title": "Research Assistant",
+    "Template": "SEP_E",
+    "MatchScore": 68.2579,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8d8380bf0430c762d9b8",
+    "PDF": "20260520/The_Johns_Hopkins_University/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Medical Imaging",
+      "3D Medical Imaging Workflows",
+      "Medical AI Research",
+      "Annotation Tools",
+      "Model Deployment Workflows"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "CGI",
+    "Title": "Technical Writer",
+    "Template": "SEP_E",
+    "MatchScore": 43.0324,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8d30c152ac78244877c1",
+    "PDF": "20260520/CGI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Technical Writing",
+      "User Instruction Manuals",
+      "Technical Concepts Understanding",
+      "Documentation Translation"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Diverse Lynx",
+    "Title": "Java aws developer\u00a0",
+    "Template": "SEJ_E",
+    "MatchScore": 98.0,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8cc109ecfd704b3e9f3b",
+    "PDF": "20260520/Diverse_Lynx/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "CGI",
+    "Title": "Python Backend Engineer",
+    "Template": "SEP_E",
+    "MatchScore": 95.1945,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8c7980bf0430c762d90f",
+    "PDF": "20260520/CGI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "FastAPI"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend engineering"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Google",
+    "Title": "Technical Account Manager Associate, Google Cloud Consulting",
+    "Template": "SEP_E",
+    "MatchScore": 34.6002,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e8b0cc152ac78244876bc",
+    "PDF": "20260520/Google/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Storage systems",
+      "Consulting"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Cloud operations",
+      "Technical support",
+      "Escalation management",
+      "Application migration to public cloud",
+      "Workload migration to public cloud",
+      "IT operations",
+      "Database systems",
+      "IT security",
+      "Application development",
+      "Service architecture",
+      "Cloud-native application development",
+      "Content delivery networks",
+      "Client management"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "JetBlue",
+    "Title": "Analyst Navigation Services",
+    "Template": "SEP_E",
+    "MatchScore": 60.6297,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e882712f8b43cf3978254",
+    "PDF": "20260520/JetBlue/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Tableau"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "FAA Advisory Circular 90-101A",
+      "Flight Management System (FMS)",
+      "Microsoft Excel",
+      "Microsoft VBA",
+      "Microsoft PowerPoint",
+      "Microsoft Access",
+      "Jeppesen charting",
+      "Terminal Area Route Generation and Traffic Simulation (TARGETS)",
+      "Certified Flight Instructor - Instrument",
+      "PANS-OPS ICAO procedure design",
+      "Honeywell OneNav Tool",
+      "Rockwell-Collins NavDB",
+      "TERPS procedure design",
+      "Adobe Photoshop",
+      "Adobe Illustrator"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "T-Mobile",
+    "Title": "Analyst, Business Systems",
+    "Template": "SEP_E",
+    "MatchScore": 46.9698,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e881112f8b43cf3978217",
+    "PDF": "20260520/T-Mobile/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Business Systems Analysis",
+      "Business Systems Consulting",
+      "Microsoft Visio"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Johnson & Johnson",
+    "Title": "Associate, Digital, Data & Analytics",
+    "Template": "CE_E",
+    "MatchScore": 65.8575,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e87b680bf0430c762d582",
+    "PDF": "20260520/Johnson_Johnson/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Tableau"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Microsoft Excel",
+      "Data visualization",
+      "Dashboard development",
+      "Procurement data",
+      "Spend analysis",
+      "Supplier performance analysis",
+      "Work collaboratively in a team-based, matrixed environment"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "T-Mobile",
+    "Title": "Data Scientists - Finance",
+    "Template": "SELLM_E",
+    "MatchScore": 40.3495,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e879747fea1610bcaab68",
+    "PDF": "20260520/T-Mobile/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "SAS",
+      "ASC460"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Linear Regression",
+      "Logistic Regression",
+      "Decision Tree",
+      "Cluster Analysis",
+      "Hypothesis Testing",
+      "Financial Modeling",
+      "ASC 820",
+      "IFRS 13",
+      "US GAAP",
+      "IFRS 15",
+      "ASC 606",
+      "ASC 805"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Nordstrom",
+    "Title": "Delivery Platform Software Engineer 1 - Developer Tools Team (Hybrid - Seattle, WA)",
+    "Template": "SEP_NG",
+    "MatchScore": 88.078,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e869683d7144289819925",
+    "PDF": "20260520/Nordstrom/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Golang",
+      "Jenkins",
+      "GRPC",
+      "GCP",
+      "CloudFormation",
+      "OpenAI API",
+      "Anthropic API",
+      "MCP server development",
+      "NewRelic",
+      "DataDog",
+      "Prometheus",
+      "Airflow"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Altamira Technologies Corporation",
+    "Title": "Software Engineer (Multiple Levels)",
+    "Template": "SEP_E",
+    "MatchScore": 75.8564,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e860580bf0430c762d469",
+    "PDF": "20260520/Altamira_Technologies_Corporation/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Go",
+      "Rust",
+      "VueJs",
+      "Redis",
+      "Helm",
+      "Tensorflow",
+      "VLLM",
+      "PyTorch Lightning",
+      "OpenAPI",
+      "Valkey",
+      "MinIO",
+      "Knative",
+      "OTEL",
+      "LibreChat"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Istio ServiceMesh",
+      "OpenContainer Initiative",
+      "SK Learn"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Perpay Inc.",
+    "Title": "Software Engineer, New Grad",
+    "Template": "SEP_NG",
+    "MatchScore": 82.6229,
+    "JobLink": "https://jobright.ai/jobs/info/6a070c6a24dcb03739f1fa2e",
+    "PDF": "20260520/Perpay_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Django",
+      "Flask"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Fullstack software development",
+      "Pick up new technologies quickly"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "SpaceX",
+    "Title": "OS/Platform Software Engineer (Starlink)",
+    "Template": "SEP_E",
+    "MatchScore": 90.4672,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e84fc80bf0430c762d3e8",
+    "PDF": "20260520/SpaceX/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Rust"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Linux networking stack",
+      "Secure boot",
+      "ARM embedded systems"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Revel",
+    "Title": "Full Stack Software Engineer (Entry-Junior)",
+    "Template": "FS_E",
+    "MatchScore": 96.957,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e84be47fea1610bcaa9b1",
+    "PDF": "20260520/Revel/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Backend development"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "The University of Chicago Booth School of Business",
+    "Title": "Research Professional",
+    "Template": "SEP_E",
+    "MatchScore": 92.6136,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e836d12f8b43cf3977fcc",
+    "PDF": "20260520/The_University_of_Chicago_Booth_School_of_Business/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Evaluation pipelines",
+      "Text-based data analysis"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "KPMG US",
+    "Title": "Associate, Tax GMS - Business Analyst",
+    "Template": "SEP_E",
+    "MatchScore": 45.6287,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e836812f8b43cf3977fa0",
+    "PDF": "20260520/KPMG_US/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Business Analysis",
+      "Microsoft Visio",
+      "Microsoft Access",
+      "International Human Resources",
+      "International Tax",
+      "Expatriate Services"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "King & Prince Seafood",
+    "Title": "Business Systems Programmer",
+    "Template": "CE_E",
+    "MatchScore": 62.2694,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e834c12f8b43cf3977f96",
+    "PDF": "20260520/King_Prince_Seafood/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "QAD",
+      "EDI",
+      "Transact-SQL"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Application Support",
+      "ERP Systems",
+      "Warehouse Management",
+      "Order to Cash (O2C)",
+      "Procure to Pay (P2P)",
+      "SQL Stored Procedures",
+      "Software Analysis and Design",
+      "System Integration",
+      "Progress OpenEdge 4GL"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "PAR Technology",
+    "Title": "Business Analyst",
+    "Template": "SEP_E",
+    "MatchScore": 30.5762,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e832780bf0430c762d380",
+    "PDF": "20260520/PAR_Technology/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Scrum",
+      "Jira",
+      "Confluence",
+      "Middleware"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Business Analysis",
+      "Product Ownership",
+      "User Story Writing",
+      "Acceptance Criteria Writing",
+      "Requirements Documentation",
+      "Agile Methodologies",
+      "Kanban",
+      "Mobile Application Development",
+      "Quality Assurance",
+      "User Acceptance Testing"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Mercury Insurance",
+    "Title": "MLOps Catastrophe & Geo-Analytics",
+    "Template": "SELLM_E",
+    "MatchScore": 88.3591,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e832183d7144289819832",
+    "PDF": "20260520/Mercury_Insurance/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Model deployment",
+      "Model monitoring",
+      "Feature store",
+      "Automated testing",
+      "Discrete global grid systems"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Lam Research",
+    "Title": "MES/IoT Developer for Tualatin R&D Center",
+    "Template": "SEP_E",
+    "MatchScore": 77.2803,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e82a747fea1610bcaa941",
+    "PDF": "20260520/Lam_Research/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "NET",
+      "AMQP"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "SECS/GEM equipment integration",
+      "Finite state machine control flows",
+      "Real-time communication handling",
+      "IoT connectivity",
+      "Data ingestion",
+      "Equipment sensor integration",
+      "Critical Manufacturing Automation Developer Certification",
+      "Critical Manufacturing Back-end Certification"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "The University of Alabama",
+    "Title": "Data Scientist I",
+    "Template": "SELLM_E",
+    "MatchScore": 74.8254,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e817d80bf0430c762d335",
+    "PDF": "20260520/The_University_of_Alabama/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "T-tests",
+      "Inquisitiveness"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Database Backup and Restore",
+      "Regression Analysis",
+      "Nonparametric Tests",
+      "Power Analysis",
+      "Ordination Techniques",
+      "Programming Languages - R",
+      "Programming Languages - MATLAB",
+      "Environmental Data Analysis",
+      "Censored Data Analysis",
+      "Analytical Creativity"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "CBRE",
+    "Title": "Software Engineer Analyst",
+    "Template": "SEP_E",
+    "MatchScore": 95.3092,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e7cd280bf0430c762d2c7",
+    "PDF": "20260520/CBRE/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Golang",
+      "RDBMS Concepts",
+      "YAML",
+      "Scrum"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Dana-Farber Cancer Institute",
+    "Title": "Bioinformatics Engineer",
+    "Template": "SEAI_E",
+    "MatchScore": 87.8337,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e7cba80bf0430c762d2b3",
+    "PDF": "20260520/Dana-Farber_Cancer_Institute/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Perl programming",
+      "R programming",
+      "Experimental design"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Odoo",
+    "Title": "Technical Content Writer",
+    "Template": "SEP_E",
+    "MatchScore": 48.6872,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e79c847fea1610bcaa7f1",
+    "PDF": "20260520/Odoo/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "ERP",
+      "SaaS"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "RST Markup"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "CGI",
+    "Title": "Business Analyst \u2013 Entry Level",
+    "Template": "SEP_NG",
+    "MatchScore": 55.604,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e751a47fea1610bcaa72b",
+    "PDF": "20260520/CGI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Business analysis",
+      "Data-driven decision making"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Odoo",
+    "Title": "Full Stack Engineer - Upgrade Services",
+    "Template": "FS_E",
+    "MatchScore": 97.1271,
+    "JobLink": "https://jobright.ai/jobs/info/69e87a0758811370cb126925",
+    "PDF": "20260520/Odoo/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Odoo framework"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Uber",
+    "Title": "Application Developer L3 - Identity & Access Management (IAM)",
+    "Template": "SEJ_E",
+    "MatchScore": 83.9287,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e724512f8b43cf3977953",
+    "PDF": "20260520/Uber/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Authorization",
+      "Reconciliation"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Identity lifecycle management",
+      "System integrations",
+      "Automation workflows",
+      "Identity-related protocols",
+      "Directory concepts",
+      "Production support",
+      "Incident management",
+      "Operational troubleshooting",
+      "Access provisioning",
+      "Governance processes"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "University of Michigan",
+    "Title": "Data Scientist (Hybrid)",
+    "Template": "SELLM_E",
+    "MatchScore": 89.9129,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e723a09ecfd704b3e91a7",
+    "PDF": "20260520/University_of_Michigan/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Data visualization",
+      "Dashboard development",
+      "Cloud-based analytics"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "San Diego State University",
+    "Title": "Data Scientist (Data Analytics Developer II)",
+    "Template": "SEP_E",
+    "MatchScore": 89.7506,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e721483d7144289819161",
+    "PDF": "20260520/San_Diego_State_University/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Tableau"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Metadata practices"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Progress Rail, A Caterpillar Company",
+    "Title": "Business Data Analyst",
+    "Template": "DE_E",
+    "MatchScore": 59.3533,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e7205c152ac7824486c3c",
+    "PDF": "20260520/Progress_Rail_A_Caterpillar_Company/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Matlab",
+      "Operations",
+      "Tableau",
+      "SAS",
+      "Minitab",
+      "SAP"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Supply Chain Management",
+      "Microsoft Access",
+      "Microsoft Excel",
+      "LN ERP",
+      "MS D365 ERP"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "ManTech",
+    "Title": "Junior Developer",
+    "Template": "SEP_NG",
+    "MatchScore": 97.4119,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e71f312f8b43cf3977902",
+    "PDF": "20260520/ManTech/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Ansible"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [],
+    "Compile": "OK"
+  },
+  {
+    "Company": "SpaceX",
+    "Title": "ML Surrogate Modeling Engineer (Vehicle Engineering)",
+    "Template": "SEAI_E",
+    "MatchScore": 71.1234,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e71db80bf0430c762cd6f",
+    "PDF": "20260520/SpaceX/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "TensorFlow",
+      "JAX",
+      "MeshGraphNet",
+      "Transolver"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Surrogate modeling",
+      "Fourier Neural Operators",
+      "Graph neural networks",
+      "Physics-informed neural networks",
+      "Geometry optimization",
+      "Design under uncertainty",
+      "Computational Fluid Dynamics (CFD)",
+      "Finite Element Analysis (FEA)",
+      "Thermal analysis",
+      "Uncertainty quantification",
+      "Active learning",
+      "NVIDIA PhysicsNemo",
+      "GPU accelerators",
+      "Numerical methods"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "Uber Advertising",
+    "Title": "Strategy & Planning Analyst, Uber Advertising",
+    "Template": "SEP_E",
+    "MatchScore": 46.7391,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e71c5c152ac7824486bec",
+    "PDF": "20260520/Uber_Advertising/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "BigQuery",
+      "Snowflake",
+      "Looker",
+      "Tableau"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Cloud-based Data Warehouses",
+      "Business KPIs",
+      "Data Product Management",
+      "Business Strategy"
+    ],
+    "Compile": "OK"
+  },
+  {
+    "Company": "M.C. Dean, Inc.",
+    "Title": "Associate Engineer 1",
+    "Template": "SEP_NG",
+    "MatchScore": 66.8318,
+    "JobLink": "https://jobright.ai/jobs/info/6a0e6e0080bf0430c762cb9a",
+    "PDF": "20260520/M_C_Dean_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Information Systems",
+      "Engineering Management",
+      "Physical Security Systems",
+      "IT Solutions",
+      "Network Installation and Configuration",
+      "High Performance Computing Systems",
+      "System Documentation",
+      "System Performance Analysis",
+      "System Security",
+      "Automation Systems Design",
+      "Microsoft Excel",
+      "Microsoft PowerPoint"
+    ],
+    "Compile": "OK"
+  }
+]

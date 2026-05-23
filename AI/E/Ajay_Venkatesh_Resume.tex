@@ -160,13 +160,23 @@
 \resumeItemListEnd
 
 \resumeProject
-{Hospital Management System}
-{React, Node.js, Express, MongoDB, SageMaker, Hugging Face}
+{RoBERTa Fine-Tuning with Custom LoRA}
+{Python, PyTorch, Hugging Face, AGNews}
 {}
 {}
 \resumeItemListStart
-\item \footnotesize{Built a full-stack healthcare platform (React, Node.js, Express, MongoDB) managing appointments, patient records, and lab reports with \textbf{role-based access control}.}
-\item \footnotesize{Fine-tuned a \textbf{Hugging Face transformer-based model} reaching \textbf{88\% accuracy} for health condition prediction and deployed on \textbf{AWS SageMaker} for real-time diagnostic support.}
+\item \footnotesize{Architected a \textbf{parameter-efficient fine-tuning (PEFT)} pipeline using a custom \textbf{Low-Rank Adaptation (LoRA)} implementation to optimize a \textbf{RoBERTa-base} model for news classification.}
+\item \footnotesize{Optimized model efficiency by freezing pretrained weights and injecting trainable rank-decomposition matrices, reducing trainable parameters to under \textbf{1M (934K)} while achieving \textbf{83.45\%} accuracy on the private leaderboard.}
+\resumeItemListEnd
+
+\resumeProject
+{High-Efficiency ResNet Image Classifier}
+{Python, PyTorch, Torchvision, Matplotlib}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Designed and implemented a specialized \textbf{ResNet} architecture optimized for the \textbf{CIFAR-10} dataset, adhering to a strict \textbf{5M parameter} limit for edge-ready deployment.}
+\item \footnotesize{Enhanced model convergence by integrating the \textbf{Lookahead optimizer} and advanced data augmentation, with real-time visualization via \textbf{TensorBoard}.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd

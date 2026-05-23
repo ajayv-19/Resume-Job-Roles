@@ -42,7 +42,8 @@
         "postgresql"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3355
   },
   {
     "Company": "Lightning AI",
@@ -73,7 +74,8 @@
         "react"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 2813
   },
   {
     "Company": "Wolverine Trading",
@@ -108,7 +110,8 @@
       "title_keyword_hits": [
         "c++"
       ]
-    }
+    },
+    "JDLength": 0
   },
   {
     "Company": "Stuller, Inc.",
@@ -135,7 +138,7 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e914f12f8b43cf39787bb",
     "JobId": "6a0e914f12f8b43cf39787bb",
-    "BaseTemplate": "SEP_E",
+    "BaseTemplate": "DE_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
@@ -144,7 +147,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4076
   },
   {
     "Company": "Genesis10",
@@ -193,7 +197,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 0
   },
   {
     "Company": "Genesis10",
@@ -235,7 +240,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 0
   },
   {
     "Company": "COGENT Infotech",
@@ -272,7 +278,8 @@
       "title_keyword_hits": [
         "java"
       ]
-    }
+    },
+    "JDLength": 0
   },
   {
     "Company": "DentaQuest",
@@ -302,7 +309,8 @@
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 0
   },
   {
     "Company": "The Johns Hopkins University",
@@ -332,7 +340,8 @@
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 2532
   },
   {
     "Company": "CGI",
@@ -360,7 +369,8 @@
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 0
   },
   {
     "Company": "Diverse Lynx",
@@ -383,7 +393,8 @@
         "aws",
         "java"
       ]
-    }
+    },
+    "JDLength": 0
   },
   {
     "Company": "CGI",
@@ -417,7 +428,8 @@
         "backend",
         "python"
       ]
-    }
+    },
+    "JDLength": 0
   },
   {
     "Company": "Google",
@@ -453,7 +465,8 @@
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3228
   },
   {
     "Company": "JetBlue",
@@ -489,7 +502,7 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e882712f8b43cf3978254",
     "JobId": "6a0e882712f8b43cf3978254",
-    "BaseTemplate": "SEP_E",
+    "BaseTemplate": "DE_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
@@ -498,7 +511,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4076
   },
   {
     "Company": "T-Mobile",
@@ -525,7 +539,8 @@
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4120
   },
   {
     "Company": "Johnson & Johnson",
@@ -552,7 +567,7 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e87b680bf0430c762d582",
     "JobId": "6a0e87b680bf0430c762d582",
-    "BaseTemplate": "CE_E",
+    "BaseTemplate": "DE_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
@@ -561,7 +576,8 @@
         "power bi"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4036
   },
   {
     "Company": "T-Mobile",
@@ -592,7 +608,7 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e879747fea1610bcaab68",
     "JobId": "6a0e879747fea1610bcaab68",
-    "BaseTemplate": "SEP_E",
+    "BaseTemplate": "SELLM_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
@@ -601,7 +617,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4947
   },
   {
     "Company": "Nordstrom",
@@ -654,7 +671,8 @@
         "rest apis"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4586
   },
   {
     "Company": "Altamira Technologies Corporation",
@@ -712,7 +730,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 2423
   },
   {
     "Company": "Perpay Inc.",
@@ -745,7 +764,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 2950
   },
   {
     "Company": "SpaceX",
@@ -783,7 +803,8 @@
         "unit testing"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3722
   },
   {
     "Company": "Revel",
@@ -815,7 +836,8 @@
         "typescript"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 2076
   },
   {
     "Company": "The University of Chicago Booth School of Business",
@@ -849,7 +871,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4137
   },
   {
     "Company": "KPMG US",
@@ -881,7 +904,8 @@
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3069
   },
   {
     "Company": "King & Prince Seafood",
@@ -910,14 +934,15 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e834c12f8b43cf3977f96",
     "JobId": "6a0e834c12f8b43cf3977f96",
-    "BaseTemplate": "SEP_E",
+    "BaseTemplate": "CE_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 2835
   },
   {
     "Company": "PAR Technology",
@@ -955,7 +980,8 @@
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3380
   },
   {
     "Company": "Mercury Insurance",
@@ -985,7 +1011,7 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e832183d7144289819832",
     "JobId": "6a0e832183d7144289819832",
-    "BaseTemplate": "SEP_E",
+    "BaseTemplate": "SELLM_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
@@ -996,7 +1022,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4872
   },
   {
     "Company": "Lam Research",
@@ -1040,7 +1067,8 @@
         "rest apis"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4149
   },
   {
     "Company": "The University of Alabama",
@@ -1078,14 +1106,15 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e817d80bf0430c762d335",
     "JobId": "6a0e817d80bf0430c762d335",
-    "BaseTemplate": "SEP_E",
+    "BaseTemplate": "SELLM_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 2708
   },
   {
     "Company": "CBRE",
@@ -1124,7 +1153,8 @@
         "rest api"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3259
   },
   {
     "Company": "Dana-Farber Cancer Institute",
@@ -1146,14 +1176,15 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e7cba80bf0430c762d2b3",
     "JobId": "6a0e7cba80bf0430c762d2b3",
-    "BaseTemplate": "SEP_E",
+    "BaseTemplate": "SEAI_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 2487
   },
   {
     "Company": "Odoo",
@@ -1183,7 +1214,8 @@
         "github"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3245
   },
   {
     "Company": "CGI",
@@ -1206,7 +1238,8 @@
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 0
   },
   {
     "Company": "Odoo",
@@ -1240,7 +1273,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 2561
   },
   {
     "Company": "Uber",
@@ -1279,7 +1313,7 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e724512f8b43cf3977953",
     "JobId": "6a0e724512f8b43cf3977953",
-    "BaseTemplate": "SEP_E",
+    "BaseTemplate": "SEJ_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
@@ -1289,7 +1323,8 @@
         "distributed systems"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3612
   },
   {
     "Company": "University of Michigan",
@@ -1315,14 +1350,15 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e723a09ecfd704b3e91a7",
     "JobId": "6a0e723a09ecfd704b3e91a7",
-    "BaseTemplate": "SEP_E",
+    "BaseTemplate": "SELLM_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3462
   },
   {
     "Company": "San Diego State University",
@@ -1359,7 +1395,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4292
   },
   {
     "Company": "Progress Rail, A Caterpillar Company",
@@ -1389,7 +1426,7 @@
     ],
     "JobLink": "https://jobright.ai/jobs/info/6a0e7205c152ac7824486c3c",
     "JobId": "6a0e7205c152ac7824486c3c",
-    "BaseTemplate": "CE_E",
+    "BaseTemplate": "DE_E",
     "RoutingDetails": {
       "family": "SE",
       "is_new_grad": false,
@@ -1398,7 +1435,8 @@
         "power bi"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4123
   },
   {
     "Company": "ManTech",
@@ -1443,7 +1481,8 @@
         "unit testing"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3732
   },
   {
     "Company": "SpaceX",
@@ -1493,7 +1532,8 @@
         "pytorch"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 4255
   },
   {
     "Company": "Uber Advertising",
@@ -1532,7 +1572,8 @@
         "python"
       ],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3346
   },
   {
     "Company": "M.C. Dean, Inc.",
@@ -1570,6 +1611,7 @@
       "score": 0,
       "matched_keyword_hits": [],
       "title_keyword_hits": []
-    }
+    },
+    "JDLength": 3203
   }
 ]

@@ -57,8 +57,9 @@ TEMPLATE_ALIAS = {
     "SEP_Java": "SEJ_E", "SEJ": "SEJ_E", "SE_JAva_E": "SEJ_E", "SE_JAva": "SEJ_E",
     "SEJV": "SEJ_E", "SEJA": "SEJ_E", "SEJavaE": "SEJ_E",
     "SE_AI": "SEAI_E", "SEAI": "SEAI_E",
-    "SE_LLM": "SELLM_E", "SELLM": "SELLM_E",
+    "SE_LLM": "SELLM_E", "SELLM": "SELLM_E", "SE_LLM_E": "SELLM_E",
     "AI": "AI_E", "DE": "DE_E", "FE": "FE_E", "FS": "FS_E", "CE": "CE_E",
+    "FS_NG": "FS_E",  # FS/NG template folder is empty — fallback to FS_E
 }
 
 # Inauthentic — never inject (note: programming languages REMOVED per user rule —
