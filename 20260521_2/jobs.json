@@ -1,0 +1,1342 @@
+[
+  {
+    "Company": "PayPal",
+    "Title": "Machine Learning Engineer",
+    "Location": "Austin, TX",
+    "PublishTime": "2 days ago",
+    "MinYOE": "1",
+    "MatchScore": 78.2183,
+    "MatchedSkills": [
+      "Machine learning",
+      "Scikit-learn",
+      "Statistical modeling",
+      "Support vector machines",
+      "Convolutional neural networks",
+      "Recurrent neural networks",
+      "Python",
+      "SQL"
+    ],
+    "MissingSkills": [
+      "TensorFlow",
+      "Logistic regression",
+      "Time series analysis",
+      "Random forests",
+      "XGBoost",
+      "Hadoop",
+      "Spark",
+      "Credit scoring",
+      "Fraud detection",
+      "Financial forecasting",
+      "Marketing analytics"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69f288fd8d8d624381aa155d",
+    "JobId": "69f288fd8d8d624381aa155d",
+    "BaseTemplate": "AI_E",
+    "RoutingDetails": {
+      "family": "AI",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "machine learning",
+        "python",
+        "scikit learn"
+      ],
+      "title_keyword_hits": [
+        "machine learning"
+      ]
+    },
+    "JDText": "<p>PayPal has been revolutionizing commerce globally for more than 25 years, providing innovative payment solutions to consumers and businesses. They are seeking a Machine Learning Engineer to validate and develop machine learning models, enhance services through AI/ML solutions, and build scalable ML pipelines to improve customer experiences.</p><br><p>Responsibilities</p><ul><li>Assist in the development and optimization of machine learning models</li><li>Preprocess and analyze datasets to ensure data quality</li><li>Collaborate with senior engineers and data scientists on model deployment</li><li>Conduct experiments and run machine learning tests</li><li>Stay updated with the latest advancements in machine learning</li><li>Support the lead of the team in performing oversight of high-impact statistical model and AI applications in a variety of business function areas, including but not limited to fraud detection, credit underwriting, marketing analytics etc</li><li>Conduct quantitative and qualitative model validation according to Model Risk Management Policy to identify and understand model risk issues</li><li>Collaborate with business units and model developers to remediate model issues and provide subject-matter expert opinion on model improvements</li><li>Perform model and AI risk governance related activities in line with enterprise risk framework, to ensure PayPal\u2019s AI applications are compliant with ever evolving regulatory expectation such as Responsible AI</li></ul><br><p>Skills</p><ul><li>1+ years relevant experience and a Bachelor's degree OR Any equivalent combination of education and experience</li><li>Familiarity with ML frameworks like TensorFlow or scikit-learn</li><li>Strong analytical and problem-solving skills</li><li>An advanced degree in a quantitative field, such as statistics, mathematics, computer science or engineering essential</li><li>Advanced knowledge of statistical and machine learning models (e.g., logistic regression, time series analysis, random forests, SVMs, XGBoost, CNNs/RNNs)</li><li>Possessing advanced coding skills in dealing with big data (e.g., Scikit-learn in Python, Tensorflow, Hadoop, Spark, SQL, etc.)</li><li>Relevant Modeling experience in credit scoring, fraud detection, financial forecasting, or marketing analytics obtained either in academic or financial industry</li><li>Ability to work effectively both independently and in a team environment</li><li>Ability to communicate effectively and establish constructive relationship with stakeholders</li></ul><br><p>Benefits</p><ul><li>Additional compensation for this role may include an annual performance bonus, equity, or other incentive compensation, as applicable.</li><li>For the majority of employees, PayPal's balanced hybrid work model offers 3 days in the office for effective in-person collaboration and 2 days at your choice of either the PayPal office or your home workspace, ensuring that you equally have the benefits and conveniences of both locations.</li><li>Comprehensive, choice-based programs, to support all aspects of personal wellbeing\u2014physical, emotional, and financial\u2014delivering meaningful value where it matters most.</li><li>Generous paid time off</li><li>Healthcare coverage for you and your family</li><li>Resources to create financial security and support your mental health</li></ul><br><p>Company Overview</p><li>PayPal is a financial service company that provides online payment solutions to its users worldwide. It was founded in 1998, and is headquartered in San Jose, California, USA, with a workforce of 10001+ employees. Its website is https://www.paypal.com/home.</li><br><p>Company H1B Sponsorship</p><li>PayPal has a track record of offering H1B sponsorships, with 200 in 2026, 1138 in 2025, 917 in 2024, 775 in 2023, 921 in 2022, 1051 in 2021, 1049 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Paramount",
+    "Title": "Software Engineer",
+    "Location": "New York, NY",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 92.111,
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "API development",
+      "Large Language Models (LLMs)",
+      "Cloud platforms - AWS",
+      "Cloud platforms - Azure",
+      "Docker",
+      "Kubernetes"
+    ],
+    "MissingSkills": [
+      "Kotlin",
+      "Backend services development",
+      "AI-assisted development tools",
+      "Embeddings",
+      "Cloud platforms - GCP"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0bf5ac963f7a67d95d414e",
+    "JobId": "6a0bf5ac963f7a67d95d414e",
+    "BaseTemplate": "SELLM_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "docker",
+        "java",
+        "kubernetes",
+        "python"
+      ],
+      "title_keyword_hits": [],
+      "sellm_reroute_from": "SEP_E",
+      "sellm_reroute_reason": "JD: AI tools, RAG pipelines, embeddings, LLM work alongside generic SE title"
+    },
+    "JDText": "<p>Paramount is on a mission to unleash the power of content and is seeking a Software Engineer to build AI-powered tools and backend services for the Global Quality Engineering organization. The role involves developing production-grade software that enhances engineering efficiency and modernizes quality engineering workflows.</p><br><p>Responsibilities</p><ul><li>Build backend services, CLIs, and internal tools that integrate AI capabilities into GQE workflows</li><li>Implement features for AI-assisted test generation, log summarization, and defect triage</li><li>Contribute to RAG pipelines, embeddings workflows, and LLM-powered utilities under senior guidance</li><li>Integrate AI tooling into CI/CD pipelines and existing automation frameworks</li><li>Collaborate with QE, Platform, and Data Engineering teams to understand requirements and deliver practical solutions</li><li>Write clean, maintainable code and participate in code reviews and engineering best practices</li></ul><br><p>Skills</p><ul><li>2+ years of software engineering experience (Java, Kotlin, Python, or similar)</li><li>Experience building backend services, APIs, or internal tools</li><li>Familiarity with LLMs, embeddings, or AI\u2011assisted development tools (GitHub Copilot, Cursor, etc.)</li><li>Understanding of cloud platforms (AWS, GCP, Azure) and containerization (Docker, Kubernetes)</li><li>Strong problem\u2011solving skills and interest in AI\u2011driven engineering</li></ul><br><p>Benefits</p><ul><li>Medical</li><li>Dental</li><li>Vision</li><li>401(k) plan</li><li>Life insurance coverage</li><li>Disability benefits</li><li>Tuition assistance program</li><li>PTO</li><li>This position is bonus eligible.</li><li>Generous paid time off.</li><li>Opportunities for both on-site and virtual engagement events.</li><li>Unique opportunities to make meaningful connections and build a vibrant community, both inside and outside the workplace.</li></ul><br><p>Company Overview</p><li>Paramount is a leading media and entertainment company that creates premium content and experiences for audiences worldwide. It was founded in 1914, and is headquartered in New York, New York, USA, with a workforce of 10001+ employees. Its website is https://www.paramount.com.</li><br><p>Company H1B Sponsorship</p><li>Paramount has a track record of offering H1B sponsorships, with 2 in 2024. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Apple",
+    "Title": "Software Undergrad Engineering Internships",
+    "Location": "United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 85.2081,
+    "MatchedSkills": [
+      "Object-oriented design",
+      "Data structures",
+      "Algorithms",
+      "Java",
+      "C++",
+      "PHP",
+      "Python",
+      "Unix",
+      "MySQL",
+      "Clojure",
+      "JavaScript",
+      "CSS",
+      "HTML5",
+      "Data modeling",
+      "Data processing",
+      "MongoDB",
+      "AngularJS",
+      "NodeJS"
+    ],
+    "MissingSkills": [
+      "Ruby",
+      "Scala",
+      "Swift",
+      "Data validation",
+      "MapReduce",
+      "HDFS",
+      "Spark",
+      "Golang",
+      "Hadoop",
+      "Pig",
+      "Hive",
+      "SproutCore"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f6b5c12f8b43cf397effe",
+    "JobId": "6a0f6b5c12f8b43cf397effe",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SEJ",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "algorithms",
+        "data structures",
+        "java",
+        "mysql"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEJ_NG",
+      "override_reason": "Undergrad internship; broad backend/Core OS/web/iOS scope (not Java-specific)"
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Apple is seeking highly motivated, engineering students with a strong background in either Back-End Engineering, Core OS, Web Development, and iOS and/or macOS app Development to join its team of highly skilled software engineers. The role involves contributing to various software engineering projects, including back-end development, user experience design, and information security.</p><br><p>Responsibilities</p><ul><li>Back-end development \u2014 You\u2019ll help build the features that Apple users love, like Siri, Apple Music, iCloud, Apple Maps, by presenting data to the user-facing applications</li><li>Design and build - You\u2019ll help develop fully integrated operating systems that combine hardware, software, and services into a single Apple experience</li><li>User Experience (UX) \u2014 Assist in building elegant UX experiences that are simple, intuitive, and impactful. They are working in a constantly evolving environment and performing effectively under dynamic fast-paced conditions</li><li>User Interface (UI) - You will work with the UX team, back-end engineers and other front end engineers to develop a web portal for building an end to end software development journey</li><li>IOS and Web Development - You\u2019ll help build web-based and iOS tools and applications to improve our products and do more for our customers. Our developers are responsible for crafting the direction of our products by considering the architecture, performance, testing, design, and implementation</li><li>Information Systems & Technology (IS&T) - You\u2019ll assist in producing key business and technical infrastructure at Apple. You\u2019ll build applications that improve the Apple Store experience, develop solutions that enable customers to learn about and support their devices, and provide network bandwidth for our services around the world</li><li>Information Security - Help protect Apple's information, including business, employee, and customer data wherever it goes. Our tools and services protect against threats that seek to compromise our systems, monitor the stability and security of our internal environment, and track emerging threats and vulnerabilities that might build an opportunity for an attacker</li></ul><br><p>Skills</p><ul><li>Pursuing an undergraduate (BS/BA) degree in Computer Science, Electrical Engineering, Computer Engineering, Data Science, Design, Information Security or related fields</li><li>At the end of the internship, you must return to school to continue your education or the internship must be the last requirement for you to graduate</li><li>Strong object-oriented design skills, coupled with a deep knowledge of data structures and algorithms</li><li>Proficiency in one or more developer skills: Java, C/C++, PHP, Python, Ruby, Unix, MySQL, Clojure, Scala, Java Script, CSS, HTML5, Swift</li><li>Experience in sophisticated methodologies such as Data Modeling, Validation, Processing, MapReduce</li><li>Experience with distributed technologies such as HDFS, Spark, Golang, Hadoop, Mongo, Pig, Hive</li><li>Experience with web frameworks such as AngularJS, NodeJS, SproutCore</li><li>Experience with iOS and macOS developing in Swift, XCode or Objective-C</li><li>Client-Server protocol and API design Skills</li><li>Able to craft multi-functional requirements and translate them into practical engineering tasks</li><li>A fundamental knowledge of embedded processors, with in-depth knowledge of real time operating system concepts</li><li>Excellent debugging and critical thinking skills</li><li>Excellent analytical and problem-solving skills</li><li>Ability to work in a fast paced, team-based environment</li></ul><br><p>Company Overview</p><li>Apple is a technology company that designs, manufactures, and markets consumer electronics, personal computers, and software. It was founded in 1976, and is headquartered in Cupertino, California, USA, with a workforce of 10001+ employees. Its website is https://www.apple.com.</li><br><p>Company H1B Sponsorship</p><li>Apple has a track record of offering H1B sponsorships, with 1629 in 2026, 6535 in 2025, 3766 in 2024, 3939 in 2023, 4822 in 2022, 4060 in 2021, 3656 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": " use flight delay project "
+  },
+  {
+    "Company": "Infinite Computer Solutions",
+    "Title": "Software Engineer",
+    "Location": "United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": "1",
+    "MatchScore": 72.7773,
+    "MatchedSkills": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Web technologies"
+    ],
+    "MissingSkills": [
+      "ServiceNow platform",
+      "ITSM concepts",
+      "ServiceNow workflows",
+      "ServiceNow forms",
+      "ServiceNow tables",
+      "ServiceNow administration",
+      "Agile methodology",
+      "SDLC methodology"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f75fb619335383fb2c930",
+    "JobId": "6a0f75fb619335383fb2c930",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Infinite Computer Solutions is seeking a Software Engineer to join their team. The role requires a basic understanding of the ServiceNow platform, ITSM concepts, and web technologies, along with strong analytical and communication skills.</p><br><p>Responsibilities</p><ul><li>Basic understanding of the ServiceNow platform and ITSM concepts</li><li>Knowledge of JavaScript, HTML, CSS, and web technologies</li><li>Familiarity with workflows, forms, tables, and ServiceNow administration concepts</li><li>Understanding of Agile and SDLC methodologies</li><li>Good analytical, problem-solving, and communication skills</li><li>Ability to work collaboratively in a team environment</li></ul><br><p>Skills</p><ul><li>Basic understanding of the ServiceNow platform and ITSM concepts</li><li>Knowledge of JavaScript, HTML, CSS, and web technologies</li><li>Familiarity with workflows, forms, tables, and ServiceNow administration concepts</li><li>Understanding of Agile and SDLC methodologies</li><li>Good analytical, problem-solving, and communication skills</li><li>Ability to work collaboratively in a team environment</li><li>Any degree</li><li>Range Of Year Experience-Min Year: 1</li><li>Range Of Year Experience-Max Year: 3</li></ul><br><p>Company Overview</p><li>Next-Gen Business Technology Platformization\u2122, AI and Product Engineering Services. It was founded in 2001, and is headquartered in Rockville, Maryland, USA, with a workforce of 10001+ employees. Its website is https://www.infinite.com.</li><br><p>Company H1B Sponsorship</p><li>Infinite Computer Solutions has a track record of offering H1B sponsorships, with 64 in 2026, 563 in 2025, 333 in 2024, 378 in 2023, 316 in 2022, 389 in 2021, 496 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "PayPal",
+    "Title": "Software Engineer",
+    "Location": "San Jose, CA",
+    "PublishTime": "2 days ago",
+    "MinYOE": "1",
+    "MatchScore": 82.9449,
+    "MatchedSkills": [
+      "Java",
+      "Python",
+      "RESTful APIs",
+      "Microservices",
+      "WebSocket",
+      "REST",
+      "OAuth",
+      "AWS",
+      "Azure",
+      "SQL",
+      "NoSQL"
+    ],
+    "MissingSkills": [
+      "Backend development",
+      "Ruby on Rails",
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data",
+      "Spring MVC",
+      "Spring Cloud",
+      "Spring Batch",
+      "JSON",
+      "GCP",
+      "Hibernate"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69fd1a026b788e7e7a5c5257",
+    "JobId": "69fd1a026b788e7e7a5c5257",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "SEJ",
+      "is_new_grad": false,
+      "score": 11,
+      "matched_keyword_hits": [
+        "aws",
+        "azure",
+        "java",
+        "microservices"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>PayPal has been revolutionizing commerce globally for over 25 years, empowering consumers and businesses to thrive in the global economy. The Software Engineer role on the Credit Platform team involves designing and building foundational backend systems that support PayPal's credit products, ensuring scalability and security while collaborating with cross-functional teams to deliver high-quality solutions.</p><br><p>Responsibilities</p><ul><li>Implements tasks within the Software Development Lifecycle (SDLC), receiving structure and oversight from more experienced staff</li><li>Follows well-established internal conventions and standard procedures</li><li>Understands internal standards & processes an applies them to make technical decisions</li><li>Collaborates with peers, manager, and project lead to gain understanding of tasks and review solutions</li><li>May contribute to code & design reviews</li></ul><br><p>Skills</p><ul><li>1+ years relevant experience and a Bachelor's degree OR Any equivalent combination of education and experience</li><li>1+ years of backend development experience</li><li>Proficiency in at least one back-end language (Java, Python, Ruby on Rails)</li><li>Experience designing and implementing RESTful APIs for microservices, focusing on scalability and reliability</li><li>Developing enterprise system using Spring Frameworks such as Spring Boot, Spring Security, Spring Data, Spring MVC, Spring Cloud, Spring Batch, and WebSocket or similar frameworks</li><li>Strong understanding of web services and Service-Oriented Architecture (SOA) standards, including REST, OAuth, and JSON</li><li>Experience working with cloud platforms (AWS, GCP, Azure)</li><li>Experience with databases (SQL, NoSQL)</li><li>Strong understanding of database design, including SQL and NoSQL databases, and experience with ORM tools like Hibernate</li><li>Bachelor's degree in Computer Science or related field</li><li>Experience with large-scale, high-performance systems</li><li>Knowledge of the payment processing industry and relevant regulations</li><li>Experience with cloud platforms (AWS, GCP, Azure)</li><li>Contributions to open-source projects</li></ul><br><p>Benefits</p><ul><li>Annual performance bonus</li><li>Equity</li><li>Balanced hybrid work model offers 3 days in the office for effective in-person collaboration and 2 days at your choice of either the PayPal office or your home workspace</li><li>Generous paid time off</li><li>Healthcare coverage for you and your family</li><li>Resources to create financial security and support your mental health</li></ul><br><p>Company Overview</p><li>PayPal is a financial service company that provides online payment solutions to its users worldwide. It was founded in 1998, and is headquartered in San Jose, California, USA, with a workforce of 10001+ employees. Its website is https://www.paypal.com/home.</li><br><p>Company H1B Sponsorship</p><li>PayPal has a track record of offering H1B sponsorships, with 200 in 2026, 1138 in 2025, 917 in 2024, 775 in 2023, 921 in 2022, 1051 in 2021, 1049 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Two Sigma",
+    "Title": "Software Engineer, Modeling Engineering",
+    "Location": "New York, United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": "1",
+    "MatchScore": 90.9856,
+    "MatchedSkills": [
+      "Data Structures",
+      "Algorithms",
+      "Python",
+      "Java",
+      "C",
+      "C++",
+      "Distributed Systems"
+    ],
+    "MissingSkills": [
+      "Market Microstructure",
+      "Trading",
+      "Finance"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/690e5b98221b890c2780d204",
+    "JobId": "690e5b98221b890c2780d204",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "algorithms",
+        "c++",
+        "data structures",
+        "java",
+        "python"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEP_NG",
+      "override_reason": "Modeling engineering role; not NG"
+    },
+    "JDText": "<p>Two Sigma is a leading quantitative investment management and trading firm that applies a scientific approach to investing. As a Software Engineer in the Modeling Engineering group, you will enhance the efficiency of modelers and support quantitative researchers in exploring innovative trading strategies across global financial markets.</p><br><p>Responsibilities</p><ul><li>Partner with quantitative researchers and traders to discover and monetize the hidden value of data through data science and software engineering</li><li>Build and maintain a suite of analysis tools that enable their quantitative research</li><li>Develop and extend our trading platform to support new markets and asset classes, ensuring seamless integration and operation</li><li>Analyze trading performance to inform strategic improvements and decision-making</li><li>Build technologies that bolster our trading businesses and drive productivity enhancements, teamwork, and risk reduction across the company</li></ul><br><p>Skills</p><ul><li>Minimum 1 year of experience required; 2-5 years of experience in cutting-edge software engineering preferred</li><li>BS or MS degree in Computer Science, Engineering, or a related field</li><li>An understanding of data structures and algorithms</li><li>Experience with Python, Java, C or C++</li><li>Strong understanding of distributed systems, networking, and market microstructure knowledge is highly preferred</li><li>Experience in trading or finance is a plus</li></ul><br><p>Benefits</p><ul><li>Fully paid medical and dental insurance premiums for employees and dependents</li><li>Competitive 401k match</li><li>Employer-paid life & disability insurance</li><li>Onsite gyms with laundry service</li><li>Wellness activities</li><li>Casual dress</li><li>Snacks</li><li>Game rooms</li><li>Tuition reimbursement</li><li>Conference and training sponsorship</li><li>Generous vacation and unlimited sick days</li><li>Competitive paid caregiver leaves</li><li>Flexible in-office days with budget for home office setup</li><li>Other forms of compensation and benefits, such as a discretionary bonus, health, dental and other wellness plans and 401(k) contributions</li><li>Discretionary bonus can be a significant portion of total compensation</li></ul><br><p>Company Overview</p><li>Two Sigma's technology-driven team streamlines the use of machine learning, distributed computing and research to guide its endeavors. It was founded in 2001, and is headquartered in New York, New York, USA, with a workforce of 1,001-5,000 employees. Its website is https://www.twosigma.com/.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Aircall",
+    "Title": "Full Stack Software Engineer, GTM AI Automation",
+    "Location": "San Francisco Office",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 76.0752,
+    "MatchedSkills": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "LLM APIs",
+      "Prompt engineering",
+      "LangChain",
+      "Vector databases",
+      "AWS"
+    ],
+    "MissingSkills": [
+      "FastAPI",
+      "Flask",
+      "OpenAI API",
+      "Anthropic API",
+      "Model integration",
+      "LlamaIndex",
+      "AutoGen",
+      "RAG architecture",
+      "Re-ranking",
+      "Agentic workflows",
+      "Salesforce API",
+      "Slack API",
+      "Outreach API"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e6cd183d7144289818e36",
+    "JobId": "6a0e6cd183d7144289818e36",
+    "BaseTemplate": "SELLM_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 11,
+      "matched_keyword_hits": [
+        "aws",
+        "javascript",
+        "python",
+        "react",
+        "typescript"
+      ],
+      "title_keyword_hits": [],
+      "sellm_reroute_from": "FS_E",
+      "sellm_reroute_reason": "Title says 'GTM AI Automation'; JD has agentic, MCP, LangChain, AI agents"
+    },
+    "JDText": "<p>Aircall is a unicorn, AI-powered customer communications platform used by 22,000+ companies worldwide to drive revenue, resolve issues faster, and scale customer-facing teams. They are seeking a Full Stack Software Engineer to join their Data team, focusing on building AI-powered tools that enhance go-to-market efforts and improve productivity for various stakeholders. This role involves collaborating with teams to understand workflows and rapidly prototype solutions that deliver real impact.</p><br><p>Responsibilities</p><ul><li>Build AI-powered tools and applications that accelerate Aircall's go-to-market efforts \u2014 from lead enrichment and workflow automation to intelligent dashboards and internal assistants</li><li>Work across the full product lifecycle: prototype, iterate, ship, and maintain production-grade solutions that GTM teams rely on daily</li><li>Embed with GTM stakeholders (Sales, Marketing, CS, Support, RevOps) to deeply understand their pain points, map workflows, and rapidly prototype solutions</li><li>Apply LLMs and AI APIs in novel ways to solve real-world GTM workflow problems \u2014 automating repetitive tasks, extracting insights from unstructured data, and enabling smarter decision-making</li><li>Create reusable code libraries, integrations, and MCP servers to enable consumption of AI-powered tooling across the GTM stack (Salesforce, Slack, Outreach, and more)</li><li>Collaborate with the Data & Analytics team to pull customer usage, engagement, and pipeline data and leverage it within your tooling</li><li>Measure and iterate: deploy solutions, track adoption and impact against pre-defined metrics, and continuously refine based on end-user feedback</li><li>Write documentation and runbooks for productionized solutions so others can maintain and debug them</li></ul><br><p>Skills</p><ul><li>2\u20134 years of experience as a software engineer, data engineer, analytics engineer, product engineer, or ML engineer working on user-facing systems</li><li>Full-stack proficiency: comfortable building end-to-end applications with Python (FastAPI/Flask) on the backend and JavaScript/TypeScript (React) on the frontend</li><li>Hands-on AI/LLM experience is a must: you have built or prototyped LLM-powered workflows using APIs from OpenAI, Anthropic, or similar providers. You understand prompt engineering, model integration, and how to ship AI features into production</li><li>Familiarity with modern AI frameworks and patterns such as LangChain, LlamaIndex, or AutoGen, and architectures like RAG, vector databases, reranking, and agentic workflows</li><li>Strong product sense and ownership mentality: you take initiative, move quickly, and care deeply about whether your work is actually used and useful</li><li>Excellent communication skills: you're comfortable working directly with non-technical end users, gathering requirements, doing lightweight design, and presenting solutions</li><li>A builder's mindset with a bias toward action, experimentation, and shipping</li><li>Prior experience in a GTM role (Sales Ops, Marketing Ops, RevOps, Sales, or Marketing) or significant experience building tools for GTM teams at a B2B SaaS company</li><li>Experience with the modern GTM tools ecosystem: Salesforce, Outreach, Clay, HubSpot, Slack APIs, Twilio, etc</li><li>Proven understanding of agentic AI systems, including designing, developing, and deploying AI Agents and MCP servers</li><li>AWS cloud experience \u2014 you've deployed and operated production applications on AWS and understand how to design for scalability and reliability</li><li>Former founder, or early engineer at a startup who built a product from 0 to 1</li><li>Curiosity about the rapidly evolving AI landscape: different models, paradigms, and tools being used in the wild</li></ul><br><p>Benefits</p><ul><li>Competitive salary package & benefits</li><li>Medical, dental, and vision insurance is 100% covered</li><li>401k plan with company matching!</li><li>Unlimited PTO \u2014 take the time you need to come to work feeling great!</li><li>Wellness, commuter, and childcare reimbursements</li><li>Generous parental leave policy</li></ul><br><p>Company Overview</p><li>Aircall is a cloud-based call center software that integrates with CRM, productivity, and helpdesk tools. It was founded in 2014, and is headquartered in New York, New York, USA, with a workforce of 501-1000 employees. Its website is https://aircall.io/.</li><br><p>Company H1B Sponsorship</p><li>Aircall has a track record of offering H1B sponsorships, with 4 in 2026, 9 in 2025, 3 in 2024, 1 in 2023, 4 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "CRST The Transportation Solution, Inc.",
+    "Title": "Software Engineer I",
+    "Location": "Fort Wayne, IN 46818, USA",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 77.9667,
+    "MatchedSkills": [
+      "Java",
+      "SQL",
+      "Angular",
+      "Customer-focused mindset"
+    ],
+    "MissingSkills": [
+      "Spring Boot",
+      "Android application development",
+      "Enterprise systems development",
+      "Operational systems development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f399512f8b43cf397ca04",
+    "JobId": "6a0f399512f8b43cf397ca04",
+    "BaseTemplate": "SEJ_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "java"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEP_E",
+      "override_reason": "Engineer I + JD requires Java, Spring Boot, SQL, Angular, Android"
+    },
+    "JDText": "<p>CRST The Transportation Solution, Inc. is a company focused on logistics and operational excellence. They are seeking a Software Engineer I to design, develop, and maintain applications that directly impact their operations and customer onboarding processes.</p><br><p>Responsibilities</p><ul><li>Design, develop, test, and maintain applications using Java, Spring Boot, SQL, Angular, and Android technologies</li><li>Serve as an on-site development partner for operations teams and customers, translating requirements into working solutions</li><li>Support customer onboarding by quickly addressing data mapping changes, system enhancements, and issue resolution</li><li>Enhance and maintain operational tools, including barcode scanner applications and other logistics and inventory systems</li><li>Participate in daily project and operational meetings, providing real-time technical input</li><li>Collaborate with offshore and distributed development teams, ensuring clear requirements, code quality, and timely delivery</li><li>Support development tied to new revenue programs and business opportunities</li><li>Follow established development standards, security guidelines, and best practices</li></ul><br><p>Skills</p><ul><li>Bachelor's degree in Computer Science, Engineering, or a related field (or equivalent experience)</li><li>2+ years of professional software development experience</li><li>Strong hands-on experience with Java, Spring Boot, SQL/relational databases, Angular, and Android application development</li><li>Experience developing and supporting enterprise or operational systems</li><li>Ability to communicate technical concepts clearly to non-technical audiences</li><li>Strong problem-solving skills and a customer-focused mindset</li><li>Ability and willingness to work on-site in Fort Wayne, IN</li><li>Experience in Agile development environments</li><li>Experience collaborating with offshore or distributed development teams</li><li>Experience in transportation, logistics, or similarly operations-intensive industries</li></ul><br><p>Benefits</p><ul><li>Comprehensive package including medical, dental, and vision coverage</li><li>Prescription drug and telemedicine services</li><li>Company-paid life and disability insurance</li><li>Retirement savings with company match</li><li>Paid time off, holidays, and parental leave</li><li>Additional voluntary benefits and employee discounts</li></ul><br><p>Company Overview</p><li>For 70 years, CRST has delivered on its promises to customers, growing to be one of the nation\u2019s largest privately held transportation and logistics companies. It was founded in 1995, and is headquartered in Cedar Rapids, Iowa, USA, with a workforce of 5001-10000 employees. Its website is https://www.crst.com/.</li><br><p>Company H1B Sponsorship</p><li>CRST The Transportation Solution, Inc. has a track record of offering H1B sponsorships, with 1 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "DRW",
+    "Title": "Software Engineer - Prediction Markets (Python)",
+    "Location": "New York, NY",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 77.595,
+    "MatchedSkills": [
+      "Python",
+      "Multi-language programming",
+      "Linux-based software systems",
+      "High-throughput concurrent software systems"
+    ],
+    "MissingSkills": [
+      "Trade capture systems",
+      "Position management systems",
+      "Middle-office systems",
+      "Reconciliation systems",
+      "Real-time data processing",
+      "On-chain data interaction",
+      "Trading operations"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69bb8b385697383741419b81",
+    "JobId": "69bb8b385697383741419b81",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 5,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": [
+        "python"
+      ]
+    },
+    "JDText": "<p>DRW is a diversified trading firm with over 3 decades of experience in sophisticated technology and exceptional people. The Software Engineer on the Prediction Markets Desk will build systems for trading across prediction market venues, working closely with quantitative researchers and traders to develop scalable and reliable production systems.</p><br><p>Responsibilities</p><ul><li>Grow research tooling and infrastructure to support the business</li><li>Implement trading signals and strategies</li><li>Create infrastructure that allows the desk to efficiently capture market opportunity</li><li>Take full ownership of the products you create, from prototype to stable production</li><li>Work with both greenfield and legacy systems, primarily in Python</li><li>Provide on-call support as needed</li></ul><br><p>Skills</p><ul><li>A minimum of 2+ years' experience in Python, with the ability to work comfortably across multiple programming languages</li><li>A track record of working directly with end customers, scoping and delivering production systems in fast-moving and ambiguous environments</li><li>Experience building trade capture, position management, middle-office, or reconciliation systems</li><li>Familiarity with real-time data processing and multi-venue environments</li><li>Familiarity interacting with on-chain data</li><li>Understanding of trading operations (order lifecycle, break resolution, audit trails, PnL calculation)</li><li>Ability to dive deep into complex problems, develop intuitive understandings, spot risks early, and minimize complexity</li><li>Exceptional interpersonal skills \u2014 you communicate clearly with traders, researchers, and other engineers, fostering a collaborative, supportive working environment</li><li>Have a Bachelors or advanced degree in Computer Science, Mathematics, Statistics, Physics, Engineering, or equivalent work experience</li><li>Experience in the financial markets, crypto, or prediction markets is a plus</li><li>Experience with linux-based, concurrent, high-throughput software systems</li></ul><br><p>Benefits</p><ul><li>Annual discretionary bonus</li><li>Group medical, pharmacy, dental and vision insurance</li><li>401k (with discretionary employer match)</li><li>Short and long-term disability</li><li>Life and AD&D insurance</li><li>Health savings accounts</li><li>Flexible spending accounts</li></ul><br><p>Company Overview</p><li>DRW is a diversified trading firm that combines technology, research, and risk management to capture trading and investment opportunities. It was founded in 1992, and is headquartered in Chicago, Illinois, USA, with a workforce of 1001-5000 employees. Its website is http://drw.com/.</li><br><p>Company H1B Sponsorship</p><li>DRW has a track record of offering H1B sponsorships, with 2 in 2026, 36 in 2025, 35 in 2024, 24 in 2023, 24 in 2022, 12 in 2021, 8 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Warp",
+    "Title": "Software Engineer",
+    "Location": "United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 67.0016,
+    "MatchedSkills": [
+      "Linux programming"
+    ],
+    "MissingSkills": [
+      "Rust",
+      "WASM",
+      "Shell programming",
+      "Go",
+      "OpenGL",
+      "WebGL"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/699e0727ce78e77b4fe3249c",
+    "JobId": "699e0727ce78e77b4fe3249c",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Warp is a company focused on reimagining development tools to enhance usability and power for developers. As a Software Engineer, you will participate in all aspects of software development, collaborate with various teams, and improve product performance to elevate developer productivity.</p><br><p>Responsibilities</p><ul><li>Participate in all aspects of software development activities, including design, coding, code review, unit/integration testing, bug fixing, and code/API documentation</li><li>Collaborate closely with the rest of engineering and other stakeholders from our growth, marketing, and product teams to plan features and build a high-quality product that elevates the productivity of all developers</li><li>Improve Warp's performance and reliability by building new features or polishing existing product parts</li><li>Prototype ideas and concepts to get quick feedback from internal and external users</li><li>Work across the entire technical stack to ensure users have the most efficient and delightful Warp experience. The features you develop will span all aspects of the user experience, making you an expert on their needs</li><li>Be a mentor and provide thoughtful feedback to your peers, and build strong personal connections with your teammates!</li></ul><br><p>Skills</p><ul><li>Participate in all aspects of software development activities, including design, coding, code review, unit/integration testing, bug fixing, and code/API documentation</li><li>Collaborate closely with the rest of engineering and other stakeholders from our growth, marketing, and product teams to plan features and build a high-quality product that elevates the productivity of all developers</li><li>Improve Warp's performance and reliability by building new features or polishing existing product parts</li><li>Prototype ideas and concepts to get quick feedback from internal and external users</li><li>Work across the entire technical stack to ensure users have the most efficient and delightful Warp experience</li><li>Be a mentor and provide thoughtful feedback to your peers, and build strong personal connections with your teammates!</li><li>You are passionate about helping developers get more done \u2014 would jump at the chance to work on this particular product</li><li>You have amazing engineering chops, but are also product- and user-focused</li><li>You have great communication and collaboration skills</li><li>You're sensitive to developers' needs, and can develop warm relationships with developers</li><li>Building native apps in Rust or WASM</li><li>Shell or Linux-programming</li><li>Server-side programming in go</li><li>OpenGL, WebG, or other graphics programming</li></ul><br><p>Benefits</p><ul><li>Meaningful equity in the company with a four-year vesting period and one-year cliff</li><li>Full Medical, Dental, and Vision Benefits for employees (80% coverage for dependents)</li><li>Flexible remote-first culture, with optional office spaces in NYC and SF for folks who want to work together IRL</li><li>Pre-tax FSA Health Savings Plan</li><li>Pre-tax Commuter Benefit</li><li>20-days of Paid Time Off</li><li>Unlimited Sick Time Off</li><li>12 US Holidays</li><li>16 weeks of paid Parental Leave for both birthing and non-birthing parents</li><li>Twice-a-year company retreats</li><li>Monthly gym and internet stipend</li><li>Guideline 401(k)</li><li>Complimentary OneMedical membership</li></ul><br><p>Company Overview</p><li>Warp is a developer of a Rust-based coding terminal designed to make teams productive at coding and application development. It was founded in 2020, and is headquartered in New York, New York, USA, with a workforce of 51-200 employees. Its website is https://www.warp.dev.</li><br><p>Company H1B Sponsorship</p><li>Warp has a track record of offering H1B sponsorships, with 1 in 2023, 2 in 2022, 1 in 2021. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "VERISIGN",
+    "Title": "Software Engineer - Automation",
+    "Location": "Reston,Virginia,United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": "5",
+    "MatchScore": 93.0063,
+    "MatchedSkills": [
+      "C",
+      "C++",
+      "Data structures",
+      "Algorithms",
+      "Operating systems",
+      "Object-oriented design",
+      "CI/CD",
+      "GitHub",
+      "Terraform",
+      "Linux",
+      "Python",
+      "Scripting languages",
+      "Docker",
+      "Kubernetes",
+      "Behavior-driven testing",
+      "Python Behave"
+    ],
+    "MissingSkills": [
+      "Rust",
+      "Jenkins",
+      "Groovy",
+      "Ansible",
+      "Puppet",
+      "OpenStack",
+      "Agile software development",
+      "DNS protocol",
+      "Cucumber"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f2ccb9f654b3359ce31a0",
+    "JobId": "6a0f2ccb9f654b3359ce31a0",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 16,
+      "matched_keyword_hits": [
+        "algorithms",
+        "c++",
+        "ci cd",
+        "data structures",
+        "docker",
+        "kubernetes",
+        "operating systems",
+        "python"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEP_NG",
+      "override_reason": "Automation engineer; not NG"
+    },
+    "JDText": "<p>Verisign helps enable the security, stability, and resiliency of the internet. They are seeking a software automation engineer to join their ATLAS platform implementation team, where the individual will be involved in designing, implementing, and deploying new capabilities for the platform.</p><br><p>Responsibilities</p><ul><li>Designing and implementing new capabilities for the ATLAS platform</li><li>Deployment using CI/CD principles</li><li>Producing quality code</li><li>Automated testing</li><li>Code reviews</li><li>Continuous integration</li><li>Continuous deployment</li><li>Interacting and working with people in a positive manner to mitigate key project technical risks and ensure quality</li></ul><br><p>Skills</p><ul><li>Has solid understanding of writing software in a system-level programming language (C, C++, Rust)</li><li>Proven foundation in Computer Science fundamentals (data structures, algorithms, operating systems, object-oriented design)</li><li>Understanding of CI/CD concepts and tools (e.g., Jenkins, Groovy, GitHub)</li><li>Experience with or a strong willingness to learn infrastructure automation and platform engineering technologies such as Terraform, Ansible, Puppet and OpenStack</li><li>Proficient with Linux</li><li>Python or similar scripting language</li><li>Outstanding problem solving and trouble-shooting skills</li><li>Excellent teammate who enjoys a collaborative team environment</li><li>5+ years of relevant work experience in software development</li><li>2+ years development in a system-level programming language</li><li>Working on an Agile software development team</li><li>Bachelor's degree in computer science or related field, or equivalent work experience</li><li>Familiarity with DNS at the protocol level</li><li>Familiarity with containerization tools like Docker and Kubernetes</li><li>Exposure to behavior-driven testing frameworks such as Python Behave or Cucumber</li></ul><br><p>Benefits</p><ul><li>A hybrid work schedule</li><li>Competitive benefits</li><li>The ability to grow your career</li><li>Verisign offers a discretionary bonus which is based on individual and company performance</li><li>Certain roles may be eligible for discretionary stock awards</li></ul><br><p>Company Overview</p><li>Verisign operates as a global provider of domain name registry services and internet infrastructure. It was founded in 1995, and is headquartered in Bluemont, Virginia, USA, with a workforce of 501-1000 employees. Its website is http://www.verisigninc.com.</li><br><p>Company H1B Sponsorship</p><li>VERISIGN has a track record of offering H1B sponsorships, with 3 in 2026, 20 in 2025, 22 in 2024, 10 in 2023, 22 in 2022, 33 in 2021, 30 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Google",
+    "Title": "Software Engineer, Full Stack, gUP Engineering",
+    "Location": "Pittsburgh, PA",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Java",
+      "TypeScript",
+      "Data structures",
+      "Algorithms",
+      "Machine Learning",
+      "Software test engineering",
+      "Performance analysis",
+      "Debugging"
+    ],
+    "MissingSkills": [
+      "Large-scale systems data analysis",
+      "Visualization tools"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69f341d36942c746fa6904d1",
+    "JobId": "69f341d36942c746fa6904d1",
+    "BaseTemplate": "SEJ_E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "java",
+        "typescript"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Google is a leading technology company that develops next-generation technologies impacting billions of users. The role involves designing and enhancing software features as part of a team, while also ensuring best practices in code quality and contributing to documentation.</p><br><p>Responsibilities</p><ul><li>Design, develop, test, deploy, maintain, and enhance software features and components as part of a team</li><li>Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies</li><li>Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency)</li><li>Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback</li><li>Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality</li></ul><br><p>Skills</p><ul><li>Bachelor's degree or equivalent practical experience</li><li>2 years of experience programming in Java</li><li>2 years of experience programming in TypeScript</li><li>Master's degree or PhD in Computer Science or a related technical field</li><li>2 years of experience with performance, large-scale systems data analysis, visualization tools, or debugging</li><li>2 years of experience with data structures and algorithms in either an academic or industry setting</li><li>Experience with Machine Learning</li><li>Experience with code and system health, diagnosis and resolution, and software test engineering</li></ul><br><p>Benefits</p><ul><li>Bonus</li><li>Equity</li><li>Benefits</li></ul><br><p>Company Overview</p><li>Google specializes in internet-related services and products, including search, advertising, and software. It is a sub-organization of Alphabet. It was founded in 1998, and is headquartered in Mountain View, California, USA, with a workforce of 10001+ employees. Its website is https://www.google.com.</li><br><p>Company H1B Sponsorship</p><li>Google has a track record of offering H1B sponsorships, with 773 in 2026, 8763 in 2025, 8872 in 2024, 9682 in 2023, 11626 in 2022, 9109 in 2021, 9785 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Indeed",
+    "Title": "Software Engineer I",
+    "Location": "United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 97.2525,
+    "MatchedSkills": [
+      "AWS",
+      "Node.js",
+      "Python"
+    ],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/6a0ee40a72b52f7225f39567",
+    "JobId": "6a0ee40a72b52f7225f39567",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "aws",
+        "python"
+      ],
+      "title_keyword_hits": [],
+      "original_code": "SEP_E",
+      "override_reason": "Engineer I = entry-level; pipelines/data work"
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Indeed is the world\u2019s number 1 job site, dedicated to helping people get jobs. As a Software Engineer on the Meta Profile team, you will build and operate pipelines that convert raw marketplace signals into accurate profiles for job seekers and jobs, collaborating with engineers and data scientists to enhance match quality.</p><br><p>Responsibilities</p><ul><li>Develop, test, and maintain features for a suite of shared services and tools</li><li>Collaborate with engineers and cross-functional partners to deliver well-designed solutions</li><li>Participate in code reviews and incorporate feedback to improve code quality and maintainability</li><li>Learn and apply new technologies, tools, and best practices in software engineering</li></ul><br><p>Skills</p><ul><li>Bachelor's degree required in Computer Science, Computer Engineering, Electrical Engineering, or Mathematics</li><li>Familiarity with AWS, Node.js, and/or Python</li><li>Passion to learn and develop new skills continuously</li></ul><br><p>Benefits</p><ul><li>Quarterly bonuses</li><li>Restricted Stock Units (RSUs)</li><li>Paid Time Off policy</li><li>Many region-specific benefits</li><li>Indeed provides reasonable accommodations to qualified individuals with disabilities in the employment application process. To request an accommodation, please visit https://www.indeed.com/careers/accommodations</li></ul><br><p>Company Overview</p><li>Indeed is an employment-related metasearch engine for job listings. It was founded in 2004, and is headquartered in Austin, Texas, USA, with a workforce of 10001+ employees. Its website is http://www.indeed.com.</li><br><p>Company H1B Sponsorship</p><li>Indeed has a track record of offering H1B sponsorships, with 65 in 2026, 197 in 2025, 158 in 2024, 218 in 2023, 302 in 2022, 160 in 2021, 210 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Waabi",
+    "Title": "Research Scientist",
+    "Location": "San Francisco, CA",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 85.2922,
+    "MatchedSkills": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision",
+      "Python",
+      "Linear Algebra",
+      "Calculus",
+      "Probability",
+      "Pytorch",
+      "C++"
+    ],
+    "MissingSkills": [
+      "Robotics",
+      "Self-driving technology",
+      "Rust",
+      "CUDA",
+      "Passion for self-driving technologies"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f688a619335383fb2c21b",
+    "JobId": "6a0f688a619335383fb2c21b",
+    "BaseTemplate": "AI_E",
+    "RoutingDetails": {
+      "family": "AI",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "computer vision",
+        "machine learning",
+        "python",
+        "pytorch"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Waabi is a leader in Physical AI, focused on unlocking the next era of autonomous transportation. As a research scientist, you will invent new AI technologies for fully driverless autonomous trucks and contribute to Waabi's vision of a single AI system that learns end-to-end in a safe manner.</p><br><p>Responsibilities</p><ul><li>Lead and contribute to AI research projects, pushing the frontiers of the field by developing new algorithms for our autonomy system and state-of-the-art simulator</li><li>Work on a diverse set of problems related to self-driving, such as perception, motion forecasting, controls, sensor simulation, scenario generation, behavior modeling, mapping, localization, intelligent data mining & analysis, and safe deployment</li><li>Develop innovative solutions to problems by leveraging the latest advances in AI, including transformers, foundational models, LLMs/VLMs, generative modeling, imitation/reinforcement learning, inverse rendering, etc</li><li>Support deploying solutions to our production systems, collaborating closely with platform teams to ensure seamless integration of research findings into production systems</li><li>Stay up-to-date and advance beyond the state-of-the-art in artificial intelligence, machine learning, computer vision, and self-driving technologies</li><li>Champion engineering excellence, ensuring high-quality, well structured and tested code</li><li>Submit and publish work externally at top machine learning, computer vision, and robotics conferences (NeurIPS, ICLR, ICML, CVPR, etc.) and post to our company blog</li></ul><br><p>Skills</p><ul><li>Masters/PhD degree in Computer Science, AI, Machine Learning, Computer Vision, Robotics and/or similar technical field(s) of study. Exceptional Bachelor's students will also be considered</li><li>Demonstrated research experience through previous internships, work experience, research projects, and papers at top conferences</li><li>Strong quantitative background and coursework in or working knowledge of linear algebra, calculus, and probability</li><li>Proficient in reading and coding in Python</li><li>Open-minded and collaborative team player with willingness to help others</li><li>Passionate about self-driving technologies, solving hard problems, and creating innovative solutions</li><li>Previous experience in self-driving technology</li><li>Experience in shipping machine learning features/models into production</li><li>Proven track record of mentoring junior researchers or engineers</li><li>Proficiency in Pytorch, Rust, C++ and/or CUDA</li></ul><br><p>Benefits</p><ul><li>Competitive compensation and equity awards.</li><li>Health and Wellness benefits encompassing Medical, Dental and Vision coverage (for full-time employees only).</li><li>Unlimited Vacation.</li><li>Flexible hours and Work from Home support.</li><li>Daily drinks, snacks and catered meals (when in office).</li><li>Regularly scheduled team building activities and social events both on-site, off-site & virtually.</li></ul><br><p>Company Overview</p><li>Waabi develops autonomous driving technology and physical artificial intelligence systems for the transportation sector. It was founded in 2021, and is headquartered in Toronto, Ontario, CAN, with a workforce of 51-200 employees. Its website is https://waabi.ai.</li><br><p>Company H1B Sponsorship</p><li>Waabi has a track record of offering H1B sponsorships, with 1 in 2026, 8 in 2025, 6 in 2024, 6 in 2023, 4 in 2022. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Bristol Myers Squibb",
+    "Title": "AI Engineer",
+    "Location": "Princeton - NJ - US, US",
+    "PublishTime": "2 days ago",
+    "MinYOE": "1",
+    "MatchScore": 80.3813,
+    "MatchedSkills": [
+      "Python",
+      "NumPy",
+      "AWS S3",
+      "AWS ElastiCache",
+      "PostgreSQL",
+      "Neo4j",
+      "Pytest",
+      "GitHub",
+      "DevOps",
+      "LLM application development",
+      "Prompt engineering"
+    ],
+    "MissingSkills": [
+      "Pandas",
+      "FastAPI",
+      "AWS Athena",
+      "AWS RDS",
+      "AWS Fargate",
+      "OpenSearch",
+      "Milvus",
+      "Amazon Neptune",
+      "LangGraph",
+      "FastMCP",
+      "OpenAI API",
+      "Anthropic API",
+      "Gemini API",
+      "AWS Bedrock",
+      "LangSmith",
+      "Promptfoo"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f69ee80bf0430c7633893",
+    "JobId": "6a0f69ee80bf0430c7633893",
+    "BaseTemplate": "SELLM_E",
+    "RoutingDetails": {
+      "family": "AI",
+      "is_new_grad": false,
+      "score": 11,
+      "matched_keyword_hits": [
+        "numpy",
+        "prompt engineering",
+        "python"
+      ],
+      "title_keyword_hits": [
+        "ai"
+      ]
+    },
+    "JDText": "<p>Bristol Myers Squibb is a company dedicated to transforming patients' lives through science. As an AI Engineer within the AI Venture Studio delivery team, you will collaborate with engineers and stakeholders to build data pipelines and AI systems that support AI Accelerator projects, ensuring reliable data foundations for rapid project cycles.</p><br><p>Responsibilities</p><ul><li>Design, build, and maintain data pipelines that feed AI Accelerator projects, including ETL workflows, data transformations, and integration with internal and external APIs and data sources</li><li>Develop and manage relational databases (PostgreSQL/RDS), vector databases (OpenSearch, Milvus, Amazon S3 Vectors), and knowledge graphs (Amazon Neptune, Neo4j)</li><li>Build and operate data infrastructure on AWS, leveraging services such as S3, Athena, RDS, ElastiCache (Redis), and Fargate</li><li>Build and maintain multi-agent systems using LangGraph, including state management, fan-out/fan-in orchestration, and subgraph composition</li><li>Develop tool integrations and MCP (Model Context Protocol) servers using FastMCP to enable agent interoperability</li><li>Implement LLM-powered workflows integrating foundational models (OpenAI, Anthropic, Gemini) via AWS Bedrock and direct API access</li><li>Build evaluation and observability pipelines using tools such as LangSmith or promptfoo</li><li>Write and maintain automated test suites (unit, integration, end-to-end) using pytest to ensure reliability of data pipelines and agent workflows</li><li>Develop evaluation frameworks for LLM outputs, including reference-based metrics and structured output validation</li><li>Implement data quality checks and validation at system boundaries to catch issues early in the pipeline</li><li>Support test-driven development practices and contribute to CI test automation</li><li>Partner with AI Engineers, Pod Leads, and Research scientists to deliver AI Accelerator projects within 12-week cycles</li><li>Participate in code reviews, design discussions, and technical problem-solving with pod teams</li></ul><br><p>Skills</p><ul><li>Bachelor's or higher degree in Computer Science, Engineering, Data Science, or a scientific field</li><li>1-3 years of experience in data engineering, software engineering, or related technology or computational roles</li><li>Strong proficiency in Python, including data libraries (Pandas, NumPy) and web frameworks (FastAPI)</li><li>Experience with data pipelines on AWS (S3, RDS, Athena, ElastiCache, Fargate) and relational databases (PostgreSQL), vector databases, or knowledge graphs</li><li>Experience with LLM application development, including prompt engineering, tool use, and structured outputs</li><li>Familiarity with agent frameworks (LangGraph, LangChain, PydanticAI) or demonstrated ability to learn new frameworks quickly</li><li>Comfort with GitHub and DevOps practices</li><li>Effective use of coding agents (e.g., Claude Code, Codex, Gemini CLI)</li><li>Knowledge of and experience in agile ways of working</li><li>Experience writing automated tests (unit, integration, end-to-end) using pytest or similar frameworks</li><li>Curious and inquisitive mindset with the ability to adapt quickly to changing priorities</li></ul><br><p>Benefits</p><ul><li>Additional incentive cash and stock opportunities (based on eligibility) may be available.</li><li>Medical, pharmacy, dental, and vision care.</li><li>Programs such as BMS Well-Being Account, BMS Living Life Better, and Employee Assistance Programs (EAP).</li><li>401(k) plan, short- and long-term disability, life insurance, accident insurance, supplemental health insurance, business travel protection, personal liability protection, identity theft benefit, legal support, and survivor support.</li><li>US Exempt Employees: flexible time off (unlimited, with manager approval, 11 paid national holidays (not applicable to employees in Phoenix, AZ, Puerto Rico or Rayzebio employees)</li><li>Phoenix, AZ, Puerto Rico and Rayzebio Exempt, Non-Exempt, Hourly Employees: 160 hours annual paid vacation for new hires with manager approval, 11 national holidays, and 3 optional holidays</li><li>Based on eligibility*, additional time off for employees may include unlimited paid sick time, up to 2 paid volunteer days per year, summer hours flexibility, leaves of absence for medical, personal, parental, caregiver, bereavement, and military needs and an annual Global Shutdown between Christmas and New Years Day.</li><li>All global employees full and part-time who are actively employed at and paid directly by BMS at the end of the calendar year are eligible to take advantage of the Global Shutdown.</li></ul><br><p>Company Overview</p><li>At Bristol Myers Squibb, we work every day to transform patients\u2019 lives through science. It was founded in 1887, and is headquartered in New York, New York, USA, with a workforce of 10001+ employees. Its website is http://www.bms.com.</li><br><p>Company H1B Sponsorship</p><li>Bristol Myers Squibb has a track record of offering H1B sponsorships, with 37 in 2026, 247 in 2025, 278 in 2024, 231 in 2023, 180 in 2022, 181 in 2021, 169 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Wolverine Trading",
+    "Title": "Low-Level C++ Software Engineer",
+    "Location": "Chicago, IL",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "C++",
+      "C++17",
+      "C++20",
+      "Data structures",
+      "Algorithms",
+      "Multi-threaded programming",
+      "Performance tuning"
+    ],
+    "MissingSkills": [
+      "System performance analysis"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f75aa12f8b43cf397f4ad",
+    "JobId": "6a0f75aa12f8b43cf397f4ad",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 9,
+      "matched_keyword_hits": [
+        "algorithms",
+        "c++",
+        "data structures"
+      ],
+      "title_keyword_hits": [
+        "c++"
+      ],
+      "original_code": "SEP_NG",
+      "override_reason": "Senior low-level C++ systems role; not NG"
+    },
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "GM Financial",
+    "Title": "Data Engineer II",
+    "Location": "Arlington, TX",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 80.6673,
+    "MatchedSkills": [
+      "REST APIs",
+      "SQL",
+      "Application Lifecycle Management",
+      "Cloud Databases",
+      "Azure",
+      "AWS",
+      "Hybrid Cloud Computing",
+      "S3"
+    ],
+    "MissingSkills": [
+      "Adobe Experience Platform",
+      "XDM",
+      "RTCDP",
+      "DTM/Launch",
+      "Digital technology solutions",
+      "Real Time-CDP",
+      "Journey Analytics",
+      "Agile development",
+      "SAFe",
+      "Scrum",
+      "JSON",
+      "Parquet",
+      "SequenceFile",
+      "MQ",
+      "Oracle",
+      "GCP",
+      "Virtualization technologies",
+      "Infrastructure as a Service",
+      "Platform as a Service",
+      "Software as a Service",
+      "Data Lake Storage Gen2",
+      "Minio"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69db1e735356a60f40fe4f83",
+    "JobId": "69db1e735356a60f40fe4f83",
+    "BaseTemplate": "DE_E",
+    "RoutingDetails": {
+      "family": "DE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "aws",
+        "sql"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>GM Financial is committed to AI-powered transformation and digital innovation. The Data Engineer II role involves processing large data sets and deploying technologies for data solutions, supporting machine learning training and analytics.</p><br><p>Responsibilities</p><ul><li>Contribute to the evaluation, research, experimentation efforts with batch and streaming data engineering technologies in a lab to keep pace with industry innovation</li><li>Work with data engineering related groups to inform on and showcase capabilities of emerging technologies and to enable the adoption of these new technologies and associated techniques</li><li>Contribute to the definition and refinement of processes and procedures for the data engineering practice</li><li>Work closely with data scientists, data architects, ETL developers, other IT counterparts, and business partners to identify, capture, collect and format data from the external sources, internal systems, and the data warehouse to extract features of interest</li><li>Code, test, deploy, monitor, document and troubleshoot data engineering processing and associated automation</li></ul><br><p>Skills</p><ul><li>Experience with Adobe solutions (ideally Adobe Experience Platform, XDM, RTCDP DTM/Launch) and REST APIs</li><li>Digital technology solutions (DMPs, CDPs, Tag Management Platforms, Cross-Device Tracking, SDKs, etc.) Knowledge of Real Time-CDP and Journey Analytics solution</li><li>SQL experience: querying data and sharing what insights can be derived</li><li>Working knowledge of Agile development /SAFe, Scrum and Application Lifecycle Management</li><li>Experience with ingesting various source data formats such as JSON, Parquet, SequenceFile, Cloud Databases, MQ, Relational Databases such as Oracle</li><li>Experience with Cloud technologies (such as Azure, AWS, GCP) and native toolsets</li><li>Understanding of cloud computing technologies, business drivers and emerging computing trends</li><li>Thorough understanding of Hybrid Cloud Computing: virtualization technologies, Infrastructure as a Service, Platform as a Service and Software as a Service Cloud delivery models and the current competitive landscape</li><li>Working knowledge of Object Storage technologies to include but not limited to Data Lake Storage Gen2, S3, Minio, Ceph, ADLS etc</li><li>Strong background with source control management systems; Build Systems (Maven, Gradle, Webpack); Code Quality (Sonar); Artifact Repository Managers (Artifactory), Continuous Integration/ Continuous Deployment (Azure DevOps)</li><li>Experience with processing large data sets using Hadoop, HDFS, Spark, Kafka, Flume or similar distributed systems</li><li>Experience with NoSQL data stores such as CosmosDB, MongoDB, Cassandra, Redis, Riak or other technologies that embed NoSQL with search such as MarkLogic or Lily Enterprise</li><li>Creating and maintaining ETL processes</li><li>Knowledgeable of best practices in information technology governance and privacy compliance</li><li>Troubleshoot complex problems and work across teams to meet commitments</li><li>Excellent computer skills and proficiency in digital data collection</li><li>Ability to work in an Agile/Scrum team environment</li><li>Strong interpersonal, verbal, and writing skills</li><li>Understanding of big data platforms and architectures, data stream processing pipeline/platform, data lake and data lake houses</li><li>Understanding of cloud solutions such as Google Cloud Platform, Microsoft Azure & Amazon AWS cloud architecture & services</li><li>Understanding of GDPR, privacy & security topics</li><li>Strong in the use of Microsoft Office software, data querying platforms (Databricks is a plus) and statistical programming tools such as Python</li><li>2-4 years of hands-on experience with data engineering required</li><li>Bachelor's degree in related field or equivalent experience required</li></ul><br><p>Benefits</p><ul><li>Generous benefits package available on day one to include: 401K matching, bonding leave for new parents (12 weeks, 100% paid), tuition assistance, training, GM employee auto discount, community service pay and nine company holidays.</li><li>Competitive pay and bonus eligibility</li><li>Flexible hybrid work environment, 2 days a week in office in Irving, TX</li></ul><br><p>Company Overview</p><li>GM Financial Bank is the captive finance company, provider of auto finance solutions, with operations. It was founded in 1992, and is headquartered in Fort Worth, Texas, USA, with a workforce of 5,001-10,000 employees. Its website is http://www.gmfinancial.com.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Nityo Infotech",
+    "Title": "Python Developer",
+    "Location": "Irving, TX",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 96.9492,
+    "MatchedSkills": [
+      "Python",
+      "IPython",
+      "CI/CD",
+      "SQL",
+      "NoSQL",
+      "APIs",
+      "Microservices Architecture",
+      "AWS",
+      "Azure",
+      "Git",
+      "Bitbucket",
+      "Distributed Systems",
+      "Data Pipelines"
+    ],
+    "MissingSkills": [
+      "FastAPI",
+      "Django",
+      "Jenkins",
+      "Release Management"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f13be12f8b43cf397ba01",
+    "JobId": "6a0f13be12f8b43cf397ba01",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 15,
+      "matched_keyword_hits": [
+        "aws",
+        "ci cd",
+        "distributed systems",
+        "git",
+        "python"
+      ],
+      "title_keyword_hits": [
+        "python"
+      ]
+    },
+    "JDText": "<p>Nityo Infotech is seeking a skilled Python/IPython Developer with strong expertise in Python development, APIs, and data processing. The role involves building scalable applications, working with CI/CD pipelines, and collaborating with cross-functional teams to deliver high-quality solutions.</p><br><p>Responsibilities</p><ul><li>Building scalable applications</li><li>Working with CI/CD pipelines</li><li>Collaborating with cross-functional teams to deliver high-quality solutions</li></ul><br><p>Skills</p><ul><li>Strong experience in Python (Core + Advanced concepts)</li><li>Experience with frameworks: FastAPI / Django</li><li>Knowledge of CI/CD, Jenkins, and Release Management (RLM)</li><li>Strong knowledge of SQL and NoSQL databases</li><li>Experience with APIs and microservices architecture</li><li>Familiarity with cloud platforms (AWS/Azure preferred)</li><li>Version control tools (Git, Bitbucket)</li><li>Understanding of distributed systems or data pipelines</li></ul><br><p>Company Overview</p><li>Nityo Infotech (Nityo) is a Global Technology Solutions and Services organisation. It was founded in 2005, and is headquartered in Pittsburgh, Pennsylvania, USA, with a workforce of 10001+ employees. Its website is http://www.nityo.com.</li><br><p>Company H1B Sponsorship</p><li>Nityo Infotech has a track record of offering H1B sponsorships, with 2 in 2025, 1 in 2024, 1 in 2023, 4 in 2022, 5 in 2021, 17 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "iPipeline",
+    "Title": "Software Development Engineer",
+    "Location": "Wayne, PA",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 94.549,
+    "MatchedSkills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "DevOps practices",
+      "Software development lifecycle",
+      "Git",
+      "Unit testing",
+      "Debugging"
+    ],
+    "MissingSkills": [
+      "C#",
+      "NET",
+      "XSLT",
+      "Web application security principles"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f5e029f654b3359ce51f8",
+    "JobId": "6a0f5e029f654b3359ce51f8",
+    "BaseTemplate": "FS_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 4,
+      "matched_keyword_hits": [
+        "git",
+        "unit testing"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>iPipeline is a global market leader in providing innovative software solutions for the life insurance and financial services industries. The Associate Software Development Engineer will be responsible for developing, testing, and maintaining software applications while learning foundational software development skills under the guidance of senior engineers.</p><br><p>Responsibilities</p><ul><li>Write, test, and debug basic software code according to task specifications</li><li>Participate in code reviews to learn best practices and improve code quality</li><li>Responsible for creating supporting documentation associated with assigned tasks</li><li>Work in teams, communicate effectively with peers and management</li><li>Engage in ongoing professional development to improve technical skills and stay updated with latest technology trends</li><li>All other duties as assigned</li></ul><br><p>Skills</p><ul><li>Basic proficiency in one or more programming languages (e.g., C#, .NET, HTML, CSS, JavaScript, XSLT) and devOps practices</li><li>Understand and familiarity with version control systems (e.g., Git), IDEs and basic knowledge of web application security principles</li><li>Knowledge of basic testing methods, unit testing, and tools</li><li>Ability to debug code using browser developer tools (for front-end) or using breakpoints and logging in back-end code</li><li>Ability to identify and resolve simple software issues</li><li>Basic foundational knowledge and skills related to the role</li><li>Strong analytical and problem-solving skills</li><li>Ability to work in teams, communicate effectively with peers, seniors and management</li><li>Willingness to learn and adopt new technologies and tools, as well as staying updated with the latest trends</li></ul><br><p>Benefits</p><ul><li>A competitive compensation and benefits package</li><li>Opportunities for career growth</li><li>An employee stock purchase plan</li><li>401(k)</li><li>Generous time off and flexible work/life balance</li><li>Company-matched retirement packages</li><li>An employee wellness program</li><li>An awards and recognition program</li></ul><br><p>Company Overview</p><li>Pipeline is an on-demand service providing suite of sales distribution software to insurance and financial services markets. It was founded in 1995, and is headquartered in Exton, Pennsylvania, USA, with a workforce of 501-1000 employees. Its website is http://www.ipipeline.com.</li><br><p>Company H1B Sponsorship</p><li>iPipeline has a track record of offering H1B sponsorships, with 4 in 2025, 2 in 2024, 3 in 2023, 5 in 2022, 8 in 2021, 3 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Spot AI",
+    "Title": "Software Engineer, AI",
+    "Location": "San Francisco, CA",
+    "PublishTime": "3 days ago",
+    "MinYOE": "2",
+    "MatchScore": 84.9182,
+    "MatchedSkills": [
+      "AI",
+      "Deep learning",
+      "Linear classifiers",
+      "AI foundation models",
+      "Large language models",
+      "Prompt engineering",
+      "Software design",
+      "Big-data processing pipelines",
+      "Systems design",
+      "Code quality",
+      "Data schema design",
+      "Debugging"
+    ],
+    "MissingSkills": [
+      "Video processing",
+      "YOLO",
+      "Transformer models",
+      "Embeddings",
+      "Software architecture",
+      "Scalability",
+      "Data design",
+      "Model design",
+      "Edge model optimizations",
+      "Vector indexes",
+      "Observability tools",
+      "Runbooks"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e2cbf83d71442898169dc",
+    "JobId": "6a0e2cbf83d71442898169dc",
+    "BaseTemplate": "SEAI_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 3,
+      "matched_keyword_hits": [
+        "prompt engineering"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Spot AI is a rapidly growing Video AI company that transforms standard cameras into powerful AI tools for businesses. The Software Engineer, AI role involves leading the design and integration of AI-driven features, applying cutting-edge AI techniques to enhance safety and operations for clients in various physical environments.</p><br><p>Responsibilities</p><ul><li>You\u2019ll play a critical role in advancing Spot AI\u2019s capabilities, using your AI expertise to drive innovative solutions for businesses with physical environments\u2014from manufacturing plants to car dealerships</li><li>Leading the design and integration of AI-driven features, you\u2019ll elevate both new and existing products, focusing on scalable, real-world applications that improve safety, operations, and efficiency</li><li>Working closely with cross-functional teams, you\u2019ll apply cutting-edge AI techniques to transform video data into actionable insights that empower our clients</li><li>By setting standards in AI reliability and performance, you\u2019ll ensure Spot AI\u2019s product suite consistently delivers high-impact outcomes</li></ul><br><p>Skills</p><ul><li>2+ years of hands on experience in AI, ideally with video processing experience</li><li>Strong expertise and nuanced perspectives on the latest AI technology</li><li>Understanding of classic deep learning techniques, from YOLO to transformer models to linear classifiers</li><li>Experience with the latest AI foundation models, from embeddings to LLMs and prompt engineering</li><li>Deep understanding of software design, architecture, big-data processing pipelines, and best practices on systems design + scalability, code quality, and data/model design</li><li>Experience in designing and leading complex systems, shaping multi-team architectures, and creating frameworks that prevent defects and improve validation across products</li><li>Expertise in debugging and operational excellence, adopting observability tools, tackling unfamiliar codebases, and developing resources like runbooks to prevent issues</li><li>Ability to provide examples of AI Engineering projects, whether in school or in industry</li></ul><br><p>Benefits</p><ul><li>Meaningful early stage equity</li><li>Medical, dental and vision plan options with significant company contributions towards premiums</li><li>Company paid short- and long-term disability plans</li><li>Company paid life insurance</li><li>401K with Employer Match</li></ul><br><p>Company Overview</p><li>Spot AI is an AI platform that turns cameras into video AI agents,\u00a0linking existing workflows with video data. It was founded in 2018, and is headquartered in San Francisco, California, USA, with a workforce of 51-200 employees. Its website is https://www.spot.ai.</li><br><p>Company H1B Sponsorship</p><li>Spot AI has a track record of offering H1B sponsorships, with 2 in 2026, 4 in 2025, 5 in 2024, 4 in 2023, 2 in 2022, 3 in 2021, 2 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Hive",
+    "Title": "Machine Learning Engineer",
+    "Location": "San Francisco",
+    "PublishTime": "2 days ago",
+    "MinYOE": "1",
+    "MatchScore": 91.2869,
+    "MatchedSkills": [
+      "Machine learning",
+      "Deep learning",
+      "Neural networks",
+      "Python",
+      "Data pipelines",
+      "Node.js",
+      "Linux command-line",
+      "C++",
+      "SQL",
+      "Cassandra",
+      "Docker"
+    ],
+    "MissingSkills": [
+      "Tensorflow",
+      "Caffe",
+      "Torch",
+      "Bash",
+      "Scala",
+      "Apache Spark",
+      "OWASP top 10"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0ef7f19f654b3359ce1e1f",
+    "JobId": "6a0ef7f19f654b3359ce1e1f",
+    "BaseTemplate": "AI_E",
+    "RoutingDetails": {
+      "family": "AI",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "deep learning",
+        "machine learning",
+        "python"
+      ],
+      "title_keyword_hits": [
+        "machine learning"
+      ]
+    },
+    "JDText": "<p>Hive is the leading provider of cloud-based AI solutions, trusted by many of the world's largest organizations. They are seeking a Machine Learning Engineer to join their team and contribute to the development and deployment of machine learning models, ensuring high performance and scalability in production environments.</p><br><p>Responsibilities</p><ul><li>Everything involved in applying a ML model to a production use case, including, designing and coding up the neural network, gathering and refining data, training and tuning the model, deploying it at scale with high throughput and uptime, and analyzing the results in the wild in order to continuously update and improve accuracy and speed</li><li>Interface closely with the Backend and DevOps teams as well as with our internal data labeling services</li><li>Utilize OWASP top 10 techniques to secure code from vulnerabilities</li><li>Maintain awareness of industry best practices for data maintenance handling as it relates to your role</li><li>Adhere to policies, guidelines and procedures pertaining to the protection of information assets</li><li>Report actual or suspected security and/or policy violations/breaches to an appropriate authority</li></ul><br><p>Skills</p><ul><li>You have an undergraduate or graduate degree in computer science or similar technical field, with significant coursework in mathematics or statistics</li><li>You have 1-2 years industry machine learning experience</li><li>You have successfully trained and deployed a deep learning machine model (image, NLP, video, or audio) into production, with measurably improved performance over baseline, either in industry or as a personal project</li><li>You have strong experience with a high-level machine learning frameworks such as Tensorflow, Caffe, or Torch, and familiarity with the others</li><li>You know the ins and outs of Python, especially as it applies to the above ML frameworks</li><li>You are capable of quickly coding and prototyping data pipelines involving any combination of Python, Node, bash, and linux command-line tools, especially when applied to large datasets consisting of millions of files</li><li>You have a working knowledge of the following technologies, or are not afraid of picking it up on the fly: C++, Scala/Spark, SQL, Cassandra, Docker</li><li>You are up-to-date on the latest deep neural net research and architectures, both in understanding the theory and motivations behind the techniques, as well as how to implement them in the ML framework of your choice</li><li>You have great communication skills and ability to work with others</li><li>You are a strong team player, with a do-whatever-it-takes attitude</li></ul><br><p>Benefits</p><ul><li>Stock options may be offered in addition to the range provided here.</li></ul><br><p>Company Overview</p><li>Hive provides cloud-based AI solutions for understanding, searching, and generating content It was founded in 2013, and is headquartered in San Francisco, California, USA, with a workforce of 201-500 employees. Its website is https://thehive.ai/.</li><br><p>Company H1B Sponsorship</p><li>Hive has a track record of offering H1B sponsorships, with 1 in 2021. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "ComResource",
+    "Title": "Data Engineer",
+    "Location": "Cincinnati, OH",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 93.2589,
+    "MatchedSkills": [
+      "ETL",
+      "Python",
+      "Linux",
+      "CI/CD"
+    ],
+    "MissingSkills": [
+      "ELT",
+      "Data pipeline architectures"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f3de872b52f7225f3c14e",
+    "JobId": "6a0f3de872b52f7225f3c14e",
+    "BaseTemplate": "DE_E",
+    "RoutingDetails": {
+      "family": "DE",
+      "is_new_grad": false,
+      "score": 5,
+      "matched_keyword_hits": [
+        "etl",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>ComResource is a company focused on data integration and pipeline support, and they are seeking a Data Engineer. The role involves supporting and enhancing ETL and ELT pipelines, integrating data from various sources, and ensuring secure data movement and compliance with operational requirements.</p><br><p>Responsibilities</p><ul><li>Support and enhance  ETL and ELT pipelines</li><li>Integrate data from diverse sources including databases, APIs, filesystems, streaming platforms, and cloud storage</li><li>Troubleshoot data flow failures, latency issues, and throughput constraints</li><li>Implement robust error handling, monitoring, and recovery mechanisms</li><li>Use  Python  for transformations, scripting, automation, and custom processor logic (where applicable)</li><li>Apply best practices for secure data movement, authentication, authorization, and encryption</li><li>Assist with flow versioning, deployment processes, and operational runbooks</li><li>Collaborate with internal teams to ensure platform changes align with operational and compliance requirements</li><li>Act as a technical advisor to internal data and platform teams</li><li>Clearly document findings, recommendations, and implemented improvements</li><li>Provide knowledge transfer and guidance to ensure long-term sustainability</li></ul><br><p>Skills</p><ul><li>Strong knowledge of ETL/ELT concepts and modern data pipeline architectures</li><li>Proficiency in Python for data processing, scripting, and automation</li><li>Experience working with Linux-based systems and distributed environments</li><li>Ability to analyze existing implementations and deliver actionable optimization recommendations</li><li>Familiarity with CI/CD practices for data pipelines</li><li>Experience with monitoring and tuning distributed data platforms</li><li>Exposure to cloud and hybrid data architectures</li></ul><br><p>Company Overview</p><li>ComResource is one of IBM's preferred Business Partners in the the IBM Sterling Solutions. It was founded in 1991, and is headquartered in Columbus, Ohio, USA, with a workforce of 201-500 employees. Its website is http://comresource.com/.</li><br><p>Company H1B Sponsorship</p><li>ComResource has a track record of offering H1B sponsorships, with 1 in 2021, 3 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Stark Tech",
+    "Title": "Software Developer",
+    "Location": "Buffalo, NY",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 97.0455,
+    "MatchedSkills": [
+      "Python",
+      "Object-oriented programming",
+      "Git",
+      "Testing",
+      "Debugging",
+      "Docker",
+      "SQL",
+      "REST APIs",
+      "Microsoft Azure",
+      "CI/CD pipelines"
+    ],
+    "MissingSkills": [
+      "FastAPI"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69f2b6858d8d624381aa246e",
+    "JobId": "69f2b6858d8d624381aa246e",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 9,
+      "matched_keyword_hits": [
+        "docker",
+        "git",
+        "python",
+        "rest apis"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Stark Tech is a leader in facilities and energy solutions, specializing in integrating systems and providing energy-efficient equipment. The Software Developer will work within a collaborative R&D team to build and support software solutions for commercial HVAC operations, contributing across the software development lifecycle.</p><br><p>Responsibilities</p><ul><li>Build and support software solutions for commercial HVAC operations</li><li>Develop and maintain applications that support automation, internal tools, and system development initiatives</li><li>Contribute across the software development lifecycle</li><li>Writing clean, testable code</li><li>Debugging applications</li><li>Participating in code reviews</li><li>Collaborating with teammates on evolving projects</li><li>Supporting existing systems</li><li>Deploying cloud-based solutions in Microsoft Azure</li><li>Contributing to testing and CI/CD pipelines</li></ul><br><p>Skills</p><ul><li>Bachelor's degree in Computer Science, Software Engineering, or a related field, or equivalent experience</li><li>Strong programming fundamentals (Python preferred)</li><li>Understanding of object-oriented programming principles</li><li>Familiarity with Git and basic software development practices such as testing and debugging</li><li>Ability to work independently and solve technical problems in an evolving environment</li><li>Willingness to maintain and improve existing systems as well as develop new solutions</li><li>Exposure to technologies such as Docker, SQL, REST APIs, FastAPI, or cloud platforms (Azure preferred)</li></ul><br><p>Benefits</p><ul><li>Paid time off</li><li>401(k) with employer match</li><li>Medical coverage</li><li>Wellness programs</li><li>Career development opportunities</li></ul><br><p>Company Overview</p><li>We provide intelligent building solutions for total facilities optimization throughout the building lifecycle. It was founded in 1989, and is headquartered in Buffalo, New York, USA, with a workforce of 501-1000 employees. Its website is https://www.starktech.com.</li><br><p>Company H1B Sponsorship</p><li>Stark Tech has a track record of offering H1B sponsorships, with 1 in 2024. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Slice",
+    "Title": "Software Developer, Internal Products",
+    "Location": "United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 97.2534,
+    "MatchedSkills": [
+      "Python",
+      "PostgreSQL",
+      "MySQL",
+      "API development"
+    ],
+    "MissingSkills": [
+      "Django"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a06ff2c1f7fa33581c98f65",
+    "JobId": "6a06ff2c1f7fa33581c98f65",
+    "BaseTemplate": "SEP_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 7,
+      "matched_keyword_hits": [
+        "mysql",
+        "postgresql",
+        "python"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Slice is a company dedicated to empowering local pizzerias with technology and services. The Software Developer for Internal Products will develop innovative features using Python and Django to enhance operational efficiency and customer experiences for restaurant partners.</p><br><p>Responsibilities</p><ul><li>Develop innovative features that help our restaurant partners operate more efficiently and provide exceptional, seamless experiences for their customers</li><li>You\u2019ll work primarily in Python and Django to design, develop and maintain robust web applications</li><li>You will collaborate closely with Product Designers, Product Managers, and other stakeholders to deliver high-quality software that meets the needs of our users</li></ul><br><p>Skills</p><ul><li>Experience with Django</li><li>Experience with Python or Ruby</li><li>Familiarity with databases (PostgreSQL, MySQL)</li><li>Ability to work remotely and collaborate asynchronously with teammates in different timezones</li><li>Strong communication skills</li><li>Ability to express opinions on product design while respecting the thoughts and opinions of peers</li><li>Focus on product and customer impact</li><li>Eagerness to propose improvements</li><li>Creative problem-solving skills</li><li>Ability to innovate and experiment to find better solutions</li></ul><br><p>Benefits</p><ul><li>Access to healthcare plans.</li><li>Flexible working hours</li><li>Generous time off policies</li><li>Employee well-being allowance</li></ul><br><p>Company Overview</p><li>Slice supports independent pizzerias with integrated technology, superior buying power, and a community of like-minded pizzeria owners It was founded in 2015, and is headquartered in New York, New York, USA, with a workforce of 501-1000 employees. Its website is http://slice.com.</li><br><p>Company H1B Sponsorship</p><li>Slice has a track record of offering H1B sponsorships, with 1 in 2025. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "SeatGeek",
+    "Title": "Analytics Engineer",
+    "Location": "United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 89.7264,
+    "MatchedSkills": [
+      "SQL",
+      "Python",
+      "Databricks",
+      "Data Modeling",
+      "Data Pipeline Development",
+      "ETL",
+      "Kafka"
+    ],
+    "MissingSkills": [
+      "DBT",
+      "Airflow",
+      "Data Warehouse",
+      "Redshift"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/69ba879d5697383741401908",
+    "JobId": "69ba879d5697383741401908",
+    "BaseTemplate": "DE_E",
+    "RoutingDetails": {
+      "family": "DE",
+      "is_new_grad": false,
+      "score": 13,
+      "matched_keyword_hits": [
+        "data modeling",
+        "etl",
+        "kafka",
+        "python",
+        "sql"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. SeatGeek believes live events are powerful experiences that unite humans. They are looking for an Analytics Engineer to join their Data team, where the role involves developing data pipelines, collaborating with stakeholders, and ensuring the quality of data models.</p><br><p>Responsibilities</p><ul><li>Join a team of Analytics Engineers that will develop data pipelines and use SQL- and Python-based ETL frameworks to acquire, process, and deliver data to consumers around SeatGeek</li><li>Communicate and collaborate with different stakeholders, like Data Scientists, Analysts, Data Platform Engineers, and Software Engineers to understand data use cases and product requirements for R&D teams</li><li>Architect and thoroughly QA performant data models that enable analysis in a data warehouse setting</li><li>Assist in triaging and debugging on-call requests in a rotational on-call schedule with the Analytics Engineering team</li><li>Enable AI-assisted stakeholder data analysis by designing LLM-friendly DWH schemas, creating domain guides, and enforcing canonical naming conventions across all tables to be consumed by the AI agent</li><li>Partner with Analytics leadership to develop a strategy around BI tooling to ensure stakeholders have easy access to usable data</li></ul><br><p>Skills</p><ul><li>2+ years of relevant experience in Analytics, Data, or Software Engineering</li><li>Experience with DBT, databricks, or similar SQL-transformation tool is a must</li><li>A bachelor's degree or higher in economics, psychology, computer science, statistics, mathematics or another quantitative discipline</li><li>Expert-level knowledge of SQL. Proficiency in programming with Python</li><li>Experience developing new metrics and performing analysis with large datasets</li><li>Experience cleaning data sets, developing new models and interfacing with stakeholders to understand business requirements</li><li>Expert verbal and written communication skills. You are able to translate complex problems or concepts into clear frameworks and guides that all audience types can understand</li></ul><br><p>Benefits</p><ul><li>Equity stake</li><li>Discretionary annual bonus</li><li>Flexible work environment, allowing you to work as many days a week in the office as you\u2019d like or 100% remotely</li><li>A WFH stipend to support your home office setup</li><li>Unlimited PTO</li><li>Eligible for the SG discretionary annual bonus based on individual and company performance</li><li>Up to 16 weeks of fully-paid family leave</li><li>401(k) matching</li><li>Student loan matching program</li><li>Health, vision, dental, and life insurance</li><li>Up to $25k towards family building, reproductive health services and Gender-affirming care</li><li>$500 per year for wellness expenses</li><li>Subscriptions to Headspace (meditation), Headspace Care (therapy), and One Medical</li><li>$120 per month to spend on tickets to live events</li><li>Annual subscription to Spotify, Apple Music, or Amazon music</li></ul><br><p>Company Overview</p><li>SeatGeek operates a mobile-focused ticket platform and search engine that lets fans buy and sell tickets for events. It was founded in 2009, and is headquartered in New York, New York, USA, with a workforce of 501-1000 employees. Its website is https://seatgeek.com.</li><br><p>Company H1B Sponsorship</p><li>SeatGeek has a track record of offering H1B sponsorships, with 13 in 2025, 6 in 2024, 13 in 2023, 7 in 2022. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Proofpoint",
+    "Title": "Software Engineer",
+    "Location": "Draper, UT, US",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 89.8484,
+    "MatchedSkills": [
+      "Linux",
+      "Python",
+      "AI agents",
+      "Software Development"
+    ],
+    "MissingSkills": [
+      "Perl",
+      "Bash",
+      "Claude Code"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0ef5f1619335383fb28539",
+    "JobId": "6a0ef5f1619335383fb28539",
+    "BaseTemplate": "SELLM_E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "python"
+      ],
+      "title_keyword_hits": [],
+      "sellm_reroute_from": "SEP_E",
+      "sellm_reroute_reason": "JD: 'Leverage Claude Code and AI agents'; AI-first SE role"
+    },
+    "JDText": "<p>Proofpoint is a global leader in human- and agent-centric cybersecurity. They are seeking a Software Developer who will design, develop, test, and maintain software solutions to improve engineering efficiency and system reliability, with a focus on applying AI to enhance workflows.</p><br><p>Responsibilities</p><ul><li>Design, develop, test, and maintain software solutions that improve engineering efficiency and system reliability</li><li>Work in Linux environments to troubleshoot issues, automate workflows, and support development and operational needs</li><li>Use scripting languages such as Perl, Python, or Bash to build tools, automate repetitive tasks, and improve team productivity</li><li>Leverage Claude Code and AI agents to streamline development workflows, improve code quality, and reduce manual effort</li><li>Identify manual, repetitive, or low-value tasks and build AI-powered or scripted solutions to automate them</li><li>Collaborate with team members to improve systems, processes, and developer experiences</li><li>Challenge existing approaches and propose practical improvements that increase scalability, efficiency, and reliability</li><li>Continuously learn and adopt new tools, technologies, and best practices that help the team move faster and work smarter</li></ul><br><p>Skills</p><ul><li>2 years of software development experience</li><li>Solid experience with Linux and at least one scripting language such as Perl, Python, or Bash</li><li>Hands-on experience with Claude Code and deploying AI agents to automate routine tasks and improve development productivity</li><li>Strong interest in applying AI-first thinking to software development and engineering workflows</li><li>BS degree in Computer Science, or similar technical field of study, or equivalent practical experience</li><li>Curious, eager to learn, and motivated to continuously improve systems and processes</li><li>Excellent verbal and written communication skills</li><li>High accountability, low ego, and someone who puts the team and the organization first</li></ul><br><p>Benefits</p><ul><li>Competitive compensation</li><li>Comprehensive benefits</li><li>Career success on your terms</li><li>Flexible work environment</li><li>Annual wellness and community outreach days</li><li>Always on recognition for your contributions</li><li>Global collaboration and networking opportunities</li><li>Variable compensation and/or equity</li><li>Flexible time off</li><li>A comprehensive well-being program with two paid Wellbeing Days and two paid Volunteer Days per year</li><li>Three-week Work from Anywhere option</li></ul><br><p>Company Overview</p><li>Proofpoint provides cloud-based email security, e-discovery, and compliance solutions for companies to protect sensitive business data. It was founded in 2002, and is headquartered in Sunnyvale, California, USA, with a workforce of 1001-5000 employees. Its website is http://www.proofpoint.com.</li><br><p>Company H1B Sponsorship</p><li>Proofpoint has a track record of offering H1B sponsorships, with 3 in 2026, 51 in 2025, 52 in 2024, 47 in 2023, 103 in 2022, 71 in 2021, 54 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Chicago Trading Company",
+    "Title": "Associate Engineer 2026",
+    "Location": "Chicago, Illinois, United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": null,
+    "MatchScore": 94.0528,
+    "MatchedSkills": [
+      "Object oriented programming",
+      "C++",
+      "Data structures",
+      "Algorithms",
+      "Multi-threading"
+    ],
+    "MissingSkills": [],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f134f80bf0430c7630a83",
+    "JobId": "6a0f134f80bf0430c7630a83",
+    "BaseTemplate": "SEP_NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 6,
+      "matched_keyword_hits": [
+        "algorithms",
+        "c++",
+        "data structures"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Chicago Trading Company (CTC) is a premier proprietary trading firm specializing in options market making. They are seeking talented and motivated software engineers to design, code, and test sophisticated trading tools and risk applications in a collaborative and innovative environment.</p><br><p>Responsibilities</p><ul><li>Design, code, and test sophisticated trading tools and risk applications</li><li>Apply understanding of data structures, algorithms, and multi-threading concepts to real-world problems</li><li>Communicate ideas effectively, both written and verbal, showcasing analytical skills</li><li>Collaborate in a team-based environment to achieve results</li><li>Seek constructive feedback to grow capabilities</li></ul><br><p>Skills</p><ul><li>Strong foundation in an object oriented programming language gained through coursework, internships, or entry-level positions (C++ preferred)</li><li>Completed or pursuing a Bachelor's or Master's degree in Computer Science, Computer Engineering or a similar field</li><li>A proven record of success (academics, awards, etc.)</li><li>Willing to relocate to Chicago, IL or New York, NY</li></ul><br><p>Benefits</p><ul><li>Annual discretionary bonus</li><li>Free breakfast and lunch (and healthy snacks of course!)</li><li>Onsite biometric testing and fitness center membership</li><li>Generous time off</li><li>Insurance coverage</li><li>Paid parental leave</li><li>Wellness reimbursement</li></ul><br><p>Company Overview</p><li>Chicago Trading Company is a trading firm that provides liquidity and promotes a more efficient marketplace. It was founded in 1995, and is headquartered in Chicago, Illinois, USA, with a workforce of 501-1000 employees. Its website is http://www.chicagotrading.com/.</li><br><p>Company H1B Sponsorship</p><li>Chicago Trading Company has a track record of offering H1B sponsorships, with 1 in 2026, 30 in 2025, 35 in 2024, 45 in 2023, 37 in 2022, 23 in 2021, 16 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Meta",
+    "Title": "Partner Engineer, Generative AI",
+    "Location": "Menlo Park, CA",
+    "PublishTime": "2 days ago",
+    "MinYOE": "1",
+    "MatchScore": 83.2006,
+    "MatchedSkills": [
+      "Deep Learning",
+      "Large Language Models (LLMs)",
+      "Natural Language Processing (NLP)",
+      "Speech Processing",
+      "AI Infrastructure",
+      "PyTorch",
+      "Python",
+      "Java",
+      "C/C++",
+      "Kubernetes",
+      "Docker",
+      "Cloud Solutions",
+      "Machine Learning Model Fine-tuning",
+      "Model Optimization",
+      "Data Science",
+      "Computer Vision"
+    ],
+    "MissingSkills": [
+      "Conversational AI",
+      "Go",
+      "Rust",
+      "Llama",
+      "GPT",
+      "Claude",
+      "Falcon",
+      "JAX",
+      "TensorFlow",
+      "Kubeflow",
+      "Model Deployment",
+      "AI Ethics",
+      "Risk Assessment",
+      "Bias Mitigation"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0edc6172b52f7225f392b7",
+    "JobId": "6a0edc6172b52f7225f392b7",
+    "BaseTemplate": "SELLM_E",
+    "RoutingDetails": {
+      "family": "AI",
+      "is_new_grad": false,
+      "score": 13,
+      "matched_keyword_hits": [
+        "computer vision",
+        "deep learning",
+        "python",
+        "pytorch"
+      ],
+      "title_keyword_hits": [
+        "ai"
+      ]
+    },
+    "JDText": "<p>Meta is seeking a Partner Engineer to join its AI Partner Engineering team, which collaborates with strategic partners and machine learning organizations to develop and launch generative AI products. The role involves engaging with partners, optimizing AI models, and creating technical documentation to promote Meta's AI solutions.</p><br><p>Responsibilities</p><ul><li>Apply relevant AI and machine learning techniques to build and launch generative AI solutions using Meta\u2019s Llama and other state of the art LLMs</li><li>Understand Meta\u2019s AI, Llama architecture, frameworks, products and their underlying implementation</li><li>Define and execute on a strategy to drive adoption of Llama and other Meta\u2019s AI/ML platform offerings</li><li>Work closely with cloud providers (e.g. AWS, Azure, GCP) and Meta\u2019s strategic partners on deep learning & Llama integrations</li><li>Be a subject matter technical expert, and have strategic influence on partners and internal teams at Meta</li><li>Evangelize Llama & Gen AI services and share best practices through forums such as medium blogs, whitepapers, reference architectures and public engagement events</li><li>Develop reference architectures, samples and other materials to share with the broader Meta developer community</li><li>Work with key partners and Llama developer community to optimize existing generative AI models for improved performance, scalability, and efficiency</li><li>Lead technical strategy and roadmap for long-term strategic partners with high level of autonomy to own and navigate long term technical relationship with partners</li><li>Proactively communicate feedback, updates, status to direct team as well as relevant cross-functional teams</li><li>Create clear and concise documentation, including technical specifications, best practices guides, and presentations, to communicate complex AI concepts to both technical and non-technical stakeholders internally and externally</li></ul><br><p>Skills</p><ul><li>1+ years of experience in one or more of the following areas: Deep Learning, LLMs, NLP, Speech, Conversational AI, AI-Infrastructure, Fine-tuning and optimizations of PyTorch models</li><li>Software development experience in languages like Python, Java, Go, Rust, C/C++. (at least one)</li><li>Experience with at least one LLM such as Llama, GPT, Claude, Falcon, etc</li><li>Experience with at least one deep learning framework such as PyTorch and/or JAX</li><li>Experience building cloud solutions on any cloud. Experience with Open Source cloud stacks like Kubernetes, Kubeflow, Docker containers</li><li>Experience communicating and presenting to technical and business audiences</li><li>Experience applying relevant AI and machine learning techniques to build</li><li>Solid understanding of at least one Deep Learning framework (PyTorch, Tensorflow, Jax)</li><li>Experience influencing and building mindshare convincingly with any audience</li><li>Experience working with internal and external partners</li><li>Demonstrated ability to integrate AI tools to optimize/redesign workflows and drive measurable impact (e.g., efficiency gains, quality improvements)</li><li>Experience adhering to and implementing responsible, ethical AI practices (e.g., risk assessment, bias mitigation, quality and accuracy reviews)</li><li>Experience building Deep Learning, Gen AI - Computer Vision or Natural Language Processing models using the frameworks</li><li>Data science background and experience manipulating/transforming data, model selection, model training, model optimization and deployment at scale</li><li>(Nice to have) Contributed to an Open Source project, submitted PRs for features/ fixed bugs and/or created sample applications in OSS or participated in Kaggle competitions</li><li>Demonstrated ongoing AI skill development (e.g., prompt/context engineering, agent orchestration) and staying current with emerging AI technologies</li><li>Experience deploying production-grade machine learning solutions on public cloud platforms (like AWS)</li><li>(Nice to have) Knowledge of Mobile/IoT for deploying ML models at the edge is a plus</li><li>(Nice to have) Experience of launching a product / service or application into market is a plus</li></ul><br><p>Benefits</p><ul><li>Bonus</li><li>Equity</li><li>Benefits</li></ul><br><p>Company Overview</p><li>Meta is a social technology company that enables people to connect, find communities, and grow businesses. It was founded in 2004, and is headquartered in Menlo Park, California, USA, with a workforce of 10001+ employees. Its website is https://www.meta.com.</li><br><p>Company H1B Sponsorship</p><li>Meta has a track record of offering H1B sponsorships, with 811 in 2026, 6419 in 2025, 5944 in 2024, 3874 in 2023, 5237 in 2022, 7 in 2021, 10 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "ServiceNow",
+    "Title": "Software Engineer, Agentic AI Systems - Moveworks",
+    "Location": "Mountain View, CA",
+    "PublishTime": "2 days ago",
+    "MinYOE": "0",
+    "MatchScore": 98.0,
+    "MatchedSkills": [
+      "Python",
+      "Java",
+      "Natural Language Understanding",
+      "Machine learning",
+      "Large Language Models",
+      "AI agent systems"
+    ],
+    "MissingSkills": [
+      "Golang",
+      "Production systems development"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0f330f12f8b43cf397c632",
+    "JobId": "6a0f330f12f8b43cf397c632",
+    "BaseTemplate": "SELLM_E",
+    "RoutingDetails": {
+      "family": "AI",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "machine learning",
+        "python"
+      ],
+      "title_keyword_hits": [
+        "agentic",
+        "ai"
+      ],
+      "sellm_reroute_from": "AI_E",
+      "sellm_reroute_reason": "Title 'Software Engineer, Agentic AI Systems (Moveworks)'; LLM + agent platform focused"
+    },
+    "JDText": "<p>Moveworks is the Agentic AI Assistant platform that empowers the entire workforce. As a senior software engineer on the Natural Language Understanding team, you will contribute to advancing AI agent capabilities and enhancing the Moveworks AI Assistant platform.</p><br><p>Responsibilities</p><ul><li>Take on exciting and difficult engineering challenges (see areas listed above) to build and evolve capable AI agent systems that are reliable in every sense of the word</li><li>Implement frontier AI algorithms and architectures and help productionize them at scale</li><li>Use the latest advances in machine learning, LLMs, and AI agents to enhance our products and create delightful user experiences</li><li>Contribute to roadmap and help drive the evolution of engineering areas of growing scope and impact to create lasting value for all our customers</li><li>Hone your craft in writing robust, extensible, readable, and performant code</li><li>Partner with subject matter experts across the company including in machine learning, security, product, user experience, and customer success, to learn from each other and build the best enterprise AI product the world has ever seen</li><li>Mentor other engineers on the team in how to build, maintain, and evolve great software</li><li>Collaborate with machine learning engineers, learn from each other, and build world-class AI systems</li></ul><br><p>Skills</p><ul><li>0-2 years experience designing, building, and improving production systems, ideally at scale</li><li>Ability to think and communicate clearly about complex engineering problems and systems</li><li>Comfort giving and receiving feedback, and in holding yourself and your coworkers accountable to a high standard of operational excellence</li><li>Readiness to hit the ground running in a Mac development environment, programming in Python, Golang, and/or Java</li><li>Desire to ship at a startup pace with a high degree of ownership</li><li>Attention to detail</li><li>Drive to ship product improvements with production-grade code</li><li>Strong appetite for continuous incremental wins and completing challenging projects fast</li><li>High level of curiosity about engineering outside of immediate discipline and ongoing desire to learn and stay at the cutting edge of applied AI</li></ul><br><p>Benefits</p><ul><li>Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location.</li><li>ServiceNow is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, creed, religion, sex, sexual orientation, national origin or nationality, ancestry, age, disability, gender identity or expression, marital status, veteran status, or any other category protected by law.</li><li>We strive to create an accessible and inclusive experience for all candidates. If you require a reasonable accommodation to complete any part of the application process, or are unable to use this online application and need an alternative method to apply, please contact globaltalentss@servicenow.com for assistance.</li></ul><br><p>Company Overview</p><li>ServiceNow is an AI platform that delivers IT operations, field service management and app engine solutions. It was founded in 2004, and is headquartered in Santa Clara, California, USA, with a workforce of 10001+ employees. Its website is http://www.servicenow.com.</li><br><p>Company H1B Sponsorship</p><li>ServiceNow has a track record of offering H1B sponsorships, with 141 in 2026, 910 in 2025, 876 in 2024, 807 in 2023, 840 in 2022, 447 in 2021, 439 in 2020. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Lightcast",
+    "Title": "Data Engineer - 1010",
+    "Location": "United States",
+    "PublishTime": "2 days ago",
+    "MinYOE": "2",
+    "MatchScore": 95.3458,
+    "MatchedSkills": [
+      "Data Engineering",
+      "ETL",
+      "Statistical Methods",
+      "Data Analysis",
+      "Python",
+      "SQL",
+      "Java",
+      "C/C++",
+      "Linux",
+      "Unix",
+      "Git"
+    ],
+    "MissingSkills": [
+      "Data Warehousing",
+      "Quality Assurance"
+    ],
+    "JobLink": "https://jobright.ai/jobs/info/6a0e50d2c152ac7824485b46",
+    "JobId": "6a0e50d2c152ac7824485b46",
+    "BaseTemplate": "DE_E",
+    "RoutingDetails": {
+      "family": "DE",
+      "is_new_grad": false,
+      "score": 7,
+      "matched_keyword_hits": [
+        "etl",
+        "python",
+        "sql"
+      ],
+      "title_keyword_hits": []
+    },
+    "JDText": "<p>Note: The job is a remote job and is open to candidates in USA. Lightcast is a global leader in labor market insights, headquartered in Moscow, ID. They are seeking a Data Engineer responsible for building and maintaining systems that improve data reliability, quality, and accessibility, focusing on developing software and data pipelines for ETL processes.</p><br><p>Responsibilities</p><ul><li>Collect, manage, and transform large-scale raw data from multiple sources into structured, reliable, and usable formats that meet business and analytical requirements</li><li>Design, develop, and maintain data architectures, pipelines, and applications using appropriate tools and frameworks to support scalable data processing and product development</li><li>Build and maintain robust extract, transform, and load (ETL) processes that ensure data accuracy, efficiency, and availability across systems</li><li>Perform root cause analysis to identify data issues, system inefficiencies, or process gaps, and implement improvements that enhance data quality and operational performance</li><li>Work in an agile Scrum environment by contributing to sprint planning, development tasks, testing, and sprint reviews to deliver reliable and scalable data solutions</li></ul><br><p>Skills</p><ul><li>Bachelor's in Computer Science, Mathematics, Statistics, or related field (or equivalent experience)</li><li>2+ years in data engineering, data analysis, or similar roles</li><li>Experience with ETL, data warehousing, and scalable data systems</li><li>Solid understanding of statistical methods and data analysis</li><li>Strong communication skills with ability to work independently and in teams</li><li>Proficiency in Python and SQL; familiarity with Java, C/C++, or similar</li><li>Strong software engineering, programming, and QA skills</li><li>Experience with Linux/Unix (POSIX systems) and Git</li><li>Experience with Docker, Terraform, and AWS (Batch, EMR/Spark, ecosystem tools)</li><li>Familiarity with GitLab and Scala</li></ul><br><p>Company Overview</p><li>Lightcast is an IT company that offers software, APIs, and consulting services for communities, businesses, and educational institutions. It was founded in 2000, and is headquartered in Moscow, Idaho, USA, with a workforce of 501-1000 employees. Its website is https://lightcast.io.</li><br><p>Company H1B Sponsorship</p><li>Lightcast has a track record of offering H1B sponsorships, with 3 in 2025, 6 in 2024, 3 in 2023, 1 in 2022. Please note that this does not guarantee sponsorship for this specific role.</li><br>",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  }
+]

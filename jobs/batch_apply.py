@@ -346,11 +346,15 @@ def process_role(role: dict) -> dict:
     company = role.get("Company", "Unknown")
     title = role.get("Title", "Unknown")
     tpl_code = normalize_template(role.get("BaseTemplate", "SEP_E"))
+    work_comment = (role.get("WorkExpComment") or "").strip()
+    proj_comment = (role.get("ProjectComment") or "").strip()
     if tpl_code not in TEMPLATES:
         return {"Company": company, "Title": title, "Template": role.get("BaseTemplate"),
                 "Compile": "FAIL", "Error": f"Unknown template {tpl_code}",
                 "JobLink": role.get("JobLink", ""), "PDF": "",
-                "SkillsAdded": [], "BulletsChanged": [], "Skipped": []}
+                "SkillsAdded": [], "BulletsChanged": [], "Skipped": [],
+                "WorkExpComment": work_comment, "ProjectComment": proj_comment,
+                "NeedsManualEdit": bool(work_comment or proj_comment)}
 
     slug = re.sub(r"[^\w\-]+", "_", company).strip("_")[:60]
     folder = OUT_DIR / slug
@@ -401,6 +405,9 @@ def process_role(role: dict) -> dict:
         "SkillsAdded": skills_added,
         "BulletsChanged": bullets_changed,
         "Skipped": skipped,
+        "WorkExpComment": work_comment,
+        "ProjectComment": proj_comment,
+        "NeedsManualEdit": bool(work_comment or proj_comment),
         "Compile": "OK" if pdf_ok else "FAIL",
     }
 
@@ -554,7 +561,19 @@ def main():
             continue
         out = process_role(r)
         results.append(out)
-        print(f"  [{i}/{len(jobs)}] {out['Company'][:30]:30} | {out['Template']:8} | {out['Compile']} | +{len(out['SkillsAdded'])} skills, {len(out['BulletsChanged'])} bullets")
+        manual_flag = "  [NEEDS MANUAL EDIT]" if out.get("NeedsManualEdit") else ""
+        print(f"  [{i}/{len(jobs)}] {out['Company'][:30]:30} | {out['Template']:8} | {out['Compile']} | +{len(out['SkillsAdded'])} skills, {len(out['BulletsChanged'])} bullets{manual_flag}")
+
+    # Print queue of roles needing manual edit so the operator can act on them
+    needs_edit = [r for r in results if r.get("NeedsManualEdit")]
+    if needs_edit:
+        print(f"\n=== {len(needs_edit)} role(s) need manual work-exp / project edits ===")
+        for r in needs_edit:
+            print(f"\n  {r['Company']} ({r['Template']}) -> {r['PDF']}")
+            if r.get("WorkExpComment"):
+                print(f"    WorkExpComment: {r['WorkExpComment']}")
+            if r.get("ProjectComment"):
+                print(f"    ProjectComment: {r['ProjectComment']}")
 
     (OUT_DIR / "batch_results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
     write_html(results, OUT_DIR / "batch_summary.html")
