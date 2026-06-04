@@ -9,5 +9,8 @@
 *.fls
 *.fdb_latexmk
 
+# Generated dated batch folders
+2026*/
+
 # Sensitive: scraper auth cookies
 jobs/cookies.json
