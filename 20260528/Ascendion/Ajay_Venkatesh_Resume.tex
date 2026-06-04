@@ -1,7 +1,7 @@
 %-------------------------
 % Academic CV Template
 % Adapted from: Dubasi Pavan Kumar (https://www.overleaf.com/latex/templates/academic-cv-template/gmyytjmdbvdm)
-% Tailored for: Ajay Venkatesh -- Software Engineer (Python track)
+% Tailored for: Ajay Venkatesh -- Cloud Engineering (Microsoft / Azure / .NET focus)
 %-------------------------
 
 \documentclass[a4paper,10pt]{article}
@@ -97,7 +97,10 @@
 \section{\textbf{Education}}
 \noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
 \textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
-\footnotesize{\textit{Coursework:} System Design, Machine Learning, Deep Learning, Big Data, Advanced Java, Data Structures}
+{\footnotesize \textit{Coursework:} System Design, Cloud Computing, Machine Learning, Big Data, Advanced Java, Data Structures}
+
+\noindent\textbf{Visvesvaraya Technological University} \hfill \textit{Jun 2017 -- Aug 2021}\\
+\textit{Bachelor of Engineering in Electronics and Communication} (GPA: 8.9/10)
 \vspace{-2mm}
 
 \section{\textbf{Experience}}
@@ -105,7 +108,7 @@
 
 \resumeSubheading
 {CampusMesh}{New York, US}
-{Software Engineer}{Jan 2026 -- Present}
+{Software Engineering Intern}{Jan 2026 -- May 2026}
 \resumeItemListStart
 \item \footnotesize{Developed scalable \textbf{Node.js microservices} powering real-time academic workflows across study groups, messaging, calls, notifications, and profile management, backed by \textbf{MySQL (Sequelize)} and \textbf{DynamoDB}.}
 \item \footnotesize{Deployed \textbf{serverless architecture} on AWS using \textbf{Serverless Framework} with \textbf{Lambda, API Gateway, S3, and CloudFront} across \textbf{4 environments} (local, dev, staging, production); enforced security with \textbf{KMS-managed keys}, \textbf{SSM Parameter Store}, and \textbf{least-privilege IAM}.}
@@ -117,10 +120,10 @@
 {Amazon}{Seattle, US}
 {Software Development Engineer Intern}{May 2025 -- Aug 2025}
 \resumeItemListStart
-\item \footnotesize{Deployed a \textbf{Retrieval-Augmented Generation (RAG)} pipeline with an \textbf{agentic workflow} that autonomously retrieves operational logs to reason over incident details, generating context-aware summaries and remediation steps.}
-\item \footnotesize{Implemented a \textbf{Model Context Protocol (MCP)} server for efficient tool-augmented retrieval, cutting AWS Athena query time and compute costs by \textbf{40\%}.}
-\item \footnotesize{Built a high-throughput, event-driven incident triage system on \textbf{AWS ECS Fargate, SQS, SNS}, decoupling distributed message processing and reducing response latency by \textbf{50\%}.}
-\item \footnotesize{Provisioned resilient \textbf{Infrastructure-as-Code} using \textbf{AWS CDK} on auto-scaling ECS clusters, ensuring \textbf{99.9\%} availability under 2x peak load.}
+\item \footnotesize{Designed a secure UI Console architecture using \textbf{Midway SSO, OAuth, and HELIS} to enforce least-privilege \textbf{role-based access} (\textbf{4+ roles}); presented the solution to the team and received design approval.}
+\item \footnotesize{Provisioned \textbf{serverless Infrastructure-as-Code} using \textbf{AWS CDK} with API Gateway, Lambda, DynamoDB, S3, and IAM; built a \textbf{multi-stage, multi-region CI/CD pipeline} with automated promotion and rollback controls.}
+\item \footnotesize{Built a \textbf{React 18} frontend with optimized API integration, advanced filtering, and client-side caching, reducing page load time by \textbf{40\%}.}
+\item \footnotesize{Engineered backend services in \textbf{Java} (Coral, Smithy, Dagger DI, CBOR); applied \textbf{low-level design patterns}, cutting backend execution time by \textbf{35\%} with unit/integration testing via \textbf{Mockito}.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -129,18 +132,17 @@
 \resumeItemListStart
 \item \footnotesize{Architected an \textbf{NSF-funded (\$100K)} AI-powered health app for \textbf{iOS} and \textbf{Android} processing real-time wearable data; deployed cloud-hosted AI models for health metric analysis and food image processing.}
 \item \footnotesize{Engineered \textbf{ETL pipelines} transforming \textbf{NoSQL} into \textbf{PostgreSQL} with \textbf{concurrency control and locking}; processed \textbf{250K+} records and powered \textbf{AWS QuickSight} dashboards.}
-\item \footnotesize{Developed an insurance analytics platform (\textbf{React, Node.js, REST APIs}) deployed via \textbf{Docker} on \textbf{EC2}; implemented Stripe billing, RBAC, and row-level security, generating \textbf{\$50K+} revenue across \textbf{6 clients}.}
-\item \footnotesize{Streamlined underwriting via a broker portal integrated with insurer platforms; implemented \textbf{document/media processing} and \textbf{WebSocket-based real-time communication}.}
+\item \footnotesize{Developed an insurance analytics platform (\textbf{React, Node.js, REST APIs}) deployed via \textbf{Docker} on \textbf{EC2} with \textbf{document/media processing} and \textbf{WebSocket-based real-time communication}; implemented Stripe billing, RBAC, and row-level security, generating \textbf{\$50K+} revenue across \textbf{6 clients}.}
 \resumeItemListEnd
 
 \resumeSubheading
 {PricewaterhouseCoopers (PwC)}{Bengaluru, India}
 {Senior Software Engineer}{Aug 2021 -- Aug 2024}
 \resumeItemListStart
-\item \footnotesize{Developed a distributed backend on \textbf{Microsoft Azure} for a health platform integrating with \textbf{Microsoft CRM}, with event-driven processing and fault-tolerant retries over \textbf{SQL Server} stores.}
-\item \footnotesize{Deployed an \textbf{NLP-based OCR neural model} on Azure to automate structured data extraction, reducing processing time by \textbf{75\%}.}
-\item \footnotesize{Optimized data ingestion with \textbf{parallel processing} on \textbf{100K-row} Excel feeds, cutting execution from \textbf{5 hours to 1 hour}.}
-\item \footnotesize{Led code reviews and mentored engineers on \textbf{software design principles}, reducing production bugs by \textbf{25\%}.}
+\item \footnotesize{Designed and shipped client-facing features on \textbf{Microsoft Dynamics 365} using \textbf{C\#/.NET} plugins, workflows, and webhooks, with internal services exposed via \textbf{REST APIs} validated end-to-end with \textbf{Postman}; cut query execution time by \textbf{35\%}.}
+\item \footnotesize{Authored \textbf{technical design (HOW) documents} and broke features into ADO \textbf{Boards} epics, features, and stories under \textbf{Agile/Scrum}; deployed through \textbf{Azure DevOps Pipelines} (Boards / Repos / Pipelines) per sprint and milestone commitments.}
+\item \footnotesize{Instrumented services with \textbf{Application Insights} telemetry and built \textbf{5 Power BI dashboards} monitoring live system health, error rates, and regressions across multiple databases, accelerating incident detection and improving reporting efficiency by \textbf{40\%}.}
+\item \footnotesize{Wrote \textbf{unit and integration tests} for every check-in, led structured \textbf{code reviews}, and participated in incident response with root-cause analysis and post-incident documentation; mentored junior engineers on \textbf{software design principles}, reducing production defects by \textbf{25\%}.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -159,52 +161,27 @@
 \item \footnotesize{Built a \textbf{RAG system} (SVM + FAISS + \textbf{Bedrock LLM}), cutting incident resolution from \textbf{1--2 hours to minutes} and lifting root-cause classification accuracy from \textbf{56\% to 92\%}.}
 \resumeItemListEnd
 
-\resumeProject
-{RoBERTa Fine-Tuning with Custom LoRA}
-{Python, PyTorch, Hugging Face, AGNews}
-{}
-{}
-\resumeItemListStart
-\item \footnotesize{Architected a \textbf{parameter-efficient fine-tuning (PEFT)} pipeline using a custom \textbf{Low-Rank Adaptation (LoRA)} implementation to optimize a \textbf{RoBERTa-base} model for news classification.}
-\item \footnotesize{Optimized model efficiency by freezing pretrained weights and injecting trainable rank-decomposition matrices, reducing trainable parameters to under \textbf{1M (934K)} while achieving \textbf{83.45\%} accuracy on the private leaderboard.}
-\item \footnotesize{Conducted extensive hyperparameter sweeps for rank ($r$) and alpha ($\alpha$) values, utilizing \textbf{AdamW} and linear decay schedulers to stabilize training under strict memory and parameter constraints.}
-\resumeItemListEnd
-
-\resumeProject
-{High-Efficiency ResNet Image Classifier}
-{Python, PyTorch, Torchvision, Matplotlib}
-{}
-{}
-\resumeItemListStart
-\item \footnotesize{Designed and implemented a specialized \textbf{ResNet} architecture optimized for the \textbf{CIFAR-10} dataset, adhering to a strict \textbf{5M parameter} limit for edge-ready deployment.}
-\item \footnotesize{Enhanced model convergence and generalization by integrating the \textbf{Lookahead optimizer} and advanced data augmentation techniques, including horizontal flips and random cropping.}
-\item \footnotesize{Developed a modular training and evaluation framework with real-time visualization via \textbf{TensorBoard}, managing checkpoints and learning rate scheduling for reproducible experimentation.}
-\resumeItemListEnd
-
 \resumeSubHeadingListEnd
 \vspace{-4mm}
 
 \section{\textbf{Skills}}
 \resumeHeadingSkillStart
-\resumeSubItem{Programming Languages:}{C++, Java, Python, TypeScript, JavaScript (ES6), SQL}
-\resumeSubItem{Web \& Backend:}{React, Node.js, Express.js, REST API, GraphQL API, Microservices, HTML, CSS, Sequelize}
-\resumeSubItem{Databases:}{MySQL, PostgreSQL, DynamoDB, MongoDB, FireBase, Dataverse}
-\resumeSubItem{Cloud \& DevOps:}{AWS (CDK, EC2, S3, DynamoDB, API Gateway, Lambda, Cognito, IAM, SageMaker), Azure (OpenAI, Function Apps, Storage), Docker, Kubernetes, CI/CD}
-\resumeSubItem{AI/ML:}{PyTorch, JAX, Dynamo, LLM Fine-tuning, RAG (LangChain, FAISS), NLP, Deep Learning, Reinforcement Learning, Hugging Face}
-\resumeSubItem{Tools \& Platforms:}{Git, Linux, Visual Studio, Cursor, GitHub Copilot, Jupyter, Postman, Power BI}
+\resumeSubItem{Programming Languages:}{C\#, Python, Java, C++, JavaScript, TypeScript, SQL}
+\resumeSubItem{Cloud (Azure):}{Azure AI Services, Azure AI Foundry, Cognitive Services, Logic Apps, Function Apps, Storage Blobs, Data Lakes, Azure DevOps}
+\resumeSubItem{Cloud (AWS):}{CDK, SDK, EC2, S3, Lambda, IAM, SageMaker, Bedrock, API Gateway, DynamoDB}
+\resumeSubItem{Databases:}{SQL Server, Dataverse, PostgreSQL, MySQL, MongoDB, DynamoDB}
+\resumeSubItem{Microsoft Stack:}{.NET, Power Platform, Power Automate, Power BI, Microsoft Copilot Studio, Microsoft Dynamics CRM}
+\resumeSubItem{DevOps \& Tools:}{Docker, Kubernetes, CI/CD Pipelines, PowerShell, Git, Visual Studio, Postman}
+\resumeSubItem{AI/ML:}{RAG, MLOps, AI Solution Deployment, Responsible AI, Model Validation \& Monitoring}
 \resumeHeadingSkillEnd
 \vspace{0mm}
 
-\section{\textbf{Publications}}
-\footnotesize{
-\href{https://ieeexplore.ieee.org/document/9792818}{Supervised ML System Based Segmentation and Classification of Stroke Using Deep Learning Techniques} \textit{(IEEE)} \\
-\href{https://ieeexplore.ieee.org/document/10060334}{An Aquila-optimized SVM Classifier for Diabetes Prediction} \textit{(IEEE)}
-}
-\vspace{-3mm}
-
 \section{\textbf{Certifications}}
 \footnotesize{
-\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+\href{https://drive.google.com/open?id=1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ}{AWS Certified Cloud Practitioner} \textbar{}
+\href{https://drive.google.com/open?id=1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT}{Azure Data Fundamentals} \textbar{}
+\href{https://drive.google.com/open?id=1IDtiC9HSlFDAWIEs3UvDjSLfHvI_8iSu}{Azure Data Scientist Associate} \textbar{}
+\href{https://drive.google.com/open?id=1XaffZ7Grnmp8K8dwTcZymsE-HYHMuM-U}{Power BI Data Analyst Associate}
 }
 
 \end{document}
