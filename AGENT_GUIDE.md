@@ -4,6 +4,139 @@ This repo holds Ajay Venkatesh's job-application pipeline: a set of LaTeX base r
 
 Use this guide as your operating manual when generating resumes, cover letters, or running the batch pipeline.
 
+For **one job at a time** (job link or JD + base template), follow **§0** below — the agent generates **both resume and cover letter** automatically. For batch runs from `jobs.json`, see §8.
+
+---
+
+## 0. Agent Workflow — Single Job (Resume + Cover Letter)
+
+Use this section whenever the user provides a **job link or job description** and a **base template** for one role. Do not ask for confirmation — execute all steps and deliver both files.
+
+### What the user provides
+
+| Input | Required? | Notes |
+|---|---|---|
+| **Job link** (e.g. `https://jobright.ai/jobs/info/<id>`) **OR pasted job description** | Yes (one of the two) | If a link is given, fetch the JD (company, title, location, responsibilities, qualifications, matched/missing skills). If fetch fails (no cookies / 401), ask the user to paste the JD text. |
+| **Base template code or path** | Yes | e.g. `SE Python E`, `SELLM_E`, `SE/P/E/` — see §2 for codes and aliases |
+| **Extra instructions** (projects, certifications, skills to swap/add/remove) | Optional | Overrides auto-tailoring; apply exactly as stated |
+
+**Default deliverables:** tailored resume **and** cover letter in the company folder. Only skip the cover letter if the user explicitly says "resume only."
+
+If the user does not specify a template, route using §11 decision tree + `keyword_router.py` logic. If they specify one, use it.
+
+### Fetching a job from a link
+
+When the user gives a Jobright URL:
+
+1. Try fetching the job page or API (see §8 fetch workflow; `jobs/cookies.json` if available).
+2. Extract: `companyName`, `jobTitle`, `jobLocation`, full description, `skillMatchingScores` (matched = score > 0.5, missing = score ≤ 0.5).
+3. If the link cannot be fetched, use any JD text embedded in the chat or web context, then proceed.
+
+### Agent steps (execute in order)
+
+**Step 1 — Resolve today's date folder**
+
+- Format: `YYYYMMDD` (e.g. `20260606` for June 6, 2026).
+- Path: `<repo_root>/<YYYYMMDD>/`
+- If the folder does not exist, create it.
+
+**Step 2 — Create company folder**
+
+- Slug rule: `re.sub(r"[^\w\-]+", "_", company).strip("_")[:60]`
+  - Example: `H&R Block` → `H_R_Block`
+- Path: `<YYYYMMDD>/<Company_Slug>/`
+- If the same company already has a folder for a different role today, use `<Company>_<Title_Tag>` (e.g. `PayPal_ML_Engineer`).
+
+**Step 3 — Copy base template**
+
+- Resolve template code via §2 / `TEMPLATE_ALIAS` in `jobs/batch_apply.py` (e.g. `SE Python E` → `SEP_E` → `SE/P/E/`).
+- If the template file is missing locally, restore from git: `git show HEAD:"SE/P/E/Ajay_Venkatesh_Resume.tex"`.
+- Copy the source `.tex` into the company folder as `Ajay_Venkatesh_Resume.tex`.
+- Do **not** mix Style A and Style B macros (see §3).
+
+**Step 4 — Tailor the resume from the JD**
+
+Read the JD and identify **missing keywords** (skills the JD asks for that are not already in the resume). For each keyword, classify per §4:
+
+| Classification | Action |
+|---|---|
+| Concrete tool/framework (Kafka, Spring Boot, Redis, AWS Bedrock, …) | Inject into the matching Skills line (Cloud → Cloud, language → Programming, else Tools) |
+| Programming language the JD **requires** (Go, Kotlin, Rust, .NET, Scala) | Inject into Programming Languages |
+| Language listed as alternative ("Python or Java" when Java exists) | **Skip** |
+| Concept phrase ("Distributed Systems Debugging", "Data Modeling") | **Do not** put in Skills — paraphrase into a relevant bullet (§4, `BULLET_EDITS`) |
+| Soft skill ("Leadership", "Communication", "Curiosity") | **Skip** |
+| Generic phrase ("Scalable system", "System design", "High-level design") | **Skip from Skills**; may appear naturally in bullets |
+| Inauthentic tool (ROS, dbt, HubSpot, Webpack, DevSecOps, …) | **Skip** — see `SKIP_INAUTHENTIC` in `batch_apply.py` |
+
+**Authenticity is non-negotiable** — see §4 company stack table. Do not inject every missing skill; pick the ones that are concrete, relevant, and authentic. Prefer quality over quantity.
+
+Apply user **extra instructions** (project swaps, cert changes, bullet rewrites) on top of the above.
+
+**LaTeX rules while editing:**
+
+- Escape special chars in injected skills: `#`, `$`, `%`, `&`, `_` → backslash-prefix (`C#` → `C\#`).
+- Keep resume to **one page** (§4 page-overflow trim order if needed).
+
+**Step 5 — Compile resume**
+
+From inside the company folder:
+
+```bash
+pdflatex -interaction=nonstopmode Ajay_Venkatesh_Resume.tex
+```
+
+Then remove build artifacts: `*.aux`, `*.log`, `*.out`.
+
+Verify output is **1 page**. On Windows, open the PDF in a viewer (not the code editor); on macOS: `mdls -name kMDItemNumberOfPages -raw <file>.pdf`.
+
+**Step 6 — Write and compile cover letter (always, unless user says "resume only")**
+
+Create `Ajay_venkatesh_Cover_letter.tex` in the same company folder using the skeleton in §6.
+
+- Strict **five-paragraph** structure (§6).
+- **No em dashes**, **no numbers**, **no 3+ verbatim JD words**.
+- Bold key tech with `\textbf{}`.
+- Compile with `pdflatex -interaction=nonstopmode Ajay_venkatesh_Cover_letter.tex`, clean artifacts, verify 1 page.
+
+**Step 7 — Report back**
+
+Tell the user:
+- Folder path (`YYYYMMDD/<Company>/`)
+- Template used
+- Matched vs missing skills (brief summary from JD)
+- Skills injected vs woven into bullets vs skipped (brief)
+- Any manual edits applied from their extra instructions
+- Confirm both PDFs were generated (1 page each)
+
+### Copy-paste prompt (for the user)
+
+Use this prompt in a new chat:
+
+```
+Generate a tailored resume and cover letter using AGENT_GUIDE.md (§0 workflow).
+
+Job link OR job description:
+<paste Jobright URL or full JD — company, title, location, matched/missing skills if available>
+
+Base template: <e.g. SE Python E, SELLM_E, SE/P/E/>
+
+Extra instructions (optional):
+<any project swaps, cert changes, skills to add/remove, bullet rewrites — or leave blank>
+
+Follow §0 automatically: fetch JD if link given, create today's YYYYMMDD folder if missing, create company subfolder, copy base template, tailor resume per §4 authenticity rules, compile resume, write and compile cover letter per §6, verify both are 1 page.
+```
+
+### Example folder after completion
+
+```
+20260606/
+└── Clearwater_Analytics/
+    ├── Ajay_Venkatesh_Resume.tex
+    ├── Ajay_Venkatesh_Resume.pdf
+    ├── Ajay_venkatesh_Cover_letter.tex
+    └── Ajay_venkatesh_Cover_letter.pdf
+```
+
 ---
 
 ## 1. Repository Layout
@@ -450,6 +583,8 @@ Format inside resume:
 
 ## 11. Quick-Reference Decision Tree
 
+**Single job (user pastes JD + template):** follow **§0** end-to-end.
+
 Generating a new resume for a job:
 
 1. **What's the title?**
@@ -468,7 +603,7 @@ Generating a new resume for a job:
 3. **Classify each missing skill** per §4 table. Inject into Skills section or weave into bullets or skip.
 4. **Apply manual comments** if `WorkExpComment` or `ProjectComment` is non-empty.
 5. **Compile + verify 1 page.** If 2 pages, trim per §4 remediation order.
-6. **Hand-write cover letter** following §6 five-paragraph structure. Verify no em dashes, no numbers, 1 page.
+6. **Write cover letter** following §6 five-paragraph structure (§0 Step 6 for single-job workflow). Verify no em dashes, no numbers, 1 page.
 
 ---
 
