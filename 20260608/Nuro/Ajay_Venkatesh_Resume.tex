@@ -1,0 +1,174 @@
+%-------------------------
+% Base template: SEP_E (SE/P/E) per base_templates.json
+% Role: Software Engineer, Offboard Infrastructure @ Nuro
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} System Design, Machine Learning, Deep Learning, Big Data, Data Structures}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Developed scalable \textbf{Python/Node.js microservices} in a \textbf{large-scale distributed architecture} for real-time messaging, notifications, and profile workflows, backed by \textbf{MySQL} and \textbf{DynamoDB}.}
+\item \footnotesize{Built \textbf{embedding-based semantic search} and data indexing for CampusIQ (AI Assistant), supporting data ingestion, retrieval, and evaluation-style introspection over structured campus datasets.}
+\item \footnotesize{Provisioned \textbf{cloud infrastructure} on \textbf{AWS} (Lambda, API Gateway, S3, CloudFront) with \textbf{CI/CD} across local through production environments; enforced security with \textbf{KMS}, \textbf{SSM}, and least-privilege \textbf{IAM}.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Provisioned \textbf{serverless Infrastructure-as-Code} using \textbf{AWS CDK} with API Gateway, Lambda, DynamoDB, S3, and IAM; reduced provisioning time \textbf{70\%} with \textbf{multi-stage, multi-region CI/CD}.}
+\item \footnotesize{Engineered backend services in a \textbf{distributed microservice architecture}; tuned API and backend performance, cutting execution time by \textbf{35\%} with unit/integration testing via \textbf{Mockito}.}
+\item \footnotesize{Built internal tooling and a \textbf{React} console for operational debugging and production-adjacent issue triage across fulfillment center workflows.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Engineered \textbf{Python ETL/data processing pipelines} transforming \textbf{NoSQL} into \textbf{PostgreSQL} with \textbf{concurrency control and locking}; processed \textbf{250K+} records for analytics and reporting workloads.}
+\item \footnotesize{Deployed \textbf{ML inference services} and backend workloads via \textbf{Docker} on \textbf{Linux/EC2} for health metric analysis and wearable data processing.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Developed a \textbf{distributed backend} on \textbf{Microsoft Azure} with asynchronous message processing and fault-tolerant retries over \textbf{SQL Server} stores in a production environment.}
+\item \footnotesize{Optimized bulk data ingestion with \textbf{parallel processing} on \textbf{100K-row} datasets, cutting transformation runtime from \textbf{5 hours to 1 hour}; diagnosed multi-service production incidents via logs and metrics.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{InviLite (Large-Scale Data Processing Pipeline)}
+{Python, AWS, Kinesis, Lambda, S3, Glue, DynamoDB, FAISS}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected a cloud-native \textbf{Python data platform} (Kinesis, Lambda, S3, Glue, DynamoDB) for governed ingestion, storage, and mining of structured and unstructured enterprise data at scale.}
+\item \footnotesize{Built an \textbf{ML evaluation pipeline} (SVM + FAISS + Bedrock LLM) with measurable classification improvements and failure-analysis workflows for production triage.}
+\resumeItemListEnd
+
+\resumeProject
+{Advanced Expense Tracker (Python Systems Application)}
+{Python, Multithreading, SQLite3, Pandas}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Implemented concurrent transaction handling with \textbf{Python threading} and locks for thread-safe writes; applied \textbf{OOP design patterns} and performance-conscious data access over \textbf{SQLite3}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{Python, C++, Go, Java, SQL, TypeScript}
+\resumeSubItem{Systems \& Backend:}{Distributed Systems, Microservices, Multithreading, REST API, Linux}
+\resumeSubItem{Data \& ML:}{ETL Pipelines, PostgreSQL, DynamoDB, MongoDB, PyTorch, RAG (FAISS), NLP}
+\resumeSubItem{Cloud \& DevOps:}{AWS (CDK, Lambda, EC2, S3, API Gateway, DynamoDB, IAM), Docker, Kubernetes, CI/CD}
+\resumeSubItem{Tools \& Platforms:}{Git, Cursor, GitHub Copilot, Postman, Mockito, Jupyter}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+}
+
+\end{document}

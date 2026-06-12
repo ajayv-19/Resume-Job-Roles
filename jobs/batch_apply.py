@@ -21,7 +21,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path("/Users/ajayvenkatesh/Desktop/Resume Job Roles")
+ROOT = Path(__file__).resolve().parents[1]
 
 DATE = sys.argv[1] if len(sys.argv) > 1 else "18052026"
 JSON_FILE = sys.argv[2] if len(sys.argv) > 2 else "jobs.json"
@@ -76,6 +76,8 @@ SKIP_INAUTHENTIC = {s.lower() for s in [
     "Outbound automation platforms", "Outbound", "GTM systems",
     "Revenue operations", "Growth engineering", "Email deliverability",
     "Webpack", "Dbt", "dbt",
+    "Servlets", "JSP", "AJAX", "XML", "Camunda BPMN",
+    "Splunk",  # only add when already authentic in experience
 ]}
 
 # Concept fluff / soft / generic — skip in skills section
@@ -116,6 +118,16 @@ SKIP_CONCEPT = {s.lower() for s in [
     "Agile project management", "Agile development", "Agile/Scrum",
     "Kanban", "Behavior Driven Development", "Test Driven Development",
     "Concourse",  # niche
+    "backend", "backend systems", "integration testing", "unit testing",
+    "algorithms", "data structures", "operating systems",
+    "agile", "agile/scrum", "object-oriented programming",
+    "genai software engineering tools", "agile software development",
+    "backend services", "backend development", "automation frameworks",
+    "api testing", "full stack development", "devsecops",
+    "secure coding practices", "assembly language programming",
+    "perl programming", "windows environment", "passion for software development",
+    "open source development", "pair programming", "test driven development",
+    "agile engineering practices", "design patterns", "oop",
 ]}
 
 # Concept phrases woven into bullets — REWRITES MUST PARAPHRASE.
@@ -214,6 +226,16 @@ BULLET_EDITS = [
     ]),
     # "Microservices Architecture" — implicit; no edit needed unless specifically called out
     ("infrastructure as code", []),  # already in Amazon CDK bullet
+    ("distributed systems", [
+        ("Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM}, with event-driven processing and fault-tolerant retries",
+         "Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM}, with fault-tolerant retries across multi-service flows"),
+        ("Engineered the backend services in \\textbf{Java} (Coral, Smithy, Dagger, CBOR); applied \\textbf{low-level design patterns}",
+         "Engineered backend services in \\textbf{Java} (Coral, Smithy, Dagger, CBOR) spanning multiple service tiers with \\textbf{low-level design patterns}"),
+    ]),
+    ("event-driven", [
+        ("Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM}, with event-driven processing and fault-tolerant retries",
+         "Developed a distributed backend on \\textbf{Microsoft Azure} for a health platform integrating with \\textbf{Microsoft CRM}, with asynchronous message processing and fault-tolerant retries"),
+    ]),
 ]
 
 # Category buckets for routing skills to Skills section lines
@@ -258,11 +280,13 @@ def normalize_template(code: str) -> str:
 
 def classify(skill: str) -> tuple[str, str | None]:
     s = skill.lower().strip()
-    if s in SKIP_INAUTHENTIC or s in SKIP_CONCEPT:
+    if s in SKIP_INAUTHENTIC:
         return ("skip", None)
     for phrase, _ in BULLET_EDITS:
         if phrase == s or phrase in s:
             return ("bullet", phrase)
+    if s in SKIP_CONCEPT:
+        return ("skip", None)
     # Skills-section category routing
     for cat_set, cat_name in [
         (PROGRAMMING, "Programming"), (WEB_BACKEND, "Web"), (DATABASES, "Database"),
@@ -310,6 +334,16 @@ def inject_skills_line(text: str, prefix: str, items: list[str]) -> tuple[str, l
         i = item.lower()
         return bool(re.search(rf"(?<![a-z0-9+#]){re.escape(i)}(?![a-z0-9+#])", body_lower))
     items = [i for i in items if not already_present(i)]
+    # Drop redundant AWS-prefixed items when the service name is already listed
+    filtered = []
+    for i in items:
+        il = i.lower()
+        if il.startswith("aws "):
+            token = il[4:].strip()
+            if re.search(rf"\b{re.escape(token)}\b", body_lower):
+                continue
+        filtered.append(i)
+    items = filtered
     if not items:
         return text, []
     # LaTeX-escape items before injection (e.g., C# → C\#, Q&A → Q\&A)
@@ -334,12 +368,26 @@ CATEGORY_LINES = {"Programming": "Programming Languages", "Web": "Web",
                   "Tools": "Tools"}
 
 
-def apply_bullet_edit(text: str, phrase: str) -> tuple[str, str | None]:
+def _bullet_change_label(text: str, old_snippet: str) -> str:
+    """Return 'CompanyName #N' for the bullet containing old_snippet."""
+    idx = text.find(old_snippet)
+    if idx < 0:
+        return "Unknown"
+    before = text[:idx]
+    companies = re.findall(r"\\resumeSubheading\s*\{([^}]+)\}", before)
+    company = companies[-1] if companies else "Project"
+    last_sub = before.rfind("\\resumeSubheading")
+    section = before[last_sub:] if last_sub >= 0 else before
+    return f"{company} #{section.count('\\item') + 1}"
+
+
+def apply_bullet_edit(text: str, phrase: str) -> tuple[str, str | None, str | None]:
     edits = next((e for p, e in BULLET_EDITS if p == phrase), [])
     for find, repl in edits:
         if find in text:
-            return text.replace(find, repl, 1), phrase
-    return text, None
+            label = _bullet_change_label(text, find)
+            return text.replace(find, repl, 1), phrase, label
+    return text, None, None
 
 
 def process_role(role: dict) -> dict:
@@ -366,7 +414,13 @@ def process_role(role: dict) -> dict:
     skills_groups = {k: [] for k in CATEGORY_LINES}
     bullet_phrases = []
     skipped = []
-    for s in role.get("MissingSkills", []):
+    missing = list(role.get("MissingSkills", []))
+    seen = {m.lower() for m in missing}
+    for s in role.get("JobrightMissingSkills", []):
+        if s.lower() not in seen:
+            missing.append(s)
+            seen.add(s.lower())
+    for s in missing:
         kind, target = classify(s)
         if kind == "skip":
             skipped.append(s)
@@ -384,14 +438,16 @@ def process_role(role: dict) -> dict:
 
     bullets_changed = []
     for original, phrase in bullet_phrases:
-        text, applied = apply_bullet_edit(text, phrase)
+        text, applied, label = apply_bullet_edit(text, phrase)
         if applied:
-            bullets_changed.append(original)
+            bullets_changed.append(f"{label}: {original}")
 
     tex.write_text(text, encoding="utf-8")
-    subprocess.run(["pdflatex", "-interaction=nonstopmode", "Ajay_Venkatesh_Resume.tex"],
-                   cwd=folder, capture_output=True, timeout=60)
-    for ext in (".aux", ".log", ".out"):
+    miktex = Path.home() / "AppData/Local/Programs/MiKTeX/miktex/bin/x64/pdflatex.exe"
+    pdflatex = str(miktex) if miktex.exists() else "pdflatex"
+    subprocess.run([pdflatex, "-interaction=nonstopmode", "Ajay_Venkatesh_Resume.tex"],
+                   cwd=folder, capture_output=True, timeout=120)
+    for ext in (".aux", ".log", ".out", ".synctex.gz", ".fls", ".fdb_latexmk"):
         (folder / f"Ajay_Venkatesh_Resume{ext}").unlink(missing_ok=True)
     pdf_ok = (folder / "Ajay_Venkatesh_Resume.pdf").exists()
 

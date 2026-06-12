@@ -1,0 +1,178 @@
+%-------------------------
+% Academic CV Template
+% Adapted from: Dubasi Pavan Kumar (https://www.overleaf.com/latex/templates/academic-cv-template/gmyytjmdbvdm)
+% Tailored for: Ajay Venkatesh -- Mobile Software Engineer @ Viant Technology
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} System Design, Machine Learning, Deep Learning, Big Data, Data Structures}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Mobile Software Engineer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Built and maintained a cross-platform \textbf{React Native} mobile application for \textbf{iOS} and \textbf{Android} on an NSF-funded health panel, implementing always-on \textbf{real-time wearable activity tracking} and cloud-backed inference workflows.}
+\item \footnotesize{Integrated mobile clients with \textbf{Python} backend services and \textbf{REST APIs}; engineered \textbf{ETL pipelines} into \textbf{PostgreSQL} with concurrency control for high-fidelity telemetry collection and operational monitoring.}
+\item \footnotesize{Implemented \textbf{AWS Cognito} authentication, \textbf{RBAC}, and row-level security for consent-aware user data handling; partnered with data science stakeholders on model-driven mobile features.}
+\item \footnotesize{Designed accessible \textbf{React/HTML/CSS} companion interfaces and \textbf{WebSocket} real-time updates; conducted code reviews, debugging, and performance tuning across production mobile releases.}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Built a \textbf{React 18} and \textbf{TypeScript} client with \textbf{OAuth} and corporate \textbf{SSO}, enforcing role-based authorization across routes and actions for a large internal user base.}
+\item \footnotesize{Improved UI responsiveness through client-side caching and route-level code splitting; wrote \textbf{Jest} and \textbf{React Testing Library} tests covering auth flows and data-fetching components.}
+\item \footnotesize{Collaborated with senior engineers on design reviews and production defect triage for a secure operations console integrated with backend \textbf{REST APIs}.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Developed \textbf{Node.js REST APIs} and real-time services backing member workflows across messaging, calls, and notifications, with secure deployment across \textbf{4 environments} on AWS.}
+\item \footnotesize{Supported mobile-adjacent client integrations with \textbf{JavaScript/TypeScript} services, \textbf{Git}-based releases, and proactive monitoring through structured logging and environment promotion controls.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Delivered accessible \textbf{TypeScript/HTML/CSS} UI components for enterprise CRM deployments; established frontend review standards covering usability patterns and test coverage.}
+\item \footnotesize{Mentored engineers on software design and troubleshooting; reduced production defects through disciplined code reviews and cross-functional collaboration with product stakeholders.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{Remote Patient Monitoring (Cross-Platform Mobile App)}
+{React Native, TypeScript, iOS, Android, AWS Cognito, Python}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Developed a cross-platform mobile experience for continuous health telemetry capture, secure login, and panelist-facing dashboards integrated with cloud-hosted analytics.}
+\resumeItemListEnd
+
+\resumeProject
+{Hospital Management System (Mobile-Ready Web App)}
+{React, JavaScript, HTML5, CSS3, Node.js, Jest}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a responsive full-stack healthcare application with intuitive UI flows, \textbf{role-based access control}, and \textbf{unit tests} for critical API and presentation paths.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Mobile Development:}{React Native, iOS, Android, Cross-Platform Mobile Architectures, Mobile Application Development}
+\resumeSubItem{Programming Languages:}{TypeScript, JavaScript (ES6), Python, HTML5, CSS3, Java, SQL}
+\resumeSubItem{Web \& Backend:}{React, Node.js, Express.js, REST API, Microservices}
+\resumeSubItem{Auth \& Privacy:}{OAuth, AWS Cognito, RBAC, Authorization, Privacy Controls, IAM}
+\resumeSubItem{Cloud \& DevOps:}{AWS (Amplify, Lambda, Cognito, API Gateway, S3, EC2), Docker, CI/CD, Git}
+\resumeSubItem{Tools \& Practices:}{Jest, React Testing Library, Postman, Visual Studio, Usability Testing, Code Reviews}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)}
+}
+
+\end{document}

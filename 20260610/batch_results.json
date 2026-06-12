@@ -1,0 +1,96 @@
+[
+  {
+    "Company": "KIBO",
+    "Title": "Associate Software Engineer, AI Automation",
+    "Template": "SEP_E",
+    "MatchScore": 98,
+    "JobLink": "https://jobright.ai/jobs/info/6a295fb41de59e0682a7ec45",
+    "PDF": "20260610\\KIBO\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": ["Agentic AI workflows"],
+    "BulletsChanged": [
+      "CampusMesh #3: Agentic AI workflows",
+      "New York University (Novel AI Technologies, Inc.) #3: full-stack TypeScript/Node automation"
+    ],
+    "Skipped": [],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Skydio",
+    "Title": "Software Engineer, Full Stack",
+    "Template": "FS_E",
+    "MatchScore": 98,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cdfefa235d749afa91511",
+    "PDF": "20260610\\Skydio\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [
+      "CampusMesh #1: Backend services",
+      "Amazon #3: Frontend development",
+      "Amazon #4: Backend services / distributed architectures",
+      "PricewaterhouseCoopers (PwC) #1: Distributed architectures"
+    ],
+    "Skipped": [],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Oakmont Consulting",
+    "Title": "Full Stack Engineer",
+    "Template": "FS_E",
+    "MatchScore": 98,
+    "JobLink": "https://jobright.ai/jobs/info/6a2967a70c4972328e7e32a7",
+    "PDF": "20260610\\Oakmont_Consulting\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [
+      "New York University (Novel AI Technologies, Inc.) #1: Full-stack engineering / healthcare",
+      "New York University (Novel AI Technologies, Inc.) #2: PostgreSQL data pipelines",
+      "New York University (Novel AI Technologies, Inc.) #3: Full-stack engineering"
+    ],
+    "Skipped": [],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "HappyRobot",
+    "Title": "Software Engineer - Backend",
+    "Template": "SEP_E",
+    "MatchScore": 84.5354,
+    "JobLink": "https://jobright.ai/jobs/info/694612b863141d188455c181",
+    "PDF": "20260610\\HappyRobot\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": ["Go"],
+    "BulletsChanged": [
+      "CampusMesh #2: Production Services / Service Reliability",
+      "Amazon #4: Backend Engineering / Service Reliability",
+      "New York University (Novel AI Technologies, Inc.) #4: Real-time infrastructure"
+    ],
+    "Skipped": [],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Vertafore",
+    "Title": "Software Engineer I",
+    "Template": "SEP_E",
+    "MatchScore": 97.4658,
+    "JobLink": "https://jobright.ai/jobs/info/6a295fb42cde2824469bbbb8",
+    "PDF": "20260610\\Vertafore\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [
+      "New York University (Novel AI Technologies, Inc.) #3: Insurtech P&C platform",
+      "PricewaterhouseCoopers (PwC) #4: Agile development / Scrum development"
+    ],
+    "Skipped": [],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  }
+]

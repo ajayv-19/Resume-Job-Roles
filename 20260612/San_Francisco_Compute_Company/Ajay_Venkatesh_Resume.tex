@@ -1,0 +1,171 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- Software Engineer @ San Francisco Compute Company
+% Base template: SEP_E
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} Computer Architecture, System Design, Data Structures, Machine Learning, Big Data}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Provisioned compute infrastructure with \textbf{AWS CDK} on \textbf{ECS Fargate} \textbf{containers} across multi-stage environments; built an \textbf{event-driven} control path with \textbf{SQS/SNS} and backend \textbf{REST APIs} for operational configuration workflows.}
+\item \footnotesize{Monitored service health with structured logging and automated tests; diagnosed cross-service defects and shipped fixes through \textbf{CI/CD} pipelines before regional production rollout.}
+\item \footnotesize{Engineered backend services in \textbf{Java} with serialization and clear module boundaries; participated in code reviews focused on reliability, performance, and maintainable systems design.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Deployed serverless and \textbf{containerized} services on \textbf{AWS} (\textbf{Lambda, API Gateway, S3}) across \textbf{4 environments} with consistent configuration patterns and environment-specific networking and access controls on \textbf{Linux} hosts.}
+\item \footnotesize{Built backend \textbf{REST APIs} that let users configure workflows and integrations; troubleshot production issues via logs and metrics and documented deployment runbooks for repeatable node rollout.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Deployed services with \textbf{Docker} on \textbf{Linux/AWS EC2}; implemented \textbf{concurrency control}, locking, and thread-safe database writes for data-intensive pipelines into \textbf{PostgreSQL}.}
+\item \footnotesize{Maintained runtime stability for a multi-tenant platform; validated configuration changes and access boundaries before promoting releases to production users.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Improved batch ingestion with \textbf{parallel processing} and \textbf{multithreading} on large datasets; diagnosed production incidents across distributed \textbf{Azure} services and shipped fixes through \textbf{CI/CD}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{Advanced Expense Tracker (C Systems Application)}
+{C, C++, Multithreading, SQLite, Visual Studio}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a modular \textbf{C/C++} application with \textbf{multithreading}, synchronized blocks, and thread-safe \textbf{SQLite} persistence; debugged memory and concurrency defects with profiler and debugger tooling.}
+\resumeItemListEnd
+
+\resumeProject
+{Pipeline Simulator (Computer Architecture Coursework)}
+{C, Assembly Concepts, Computer Architecture}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Modeled register, memory, and pipeline behavior in a \textbf{Computer Architecture} project; generated per-cycle dumps and validated instruction execution across assembly test cases.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{C, C++, Python, Java, JavaScript, SQL}
+\resumeSubItem{Systems \& OS:}{System Calls, Linux File Descriptors, Multithreading, Event Loops, Computer Architecture, Concurrency}
+\resumeSubItem{Infrastructure:}{Containers, Docker, AWS (ECS, EC2, Lambda, API Gateway, CDK), Linux, CI/CD}
+\resumeSubItem{APIs \& Backend:}{REST APIs, Microservices, Node.js, Event-Driven Architecture}
+\resumeSubItem{Engineering:}{Git, Debugging, Performance Analysis, Unit Testing, Code Review}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)}
+}
+
+\end{document}

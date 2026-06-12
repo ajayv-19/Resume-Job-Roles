@@ -1,0 +1,172 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- Software Engineer II @ Brain Corp
+% Base template: SEP_E
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} System Design, Machine Learning, Big Data, Data Structures, Computer Architecture}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Provisioned scalable cloud infrastructure with \textbf{Infrastructure as Code} using \textbf{AWS CDK} on \textbf{ECS Fargate}, \textbf{Lambda}, \textbf{DynamoDB}, and \textbf{S3}; supported \textbf{multi-stage CI/CD pipelines} with monitoring via \textbf{CloudWatch} and structured logging.}
+\item \footnotesize{Built an \textbf{event-driven architecture} on \textbf{SQS/SNS} with backend \textbf{RESTful APIs}; wrote \textbf{unit and integration tests} and troubleshot cross-service performance and reliability issues before production rollout.}
+\item \footnotesize{Collaborated with applied ML and engineering partners on operational tooling integrated with production services; participated in code reviews across the \textbf{software development lifecycle}.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Engineered \textbf{Python/SQL data pipelines} into \textbf{PostgreSQL} with validation checks for data quality and integrity; powered \textbf{AWS QuickSight} dashboards for internal analytics consumers.}
+\item \footnotesize{Deployed \textbf{ML inference services} and containerized workloads with \textbf{Docker} on \textbf{AWS EC2}; built \textbf{RESTful APIs} (\textbf{Node.js, TypeScript}) connecting web applications to cloud-backed model and analytics endpoints.}
+\item \footnotesize{Partnered with research and product teams on requirements, testing, and production support for multi-tenant cloud services.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Maintained \textbf{TypeScript/Node.js} services and \textbf{RESTful APIs} on \textbf{AWS} (\textbf{Lambda, API Gateway, S3}) across \textbf{4 environments}; used \textbf{Kubernetes}-style release patterns with \textbf{Docker} and environment promotion controls.}
+\item \footnotesize{Improved platform reliability with structured logging and cost-aware configuration; documented integration contracts for web and backend application teams.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Developed distributed cloud services on \textbf{Microsoft Azure} with event-driven batch processing over \textbf{SQL Server}; shipped through \textbf{Azure DevOps CI/CD} and led code reviews on maintainable \textbf{Python/Java} services.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{InviLite (Cloud Data \& ML Platform)}
+{Python, AWS, Lambda, S3, Glue, SageMaker, Kinesis}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected governed \textbf{data pipelines} (Kinesis, Lambda, S3, Glue, DynamoDB) with \textbf{ML inference} integration; built \textbf{REST APIs} and automated evaluation workflows for production reliability.}
+\resumeItemListEnd
+
+\resumeProject
+{Flight Delay Prediction (Distributed Data Pipeline)}
+{Python, PySpark, SQL, HDFS, REST APIs}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built scalable \textbf{PySpark} ETL jobs over large datasets with \textbf{SQL}-based feature engineering; exposed pipeline outputs through backend \textbf{REST APIs} with validation and repeatable test runs.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{Python, TypeScript, Go, Java, JavaScript, SQL}
+\resumeSubItem{Cloud \& IaC:}{Google Cloud Platform (GCP), AWS (CDK, ECS, Lambda, S3, CloudWatch), Infrastructure as Code, Docker, Kubernetes}
+\resumeSubItem{Data \& ML:}{Data Engineering Workflows, Data Pipelines, ML Inference Services, PySpark, PostgreSQL}
+\resumeSubItem{APIs \& Architecture:}{RESTful APIs, Event-Driven Architectures, Kafka, Microservices}
+\resumeSubItem{Delivery:}{CI/CD Pipelines, GitLab CI/CD, Git, Software Development Lifecycle, Unit Testing, Integration Testing}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+}
+
+\end{document}

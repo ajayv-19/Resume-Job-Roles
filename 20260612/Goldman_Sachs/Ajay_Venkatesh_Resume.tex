@@ -1,0 +1,168 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- Data Engineer @ Goldman Sachs
+% Base template: DE_E
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{lmodern}
+\setlength{\multicolsep}{-3.5pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[top=0.25in, bottom=0.25in, left=0.3in, right=0.3in]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+\vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+\item\small{{#1}\vspace{-3.5pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{6pt}
+\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5.5pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+\vspace{-14pt}
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-10pt}
+
+\section{Skills}
+{\small
+\textbf{Programming Languages:} Python, Java, SQL (ANSI SQL), JSON \\
+\textbf{Data Engineering:} Apache Spark, PySpark, Databricks, ETL/ELT, Data Pipelines, Batch \& Streaming, Schema Design, Schema Evolution, Temporal Data Modelling, Data Compatibility, Clustering, Data Quality \\
+\textbf{Databases \& Formats:} PostgreSQL, SQL Server, MySQL, DynamoDB, MongoDB, Parquet \\
+\textbf{Cloud \& Platforms:} AWS (S3, Glue, Lambda, Kinesis, Redshift, QuickSight, CDK, CloudWatch), GCP (BigQuery), Azure (Data Lake, DevOps) \\
+\textbf{Streaming \& Orchestration:} Kafka, Event-Driven Ingestion, CI/CD, Kubernetes, Docker, Git \\
+\textbf{Tools:} Jupyter, Postman, Power BI, Visual Studio, Cursor
+}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {New York University (Novel AI Technologies, Inc.)}{Aug 2024 -- Present}
+  {Data Engineer}{New York, US}
+\resumeItemListStart
+  \resumeItem{Engineered \textbf{Python/SQL ETL pipelines} into \textbf{PostgreSQL} with \textbf{schema design}, concurrency control, and locking; processed \textbf{250K+} records and validated completeness and consistency for analytics and reporting consumers.}
+  \resumeItem{Built curated datasets and \textbf{AWS QuickSight} dashboards for operations partners; troubleshot pipeline breaks, optimized \textbf{ANSI SQL} queries, and documented data products for cross-team use.}
+  \resumeItem{Deployed containerized data services on \textbf{Docker/AWS EC2}; refactored ingestion paths to improve reliability, maintainability, and operational support across multi-tenant workloads.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Amazon}{May 2025 -- Aug 2025}
+  {Software Development Engineer Intern}{Seattle, US}
+\resumeItemListStart
+  \resumeItem{Supported production-ready backend \textbf{Java} services with \textbf{unit/integration tests}; provisioned \textbf{AWS CDK} infrastructure (\textbf{Lambda, DynamoDB, S3, CloudWatch}) with \textbf{multi-stage CI/CD} across regions.}
+  \resumeItem{Built an event-driven platform on \textbf{AWS ECS Fargate, SQS, and SNS} with structured logging and monitoring; diagnosed cross-service defects and incorporated review feedback before release.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {PricewaterhouseCoopers (PwC)}{Aug 2021 -- Aug 2024}
+  {Data Engineer}{Bengaluru, India}
+\resumeItemListStart
+  \resumeItem{Developed batch ingestion and distributed processing on \textbf{Microsoft Azure} over \textbf{SQL Server}; modernized repetitive feeds with \textbf{parallel processing}, cutting runtime from \textbf{5 hours to 1 hour}.}
+  \resumeItem{Built \textbf{Power BI} reporting datasets joined across relational sources; partnered with business consumers to shape usable outputs and improve delivery consistency.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {CampusMesh}{Jan 2026 -- Present}
+  {Data Engineer}{New York, US}
+\resumeItemListStart
+  \resumeItem{Maintained \textbf{Node.js} services and \textbf{MySQL/DynamoDB} stores across \textbf{4 environments}; enforced data-access controls with \textbf{KMS}, \textbf{SSM}, and least-privilege \textbf{IAM} on \textbf{AWS}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+{\small
+\resumeSubHeadingListStart
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Flight Delay Prediction (Lakehouse-Style Analytics Pipeline)} \textbar{} \textit{\textbf{PySpark, Apache Spark, Spark SQL, HDFS, Parquet, ANSI SQL}} & \\
+  \end{tabular*}
+  \vspace{-6pt}
+  \resumeItemListStart
+    \resumeItem{Built a distributed \textbf{Apache Spark/PySpark} pipeline ingesting \textbf{7M+} flight records; applied \textbf{SQL} aggregations, feature engineering, and \textbf{data quality} checks for analytics and ML outputs.}
+    \resumeItem{Trained \textbf{Spark MLlib} models on cleaned datasets; documented pipeline stages from raw ingestion through curated feature tables.}
+  \resumeItemListEnd
+
+\vspace{6pt}
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{InviLite (Streaming Data \& Monitoring Pipeline)} \textbar{} \textit{\textbf{Python, AWS Kinesis, Lambda, S3, Glue, DynamoDB, CloudWatch}} & \\
+  \end{tabular*}
+  \vspace{-6pt}
+  \resumeItemListStart
+    \resumeItem{Architected ingestion workflows for structured and unstructured enterprise data into governed stores; added \textbf{CloudWatch} monitoring and automated triage, cutting incident resolution from \textbf{1--2 hours to minutes}.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+}
+
+\section{Education}
+\begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{New York University} \textbar{} \textit{Master of Science in Computer Engineering \textbf{(GPA -- 3.9/4)}} & Sep 2024 -- May 2026 \\
+\end{tabular*}
+\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
+  \item \small \textit{Coursework:} Big Data, System Design, Machine Learning, Deep Learning, Data Structures
+\end{itemize}
+
+\section{Certifications}
+{\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l}
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{\textbf{AWS Cloud Practitioner}} &
+\href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals} &
+\href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)}
+\end{tabular*}
+}
+
+\end{document}

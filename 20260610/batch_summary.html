@@ -1,0 +1,102 @@
+<!doctype html>
+<html><head><meta charset='utf-8'><title>Batch — 20260610</title>
+<style>
+body { font: 13px/1.4 -apple-system, sans-serif; margin: 16px; }
+h1 { font-size: 18px; margin: 0 0 8px; }
+.controls { margin-bottom: 8px; }
+.controls button { font: inherit; padding: 4px 10px; margin-right: 6px; cursor: pointer; }
+.controls .reset { margin-left: 16px; background: #f5f5f5; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ddd; padding: 6px 8px; vertical-align: top; }
+th { background: #f4f6f8; text-align: left; position: sticky; top: 0; cursor: pointer; }
+th input.filter { width: 95%; font: 11px sans-serif; padding: 2px; box-sizing: border-box; margin-top: 2px; }
+tr:nth-child(even) td { background: #fafbfc; }
+td[data-col="Title"] { max-width: 300px; }
+td[data-col="SkillsAdded"], td[data-col="BulletsChanged"], td[data-col="Skipped"] { max-width: 240px; font-size: 12px; color: #333; }
+button.apply-btn { font: inherit; padding: 4px 10px; border: 1px solid #1f6feb; background: #fff; color: #1f6feb; border-radius: 4px; cursor: pointer; }
+button.apply-btn:hover { background: #e3f2fd; }
+button.apply-btn.applied { background: #2e7d32; border-color: #2e7d32; color: #fff; cursor: default; }
+tr.applied td { opacity: 0.55; text-decoration: line-through; }
+tr.applied td[data-col="Applied"] { opacity: 1; text-decoration: none; }
+</style></head><body>
+<h1>Batch Resume Tailoring — 20260610</h1>
+<div class='meta'>5 resumes processed.</div>
+<div class='controls'>
+<button id='reset-applied' class='reset'>Reset all "Applied"</button>
+<span id='applied-counter' style='margin-left:12px; color:#555;'></span>
+</div>
+<table id='t'><thead><tr><th data-col='Template'>Template<br><input class='filter' data-col='Template' placeholder='filter…'></th><th data-col='Company'>Company<br><input class='filter' data-col='Company' placeholder='filter…'></th><th data-col='Title'>Title<br><input class='filter' data-col='Title' placeholder='filter…'></th><th data-col='Score'>Score<br><input class='filter' data-col='Score' placeholder='filter…'></th><th data-col='SkillsAdded'>SkillsAdded<br><input class='filter' data-col='SkillsAdded' placeholder='filter…'></th><th data-col='BulletsChanged'>BulletsChanged<br><input class='filter' data-col='BulletsChanged' placeholder='filter…'></th><th data-col='Skipped'>Skipped<br><input class='filter' data-col='Skipped' placeholder='filter…'></th><th data-col='Compile'>Compile<br><input class='filter' data-col='Compile' placeholder='filter…'></th><th data-col='JobLink'>JobLink<br><input class='filter' data-col='JobLink' placeholder='filter…'></th><th data-col='PDF'>PDF<br><input class='filter' data-col='PDF' placeholder='filter…'></th><th data-col='Applied'>Applied<br><input class='filter' data-col='Applied' placeholder='filter…'></th></tr></thead><tbody><tr data-key='https://jobright.ai/jobs/info/6a295fb41de59e0682a7ec45'><td data-col='Template'>SEP_E</td><td data-col='Company'>KIBO</td><td data-col='Title'>Associate Software Engineer, AI Automation</td><td data-col='Score'>98</td><td data-col='SkillsAdded'>Agentic AI workflows</td><td data-col='BulletsChanged'>CampusMesh #3: Agentic AI workflows; New York University (Novel AI Technologies, Inc.) #3: full-stack TypeScript/Node automation</td><td data-col='Skipped'></td><td data-col='Compile'>OK</td><td data-col='JobLink'><a href='https://jobright.ai/jobs/info/6a295fb41de59e0682a7ec45' target='_blank'>jobright</a></td><td data-col='PDF'><a href='file://C:\Users\SACHIN\OneDrive\Desktop\Resume-Job-Roles\20260610\KIBO\Ajay_Venkatesh_Resume.pdf' target='_blank'>PDF</a></td><td data-col='Applied'><button class='apply-btn' data-key='https://jobright.ai/jobs/info/6a295fb41de59e0682a7ec45'>Mark Applied</button></td></tr><tr data-key='https://jobright.ai/jobs/info/6a0cdfefa235d749afa91511'><td data-col='Template'>FS_E</td><td data-col='Company'>Skydio</td><td data-col='Title'>Software Engineer, Full Stack</td><td data-col='Score'>98</td><td data-col='SkillsAdded'></td><td data-col='BulletsChanged'>CampusMesh #1: Backend services; Amazon #3: Frontend development; Amazon #4: Backend services / distributed architectures; PricewaterhouseCoopers (PwC) #1: Distributed architectures</td><td data-col='Skipped'></td><td data-col='Compile'>OK</td><td data-col='JobLink'><a href='https://jobright.ai/jobs/info/6a0cdfefa235d749afa91511' target='_blank'>jobright</a></td><td data-col='PDF'><a href='file://C:\Users\SACHIN\OneDrive\Desktop\Resume-Job-Roles\20260610\Skydio\Ajay_Venkatesh_Resume.pdf' target='_blank'>PDF</a></td><td data-col='Applied'><button class='apply-btn' data-key='https://jobright.ai/jobs/info/6a0cdfefa235d749afa91511'>Mark Applied</button></td></tr><tr data-key='https://jobright.ai/jobs/info/6a2967a70c4972328e7e32a7'><td data-col='Template'>FS_E</td><td data-col='Company'>Oakmont Consulting</td><td data-col='Title'>Full Stack Engineer</td><td data-col='Score'>98</td><td data-col='SkillsAdded'></td><td data-col='BulletsChanged'>New York University (Novel AI Technologies, Inc.) #1: Full-stack engineering / healthcare; New York University (Novel AI Technologies, Inc.) #2: PostgreSQL data pipelines; New York University (Novel AI Technologies, Inc.) #3: Full-stack engineering</td><td data-col='Skipped'></td><td data-col='Compile'>OK</td><td data-col='JobLink'><a href='https://jobright.ai/jobs/info/6a2967a70c4972328e7e32a7' target='_blank'>jobright</a></td><td data-col='PDF'><a href='file://C:\Users\SACHIN\OneDrive\Desktop\Resume-Job-Roles\20260610\Oakmont_Consulting\Ajay_Venkatesh_Resume.pdf' target='_blank'>PDF</a></td><td data-col='Applied'><button class='apply-btn' data-key='https://jobright.ai/jobs/info/6a2967a70c4972328e7e32a7'>Mark Applied</button></td></tr><tr data-key='https://jobright.ai/jobs/info/694612b863141d188455c181'><td data-col='Template'>SEP_E</td><td data-col='Company'>HappyRobot</td><td data-col='Title'>Software Engineer - Backend</td><td data-col='Score'>84.5354</td><td data-col='SkillsAdded'>Go</td><td data-col='BulletsChanged'>CampusMesh #2: Production Services / Service Reliability; Amazon #4: Backend Engineering / Service Reliability; New York University (Novel AI Technologies, Inc.) #4: Real-time infrastructure</td><td data-col='Skipped'></td><td data-col='Compile'>OK</td><td data-col='JobLink'><a href='https://jobright.ai/jobs/info/694612b863141d188455c181' target='_blank'>jobright</a></td><td data-col='PDF'><a href='file://C:\Users\SACHIN\OneDrive\Desktop\Resume-Job-Roles\20260610\HappyRobot\Ajay_Venkatesh_Resume.pdf' target='_blank'>PDF</a></td><td data-col='Applied'><button class='apply-btn' data-key='https://jobright.ai/jobs/info/694612b863141d188455c181'>Mark Applied</button></td></tr><tr data-key='https://jobright.ai/jobs/info/6a295fb42cde2824469bbbb8'><td data-col='Template'>SEP_E</td><td data-col='Company'>Vertafore</td><td data-col='Title'>Software Engineer I</td><td data-col='Score'>97.4658</td><td data-col='SkillsAdded'></td><td data-col='BulletsChanged'>New York University (Novel AI Technologies, Inc.) #3: Insurtech P&amp;C platform; PricewaterhouseCoopers (PwC) #4: Agile development / Scrum development</td><td data-col='Skipped'></td><td data-col='Compile'>OK</td><td data-col='JobLink'><a href='https://jobright.ai/jobs/info/6a295fb42cde2824469bbbb8' target='_blank'>jobright</a></td><td data-col='PDF'><a href='file://C:\Users\SACHIN\OneDrive\Desktop\Resume-Job-Roles\20260610\Vertafore\Ajay_Venkatesh_Resume.pdf' target='_blank'>PDF</a></td><td data-col='Applied'><button class='apply-btn' data-key='https://jobright.ai/jobs/info/6a295fb42cde2824469bbbb8'>Mark Applied</button></td></tr></tbody></table>
+<script>
+const tbody = document.querySelector('#t tbody');
+const allRows = Array.from(tbody.querySelectorAll('tr'));
+const colFilters = {};
+function apply() {
+    for (const tr of allRows) {
+        let show = true;
+        for (const [col, val] of Object.entries(colFilters)) {
+            if (!val) continue;
+            const cell = tr.querySelector(`td[data-col="${col}"]`);
+            const text = (cell?.innerText || '').toLowerCase();
+            if (!text.includes(val.toLowerCase())) { show = false; break; }
+        }
+        tr.style.display = show ? '' : 'none';
+    }
+}
+document.querySelectorAll('input.filter').forEach(inp => {
+    inp.addEventListener('input', () => { colFilters[inp.dataset.col] = inp.value; apply(); });
+    inp.addEventListener('click', e => e.stopPropagation());
+});
+document.querySelectorAll('th').forEach(th => {
+    let asc = true;
+    th.addEventListener('click', e => {
+        if (e.target.tagName === 'INPUT') return;
+        const idx = Array.from(th.parentNode.children).indexOf(th);
+        const sorted = Array.from(tbody.querySelectorAll('tr')).sort((a,b) => {
+            const av = a.children[idx].innerText, bv = b.children[idx].innerText;
+            const an = parseFloat(av), bn = parseFloat(bv);
+            if (!isNaN(an) && !isNaN(bn)) return asc ? an-bn : bn-an;
+            return asc ? av.localeCompare(bv) : bv.localeCompare(av);
+        });
+        sorted.forEach(r => tbody.appendChild(r));
+        asc = !asc;
+    });
+});
+const STORAGE_KEY = 'applied-20260610';
+const appliedSet = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
+function refreshAppliedUI() {
+    let count = 0;
+    document.querySelectorAll('tr[data-key]').forEach(tr => {
+        const key = tr.dataset.key;
+        const btn = tr.querySelector('.apply-btn');
+        if (appliedSet.has(key)) {
+            tr.classList.add('applied');
+            btn.classList.add('applied');
+            btn.textContent = '✓ Applied';
+            count++;
+        } else {
+            tr.classList.remove('applied');
+            btn.classList.remove('applied');
+            btn.textContent = 'Mark Applied';
+        }
+    });
+    document.getElementById('applied-counter').textContent = `${count} applied / ${allRows.length} total`;
+}
+document.querySelectorAll('.apply-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const key = btn.dataset.key;
+        if (appliedSet.has(key)) appliedSet.delete(key);
+        else appliedSet.add(key);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify([...appliedSet]));
+        refreshAppliedUI();
+    });
+});
+document.getElementById('reset-applied').addEventListener('click', () => {
+    if (confirm('Reset all "Applied" marks?')) {
+        appliedSet.clear();
+        localStorage.removeItem(STORAGE_KEY);
+        refreshAppliedUI();
+    }
+});
+refreshAppliedUI();
+</script>
+</body></html>

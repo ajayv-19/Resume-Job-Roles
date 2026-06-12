@@ -1,0 +1,381 @@
+[
+  {
+    "Company": "KIBO",
+    "Title": "Associate Software Engineer, AI Automation",
+    "Location": "United States",
+    "PublishTime": "1 hour ago",
+    "MinYOE": "",
+    "MatchScore": 98,
+    "JobLink": "https://jobright.ai/jobs/info/6a295fb41de59e0682a7ec45",
+    "JobId": "6a295fb41de59e0682a7ec45",
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "SEP_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SEP_NG",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SEAI_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SELLM_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "CE_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        }
+      ]
+    },
+    "MatchedSkills": [
+      "Git"
+    ],
+    "MissingSkills": [
+      "Agentic AI workflows"
+    ],
+    "JobrightMatchedSkills": [
+      "Programming languages",
+      "TypeScript",
+      "Node.js",
+      "React",
+      "LLM APIs"
+    ],
+    "JobrightMissingSkills": [
+      "Agentic AI workflows"
+    ],
+    "JDText": "KIBO is a composable digital commerce platform that simplifies business complexities for B2C, D2C, and B2B organizations. They are seeking an Associate Software Engineer (AI Automation) to build AI-powered automation tools that enhance business operations and deliver impactful software solutions.\n\nResponsibilities:\n- Build and ship production features across the full stack for internal web applications\n- Prototype new automation ideas and iterate based on validation from real users\n- Collaborate with Sales, Support, and Marketing teams to translate complex workflows into software\n- Develop a deep technical and operational understanding of the KIBO platform to build better automations\n- Contribute to critical decisions regarding architecture, tooling, and project prioritization\n\nQualifications:\nRequired: Strong fluency in at least one or two programming languages with a focus on technical fundamentals; proven analytical and problem-solving skills; intellectual curiosity; comfort with ambiguity; excellent written communication skills.\nPreferred: Experience with TypeScript, Node.js, React, or LLM APIs and agentic AI workflows. A degree in Computer Science, Electrical Engineering, or a related technical field.",
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "RoutingNotes": "Router picked SEP_E (tie). Consider SEAI_E (LLM APIs, agentic AI) or FS_E (TypeScript, Node.js, React full stack)."
+  },
+  {
+    "Company": "Skydio",
+    "Title": "Software Engineer, Full Stack",
+    "Location": "San Mateo, California, United States",
+    "PublishTime": "2 hours ago",
+    "MinYOE": 1,
+    "MatchScore": 98,
+    "JobLink": "https://jobright.ai/jobs/info/6a0cdfefa235d749afa91511",
+    "JobId": "6a0cdfefa235d749afa91511",
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "aws",
+        "kubernetes",
+        "react",
+        "typescript"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "FS_E",
+          "matched_hits": [
+            "aws",
+            "kubernetes",
+            "react",
+            "typescript"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 8
+        }
+      ]
+    },
+    "MatchedSkills": [
+      "AWS",
+      "GraphQL",
+      "Kubernetes",
+      "React",
+      "TypeScript"
+    ],
+    "MissingSkills": [
+      "Backend services",
+      "Frontend development"
+    ],
+    "JobrightMatchedSkills": [
+      "REST APIs",
+      "GraphQL APIs",
+      "Data pipelines",
+      "Cloud-based systems",
+      "Distributed architectures",
+      "React",
+      "TypeScript",
+      "AWS",
+      "Kubernetes"
+    ],
+    "JobrightMissingSkills": [
+      "Backend services",
+      "Frontend development"
+    ],
+    "JDText": "Skydio is the leading US drone company and the world leader in autonomous flight. The role involves collaborating with various teams to implement and maintain backend services and APIs, improve system performance, and contribute to UI/UX development in Skydio cloud.\n\nResponsibilities:\n- Implement and maintain backend services and APIs that power frontend experiences\n- Improve performance and reliability across the stack, from browser rendering to service interactions\n- Build and iterate on UI/UX in Skydio cloud\n- Collaborate with autonomy, product, and field teams, incorporating feedback from real-world operations\n\nQualifications:\nRequired: 1–3+ years of experience building and shipping customer-facing software across the stack; experience building or integrating backend services (REST/GraphQL APIs, service-to-service communication, or data pipelines); familiarity with cloud-based systems and distributed architectures; understanding of performance, reliability, and maintainability across frontend and backend; experience with React and TypeScript; product intuition; ability to work across teams from development through production.\nPreferred: Familiarity with AWS, Kubernetes, Temporal; interest in autonomy, robotics, or real-time systems.",
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "RoutingNotes": "FS_E is a clear fit (Full Stack title + React/TypeScript/AWS/Kubernetes)."
+  },
+  {
+    "Company": "Oakmont Consulting",
+    "Title": "Full Stack Engineer",
+    "Location": "NYC Metro Area",
+    "PublishTime": "21 hours ago",
+    "MinYOE": 1,
+    "MatchScore": 98,
+    "JobLink": "https://jobright.ai/jobs/info/6a2967a70c4972328e7e32a7",
+    "JobId": "6a2967a70c4972328e7e32a7",
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": false,
+      "score": 10,
+      "matched_keyword_hits": [
+        "kubernetes",
+        "postgresql",
+        "python",
+        "react",
+        "typescript"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "FS_E",
+          "matched_hits": [
+            "kubernetes",
+            "postgresql",
+            "python",
+            "react",
+            "typescript"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 10
+        }
+      ]
+    },
+    "MatchedSkills": [
+      "Kubernetes",
+      "PostgreSQL",
+      "Python",
+      "React",
+      "TypeScript"
+    ],
+    "MissingSkills": [
+      "Full-stack engineering"
+    ],
+    "JobrightMatchedSkills": [
+      "Python",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Kubernetes"
+    ],
+    "JobrightMissingSkills": [
+      "Full-stack engineering"
+    ],
+    "JDText": "Oakmont Consulting is a rapidly growing healthtech startup focused on building a next-generation AI platform. They are seeking exceptional full stack engineers to automate healthcare workflows and enhance patient access to therapies.\n\nResponsibilities:\n- Build across the stack (Python, React, TypeScript, PostgreSQL, Kubernetes) to automate complex healthcare workflows using AI, ML, and intelligent systems\n- Accelerate patient access to treatments and support biopharma companies in developing and launching new therapies faster\n\nQualifications:\nRequired: 1+ years as a full-stack engineer at a VC-backed or YC startup; driven to thrive in a fast-growing startup with high-impact ownership; CS or equivalent degree from a top university; strong skills in Python, React, TypeScript, PostgreSQL, Kubernetes.",
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "RoutingNotes": "FS_E is a clear fit (Python, React, TypeScript, PostgreSQL, Kubernetes)."
+  },
+  {
+    "Company": "HappyRobot",
+    "Title": "Software Engineer - Backend",
+    "Location": "San Francisco",
+    "PublishTime": "2 hours ago",
+    "MinYOE": 2,
+    "MatchScore": 84.5354,
+    "JobLink": "https://jobright.ai/jobs/info/694612b863141d188455c181",
+    "JobId": "694612b863141d188455c181",
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 3,
+      "matched_keyword_hits": [],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [
+        "backend"
+      ],
+      "all_scores": [
+        {
+          "code": "SEP_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [
+            "backend"
+          ],
+          "score": 3
+        },
+        {
+          "code": "SEAI_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [
+            "backend"
+          ],
+          "score": 3
+        },
+        {
+          "code": "SEP_NG",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SELLM_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "CE_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        }
+      ]
+    },
+    "MatchedSkills": [
+      "backend"
+    ],
+    "MissingSkills": [
+      "Backend Engineering",
+      "Go",
+      "Service Reliability",
+      "Production Services"
+    ],
+    "JobrightMatchedSkills": [
+      "System Design",
+      "APIs",
+      "Data Modeling",
+      "Problem Solving",
+      "Ownership",
+      "Craftsmanship"
+    ],
+    "JobrightMissingSkills": [
+      "Backend Engineering",
+      "Go",
+      "Service Reliability",
+      "Production Services"
+    ],
+    "JDText": "HappyRobot is an AI-native operating system for the real economy, focusing on optimizing complex operations with autonomy. They are seeking a Backend Software Engineer to design, build, and operate backend services while improving system reliability and performance.\n\nResponsibilities:\n- Design, build, and operate backend services that support our core product\n- Improve system reliability, performance, and observability\n- Work on real-time infrastructure that powers voice-based AI workflows\n- Collaborate closely with frontend engineers, product, and founders\n- Ship to production frequently and iterate based on customer needs and system behavior\n\nQualifications:\nRequired: 2+ years of professional experience; strong backend engineering experience building scalable systems; experience with Go or strong willingness to work in Go in production; solid understanding of system design, APIs, data modeling, and service reliability; product-oriented mindset; experience operating and maintaining production services.",
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "RoutingNotes": "Router picked SEP_E. Go is required; SEP_E is reasonable for Python/Java backend angle. SEAI_E possible given voice AI product."
+  },
+  {
+    "Company": "Vertafore",
+    "Title": "Software Engineer I",
+    "Location": "US-MI-East Lansing",
+    "PublishTime": "1 hour ago",
+    "MinYOE": 0,
+    "MatchScore": 97.4658,
+    "JobLink": "https://jobright.ai/jobs/info/6a295fb42cde2824469bbbb8",
+    "JobId": "6a295fb42cde2824469bbbb8",
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "SEP_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SEP_NG",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SEAI_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SELLM_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "CE_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        }
+      ]
+    },
+    "MatchedSkills": [
+      "Git"
+    ],
+    "MissingSkills": [
+      "Agile development",
+      "Scrum development"
+    ],
+    "JobrightMatchedSkills": [
+      "Coding languages",
+      "Software development life cycle",
+      "Relational databases",
+      "NoSQL databases"
+    ],
+    "JobrightMissingSkills": [
+      "Agile development",
+      "Scrum development"
+    ],
+    "JDText": "Vertafore is a leader in the insurance technology sector, providing digital systems and AI solutions to streamline the insurance lifecycle. They are seeking a Software Engineer I to create products using advanced technologies, ensuring successful market releases while participating in various stages of software development.\n\nResponsibilities:\n- Writes well-designed, testable code\n- Participates in the design, development, testing, and debugging of an application\n- Troubleshoots and ensures timely and effective resolutions of project issues\n- Participates in code reviews, both of your own code and as a reviewer\n- Provides feedback and suggestions for process and product improvement\n- Conducts technical research on new technology for possible new aspects of a product\n- Prepares product documentation, support materials, and internal documentation\n- Shares knowledge with other team members\n\nQualifications:\nRequired: No experience required; proficient in popular coding languages and frameworks; knowledge of the software development life cycle; knowledge of Agile and Scrum development methodologies; knowledge of relational and NoSQL databases helpful.",
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "RoutingNotes": "Router picked SEP_E. Consider SEP_NG (Engineer I, 0 YOE) or SEJ_E (insurtech P&C domain). Title 'Engineer I' may warrant _NG swap."
+  }
+]

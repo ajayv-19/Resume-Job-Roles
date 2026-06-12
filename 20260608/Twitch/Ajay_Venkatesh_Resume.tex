@@ -1,0 +1,172 @@
+%-------------------------
+% Base template: SELLM_E (SE_LLM/E) per base_templates.json
+% Role: Software Engineer @ Twitch
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} System Design, Machine Learning, Deep Learning, Big Data, Data Structures}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Built \textbf{consumer-facing} real-time features (messaging, calls, notifications, study groups) as \textbf{TypeScript/Node.js microservices} in a \textbf{distributed architecture} backed by \textbf{MySQL} and \textbf{DynamoDB}.}
+\item \footnotesize{Deployed \textbf{serverless services} on \textbf{AWS Lambda}, \textbf{API Gateway}, S3, and CloudFront across local through production environments; designed \textbf{data models} and access patterns for high-throughput campus workflows.}
+\item \footnotesize{Shipped \textbf{LLM-powered retrieval (RAG)} for CampusIQ using \textbf{embedding-based semantic search}, accelerating feature development with \textbf{Cursor} and \textbf{GitHub Copilot}.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Built a high-throughput, event-driven triage system on \textbf{AWS ECS Fargate, SQS, SNS}, decoupling distributed message processing and reducing response latency by \textbf{50\%}.}
+\item \footnotesize{Provisioned \textbf{AWS CDK} infrastructure with \textbf{Lambda}, \textbf{DynamoDB}, API Gateway, S3, and IAM; collaborated with product and engineering leads to launch internal tooling used at scale.}
+\item \footnotesize{Built a \textbf{React/TypeScript} frontend with optimized API integration, caching, and filtering for operational users across fulfillment centers.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Developed a \textbf{consumer-facing} insurance analytics platform (\textbf{React, TypeScript, Node.js, REST APIs}) on \textbf{Docker/EC2}; implemented \textbf{schema design}, RBAC, and row-level security for multi-tenant data.}
+\item \footnotesize{Engineered \textbf{ETL pipelines} with \textbf{data modeling} from \textbf{NoSQL} into \textbf{PostgreSQL}; designed relational schemas with concurrency control for analytics workloads.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Developed a \textbf{distributed backend} on \textbf{Azure} with event-driven processing over \textbf{SQL Server}; optimized bulk ingestion and query performance on large datasets.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{InviLite (Event-Stream Data Platform)}
+{AWS Kinesis, Lambda, DynamoDB, S3, Python}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected a cloud-native pipeline with \textbf{AWS Kinesis}, \textbf{Lambda}, S3, Glue, and \textbf{DynamoDB} for governed ingestion and processing of high-volume operational event data.}
+\resumeItemListEnd
+
+\resumeProject
+{Hospital Management System (Full-Stack Application)}
+{TypeScript, React, Node.js, MongoDB, REST API}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a \textbf{consumer-facing} full-stack app with \textbf{React/TypeScript}, \textbf{REST APIs}, and document-based \textbf{schema design} in \textbf{MongoDB} for appointments and patient records.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{Go, TypeScript, JavaScript (ES6), Python, Java, SQL}
+\resumeSubItem{Web \& Backend:}{React, Node.js, REST API, Microservices, GraphQL, Sequelize}
+\resumeSubItem{Databases:}{DynamoDB, PostgreSQL, MySQL, MongoDB, Data Modeling, Schema Design}
+\resumeSubItem{Cloud \& DevOps:}{AWS (Lambda, DynamoDB, SQS, Kinesis, CDK, API Gateway, ECS, S3, IAM), Docker, CI/CD}
+\resumeSubItem{AI/ML \& Tools:}{RAG (LangChain, FAISS), LLMs, Cursor, GitHub Copilot, Git, Postman}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)}
+}
+
+\end{document}

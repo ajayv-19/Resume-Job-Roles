@@ -24,7 +24,7 @@ import json
 import re
 from pathlib import Path
 
-ROOT = Path("/Users/ajayvenkatesh/Desktop/Resume Job Roles")
+ROOT = Path(__file__).resolve().parents[1]
 MASTER = ROOT / "base_templates.json"
 
 

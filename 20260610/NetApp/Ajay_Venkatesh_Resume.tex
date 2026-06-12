@@ -1,0 +1,178 @@
+%-------------------------
+% Academic CV Template
+% Adapted from: Dubasi Pavan Kumar (https://www.overleaf.com/latex/templates/academic-cv-template/gmyytjmdbvdm)
+% Tailored for: Ajay Venkatesh -- Entry Level Software Engineer, Cloud Engineering @ NetApp
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} System Design, Machine Learning, Deep Learning, Big Data, Computer Architecture, Data Structures}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Developed and maintained \textbf{Node.js microservices} and \textbf{REST APIs} integrating \textbf{AWS} services (\textbf{Lambda, API Gateway, S3, CloudFront}) across \textbf{4 environments} with \textbf{Git}-based release promotion and documented deployment runbooks.}
+\item \footnotesize{Troubleshot configuration and integration defects across \textbf{MySQL} and \textbf{DynamoDB} stores; enforced \textbf{least-privilege IAM}, \textbf{KMS}, and \textbf{SSM Parameter Store} for secure cloud operations on \textbf{Linux}-hosted workloads.}
+\item \footnotesize{Partnered with product and engineering stakeholders to deliver member-facing workflows for messaging, notifications, and profile management following established development standards.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Provisioned \textbf{Infrastructure-as-Code} with \textbf{AWS CDK} (\textbf{CloudFormation}) deploying API Gateway, Lambda, DynamoDB, S3, IAM, and \textbf{CloudWatch}; reduced provisioning time \textbf{70\%} via \textbf{multi-stage CI/CD} across regions.}
+\item \footnotesize{Integrated cloud services through backend \textbf{REST APIs} in \textbf{Java}; debugged cross-service defects and wrote \textbf{unit/integration tests} with \textbf{Mockito}, documenting API behavior and test procedures for handoff.}
+\item \footnotesize{Supported an event-driven platform on \textbf{AWS ECS Fargate, SQS, and SNS}, improving operational response latency by \textbf{50\%} through structured logging and automated validation in release pipelines.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Deployed containerized cloud solutions with \textbf{Docker} on \textbf{AWS EC2 (Linux)}; maintained networking, access controls, and runtime stability for a \textbf{React, Node.js, REST API} analytics platform.}
+\item \footnotesize{Engineered \textbf{Python} ETL pipelines into \textbf{PostgreSQL} with \textbf{SQL} transformations; processed \textbf{250K+} records and monitored data quality through \textbf{AWS QuickSight} dashboards.}
+\item \footnotesize{Deployed \textbf{AWS SageMaker} inference endpoints for ML workloads; troubleshot model-serving configuration issues with cross-functional partners.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Developed and maintained distributed services on \textbf{Microsoft Azure} over \textbf{SQL Server}; shipped changes through \textbf{Azure DevOps CI/CD} with integration monitoring and documented solution designs.}
+\item \footnotesize{Automated repetitive data ingestion with \textbf{parallel processing} on \textbf{100K-row} feeds, cutting execution from \textbf{5 hours to 1 hour}; identified and resolved production defects through structured debugging and code reviews.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{InviLite (Cloud Data \& Automation Pipeline)}
+{Python, AWS, Kinesis, Lambda, S3, Glue, DynamoDB, CloudWatch}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built cloud-native ingestion pipelines storing structured and unstructured data in \textbf{S3} and \textbf{DynamoDB}; automated triage workflows with \textbf{Lambda} and \textbf{CloudWatch} observability, cutting incident resolution from \textbf{1--2 hours to minutes}.}
+\resumeItemListEnd
+
+\resumeProject
+{Hospital Management System (Full-Stack Application)}
+{React, Node.js, Express, MongoDB, AWS SageMaker, PyTorch}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a full-stack platform with \textbf{REST APIs} and \textbf{MongoDB} document storage for patient records and lab reports; implemented \textbf{role-based access control} and API \textbf{unit tests} for critical service paths.}
+\item \footnotesize{Fine-tuned a transformer model with \textbf{PyTorch} and \textbf{Hugging Face}, deploying inference on \textbf{AWS SageMaker} for real-time diagnostic support.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{C++, Python, Java, JavaScript, TypeScript, SQL, Bash}
+\resumeSubItem{Web \& Backend:}{Node.js, Express.js, React, REST API, Microservices}
+\resumeSubItem{Databases:}{PostgreSQL, MySQL, SQL Server, MongoDB, DynamoDB}
+\resumeSubItem{Cloud \& DevOps:}{AWS (CDK, CloudFormation, EC2, S3, Lambda, ECS Fargate, IAM, CloudWatch, SageMaker), Azure (DevOps, Function Apps), Docker, Kubernetes, CI/CD, Linux}
+\resumeSubItem{AI/ML:}{PyTorch, Hugging Face, SageMaker, Deep Learning, NLP}
+\resumeSubItem{Testing \& Tools:}{Mockito, Jest, Git, Postman, Visual Studio, Cursor, Jupyter}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)}
+}
+
+\end{document}

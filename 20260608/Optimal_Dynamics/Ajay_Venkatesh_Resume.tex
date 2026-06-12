@@ -1,0 +1,176 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- Software Engineer (Python track)
+% Base template: SEP_E (SE/P/E) per base_templates.json
+% Role: OR Software Engineer @ Optimal Dynamics
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} Machine Learning, Deep Learning, Big Data, System Design, Data Structures, Advanced Java}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Built \textbf{LLM-based retrieval pipelines (RAG)} with agentic workflows and a \textbf{Model Context Protocol (MCP) server} for internal tooling; improved contextual accuracy for production inference use cases.}
+\item \footnotesize{Engineered backend services with \textbf{OOP design patterns}; owned features from design through deployment, monitoring, and defect resolution with \textbf{Mockito} test coverage and \textbf{CI/CD}.}
+\item \footnotesize{Provisioned \textbf{serverless ML-adjacent infrastructure} using \textbf{AWS CDK} (API Gateway, Lambda, DynamoDB, S3, IAM) with multi-stage deployments across regions.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Deployed cloud-hosted \textbf{AI/ML models} for health metric analysis and image processing on an NSF-funded mobile platform processing real-time wearable data.}
+\item \footnotesize{Engineered \textbf{Python ETL pipelines} transforming \textbf{NoSQL} into \textbf{PostgreSQL} with concurrency controls; processed \textbf{250K+} records and powered \textbf{AWS QuickSight} analytics dashboards.}
+\item \footnotesize{Developed an insurance analytics platform (\textbf{React, Python, Node.js, REST APIs}) on \textbf{Docker/EC2}; implemented RBAC and row-level security for production users.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Worked on \textbf{embedding-based semantic search} and \textbf{RAG pipelines} for CampusIQ (AI Assistant), improving retrieval accuracy for structured and unstructured campus data.}
+\item \footnotesize{Developed \textbf{Python/Node.js microservices} on \textbf{AWS} (Lambda, API Gateway, S3) with \textbf{MySQL} and \textbf{DynamoDB} backing stores across local through production environments.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Deployed an \textbf{NLP-based OCR neural model} on \textbf{Azure} to automate structured data extraction, reducing processing time by \textbf{75\%}.}
+\item \footnotesize{Diagnosed complex production incidents across distributed \textbf{Azure} services; led code reviews and mentored engineers on \textbf{software design principles}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{RoBERTa Fine-Tuning with Custom LoRA}
+{Python, PyTorch, Hugging Face, PEFT, AGNews}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected a \textbf{parameter-efficient fine-tuning (PEFT)} pipeline with custom \textbf{LoRA} for \textbf{RoBERTa-base} news classification; ran hyperparameter sweeps over rank and learning-rate schedules to maximize validation accuracy under memory constraints.}
+\item \footnotesize{Applied \textbf{AdamW} optimizers and linear decay schedulers; achieved \textbf{83.45\%} accuracy with under \textbf{1M trainable parameters} via rank-decomposition matrix injection.}
+\resumeItemListEnd
+
+\resumeProject
+{InviLite (ML Incident Analysis Pipeline)}
+{Python, AWS, SageMaker, Bedrock, FAISS, SVM}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a \textbf{RAG system} (SVM + FAISS + \textbf{Bedrock LLM}) lifting root-cause classification accuracy from \textbf{56\% to 92\%}; architected governed ingestion pipelines (Kinesis, Lambda, S3, Glue, DynamoDB) for enterprise data.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{Python, Java, C++, TypeScript, JavaScript (ES6), SQL}
+\resumeSubItem{AI/ML:}{PyTorch, LLM Fine-tuning, RAG (LangChain, FAISS), NLP, Deep Learning, Hugging Face, scikit-learn}
+\resumeSubItem{Web \& Backend:}{Node.js, REST API, Microservices, React, GraphQL}
+\resumeSubItem{Databases:}{PostgreSQL, MySQL, DynamoDB, MongoDB}
+\resumeSubItem{Cloud \& DevOps:}{AWS (CDK, Lambda, EC2, S3, SageMaker, Bedrock), Azure, Docker, Kubernetes, CI/CD, GitHub Actions}
+\resumeSubItem{Tools \& Platforms:}{Git, Linux, Cursor, GitHub Copilot, Jupyter, Postman, Pandas, NumPy}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+}
+
+\end{document}

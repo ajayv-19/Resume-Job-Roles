@@ -73,10 +73,64 @@ The router in `keyword_router.py` reads title + JD body + matched/missing skills
 
 ## 3. LaTeX Toolchain
 
-- **Compiler:** `pdflatex` from TeX Live 2026 BasicTeX (path: `/Library/TeX/texbin/pdflatex`).
-- **Compile command:** `pdflatex -interaction=nonstopmode Ajay_Venkatesh_Resume.tex` from inside the folder.
-- **Always clean up:** `rm -f *.aux *.log *.out` after compile.
-- **Required packages:** `fontawesome5`, `xcolor`, `hyperref`, `lmodern`, `enumitem`, `tabularx`, `geometry`, `titlesec`. All ship with TeX Live; no manual install needed.
+### Compiler paths
+
+| OS | `pdflatex` location |
+|---|---|
+| **Windows (MiKTeX)** | `C:\Users\SACHIN\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe` |
+| **macOS (BasicTeX)** | `/Library/TeX/texbin/pdflatex` |
+
+### Compile command
+
+Run from **inside** the company folder (e.g. `20260610/Doppel/`):
+
+```bash
+pdflatex -interaction=nonstopmode Ajay_Venkatesh_Resume.tex
+pdflatex -interaction=nonstopmode Ajay_venkatesh_Cover_letter.tex   # when applicable
+```
+
+### Clean compile output (mandatory)
+
+**Every compile — manual, agent, or batch — must leave the folder clean.**
+
+`pdflatex` always creates auxiliary side files. These are **not** deliverables. Windows Explorer often mislabels them (`.log` → “Text Document”, `.out` → “Wireshark capture”). There is no `.txt` or `.pcap` being created on purpose.
+
+**Keep only:**
+
+| File | Purpose |
+|---|---|
+| `Ajay_Venkatesh_Resume.tex` | Resume source |
+| `Ajay_Venkatesh_Resume.pdf` | Resume output |
+| `Ajay_venkatesh_Cover_letter.tex` | Cover letter source (when created) |
+| `Ajay_venkatesh_Cover_letter.pdf` | Cover letter output (when created) |
+
+**Delete after every compile** (for each `.tex` basename compiled):
+
+- `.aux` — LaTeX auxiliary data
+- `.log` — compile log
+- `.out` — PDF bookmarks (`hyperref`)
+- `.synctex.gz` — SyncTeX (if present)
+- `.fls`, `.fdb_latexmk` — latexmk artifacts (if present)
+
+**Cleanup commands** (run in the same folder as the `.tex` file):
+
+```powershell
+# Windows (PowerShell)
+Remove-Item -Force -ErrorAction SilentlyContinue *.aux, *.log, *.out, *.synctex.gz, *.fls, *.fdb_latexmk
+```
+
+```bash
+# macOS / Linux
+rm -f *.aux *.log *.out *.synctex.gz *.fls *.fdb_latexmk
+```
+
+**Agent rule:** After `pdflatex`, always run cleanup before finishing. Never leave auxiliary files in date/company folders. `jobs/batch_apply.py` already deletes `.aux`, `.log`, `.out` after compile — manual and cover-letter compiles must follow the same rule.
+
+These extensions are listed in `.gitignore` and must never be committed.
+
+### Required packages
+
+- **Required packages:** `fontawesome5`, `xcolor`, `hyperref`, `lmodern`, `enumitem`, `tabularx`, `geometry`, `titlesec`. All ship with TeX Live / MiKTeX; no manual install needed.
 
 ### Two layout styles
 

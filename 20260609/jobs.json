@@ -1,0 +1,1087 @@
+[
+  {
+    "Company": "Winsupply",
+    "Title": "Software Developer",
+    "Location": "Moraine, OH",
+    "PublishTime": "7 hours ago",
+    "MinYOE": 1,
+    "MatchScore": 91.2464,
+    "JobLink": "https://jobright.ai/jobs/info/6a2711932056260dd6e84ec3",
+    "JobId": "6a2711932056260dd6e84ec3",
+    "BaseTemplate": "SEP_E",
+    "BaseTemplatePath": "SE/P/E",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 14,
+      "matched_keyword_hits": [
+        "aws",
+        "docker",
+        "github",
+        "java",
+        "microservices",
+        "mockito",
+        "mongodb"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "SEP_E",
+          "matched_hits": [
+            "aws",
+            "docker",
+            "github",
+            "java",
+            "microservices",
+            "mockito",
+            "mongodb"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 14
+        },
+        {
+          "code": "SEP_NG",
+          "matched_hits": [
+            "aws",
+            "c++",
+            "docker",
+            "java",
+            "microservices",
+            "mongodb"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 12
+        },
+        {
+          "code": "SEAI_E",
+          "matched_hits": [
+            "aws",
+            "docker",
+            "microservices"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 6
+        },
+        {
+          "code": "SELLM_E",
+          "matched_hits": [
+            "c++",
+            "docker"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 4
+        },
+        {
+          "code": "CE_E",
+          "matched_hits": [
+            "microservices"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 2
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "AWS",
+      "AWS API Gateway",
+      "AWS CDK",
+      "AWS EC2",
+      "AWS IAM",
+      "AWS Lambda",
+      "AWS S3",
+      "CI/CD",
+      "Django",
+      "Docker",
+      "DynamoDB",
+      "FastAPI",
+      "Flask",
+      "Git",
+      "GitHub",
+      "GraphQL",
+      "Java",
+      "Kafka",
+      "Kubernetes",
+      "Mockito",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Python",
+      "REST API",
+      "REST APIs",
+      "Redis",
+      "backend",
+      "backend systems",
+      "distributed systems",
+      "event-driven",
+      "integration testing",
+      "microservices",
+      "unit testing"
+    ],
+    "JobrightMatchedSkills": [
+      "Java",
+      "SQL",
+      "C",
+      "C++",
+      "Core Java",
+      "JDBC",
+      "JUnit",
+      "Mockito",
+      "OAuth",
+      "RESTful API",
+      "Microservices",
+      "HTML",
+      "CSS",
+      "JQuery",
+      "JavaScript",
+      "Angular",
+      "MySQL Server",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "GitHub"
+    ],
+    "JobrightMissingSkills": [
+      "Servlets",
+      "JSP",
+      "Spring Boot",
+      "Camunda BPMN",
+      "XML",
+      "AJAX",
+      "Oracle",
+      "Jira",
+      "Confluence"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Brooksource",
+    "Title": "Junior Software Engineer",
+    "Location": "Columbus, Ohio Metropolitan Area",
+    "PublishTime": "7 hours ago",
+    "MinYOE": 0,
+    "MatchScore": 87.8942,
+    "JobLink": "https://jobright.ai/jobs/info/6a27117d7d827633afff866d",
+    "JobId": "6a27117d7d827633afff866d",
+    "BaseTemplate": "SEP_NG",
+    "BaseTemplatePath": "SE/P/NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 6,
+      "matched_keyword_hits": [
+        "c++",
+        "java",
+        "python"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "SEP_NG",
+          "matched_hits": [
+            "c++",
+            "java",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 6
+        },
+        {
+          "code": "CE_E",
+          "matched_hits": [
+            "sql server"
+          ],
+          "missing_hits": [
+            ".net",
+            ".net core",
+            "c#"
+          ],
+          "title_hits": [],
+          "score": 5
+        },
+        {
+          "code": "SEP_E",
+          "matched_hits": [
+            "java",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 4
+        },
+        {
+          "code": "SELLM_E",
+          "matched_hits": [
+            "c++",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 4
+        },
+        {
+          "code": "SEAI_E",
+          "matched_hits": [
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 2
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "AWS",
+      "C++",
+      "CI/CD",
+      "Django",
+      "Docker",
+      "FastAPI",
+      "Git",
+      "Java",
+      "Kubernetes",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Python",
+      "REST API",
+      "algorithms",
+      "data structures",
+      "microservices",
+      "operating systems"
+    ],
+    "JobrightMatchedSkills": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "C++",
+      "Programming Fundamentals",
+      "SQL",
+      "Relational Databases",
+      "SQL Server",
+      "React"
+    ],
+    "JobrightMissingSkills": [
+      "C#",
+      "Object-Oriented Programming",
+      ".NET",
+      ".NET Core",
+      "Agile"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Flexton Inc.",
+    "Title": "Software Engineer I - Java - Bay Area (W2 Only)",
+    "Location": "Sunnyvale, CA",
+    "PublishTime": "4 hours ago",
+    "MinYOE": "",
+    "MatchScore": 91.1366,
+    "JobLink": "https://jobright.ai/jobs/info/6a2734a32056260dd6e85f67",
+    "JobId": "6a2734a32056260dd6e85f67",
+    "BaseTemplate": "SEJ_NG",
+    "BaseTemplatePath": "SE/J/NG",
+    "RoutingDetails": {
+      "family": "SEJ",
+      "is_new_grad": true,
+      "score": 7,
+      "matched_keyword_hits": [
+        "graphql",
+        "java"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [
+        "java"
+      ],
+      "all_scores": [
+        {
+          "code": "SEJ_E",
+          "matched_hits": [
+            "graphql",
+            "java"
+          ],
+          "missing_hits": [],
+          "title_hits": [
+            "java"
+          ],
+          "score": 7
+        },
+        {
+          "code": "SEJ_NG",
+          "matched_hits": [
+            "java"
+          ],
+          "missing_hits": [],
+          "title_hits": [
+            "java"
+          ],
+          "score": 5
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "AWS",
+      "Docker",
+      "JUnit",
+      "Java",
+      "MySQL",
+      "OOP",
+      "PostgreSQL",
+      "REST API",
+      "Spring",
+      "Spring Boot",
+      "algorithms",
+      "data structures",
+      "design patterns",
+      "microservices"
+    ],
+    "JobrightMatchedSkills": [
+      "Java",
+      "Microservices Architecture",
+      "REST",
+      "GraphQL",
+      "CI/CD Pipelines",
+      "SQL",
+      "NoSQL"
+    ],
+    "JobrightMissingSkills": [
+      "Backend Development",
+      "Automation Frameworks",
+      "API Testing",
+      "GRPC",
+      "Jenkins"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Enigma",
+    "Title": "Graduate Software Engineer | Python | AWS | Postgres | Computer Science | Hybrid, New York",
+    "Location": "New York, NY",
+    "PublishTime": "9 hours ago",
+    "MinYOE": "",
+    "MatchScore": 97.8648,
+    "JobLink": "https://jobright.ai/jobs/info/6a26f1197d827633afff78c9",
+    "JobId": "6a26f1197d827633afff78c9",
+    "BaseTemplate": "SEP_NG",
+    "BaseTemplatePath": "SE/P/NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 12,
+      "matched_keyword_hits": [
+        "aws",
+        "postgresql",
+        "python"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [
+        "aws",
+        "python"
+      ],
+      "all_scores": [
+        {
+          "code": "SEP_E",
+          "matched_hits": [
+            "aws",
+            "postgresql",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [
+            "aws",
+            "python"
+          ],
+          "score": 12
+        },
+        {
+          "code": "SEP_NG",
+          "matched_hits": [
+            "aws",
+            "postgresql",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [
+            "aws",
+            "python"
+          ],
+          "score": 12
+        },
+        {
+          "code": "SEAI_E",
+          "matched_hits": [
+            "aws",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [
+            "aws",
+            "python"
+          ],
+          "score": 10
+        },
+        {
+          "code": "SELLM_E",
+          "matched_hits": [
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [
+            "python"
+          ],
+          "score": 5
+        },
+        {
+          "code": "CE_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "AWS",
+      "C++",
+      "CI/CD",
+      "Django",
+      "Docker",
+      "FastAPI",
+      "Git",
+      "Java",
+      "Kubernetes",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Python",
+      "REST API",
+      "algorithms",
+      "data structures",
+      "microservices",
+      "operating systems"
+    ],
+    "JobrightMatchedSkills": [
+      "Python",
+      "AWS",
+      "PostgreSQL",
+      "APIs",
+      "Data Pipelines",
+      "ETL/ELT Workflows",
+      "Cloud Infrastructure",
+      "AI Technologies",
+      "Large Language Models (LLMs)"
+    ],
+    "JobrightMissingSkills": [
+      "Backend Services"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Index Analytics LLC",
+    "Title": "Junior Full Stack Engineer",
+    "Location": "United States",
+    "PublishTime": "8 hours ago",
+    "MinYOE": 4,
+    "MatchScore": 85.7458,
+    "JobLink": "https://jobright.ai/jobs/info/6a26d60aca77fd3096d237c9",
+    "JobId": "6a26d60aca77fd3096d237c9",
+    "BaseTemplate": "FS_E",
+    "BaseTemplatePath": "FS/E",
+    "RoutingDetails": {
+      "family": "FS",
+      "is_new_grad": true,
+      "score": 4,
+      "matched_keyword_hits": [
+        "aws",
+        "python"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "FS_E",
+          "matched_hits": [
+            "aws",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 4
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "AWS",
+      "Android",
+      "Angular",
+      "CI/CD",
+      "Cypress",
+      "Django",
+      "Docker",
+      "DynamoDB",
+      "Express",
+      "Express.js",
+      "FastAPI",
+      "GraphQL",
+      "Java",
+      "JavaScript",
+      "Jest",
+      "Kubernetes",
+      "MongoDB",
+      "MySQL",
+      "Nest.js",
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "Python",
+      "REST API",
+      "React",
+      "React Native",
+      "Redis",
+      "Spring Boot",
+      "TypeScript",
+      "Vitest",
+      "Vue",
+      "iOS",
+      "microservices",
+      "mobile"
+    ],
+    "JobrightMatchedSkills": [
+      "Cloud-based Web Applications",
+      "RESTful APIs",
+      "Relational Databases",
+      "SQL",
+      "Python",
+      "AWS",
+      "Infrastructure as Code",
+      "CI/CD Pipelines"
+    ],
+    "JobrightMissingSkills": [
+      "Full Stack Development",
+      "Jenkins",
+      "DevSecOps",
+      "Secure Coding Practices",
+      "AWS CloudWatch",
+      "Splunk"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Visa",
+    "Title": "Software Engineer - Transformation",
+    "Location": "US - Austin, TX, US",
+    "PublishTime": "2 hours ago",
+    "MinYOE": 1,
+    "MatchScore": 95.4745,
+    "JobLink": "https://jobright.ai/jobs/info/6a2712044ec8d737d6dfda6a",
+    "JobId": "6a2712044ec8d737d6dfda6a",
+    "BaseTemplate": "SEP_NG",
+    "BaseTemplatePath": "SE/P/NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": false,
+      "score": 8,
+      "matched_keyword_hits": [
+        "c++",
+        "java",
+        "microservices",
+        "python"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "SEP_NG",
+          "matched_hits": [
+            "c++",
+            "java",
+            "microservices",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 8
+        },
+        {
+          "code": "SEP_E",
+          "matched_hits": [
+            "java",
+            "microservices",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 6
+        },
+        {
+          "code": "SEAI_E",
+          "matched_hits": [
+            "microservices",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 4
+        },
+        {
+          "code": "SELLM_E",
+          "matched_hits": [
+            "c++",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 4
+        },
+        {
+          "code": "CE_E",
+          "matched_hits": [
+            "microservices"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 2
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "AWS",
+      "C++",
+      "CI/CD",
+      "Django",
+      "Docker",
+      "FastAPI",
+      "Git",
+      "Java",
+      "Kubernetes",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Python",
+      "REST API",
+      "algorithms",
+      "data structures",
+      "microservices",
+      "operating systems"
+    ],
+    "JobrightMatchedSkills": [
+      "Java",
+      "Python",
+      "C++",
+      "DevOps",
+      "MVC",
+      "Microservices",
+      "AI model integration"
+    ],
+    "JobrightMissingSkills": [
+      "Ruby",
+      "GenAI software engineering tools",
+      "Agile software development"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Texas Instruments",
+    "Title": "Lehi, Utah - New College Graduate - Software Engineer",
+    "Location": "Lehi, UT",
+    "PublishTime": "5 hours ago",
+    "MinYOE": "",
+    "MatchScore": 95.2125,
+    "JobLink": "https://jobright.ai/jobs/info/6a27257aca77fd3096d25af6",
+    "JobId": "6a27257aca77fd3096d25af6",
+    "BaseTemplate": "SEP_NG",
+    "BaseTemplatePath": "SE/P/NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "SEP_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SEP_NG",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SEAI_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "SELLM_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        },
+        {
+          "code": "CE_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "AWS",
+      "C++",
+      "CI/CD",
+      "Django",
+      "Docker",
+      "FastAPI",
+      "Git",
+      "Java",
+      "Kubernetes",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Python",
+      "REST API",
+      "algorithms",
+      "data structures",
+      "microservices",
+      "operating systems"
+    ],
+    "JobrightMatchedSkills": [
+      "C programming",
+      "C++ programming",
+      "Software engineering processes",
+      "Software development lifecycle",
+      "Java programming",
+      "HTML",
+      "SQL",
+      "Unix environment"
+    ],
+    "JobrightMissingSkills": [
+      "Assembly language programming",
+      "Perl programming",
+      "Windows environment",
+      "Oracle database"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Ascensus",
+    "Title": "Associate Data Engineer",
+    "Location": "Dresher, PA",
+    "PublishTime": "3 hours ago",
+    "MinYOE": 0,
+    "MatchScore": 92.5274,
+    "JobLink": "https://jobright.ai/jobs/info/6a2744ac4ec8d737d6dfef3b",
+    "JobId": "6a2744ac4ec8d737d6dfef3b",
+    "BaseTemplate": "DE_E",
+    "BaseTemplatePath": "DE/E",
+    "RoutingDetails": {
+      "family": "DE",
+      "is_new_grad": false,
+      "score": 0,
+      "matched_keyword_hits": [],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "DE_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "AWS",
+      "Airflow",
+      "Apache Spark",
+      "Athena",
+      "Azure Data Factory",
+      "Azure Data Lake",
+      "BigQuery",
+      "ELT",
+      "ETL",
+      "GCP",
+      "Glue",
+      "HDFS",
+      "Hadoop",
+      "Kafka",
+      "MySQL",
+      "Oracle",
+      "PostgreSQL",
+      "Power BI",
+      "PySpark",
+      "Python",
+      "QuickSight",
+      "Redshift",
+      "SQL",
+      "SQL Server",
+      "Scala",
+      "Snowflake",
+      "Spark MLlib",
+      "Spark SQL",
+      "Tableau",
+      "data modeling",
+      "data pipelines",
+      "data warehousing",
+      "dbt"
+    ],
+    "JobrightMatchedSkills": [
+      "Programming languages",
+      "Scripting languages",
+      "Generative AI tools",
+      "Object-oriented design",
+      "Data structures",
+      "Algorithms",
+      "Continuous integration"
+    ],
+    "JobrightMissingSkills": [
+      "Agile engineering practices",
+      "Test driven development",
+      "Pair programming",
+      "Open source development",
+      "Passion for software development"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Torch Technologies, Inc.",
+    "Title": "Junior Software Developer",
+    "Location": "Huntsville, AL, US",
+    "PublishTime": "9 hours ago",
+    "MinYOE": 2,
+    "MatchScore": 74.6986,
+    "JobLink": "https://jobright.ai/jobs/info/6a26e87e2056260dd6e83cde",
+    "JobId": "6a26e87e2056260dd6e83cde",
+    "BaseTemplate": "SEP_NG",
+    "BaseTemplatePath": "SE/P/NG",
+    "RoutingDetails": {
+      "family": "SE",
+      "is_new_grad": true,
+      "score": 10,
+      "matched_keyword_hits": [
+        "algorithms",
+        "c++",
+        "data structures",
+        "java",
+        "python"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "SEP_NG",
+          "matched_hits": [
+            "algorithms",
+            "c++",
+            "data structures",
+            "java",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 10
+        },
+        {
+          "code": "SEP_E",
+          "matched_hits": [
+            "java",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 4
+        },
+        {
+          "code": "SELLM_E",
+          "matched_hits": [
+            "c++",
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 4
+        },
+        {
+          "code": "SEAI_E",
+          "matched_hits": [
+            "python"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 2
+        },
+        {
+          "code": "CE_E",
+          "matched_hits": [],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 0
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "AWS",
+      "C++",
+      "CI/CD",
+      "Django",
+      "Docker",
+      "FastAPI",
+      "Git",
+      "Java",
+      "Kubernetes",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Python",
+      "REST API",
+      "algorithms",
+      "data structures",
+      "microservices",
+      "operating systems"
+    ],
+    "JobrightMatchedSkills": [
+      "C++",
+      "Java",
+      "Python",
+      "Version control systems - Git",
+      "Software development principles",
+      "Algorithms",
+      "Data structures",
+      "Design patterns"
+    ],
+    "JobrightMissingSkills": [
+      "Object-oriented programming"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  },
+  {
+    "Company": "Dresser Utility Solutions",
+    "Title": "Frontend Software Engineer",
+    "Location": "Houston, TX, US",
+    "PublishTime": "4 hours ago",
+    "MinYOE": "",
+    "MatchScore": 97.2563,
+    "JobLink": "https://jobright.ai/jobs/info/6a27311a2056260dd6e85e1a",
+    "JobId": "6a27311a2056260dd6e85e1a",
+    "BaseTemplate": "FE_E",
+    "BaseTemplatePath": "FE/E",
+    "RoutingDetails": {
+      "family": "FE",
+      "is_new_grad": false,
+      "score": 2,
+      "matched_keyword_hits": [
+        "javascript"
+      ],
+      "missing_keyword_hits": [],
+      "title_keyword_hits": [],
+      "all_scores": [
+        {
+          "code": "FE_E",
+          "matched_hits": [
+            "javascript"
+          ],
+          "missing_hits": [],
+          "title_hits": [],
+          "score": 2
+        }
+      ]
+    },
+    "MatchedSkills": [],
+    "MissingSkills": [
+      "Angular",
+      "CSS",
+      "CSS3",
+      "Context API",
+      "Cypress",
+      "GraphQL",
+      "HTML",
+      "HTML5",
+      "JavaScript",
+      "JavaScript (ES6)",
+      "Jest",
+      "Next.js",
+      "Node.js",
+      "Playwright",
+      "REST API",
+      "React",
+      "React 18",
+      "Redux",
+      "TypeScript",
+      "Vite",
+      "Vitest",
+      "Vue",
+      "Vue.js",
+      "Webpack",
+      "accessibility",
+      "design systems",
+      "responsive design",
+      "state management"
+    ],
+    "JobrightMatchedSkills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL",
+      "Data structures",
+      "Algorithms",
+      "SQL Server",
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Git"
+    ],
+    "JobrightMissingSkills": [
+      "C#",
+      "Object-oriented programming"
+    ],
+    "JDText": "",
+    "WorkExpComment": "",
+    "ProjectComment": ""
+  }
+]

@@ -1,0 +1,165 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- Full Stack Engineer (Markets Portal) @ Polymarket
+% Base template: FS_E (SEJ_J is not in base_templates.json; FS_E matches React/Node/TypeScript full-stack JD)
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} System Design, Data Structures, Machine Learning, Big Data}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Built an internal operations portal with a \textbf{React 18} and \textbf{TypeScript} UI and backend \textbf{REST APIs}; shipped features end-to-end from concept through \textbf{multi-stage CI/CD} deployment with real operations users.}
+\item \footnotesize{Provisioned \textbf{AWS CDK} infrastructure (API Gateway, Lambda, DynamoDB, S3, IAM); reduced provisioning time by \textbf{70\%} and improved release repeatability across regions.}
+\item \footnotesize{Iterated on UI workflows from operator feedback; optimized API integration, filtering, and caching to improve portal responsiveness by \textbf{40\%}.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Developed an operational analytics platform (\textbf{React, TypeScript, Node.js, REST APIs}) on \textbf{Docker/EC2}; partnered with business users to configure workflows, launch features, and refine UI based on daily feedback.}
+\item \footnotesize{Built a broker portal integrated with external insurer systems; automated onboarding and status updates via \textbf{WebSocket} channels and \textbf{RBAC} controls across \textbf{6 clients}.}
+\item \footnotesize{Engineered \textbf{SQL/ETL} pipelines into \textbf{PostgreSQL} and \textbf{AWS QuickSight} dashboards; processed \textbf{250K+} records to support operations reporting and data validation.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Developed \textbf{Node.js} services and \textbf{REST APIs} for member-facing operational workflows; shipped fixes and enhancements through \textbf{Git}-based \textbf{CI/CD} across \textbf{4 AWS environments}.}
+\item \footnotesize{Deployed serverless components (\textbf{Lambda, API Gateway, S3, CloudFront}) with documented runbooks; troubleshot production issues and participated in code reviews.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Automated business workflows with \textbf{Azure Logic Apps} and \textbf{Power Automate}; optimized bulk ingestion from \textbf{100K-row} feeds, cutting execution from \textbf{5 hours to 1 hour}.}
+\item \footnotesize{Shipped production changes through \textbf{Azure DevOps CI/CD}; led code reviews and reduced defects by \textbf{25\%} while supporting operations stakeholders on \textbf{SQL Server} backends.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{Hospital Management System (Operational Full-Stack Portal)}
+{React, TypeScript, Node.js, Express, MongoDB, CSS}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a full-stack web application with \textbf{React}, \textbf{TypeScript}, and \textbf{Node.js REST APIs} for appointments, records, and lab reports; implemented \textbf{role-based access control} and responsive \textbf{CSS} layouts for operations-style users.}
+\item \footnotesize{Wrote API \textbf{unit tests} for critical paths and documented modules for maintainable handoff across contributors.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{TypeScript, JavaScript (ES6), Python, Java, SQL, C++}
+\resumeSubItem{Web \& Backend:}{React, Node.js, Express.js, HTML, CSS, REST API, GraphQL API, Microservices}
+\resumeSubItem{Databases:}{PostgreSQL, MySQL, MongoDB, DynamoDB}
+\resumeSubItem{Cloud \& DevOps:}{AWS (CDK, EC2, Lambda, API Gateway, S3, IAM), Docker, Kubernetes, CI/CD, Git, npm}
+\resumeSubItem{Tools \& Platforms:}{Linux, Postman, Visual Studio, Cursor, GitHub Copilot, Power Automate}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)}
+}
+
+\end{document}

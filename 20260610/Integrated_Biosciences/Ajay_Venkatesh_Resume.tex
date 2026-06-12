@@ -1,0 +1,185 @@
+%-------------------------
+% Academic CV Template
+% Adapted from: Dubasi Pavan Kumar (https://www.overleaf.com/latex/templates/academic-cv-template/gmyytjmdbvdm)
+% Tailored for: Ajay Venkatesh -- Full-stack Software Engineer @ Integrated Biosciences
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} Machine Learning, Deep Learning, Big Data, System Design, Computer Architecture, Data Structures}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Full-Stack AI Software Engineer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Partnered with research and product stakeholders to build full-stack tools (\textbf{React, TypeScript, Python, Node.js, REST APIs}) supporting an NSF-funded life-sciences platform; deployed via \textbf{Docker} on \textbf{AWS EC2} with \textbf{PostgreSQL} data infrastructure.}
+\item \footnotesize{Engineered \textbf{Python ETL pipelines} into \textbf{PostgreSQL} with concurrency control; processed \textbf{250K+} records and built researcher-facing dashboards for monitoring model outputs and experimental telemetry.}
+\item \footnotesize{Integrated \textbf{LLM-powered workflows} (\textbf{GPT-4 + LangChain}) for document analysis and deployed cloud-hosted \textbf{computer vision} models (\textbf{YOLOv8, EfficientNet}) for structured biological signal capture from mobile inputs.}
+\item \footnotesize{Shipped production features using \textbf{Cursor}, \textbf{GitHub Copilot}, and \textbf{Claude Code} while validating generated code through reviews, testing, and iterative refinement with cross-functional partners.}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Built an \textbf{AI agent harness} with \textbf{RAG} and an \textbf{agentic workflow} that retrieves operational logs to reason over incidents and generate context-aware remediation steps for production systems.}
+\item \footnotesize{Implemented a \textbf{Model Context Protocol (MCP)} server for tool-augmented LLM retrieval, improving query efficiency and compute utilization; provisioned \textbf{AWS CDK} infrastructure on \textbf{ECS Fargate} with \textbf{multi-stage CI/CD}.}
+\item \footnotesize{Delivered a \textbf{React} and \textbf{TypeScript} frontend integrated with backend \textbf{REST APIs}; wrote unit and integration tests and participated in design and code reviews with senior engineers.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{AI Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Built scalable \textbf{TypeScript/Node.js} backend services and \textbf{LLM retrieval pipelines (RAG)} for an AI assistant, improving contextual accuracy by \textbf{30\%} through embedding-based semantic search over structured indexes.}
+\item \footnotesize{Deployed \textbf{serverless services} on \textbf{AWS} (\textbf{Lambda, API Gateway, S3}) across \textbf{4 environments}; optimized existing modules to support a growing engineering team through refactoring and documented API contracts.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Designed distributed backend infrastructure on \textbf{Microsoft Azure} for a healthcare platform; built an \textbf{NLP OCR pipeline} (\textbf{LayoutLM}) to automate structured extraction from scientific documents, reducing processing time by \textbf{75\%}.}
+\item \footnotesize{Mentored engineers on software architecture and testing; optimized parallel ingestion over \textbf{100K+} records from \textbf{5 hours to 1 hour} for analytics workflows used by operations and research-adjacent teams.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{InviLite (AI Agent \& Data Platform)}
+{Python, AWS Bedrock, MCP, FAISS, Docker, Lambda, Kinesis}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built bespoke tooling for ingestion, classification, and triage workflows; integrated \textbf{RAG} (\textbf{SVM + FAISS + Bedrock LLM}) into an automated decision pipeline, lifting accuracy from \textbf{56\% to 92\%}.}
+\resumeItemListEnd
+
+\resumeProject
+{Hospital Management System (Researcher-Facing Full-Stack)}
+{React, TypeScript, Node.js, PostgreSQL, AWS SageMaker}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected a full-stack platform with intuitive UI flows for appointments, lab reports, and patient records; deployed \textbf{Hugging Face} model inference on \textbf{AWS SageMaker} for real-time diagnostic support.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{TypeScript, Python, JavaScript (ES6), Java, SQL, C++}
+\resumeSubItem{Full-Stack \& Backend:}{React, Node.js, Express.js, REST API, Microservices, Full-Stack Systems Architecture}
+\resumeSubItem{Databases:}{PostgreSQL, MySQL, MongoDB, DynamoDB, Database Infrastructure}
+\resumeSubItem{Cloud \& DevOps:}{AWS (EC2, Lambda, ECS, S3, CDK, SageMaker, Bedrock), Docker, Vercel, CI/CD, Linux}
+\resumeSubItem{AI/ML \& Agents:}{LangChain, RAG (FAISS), GPT-4, Hugging Face, PyTorch, LLM Fine-tuning, Model Context Protocol (MCP)}
+\resumeSubItem{AI Coding Tools:}{Cursor, GitHub Copilot, Claude Code}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Publications}}
+\footnotesize{
+\href{https://ieeexplore.ieee.org/document/9792818}{Supervised ML System Based Segmentation and Classification of Stroke Using Deep Learning Techniques} \textit{(IEEE)} \\
+\href{https://ieeexplore.ieee.org/document/10060334}{An Aquila-optimized SVM Classifier for Diabetes Prediction} \textit{(IEEE)}
+}
+\vspace{-3mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+}
+
+\end{document}

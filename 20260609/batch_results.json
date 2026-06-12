@@ -1,0 +1,291 @@
+[
+  {
+    "Company": "Winsupply",
+    "Title": "Software Developer",
+    "Template": "SEP_E",
+    "MatchScore": 91.2464,
+    "JobLink": "https://jobright.ai/jobs/info/6a2711932056260dd6e84ec3",
+    "PDF": "20260609\\Winsupply\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Django",
+      "FastAPI",
+      "Flask",
+      "Spring Boot",
+      "Redis",
+      "Oracle",
+      "Kafka",
+      "Jira",
+      "Confluence"
+    ],
+    "BulletsChanged": [
+      "PricewaterhouseCoopers (PwC) #1: distributed systems"
+    ],
+    "Skipped": [
+      "backend",
+      "backend systems",
+      "integration testing",
+      "unit testing",
+      "Servlets",
+      "JSP",
+      "Camunda BPMN",
+      "XML",
+      "AJAX"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Brooksource",
+    "Title": "Junior Software Engineer",
+    "Template": "SEP_NG",
+    "MatchScore": 87.8942,
+    "JobLink": "https://jobright.ai/jobs/info/6a27117d7d827633afff866d",
+    "PDF": "20260609\\Brooksource\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Django",
+      "FastAPI",
+      "Kubernetes"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "algorithms",
+      "data structures",
+      "operating systems",
+      "Object-Oriented Programming",
+      ".NET",
+      ".NET Core",
+      "Agile"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Flexton Inc.",
+    "Title": "Software Engineer I - Java - Bay Area (W2 Only)",
+    "Template": "SEJ_NG",
+    "MatchScore": 91.1366,
+    "JobLink": "https://jobright.ai/jobs/info/6a2734a32056260dd6e85f67",
+    "PDF": "20260609\\Flexton_Inc\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring",
+      "Spring Boot",
+      "GRPC",
+      "Jenkins",
+      "JUnit"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "OOP",
+      "algorithms",
+      "data structures",
+      "design patterns",
+      "Backend Development",
+      "Automation Frameworks",
+      "API Testing"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Enigma",
+    "Title": "Graduate Software Engineer | Python | AWS | Postgres | Computer Science | Hybrid, New York",
+    "Template": "SEP_NG",
+    "MatchScore": 97.8648,
+    "JobLink": "https://jobright.ai/jobs/info/6a26f1197d827633afff78c9",
+    "PDF": "20260609\\Enigma\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Django",
+      "FastAPI",
+      "Kubernetes"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "algorithms",
+      "data structures",
+      "operating systems",
+      "Backend Services"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Index Analytics LLC",
+    "Title": "Junior Full Stack Engineer",
+    "Template": "FS_E",
+    "MatchScore": 85.7458,
+    "JobLink": "https://jobright.ai/jobs/info/6a26d60aca77fd3096d237c9",
+    "PDF": "20260609\\Index_Analytics_LLC\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Angular",
+      "Django",
+      "FastAPI",
+      "Nest.js",
+      "Next.js",
+      "React Native",
+      "Spring Boot",
+      "Vue",
+      "Redis",
+      "Jenkins",
+      "AWS CloudWatch",
+      "Cypress",
+      "Jest",
+      "Vitest",
+      "mobile"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Full Stack Development",
+      "DevSecOps",
+      "Secure Coding Practices",
+      "Splunk"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Visa",
+    "Title": "Software Engineer - Transformation",
+    "Template": "SEP_NG",
+    "MatchScore": 95.4745,
+    "JobLink": "https://jobright.ai/jobs/info/6a2712044ec8d737d6dfda6a",
+    "PDF": "20260609\\Visa\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Ruby",
+      "Django",
+      "FastAPI",
+      "Kubernetes"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "algorithms",
+      "data structures",
+      "operating systems",
+      "GenAI software engineering tools",
+      "Agile software development"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Texas Instruments",
+    "Title": "Lehi, Utah - New College Graduate - Software Engineer",
+    "Template": "SEP_NG",
+    "MatchScore": 95.2125,
+    "JobLink": "https://jobright.ai/jobs/info/6a27257aca77fd3096d25af6",
+    "PDF": "20260609\\Texas_Instruments\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Django",
+      "FastAPI",
+      "Oracle database",
+      "Kubernetes"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "algorithms",
+      "data structures",
+      "operating systems",
+      "Assembly language programming",
+      "Perl programming",
+      "Windows environment"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Ascensus",
+    "Title": "Associate Data Engineer",
+    "Template": "DE_E",
+    "MatchScore": 92.5274,
+    "JobLink": "https://jobright.ai/jobs/info/6a2744ac4ec8d737d6dfef3b",
+    "PDF": "20260609\\Ascensus\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Oracle",
+      "Snowflake",
+      "Azure Data Factory",
+      "Azure Data Lake",
+      "Kafka",
+      "Airflow",
+      "Athena",
+      "Tableau"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "Apache Spark",
+      "Spark MLlib",
+      "Spark SQL",
+      "data pipelines",
+      "data warehousing",
+      "dbt",
+      "Agile engineering practices",
+      "Test driven development",
+      "Pair programming",
+      "Open source development",
+      "Passion for software development"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Torch Technologies, Inc.",
+    "Title": "Junior Software Developer",
+    "Template": "SEP_NG",
+    "MatchScore": 74.6986,
+    "JobLink": "https://jobright.ai/jobs/info/6a26e87e2056260dd6e83cde",
+    "PDF": "20260609\\Torch_Technologies_Inc\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Django",
+      "FastAPI",
+      "Kubernetes"
+    ],
+    "BulletsChanged": [],
+    "Skipped": [
+      "algorithms",
+      "data structures",
+      "operating systems",
+      "Object-oriented programming"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  },
+  {
+    "Company": "Dresser Utility Solutions",
+    "Title": "Frontend Software Engineer",
+    "Template": "FE_E",
+    "MatchScore": 97.2563,
+    "JobLink": "https://jobright.ai/jobs/info/6a27311a2056260dd6e85e1a",
+    "PDF": "20260609\\Dresser_Utility_Solutions\\Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "BulletsChanged": [],
+    "Skipped": [
+      "JavaScript (ES6)",
+      "Webpack",
+      "design systems",
+      "responsive design",
+      "state management",
+      "Object-oriented programming"
+    ],
+    "WorkExpComment": "",
+    "ProjectComment": "",
+    "NeedsManualEdit": false,
+    "Compile": "OK"
+  }
+]

@@ -1,0 +1,171 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- AI Software Engineer @ Achieve
+% Base template: AI_E
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} Machine Learning, Deep Learning, Big Data, System Design, Data Structures}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Built an \textbf{AI-powered application} with a \textbf{RAG pipeline} and \textbf{agentic workflow} that retrieves operational logs and generates context-aware remediation steps, automating manual incident triage for operations teams.}
+\item \footnotesize{Implemented a \textbf{Model Context Protocol (MCP)} server for tool-augmented \textbf{LLM} retrieval; integrated with production \textbf{REST APIs} on \textbf{AWS ECS Fargate} and supported monitoring and issue remediation through structured logging and tests.}
+\item \footnotesize{Shipped maintainable backend services with \textbf{unit/integration testing} and \textbf{CI/CD} via \textbf{AWS CDK}; partnered with senior engineers to evaluate model behavior and refine \textbf{prompt} patterns before rollout.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{AI Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Developed \textbf{CampusIQ}, a conversational \textbf{AI agent} with \textbf{LLM-based RAG pipelines}, \textbf{embedding-based semantic search}, and structured indexing that improved contextual accuracy by \textbf{30\%} across student workflows.}
+\item \footnotesize{Automated manual coordination through \textbf{AI-powered} features on \textbf{Node.js/TypeScript REST APIs} deployed on \textbf{AWS} (Lambda, API Gateway, S3) across \textbf{4 environments} with \textbf{Git}-based reviews and iterative evaluation.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{AI Software Engineer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Integrated \textbf{LLM-based document analysis} (\textbf{GPT-4 + LangChain}) into a financial analytics platform (\textbf{React, Node.js, REST APIs}) with \textbf{Stripe} billing and \textbf{RBAC}, replacing manual underwriting review for lending-adjacent operations teams.}
+\item \footnotesize{Built \textbf{Python ETL pipelines} into \textbf{PostgreSQL} and \textbf{AWS QuickSight} dashboards for internal stakeholders; deployed services with \textbf{Docker} on \textbf{EC2} and troubleshot production AI integration issues with cross-functional partners.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Automated manual document workflows with an \textbf{NLP-powered OCR pipeline} on \textbf{Azure}; integrated a distributed backend with \textbf{Microsoft Dynamics CRM} and \textbf{SQL Server}, reducing processing time by \textbf{75\%} through responsible production ML deployment.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{InviLite (AI Operations \& Evaluation Platform)}
+{Python, AWS, Bedrock, FAISS, LangChain, RAG}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a \textbf{RAG copilot} (SVM + FAISS + \textbf{Bedrock LLM}) with automated \textbf{evaluation harnesses}, lifting root-cause classification accuracy from \textbf{56\% to 92\%} and cutting incident resolution from \textbf{1--2 hours to minutes}.}
+\resumeItemListEnd
+
+\resumeProject
+{RoBERTa Fine-Tuning with Custom LoRA}
+{Python, PyTorch, Hugging Face, PEFT, Prompt Engineering}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected an \textbf{LLM fine-tuning} pipeline with custom \textbf{LoRA}; ran hyperparameter sweeps and validation-based \textbf{evaluation methods}, achieving \textbf{83.45\%} accuracy with under \textbf{1M trainable parameters}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{Python, TypeScript, JavaScript (ES6), Java, SQL}
+\resumeSubItem{AI \& LLM Systems:}{AI-Powered Application Development, Large Language Models, Prompt Engineering, RAG, LangChain, FAISS, Agentic Frameworks, MCP, Embeddings, Hugging Face}
+\resumeSubItem{Backend \& APIs:}{REST APIs, Node.js, React, Microservices, API Integration}
+\resumeSubItem{Cloud \& DevOps:}{AWS (Lambda, Bedrock, ECS, S3, CDK, QuickSight), Azure, Docker, CI/CD}
+\resumeSubItem{Engineering Practices:}{Software Engineering Fundamentals, Version Control (Git), Unit Testing, Integration Testing, Mockito, Code Review}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+}
+
+\end{document}

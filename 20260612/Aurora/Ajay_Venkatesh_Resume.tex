@@ -1,0 +1,173 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- Security Software Engineer II @ Aurora
+% Base template: SEP_E
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} System Design, Computer Architecture, Data Structures, Machine Learning, Big Data}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Architected a secure internal operations console with \textbf{role-based access control} for \textbf{4+ roles} via \textbf{OAuth}, \textbf{Midway SSO}, and \textbf{HELIS}; presented access-control design for review before production rollout.}
+\item \footnotesize{Engineered backend services in \textbf{Java} with \textbf{REST APIs} and \textbf{CBOR} serialization; wrote \textbf{unit and integration tests} with \textbf{Mockito} and participated in security-minded code reviews with senior engineers.}
+\item \footnotesize{Provisioned \textbf{AWS CDK} infrastructure with \textbf{API Gateway}, \textbf{Lambda}, \textbf{DynamoDB}, \textbf{S3}, and least-privilege \textbf{IAM}; supported \textbf{multi-stage CI/CD} releases across regions.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Deployed serverless services on \textbf{AWS} (\textbf{Lambda, API Gateway, S3, CloudFront}) across \textbf{4 environments}; enforced secure configuration with \textbf{KMS-managed keys}, \textbf{SSM Parameter Store}, and least-privilege \textbf{IAM} policies.}
+\item \footnotesize{Developed \textbf{Node.js} microservices for real-time workflows; troubleshot cross-service integration defects and documented secure deployment runbooks on \textbf{Linux} hosts.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Built a production analytics platform (\textbf{React, Node.js, REST APIs}) on \textbf{Docker/EC2} with \textbf{RBAC} and row-level security for multi-tenant insurer and broker users.}
+\item \footnotesize{Engineered \textbf{Python/SQL} pipelines into \textbf{PostgreSQL} with concurrency controls; validated data integrity and access boundaries for operations stakeholders.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Developed production services on \textbf{Microsoft Azure} with fault-tolerant retries over \textbf{SQL Server}; led code reviews and production troubleshooting in a regulated healthcare environment.}
+\item \footnotesize{Mentored engineers on software design and testing practices, reducing production defects by \textbf{25\%} through stronger review discipline.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{Advanced Expense Tracker (C++ Application)}
+{C++, STL, OOP, Multithreading, SQLite, Unit Testing}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected a modular \textbf{C++} application with secure login, \textbf{STL}-based collections, \textbf{MVC/DAO} patterns, and thread-safe \textbf{SQLite} persistence; added synchronized blocks for concurrent updates and local validation tests.}
+\resumeItemListEnd
+
+\resumeProject
+{Hospital Management System (Secure Full-Stack Application)}
+{React, Node.js, Express, MongoDB, RBAC}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a full-stack platform with \textbf{role-based access control} and \textbf{REST APIs}; wrote API \textbf{unit tests} for authentication and authorization paths on critical service endpoints.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{C++, Python, Go, Java, JavaScript (ES6), TypeScript, SQL}
+\resumeSubItem{Security \& Systems:}{OAuth, RBAC, IAM, KMS, Least-Privilege Access, Secure Service Integration}
+\resumeSubItem{Web \& Backend:}{REST API, Node.js, React, Microservices, Express.js}
+\resumeSubItem{Databases:}{PostgreSQL, MySQL, SQLite, DynamoDB, MongoDB}
+\resumeSubItem{Cloud \& DevOps:}{AWS (CDK, Lambda, API Gateway, ECS, S3, IAM), Docker, Kubernetes, CI/CD, Linux, Git}
+\resumeSubItem{Testing \& Tools:}{Unit Testing, Integration Testing, Mockito, JUnit, Postman, Visual Studio}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)}
+}
+
+\end{document}

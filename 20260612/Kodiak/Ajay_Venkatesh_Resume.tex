@@ -1,0 +1,187 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- Perception / ML Engineer @ Kodiak
+% Base template: SEP_E
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} Machine Learning, Deep Learning, Big Data, Computer Architecture, System Design, Data Structures}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{ML Software Engineer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Designed and optimized \textbf{computer vision} pipelines (\textbf{YOLOv8, EfficientNet}) for food-image classification with \textbf{image preprocessing}, \textbf{image augmentation}, and cloud inference deployment on production endpoints.}
+\item \footnotesize{Trained \textbf{deep learning} models including \textbf{LSTM} time-series detectors on wearable telemetry; executed experiments with \textbf{hyperparameter tuning} and monitored outputs through \textbf{Python} ETL into \textbf{PostgreSQL} for \textbf{250K+} records.}
+\item \footnotesize{Integrated ML models into a mobile health platform processing real-time sensor streams; collaborated with cross-functional partners to refine model behavior from field feedback.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Built an internal console for image and video evidence review across fulfillment centers; supported backend \textbf{Java} services and \textbf{AWS} deployment pipelines with automated testing before production release.}
+\item \footnotesize{Developed \textbf{ML infrastructure} on \textbf{ECS Fargate, SQS, and SNS} with \textbf{AWS CDK}; analyzed test failures and incorporated review feedback to improve operational reliability.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Deployed an \textbf{NLP/vision OCR neural model} on \textbf{Azure} for document image extraction; reduced processing time by \textbf{75\%} through model-driven automation and parallel batch ingestion.}
+\item \footnotesize{Developed production \textbf{Python/Java} services supporting analytics integrations; led code reviews and mentored engineers on testing discipline in a small delivery team.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Built \textbf{embedding-based semantic search} pipelines for an AI assistant; maintained \textbf{Python/Node.js} services and production workflows across \textbf{4 AWS environments}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{Stroke Segmentation \& Classification (Deep Learning Research)}
+{Python, TensorFlow, Keras, OpenCV, Scikit-image, NumPy, Deep Learning}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Developed a supervised \textbf{deep learning} system for medical \textbf{image segmentation} and classification; applied \textbf{image preprocessing} and \textbf{machine learning model training} workflows published in \textbf{IEEE}.}
+\resumeItemListEnd
+
+\resumeProject
+{High-Efficiency ResNet Image Classifier}
+{Python, TensorFlow, Keras, Image Augmentation, Hyperparameter Tuning, CIFAR-10}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Designed a \textbf{ResNet} architecture under a strict parameter budget; applied \textbf{image augmentation} and \textbf{hyperparameter tuning} (Lookahead optimizer) to improve classification accuracy on \textbf{CIFAR-10}.}
+\resumeItemListEnd
+
+\resumeProject
+{Hospital Management System (Vision-Enabled Diagnostics)}
+{Python, Hugging Face, AWS SageMaker, Computer Vision, Deep Learning}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Fine-tuned a transformer-based diagnostic model reaching \textbf{88\% accuracy}; deployed real-time inference on \textbf{AWS SageMaker} with preprocessing pipelines for clinical image inputs.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{Python, C++, Java, JavaScript, SQL}
+\resumeSubItem{Computer Vision \& ML:}{Computer Vision, Deep Learning, Image Segmentation, Image Preprocessing, Image Augmentation, Machine Learning Model Training, Hyperparameter Tuning}
+\resumeSubItem{Frameworks \& Libraries:}{TensorFlow, Keras, OpenCV, Scikit-image, NumPy, PyTorch, Hugging Face, scikit-learn}
+\resumeSubItem{Cloud \& Deployment:}{AWS (SageMaker, Lambda, ECS, S3, CloudWatch), Docker, CI/CD, Git, Linux}
+\resumeSubItem{Databases:}{PostgreSQL, MySQL, DynamoDB, MongoDB}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Publications}}
+\footnotesize{
+\href{https://ieeexplore.ieee.org/document/9792818}{Supervised ML System Based Segmentation and Classification of Stroke Using Deep Learning Techniques} \textit{(IEEE)} \\
+\href{https://ieeexplore.ieee.org/document/10060334}{An Aquila-optimized SVM Classifier for Diabetes Prediction} \textit{(IEEE)}
+}
+\vspace{-3mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+}
+
+\end{document}

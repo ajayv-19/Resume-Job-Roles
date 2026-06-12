@@ -1,0 +1,171 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- Software Engineer II @ Sony Interactive Entertainment
+% Base template: SEP_E
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} System Design, Data Structures, Machine Learning, Big Data, Advanced Java}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Developed business-critical \textbf{web} and \textbf{mobile} product experiences (\textbf{React, TypeScript, JavaScript, HTML, CSS, React Native}) with \textbf{REST APIs}; implemented \textbf{Stripe} billing flows for subscription-style commerce across live client deployments.}
+\item \footnotesize{Built a cross-platform \textbf{React Native} app for \textbf{iOS} and \textbf{Android} with backend \textbf{REST APIs} and \textbf{PostgreSQL}; improved \textbf{performance optimization} of telemetry dashboards and documented feature behavior for product partners.}
+\item \footnotesize{Partnered with product stakeholders on requirements and technical approaches; deployed containerized services with \textbf{Docker} on \textbf{AWS EC2} and troubleshot production issues from release telemetry.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Shipped \textbf{React} and \textbf{TypeScript} UI components integrated with \textbf{Java} backend \textbf{REST APIs}; applied client-side caching and route-level code splitting for \textbf{performance optimization}, reducing page load time by \textbf{40\%}.}
+\item \footnotesize{Wrote robust \textbf{unit and component tests} with \textbf{Jest} and \textbf{React Testing Library}; participated in pull-request reviews and shipped features through \textbf{multi-stage CI/CD pipelines} via \textbf{AWS CDK}.}
+\item \footnotesize{Collaborated with senior engineers on design plans, debugged cross-tier defects, and monitored release behavior through structured logging before production rollout.}
+\resumeItemListEnd
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Delivered member-facing \textbf{JavaScript/TypeScript} web workflow changes and backend \textbf{REST APIs} on \textbf{AWS} across \textbf{4 environments}; reviewed pull requests and improved notification flows from production feedback.}
+\item \footnotesize{Supported platform releases with structured logging and monitoring hooks; documented technical approaches for scalable service integration in a fast-paced delivery environment.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Delivered enterprise \textbf{JavaScript/TypeScript} and \textbf{Java} web applications on \textbf{Microsoft Azure}; led code reviews, mentored engineers on sustainable UI patterns, and shipped through \textbf{Azure DevOps CI/CD} pipelines.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{Remote Health Panel (Cross-Platform Mobile App)}
+{React Native, TypeScript, JavaScript, HTML, CSS, REST APIs, Jest}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a \textbf{React Native} experience for \textbf{iOS} and \textbf{Android} with secure auth and real-time dashboards; integrated cloud-backed \textbf{REST APIs} and wrote component tests with \textbf{Jest}.}
+\resumeItemListEnd
+
+\resumeProject
+{Hospital Management System (Product Web Application)}
+{React, TypeScript, JavaScript, HTML, CSS, Node.js, REST APIs, Jest}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Crafted \textbf{React} and \textbf{TypeScript} UI flows with backend \textbf{REST APIs}; wrote \textbf{Jest} unit and component tests and documented development modules for team collaboration.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Frontend \& Mobile:}{JavaScript (ES6), TypeScript, React, React Native, HTML, CSS}
+\resumeSubItem{APIs \& Backend:}{REST APIs, GraphQL, Node.js, Java, Microservices}
+\resumeSubItem{Quality \& Delivery:}{Jest, React Testing Library, Git, CI/CD Pipelines, Code Review, Docker}
+\resumeSubItem{Performance \& Platform:}{Performance Optimization, AWS (EC2, Lambda, S3), PostgreSQL, MySQL}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+}
+
+\end{document}

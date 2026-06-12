@@ -1,0 +1,170 @@
+%-------------------------
+% Tailored for: Ajay Venkatesh -- Software Engineer @ Epic for Kids
+% Base template: SEP_E
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} Data Structures, System Design, Machine Learning, Big Data}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Implemented scoped backend features and bug fixes in \textbf{Node.js REST APIs} backed by \textbf{MySQL (Sequelize)}; reproduced issues, shipped fixes, and kept tests passing through \textbf{Git} pull-request workflows across \textbf{4 environments}.}
+\item \footnotesize{Participated in code reviews as author and reviewer; documented deployment runbooks and onboarding notes while using \textbf{Cursor} and \textbf{GitHub Copilot} to accelerate learning with full ownership of committed code.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Shipped well-scoped \textbf{React 18} and \textbf{TypeScript} UI features and backend \textbf{REST API} changes with mentor guidance; wrote \textbf{unit/integration tests} with \textbf{Mockito} and incorporated feedback from code reviews.}
+\item \footnotesize{Investigated cross-service defects, reproduced failures, and delivered fixes through \textbf{multi-stage CI/CD}; collaborated with senior engineers on design walkthroughs and release readiness.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Built user-facing web features in \textbf{React}, \textbf{TypeScript}, \textbf{HTML}, and \textbf{CSS}; translated product requirements into shipped changes with \textbf{SQL} reporting queries over \textbf{PostgreSQL}.}
+\item \footnotesize{Maintained README and module documentation for handoff; partnered with stakeholders to iterate on small enhancements from user feedback.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Built \textbf{Angular} and \textbf{TypeScript} frontends integrated with enterprise CRM modules; wrote maintainable \textbf{HTML/CSS} components and participated in pull-request-based reviews on \textbf{Azure DevOps}.}
+\item \footnotesize{Developed backend integrations over \textbf{SQL Server} with \textbf{SQL} queries and stored procedures; mentored junior engineers on fundamentals, testing, and clear technical communication.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{Task Management Dashboard (Angular SPA)}
+{Angular, TypeScript, HTML, CSS, RxJS, Jest, Git}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built an interactive \textbf{Angular} single-page app with \textbf{TypeScript}, responsive \textbf{HTML/CSS} layouts, and \textbf{Jest} unit tests across components and services; managed changes through \textbf{Git} with documented setup steps in the README.}
+\resumeItemListEnd
+
+\resumeProject
+{Hospital Management System (Full-Stack Web Application)}
+{JavaScript, TypeScript, React, Node.js, HTML, CSS, Unit Testing}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Developed a full-stack portal with \textbf{REST APIs} and role-based access control; wrote API \textbf{unit tests} for critical paths and documented modules for team onboarding.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{TypeScript, JavaScript (ES6), PHP, Go, Python, Java, SQL}
+\resumeSubItem{Web \& Frontend:}{Angular, React, HTML, CSS, REST API, Node.js, Express.js}
+\resumeSubItem{Databases:}{MySQL, PostgreSQL, SQL Server, MongoDB, DynamoDB}
+\resumeSubItem{Tools \& Practices:}{Git, CI/CD, Jest, Mockito, Cursor, GitHub Copilot, Postman}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)}
+}
+
+\end{document}

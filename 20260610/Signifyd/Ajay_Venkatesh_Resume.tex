@@ -1,0 +1,178 @@
+%-------------------------
+% Academic CV Template
+% Adapted from: Dubasi Pavan Kumar (https://www.overleaf.com/latex/templates/academic-cv-template/gmyytjmdbvdm)
+% Tailored for: Ajay Venkatesh -- Software Engineer, Online Decisioning @ Signifyd
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontawesome5}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.0cm, top=0.4cm, right=0.8cm, bottom=0.5cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}}}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.3mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \textbar{} \textit{\footnotesize{#2}} & \footnotesize{#4}
+    \end{tabular*}\vspace{-2mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*, itemsep=0.6mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, labelsep=1mm, itemsep=0pt]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{1mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Large \scshape Ajay Venkatesh} \\
+    \small
+    \faPhone\ +1 516 585 9013 ~
+    \href{mailto:av3855@nyu.edu}{Email \faEnvelope} ~
+    \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn \faLinkedin} ~
+    \href{https://github.com/ajayv-19}{GitHub \faGithub} ~
+    \href{https://ajayvenkateshdev.vercel.app/}{Portfolio \faGlobe}
+\end{center}
+\vspace{-3mm}
+
+\section{\textbf{Education}}
+\noindent\textbf{New York University}, New York, NY \hfill \textit{Sep 2024 -- May 2026}\\
+\textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
+\footnotesize{\textit{Coursework:} System Design, Big Data, Machine Learning, Deep Learning, Advanced Java, Data Structures}
+\vspace{-2mm}
+
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+\item \footnotesize{Built scalable \textbf{REST API} microservices in \textbf{Node.js} for real-time workflows across messaging, calls, and notifications, backed by \textbf{MySQL (Sequelize)} and \textbf{DynamoDB} with operability across \textbf{4 environments}.}
+\item \footnotesize{Deployed \textbf{serverless architecture} on AWS (\textbf{Lambda, API Gateway, S3, CloudFront}) with \textbf{KMS/SSM} secrets and \textbf{least-privilege IAM}; reviewed peer changes and refactored modules to reduce technical debt.}
+\item \footnotesize{Used \textbf{Cursor} and \textbf{GitHub Copilot} to accelerate feature delivery while validating generated code through reviews and production debugging.}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+\item \footnotesize{Engineered high-throughput backend \textbf{Java REST APIs} (\textbf{Coral, Smithy, Dagger}) with \textbf{JUnit/Mockito} tests; optimized execution time by \textbf{35\%} through design patterns and performance-focused refactors.}
+\item \footnotesize{Built a real-time, event-driven platform on \textbf{AWS ECS Fargate, SQS, SNS} with \textbf{CloudWatch} observability, improving incident response latency by \textbf{50\%} at production scale.}
+\item \footnotesize{Presented \textbf{system design} for approval and provisioned \textbf{AWS CDK} infrastructure with \textbf{multi-stage CI/CD}; provided code review feedback on correctness, security, and maintainability.}
+\resumeItemListEnd
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+\item \footnotesize{Developed an insurance analytics platform (\textbf{React, Node.js, REST APIs}) for underwriting decision workflows; implemented \textbf{RBAC}, row-level security, and \textbf{Stripe} billing across regulated e-commerce-style client flows.}
+\item \footnotesize{Engineered \textbf{SQL} ETL pipelines into \textbf{PostgreSQL} with concurrency control; processed \textbf{250K+} records and powered operational dashboards for monitoring and data quality.}
+\item \footnotesize{Delivered \textbf{WebSocket}-based real-time updates on a broker portal; collaborated with product stakeholders to ship enhancements from user feedback on a fast-moving team.}
+\resumeItemListEnd
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+\item \footnotesize{Designed a distributed backend on \textbf{Microsoft Azure} with event-driven processing and fault-tolerant retries over \textbf{SQL Server}; proactively addressed technical debt in batch ingestion paths.}
+\item \footnotesize{Optimized parallel processing on \textbf{100K-row} feeds from \textbf{5 hours to 1 hour}; mentored engineers on \textbf{software architecture} and testing, reducing production bugs by \textbf{25\%}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+\resumeProject
+{Flight Delay Prediction (Real-Time Scoring Pipeline)}
+{PySpark, Apache Spark, SQL, HDFS, Random Forest, Gradient Boosted Tree}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a scalable \textbf{Apache Spark/PySpark} pipeline on \textbf{HDFS} to engineer features from \textbf{7M+} records using \textbf{SQL} aggregation; trained classification models for data-driven decision outputs at scale.}
+\resumeItemListEnd
+
+\resumeProject
+{InviLite (Decisioning \& Reliability Platform)}
+{Java, Python, AWS, ECS, CloudWatch, Lambda, SageMaker}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Architected ingestion and scoring workflows with \textbf{CloudWatch} monitoring; improved automated classification accuracy from \textbf{56\% to 92\%} and cut incident resolution from \textbf{1--2 hours to minutes}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages:}{Java, Python, SQL, TypeScript, JavaScript (ES6), C++}
+\resumeSubItem{Backend \& APIs:}{REST/HTTP APIs, Microservices, Software Design, Software Architecture, Scalability}
+\resumeSubItem{Data \& Processing:}{Apache Spark, PySpark, PostgreSQL, SQL Server, MySQL, DynamoDB, MongoDB}
+\resumeSubItem{Cloud \& DevOps:}{GCP (BigQuery), AWS (ECS, Lambda, CDK, S3, CloudWatch, IAM), Docker, Kubernetes, Linux, CI/CD}
+\resumeSubItem{Engineering Practices:}{Performance Optimization, Reliability Engineering, JUnit, Mockito, Code Reviews}
+\resumeSubItem{Tools:}{Git, Visual Studio, Cursor, GitHub Copilot, Postman, Jupyter}
+\resumeHeadingSkillEnd
+\vspace{0mm}
+
+\section{\textbf{Certifications}}
+\footnotesize{
+\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)}
+}
+
+\end{document}
