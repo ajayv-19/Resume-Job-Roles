@@ -1,0 +1,1413 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[top=0.7in, bottom=0.7in, left=0.75in, right=0.75in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{listings}
+
+\definecolor{nordblue}{RGB}{0,61,120}
+\definecolor{qbg}{RGB}{226,236,252}
+\definecolor{bqbg}{RGB}{255,244,220}
+\definecolor{codebg}{RGB}{245,245,245}
+\definecolor{answerblue}{RGB}{0,100,0}
+
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textcolor{nordblue}{\textbf{Nordstrom Interview Prep}} -- Ajay Venkatesh}
+\fancyhead[R]{\small\textcolor{nordblue}{Engineer 1, Customer Experience Platform}}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\titleformat{\section}{\large\bfseries\color{nordblue}}{}{0em}{}[\color{nordblue}\titlerule]
+
+% Question block (text only -- no verbatim inside)
+\newlength{\boxwidth}
+\setlength{\boxwidth}{\dimexpr\linewidth-2\fboxsep}
+\newcommand{\questionbox}[1]{%
+  \vspace{6pt}%
+  \noindent\colorbox{qbg}{%
+    \begin{minipage}{\boxwidth}%
+      \vspace{3pt}\textbf{\textcolor{nordblue}{Question:}} #1\vspace{3pt}%
+    \end{minipage}%
+  }\vspace{2pt}%
+}
+\newcommand{\bquestionbox}[1]{%
+  \vspace{6pt}%
+  \noindent\colorbox{bqbg}{%
+    \begin{minipage}{\boxwidth}%
+      \vspace{3pt}\textbf{\textcolor{orange!70!black}{Question:}} #1\vspace{3pt}%
+    \end{minipage}%
+  }\vspace{2pt}%
+}
+
+% Answer: plain text (allows lstlisting via \codeblock)
+\newcommand{\answerlabel}{\noindent\textbf{\textcolor{answerblue}{Answer:}}~}
+\newcommand{\followup}[1]{\smallskip\noindent\textit{\textcolor{nordblue}{$\rightarrow$ Follow-up: #1}}\smallskip}
+
+% Code block -- used OUTSIDE any box
+\lstset{
+  backgroundcolor=\color{codebg},
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  frame=leftline,
+  framerule=2pt,
+  rulecolor=\color{nordblue!40},
+  xleftmargin=12pt,
+  xrightmargin=4pt,
+  aboveskip=4pt,
+  belowskip=4pt,
+  showstringspaces=false,
+  language={}
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries\color{nordblue} Nordstrom Interview Preparation Guide}\\[6pt]
+{\large Ajay Venkatesh}\\[4pt]
+{\normalsize Engineer 1 -- Customer Experience Platform (Hybrid, Seattle WA)}\\
+{\normalsize Interviewer: Sangeeta Nori, Senior Manager Engineering, Core Digital Platforms}\\[4pt]
+{\small 45-minute Teams video interview \quad|\quad June 2026}
+\end{center}
+\vspace{4pt}\hrule\vspace{6pt}
+
+\tableofcontents
+\newpage
+
+%==========================================================================
+\section{Part 1: Technical Questions with Detailed Answers}
+%==========================================================================
+
+%------- Q1 -------
+\subsection*{Q1 -- Microservices: Service Boundary Design (CampusMesh)}
+
+\questionbox{Your CampusMesh backend runs multiple independent services -- study groups, messaging, calls, notifications, profile management. How did you decide where to draw service boundaries, and what problems did splitting into microservices create that a monolith wouldn't have?}
+
+\answerlabel We drew service boundaries around \textbf{business domains}, not technical layers. Each service owns a coherent slice of user behavior: \texttt{study\_group} handles creating, joining, and managing a study space; messaging owns real-time chat; calls owns WebRTC signaling; notifications owns push/SMS delivery. The rule was: if two features share a database table \textit{and} are always deployed together, they stay in the same service. If they evolve at different rates or scale differently, they split.
+
+Problems the split created: (1) \textbf{Distributed tracing} -- a user joining a group triggers four services; correlating logs across Lambda invocations required propagating a correlation ID through every event. (2) \textbf{Data consistency} -- MySQL handles relational data; DynamoDB handles high-throughput session and notification data; keeping them in sync when a service fails requires idempotent retry logic and dead-letter queues in SQS. (3) \textbf{Local development complexity} -- running all services requires the Serverless Offline plugin with matching SSM parameters.
+
+What a monolith would have avoided: one deployment, one transaction boundary, simple function calls. The split was worth it because services like recordings and notifications have very different load patterns -- deploying them independently keeps blast radius small.
+
+\followup{How did services communicate -- synchronous REST or async events?}
+
+\noindent Both. Synchronous REST via API Gateway for user-initiated actions needing an immediate response (fetching group info, joining a group). Async events via \textbf{EventBridge} for cross-service side effects -- when a user joins a group, an event fires to the notifications service. SQS buffers those events and provides retry guarantees. Rule: caller needs the result immediately $\Rightarrow$ sync; caller doesn't care about timing $\Rightarrow$ async.
+
+\followup{When one service fails, how did you prevent cascading failures?}
+
+\noindent Three patterns: (1) \textbf{Dead-letter queues} on SQS -- messages failing after 3 retries go to a DLQ for inspection. (2) \textbf{Timeouts} set to 10s on all API Gateway routes so a slow downstream can't hold connections indefinitely. (3) \textbf{Graceful degradation} -- if notifications is down, the UI keeps working, just without real-time badge counts.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q2 -------
+\subsection*{Q2 -- Request Flow: API Gateway to MySQL}
+
+\questionbox{Walk me through how a request flows in CampusMesh from the frontend hitting an API Gateway endpoint to MySQL returning data -- every layer.}
+
+\answerlabel The full chain:
+
+\textbf{1.~Frontend} sends HTTPS with a JWT in \texttt{Authorization: Bearer} to the \textbf{CloudFront} URL. CloudFront serves static assets from the edge and routes dynamic API calls to API Gateway.
+
+\textbf{2.~API Gateway} matches the route (e.g., \texttt{GET /study-groups/\{id\}}) and invokes the Lambda. API Gateway does \textit{not} validate the JWT.
+
+\textbf{3.~Lambda handler} (Node.js 20.x) runs a \textbf{JWT middleware} first: reads the token, verifies it with \texttt{JWT\_SECRET} loaded from SSM Parameter Store at cold-start, extracts user ID and role. If invalid, returns 401 immediately.
+
+\textbf{4.~Handler logic} calls \textbf{Sequelize ORM} with authenticated user context. Sequelize builds a parameterized SQL query (no string interpolation -- prevents SQL injection) and sends it to the MySQL connection pool. DB credentials are also loaded from SSM.
+
+\textbf{5.~MySQL} returns rows. Sequelize maps them to model instances. Lambda returns JSON with CORS headers.
+
+\followup{How did you handle connection pooling to MySQL from Lambda cold-starts?}
+
+\noindent Lambda reuses execution environments across warm invocations. We initialize the Sequelize connection pool \textit{outside} the handler function (at module load time) so it is reused. Pool max is set to 5 connections because Lambda scales by spawning new instances, not threads. We also set \texttt{pool.acquire} timeout to 3s and handle \texttt{SequelizeConnectionError} with a retry, since an idle Lambda can have its MySQL connection dropped server-side.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q3 -------
+\subsection*{Q3 -- Multi-Environment Config with SSM Parameter Store}
+
+\questionbox{You deployed CampusMesh across 4 environments (local, dev, staging, production). What was different between environments, and how did you prevent staging config from leaking into production?}
+
+\answerlabel The Serverless Framework's \texttt{params} block maps parameter names to SSM paths that include the stage name -- e.g., \texttt{\$\{ssm:/dev/sqldb/name\}} for dev, \texttt{\$\{ssm:/prod/sqldb/name\}} for prod. Deploying with \texttt{--stage prod} makes every SSM reference resolve to the \texttt{/prod/} namespace automatically. There is no mechanism for a dev deploy to pull prod credentials.
+
+The four environments differed in: (1) \textbf{Database} -- each had its own MySQL RDS instance, DynamoDB tables, and separate KMS keys. (2) \textbf{CORS} -- local allowed \texttt{localhost:3000}; prod only allowed the CloudFront domain. (3) \textbf{Concurrency} -- prod Lambdas had provisioned concurrency on high-traffic endpoints; dev/staging did not. (4) \textbf{Log retention} -- prod kept 90 days; dev kept 7.
+
+Additional safety: IAM deployment roles had different cross-account permissions per environment. A dev deploy script physically cannot touch the prod AWS account.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q4 -------
+\subsection*{Q4 -- Multi-Region CI/CD with CDK at Amazon}
+
+\questionbox{At Amazon you built a multi-stage, multi-region CI/CD pipeline using AWS CDK with automated rollback controls. What triggered a rollback, and how did you validate it completed?}
+
+\answerlabel Two rollback triggers: (1) \textbf{CloudFormation stack failure} -- if any resource update fails (Lambda code size exceeded, DynamoDB attribute mismatch), CloudFormation automatically rolls back the stack to the previous stable state. (2) \textbf{CloudWatch alarms} -- 10-minute post-deployment bake window with alarms on error rate \textgreater{}1\% and p99 latency \textgreater{}500ms. If an alarm fired during bake, the pipeline triggered rollback to the previous artifact version.
+
+Validating completion: CloudFormation transitions to \texttt{UPDATE\_ROLLBACK\_COMPLETE}. The pipeline polled that status and sent an SNS alert with the stack ARN and rollback reason. We then hit a \texttt{/health} endpoint returning the deployed version hash -- confirming the old version was live.
+
+CDK vs raw CloudFormation: CDK is a TypeScript SDK that synthesizes CloudFormation templates. We wrote infrastructure as typed code with reusable constructs, parameterized the same stack across regions without copy-pasting YAML, and caught IAM policy mistakes at compile time (TypeScript type errors) rather than at deploy time.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q5 -------
+\subsection*{Q5 -- KMS Encryption and Least-Privilege IAM (Concrete Example)}
+
+\questionbox{Give me a concrete example -- what resource did a Lambda touch, and what exact IAM permissions did it have?}
+
+\answerlabel Concrete example from CampusMesh \texttt{study\_group} service. The \texttt{membershipHandler} Lambda needs to: process queries via MySQL (DB connection, not IAM-gated), upload shared files to S3, and decrypt secrets via KMS. Its IAM policy had exactly three statements:
+
+\begin{enumerate}[leftmargin=*, itemsep=0pt]
+  \item \texttt{kms:Decrypt} and \texttt{kms:GenerateDataKey} on this service's specific KMS key ARN -- no wildcard.
+  \item \texttt{s3:PutObject} and \texttt{s3:GetObject} on \texttt{arn:aws:s3:::campusmesh-\{stage\}-files/*} -- scoped to one bucket, not all S3.
+  \item \texttt{sqs:SendMessage} on the specific EventBridge SQS queue ARN -- to emit group-joined events.
+\end{enumerate}
+
+No \texttt{s3:DeleteObject}, no \texttt{sqs:DeleteMessage}, no \texttt{iam:*}. The recordings service had its own separate KMS key -- a compromised \texttt{membershipHandler} cannot decrypt recording data. Over-granting (e.g., \texttt{Resource: "*"} on S3) means a compromised Lambda can exfiltrate data from every bucket in the account.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q6 -------
+\subsection*{Q6 -- Dependency Injection with Dagger at Amazon}
+
+\questionbox{At Amazon you wrote Java backend services using Dagger for dependency injection. What is DI and why does it matter for testing?}
+
+\answerlabel Dependency Injection means a class \textit{receives} its dependencies from outside rather than constructing them internally. Without DI, a service does \texttt{new DynamoDbClient()} in its constructor -- in tests you hit real AWS. With DI, you pass the client in as a constructor parameter, so tests inject a Mockito mock instead.
+
+Dagger does DI at \textbf{compile time} via annotation processing, not runtime reflection like Spring. Consequences: zero runtime DI overhead, and if you forget to provide a dependency the build fails immediately -- not at application startup. At Amazon's scale, shifting failures left is critical.
+
+In practice: annotate service classes with \texttt{@Inject}, define a \texttt{@Component} interface describing the object graph, Dagger generates the wiring code. For tests, write a separate test \texttt{@Component} that substitutes real clients with mocks -- same dependency graph shape, different implementations.
+
+Smithy defined the service model (operations, shapes, errors) in a \texttt{.smithy} file. The build plugin generated Java interfaces, request/response POJOs, and client stubs -- my Java code called generated methods and Coral handled transport serialization automatically.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q7 -------
+\subsection*{Q7 -- 35\% Execution Time Improvement at Amazon}
+
+\questionbox{You cut backend execution time 35\% at Amazon. What was the bottleneck and how did you find it?}
+
+\answerlabel Found via Amazon's internal profiling tool (equivalent to async-profiler). The flame graph showed two hot spots:
+
+\textbf{1.~Serialization:} The service used JSON for request/response payloads between internal components. Switched to \textbf{CBOR} (Concise Binary Object Representation) -- a binary encoding of the same data model. Binary is 2--3$\times$ smaller on the wire and 3--5$\times$ faster to parse because there is no string tokenizing. This alone gave approximately 20\% of the gain.
+
+\textbf{2.~Object creation in tight loops:} A helper class was instantiated on every loop iteration, triggering GC pressure. Applied \textbf{object pooling}: pre-allocate a pool of instances and reuse them. Eliminated mid-loop GC pauses that appeared as latency spikes under load.
+
+The remaining gain came from \textbf{low-level design patterns}: lazy initialization (defer expensive computations to first use) and reordering conditional checks (fail-fast on the cheapest check first). After each change, I re-ran the profiler to confirm the hot spot shrank before moving to the next target. Never optimize without measurement.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q8 -------
+\subsection*{Q8 -- Unit Testing with Mockito (Java)}
+
+\questionbox{How do you write a unit test for a Java method that calls DynamoDB? Show how you'd mock a ConditionalCheckFailedException.}
+
+\answerlabel Core principle: isolate the unit under test by replacing real clients with Mockito mocks. The method receives its \texttt{DynamoDbClient} via constructor injection, so the test injects a mock.
+
+\begin{lstlisting}[language=Java]
+@Test
+void updateRecord_whenConditionFails_throwsDomainConflict() {
+    DynamoDbClient mockClient = Mockito.mock(DynamoDbClient.class);
+    MyService service = new MyService(mockClient);
+
+    when(mockClient.putItem(any(PutItemRequest.class)))
+        .thenThrow(ConditionalCheckFailedException.builder()
+                       .message("Condition failed").build());
+
+    assertThrows(ConflictException.class,
+                 () -> service.updateRecord("id-123", newData));
+    verify(mockClient, times(1)).putItem(any(PutItemRequest.class));
+}
+\end{lstlisting}
+
+\texttt{assertThrows} verifies the service translates the AWS exception into a domain-layer exception -- not leaking AWS types to callers. \texttt{verify} ensures we didn't accidentally retry when we shouldn't have.
+
+\textbf{Mock vs stub:} A stub returns canned data. A mock additionally tracks how it was called so you can \texttt{verify}. Use verify when the interaction itself (not just the return value) is part of the contract.
+
+\textbf{When to write an integration test instead:} When the real behavior of the dependency matters -- e.g., verifying a DynamoDB conditional expression evaluates correctly. A mock returns what you told it; the real DynamoDB evaluates the condition. Integration tests catch mismatches between your assumption and the service's actual behavior.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q9 -------
+\subsection*{Q9 -- WebSocket on Serverless Backend (Broker / NYU)}
+
+\questionbox{Your Broker insurance platform uses WebSocket-based real-time communication. How did you maintain WebSocket connections on a stateless serverless backend?}
+
+\answerlabel AWS API Gateway's \textbf{WebSocket API} manages the persistent TCP connection on behalf of the backend -- the Lambda does not hold it open. Each connected client gets a unique \texttt{connectionId} from API Gateway.
+
+\textbf{Connect:} Client opens WebSocket. API Gateway fires the \texttt{\$connect} route Lambda, which saves \texttt{\{connectionId, userId, roomId\}} to DynamoDB.
+
+\textbf{Message:} Client sends a message. API Gateway fires the \texttt{\$default} route Lambda. Lambda looks up all other \texttt{connectionId}s in the same room from DynamoDB and calls the \textbf{API Gateway Management API} to post to each: \texttt{POST /@connections/\{connectionId\}}.
+
+\textbf{Disconnect:} API Gateway fires the \texttt{\$disconnect} route Lambda, which deletes the record from DynamoDB.
+
+\textbf{Stale connections:} If a mobile client drops without a close frame, the DynamoDB record remains but the connectionId is invalid. Calling the Management API returns \textbf{410 Gone}. The Lambda catches that status and deletes the stale record. The entire pattern is stateless from Lambda's perspective -- state lives in DynamoDB.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q10 -------
+\subsection*{Q10 -- React Query vs Redux (NYU Insurance Platform)}
+
+\questionbox{In the NYU insurance platform you used React Query alongside Redux Toolkit. When do you use React Query vs Redux for server state?}
+
+\answerlabel \textbf{React Query owns server state; Redux owns client-only UI state.}
+
+Server state has a specific lifecycle: fetched asynchronously, potentially stale, needing background refresh, needed by multiple components. React Query handles all of this. \texttt{useQuery(['orders', customerId])} fetches, caches, deduplicates concurrent requests, and auto-refetches on window focus.
+
+Redux is for state with no server counterpart (sidebar open/closed, active modal, wizard step) or state driven by complex client-side reducers. In the insurance platform, Redux held the active policy form state across a multi-step wizard; React Query held all API data (broker listings, carrier responses, document uploads).
+
+\textbf{Stale-while-revalidate:} React Query returns cached data immediately so the UI never shows a blank loading state, while simultaneously fetching a fresh version in the background. When fresh data arrives, it updates the cache and re-renders. \texttt{staleTime} controls how long data is considered fresh before a background refetch triggers.
+
+\textbf{Optimistic updates and rollback:} On mutation (submit a broker form), call \texttt{queryClient.setQueryData} with the expected result before the API returns. If the API fails, the \texttt{onError} callback calls \texttt{setQueryData} again with the snapshot saved in \texttt{onMutate}. Instant UI feedback with automatic rollback on failure.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q11 -------
+\subsection*{Q11 -- N+1 Queries in Sequelize (CampusMesh)}
+
+\questionbox{CampusMesh uses Sequelize as an ORM over MySQL. What is the N+1 query problem and how do you prevent it?}
+
+\answerlabel N+1 occurs when you fetch N records and then run one additional query \textit{per record} for associated data -- totaling N+1 round trips. Example: fetch 20 study groups (1 query), then for each group fetch its members (20 queries) = 21 queries. With network latency, this is severe.
+
+Prevention with eager loading:
+
+\begin{lstlisting}
+const groups = await StudyGroup.findAll({
+  where: { campusId },
+  include: [{ model: Member,
+              include: [{ model: User,
+                          attributes: ['id', 'name', 'avatar'] }] }]
+});
+\end{lstlisting}
+
+Sequelize generates a LEFT JOIN (or a separate IN query), loading all data in 2 queries total.
+
+\textbf{Transactions:} When a user joins a study group we insert a Membership row AND increment memberCount on StudyGroup. Both steps are wrapped in a Sequelize transaction -- if step 2 fails, the insert rolls back. The EventBridge event only fires \textit{after} the transaction commits; you do not want to emit an event for a membership that got rolled back.
+
+\textbf{When to drop to raw SQL:} Complex aggregations with \texttt{GROUP BY + HAVING}, window functions, or bulk upserts where Sequelize generates inefficient queries. Use \texttt{sequelize.query()} with bound parameters (never string interpolation).
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q12 -------
+\subsection*{Q12 -- REST API Design: Order History with Pagination}
+
+\questionbox{Design a REST endpoint that fetches a customer's order history with pagination. URL, HTTP method, response body, and error format.}
+
+\answerlabel Endpoint:
+
+\begin{lstlisting}
+GET /v1/customers/{customerId}/orders?limit=20&cursor=eyJpZCI6MTIzfQ
+Authorization: Bearer <jwt>
+\end{lstlisting}
+
+Response 200:
+
+\begin{lstlisting}
+{
+  "data": [
+    { "orderId": "ord_abc", "placedAt": "2026-06-09T14:00:00Z",
+      "total": 149.99, "status": "shipped", "itemCount": 3 }
+  ],
+  "pagination": { "nextCursor": "eyJpZCI6OTl9",
+                  "hasMore": true, "limit": 20 }
+}
+\end{lstlisting}
+
+Error format:
+
+\begin{lstlisting}
+{ "error": { "code": "FORBIDDEN",
+             "message": "Cannot access another customer's orders",
+             "requestId": "req-xyz" } }
+\end{lstlisting}
+
+\textbf{Cursor vs offset:} Offset pagination (\texttt{?page=3}) is broken for live data -- if a new order inserts between page 1 and page 2 fetches, records shift and you miss or duplicate items. Cursor pagination encodes the last seen record's position; the next page picks up exactly where you left off regardless of inserts.
+
+\textbf{Status codes:} 401 = unauthenticated (no valid token). 403 = authenticated but not authorized (valid token, wrong user). 404 = customerId doesn't exist. Never return 200 with \texttt{error: true} in the body.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q13 -------
+\subsection*{Q13 -- Idempotency for Order Placement}
+
+\questionbox{What is idempotency and why does it matter for a POST endpoint like ``place order''?}
+
+\answerlabel An operation is \textbf{idempotent} if running it multiple times produces the same result as running it once. GET and DELETE are naturally idempotent. POST (create order) is not -- two requests create two orders.
+
+Why it matters: a customer taps Buy on a slow connection. The request reaches the server, the order is created, but the response times out before reaching the client. The app retries. Without idempotency the customer gets charged twice.
+
+\textbf{Implementation:}
+\begin{enumerate}[leftmargin=*, itemsep=0pt]
+  \item Client generates a UUID per order attempt, sends it as a header: \texttt{Idempotency-Key: a1b2-c3d4}.
+  \item Server checks Redis or DynamoDB: has this key been processed?
+  \item If yes: return the \textit{same} 201 response body from the first time -- do not reprocess.
+  \item If no: process the order, store the response under the key with a 24-hour TTL, return 201.
+\end{enumerate}
+
+The key is scoped to the customer: stored as \texttt{customer:\{customerId\}:idempotency:\{key\}} to prevent cross-customer collisions and limit blast radius of a leaked key.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q14 -------
+\subsection*{Q14 -- RAG Retrieval Mechanics (InviLite / CampusMesh)}
+
+\questionbox{You built a RAG pipeline for the InviLite project and worked on LLM-based retrieval for CampusMesh CampusIQ. Explain the retrieval step -- how does the system know which documents are relevant to an incoming query?}
+
+\answerlabel \textbf{1.~Index time (offline):} Documents (incident logs for InviLite; course materials and study group descriptions for CampusIQ) are split into chunks (512 tokens with 50-token overlap). Each chunk is passed through an \textbf{embedding model} (Bedrock for InviLite) which maps it to a dense vector in a high-dimensional space. Vectors are stored in a \textbf{FAISS} index.
+
+\textbf{2.~Query time (online):} The incoming query is embedded with the \textit{same} model to get a query vector. FAISS computes \textbf{cosine similarity} between the query vector and all stored chunk vectors (dot product of two normalized vectors: equals 1 when vectors point the same direction, 0 when orthogonal). Top-K most similar chunks are retrieved.
+
+\textbf{3.~Generation:} Retrieved chunks plus the original query are inserted into the LLM context window via Bedrock. The LLM generates a response grounded in retrieved content rather than hallucinating from training data.
+
+\textbf{Dense vs sparse:} Dense retrieval (FAISS/embeddings) captures semantic similarity -- ``EC2 instance unreachable'' matches ``host not responding'' even with no keyword overlap. Sparse retrieval (BM25/TF-IDF) matches exact keywords. Hybrid retrieval combines both.
+
+\textbf{When RAG fails:} (1) Retrieval misses the right chunk -- embedding model fails on domain-specific jargon. (2) Retrieved chunks are noisy, contaminating the LLM context. (3) LLM ignores retrieved context -- context window is too full. For InviLite, root-cause classification accuracy improved from 56\% to 92\% by switching from keyword search to embedding-based retrieval.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q15 -------
+\subsection*{Q15 -- Validating AI-Generated Code}
+
+\questionbox{Nordstrom's JD mentions ``validating AI-generated code against requirements, security guidelines, and quality standards.'' Walk me through your process -- what do you trust automatically vs. always verify manually?}
+
+\answerlabel \textbf{Trust without verification:} Boilerplate scaffolding (Express route skeleton, Lambda handler shell), type definitions matching a known schema, refactoring to extract a helper, test file structure -- things where correctness is visually obvious and covered by existing tests.
+
+\textbf{Always verify manually:}
+\begin{enumerate}[leftmargin=*, itemsep=0pt]
+  \item \textbf{Auth/authz logic} -- AI sometimes omits ownership checks. Always ask: does this endpoint verify the requesting user owns this resource?
+  \item \textbf{SQL queries} -- check for injection risk (parameterized vs concatenated), verify filters are correct (off-by-one in date ranges is a common AI mistake).
+  \item \textbf{IAM policies} -- AI tends to suggest \texttt{Resource: "*"}. Always tighten to specific ARNs.
+  \item \textbf{Error handling} -- AI often swallows exceptions silently. Every catch block should log, alert, or rethrow.
+  \item \textbf{Business logic with numbers} -- rounding, currency arithmetic; I have caught AI doing floating-point division where integer arithmetic was required.
+\end{enumerate}
+
+\textbf{Real security issue caught:} Copilot suggested a JWT verification snippet that used \texttt{algorithm: 'none'} as a fallback -- which disables signature verification entirely and is a known attack vector. Caught it in code review before it merged.
+
+\textbf{Never let AI do unsupervised:} Database migrations, access policy changes, anything touching payment flows.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q16 -------
+\subsection*{Q16 -- Properties of a Good Unit Test}
+
+\questionbox{What makes a good unit test -- what properties should it have?}
+
+\answerlabel A good unit test has the \textbf{FIRST} properties: \textbf{F}ast (milliseconds -- no network, no disk, no sleep), \textbf{I}solated (tests one behavior; failures are unambiguous), \textbf{R}epeatable (same result every run regardless of environment or order), \textbf{S}elf-validating (passes or fails automatically), \textbf{T}imely (written alongside the code, not as an afterthought).
+
+\textbf{Test pyramid:} 70\% unit tests (fast, cheap, high logic coverage), 20\% integration tests (verify components work together), 10\% E2E tests (full user journey, slowest, most brittle). Over-indexing on E2E is a common mistake -- they are expensive to maintain and slow CI.
+
+\textbf{Testing \texttt{Date.now()}:} Inject a clock interface instead of calling \texttt{Date.now()} directly. In tests, pass a fake clock returning a fixed timestamp: \texttt{const clock = \{ now: () => 1717977600000 \}}. This makes time-dependent logic deterministic.
+
+\textbf{Flaky tests:} A test that sometimes passes and sometimes fails without code changes -- usually caused by shared mutable state, timing assumptions (\texttt{sleep(100)}), or non-deterministic ordering. Fix by: fresh fixtures per test, replacing sleeps with proper awaiting, and sorting results before asserting order.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q17 -------
+\subsection*{Q17 -- Integration Testing Lambda + DynamoDB}
+
+\questionbox{How would you write an integration test for a Lambda function that writes to DynamoDB without hitting the real AWS table?}
+
+\answerlabel \textbf{Option 1 -- DynamoDB Local / LocalStack:} Run a local DynamoDB emulator in Docker as part of test setup. Configure the DynamoDB client to point to \texttt{http://localhost:8000} instead of AWS. The test:
+\begin{enumerate}[leftmargin=*, itemsep=0pt]
+  \item \texttt{beforeAll}: create the table schema on the local emulator.
+  \item Invoke the Lambda handler function directly with a synthetic event object (no API Gateway needed).
+  \item \texttt{afterEach}: delete items created during the test, namespaced by test run ID.
+  \item \texttt{afterAll}: delete the test table.
+\end{enumerate}
+
+\textbf{Option 2 -- Dependency injection with a test double:} Inject the DynamoDB client via constructor DI and provide a lightweight in-memory implementation for the operations you use. Less fidelity but fast and no Docker dependency.
+
+\textbf{Limitation of local emulators:} They do not perfectly replicate all DynamoDB behaviors -- particularly conditional expressions, GSI consistency, and throttling. If your code relies on nuanced DynamoDB semantics, you need a real AWS integration environment.
+
+\textbf{Shared staging database risk:} If multiple developers run integration tests against the same staging table simultaneously, data can collide. Fix: namespace test records by test run ID (e.g., \texttt{PK: test-\{runId\}-user-123}) and delete only records with that prefix in cleanup.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q18 -------
+\subsection*{Q18 -- PostgreSQL Locking in NYU ETL Pipeline}
+
+\questionbox{In your NYU ETL pipeline you used concurrency control and locking when writing 250K+ records from NoSQL into PostgreSQL. What kind of locking and why?}
+
+\answerlabel We ran the ETL with parallel Python workers (\texttt{concurrent.futures.ThreadPoolExecutor}) to process data chunks concurrently. Without coordination, two workers could try to upsert the same record simultaneously, causing lost updates.
+
+\textbf{What we used:} \textbf{INSERT ... ON CONFLICT DO UPDATE} (upsert) for the common case -- atomic at the row level, no explicit lock needed. For records requiring read-then-modify (e.g., updating a running aggregate), we used \texttt{SELECT FOR UPDATE} within a transaction:
+
+\begin{lstlisting}[language=SQL]
+BEGIN;
+SELECT * FROM health_metrics WHERE user_id = $1 FOR UPDATE;
+UPDATE health_metrics SET score = $2 WHERE user_id = $1;
+COMMIT;
+\end{lstlisting}
+
+\textbf{Deadlock:} Occurs when worker A holds lock on row X and waits for Y, while worker B holds Y and waits for X. PostgreSQL detects deadlocks automatically and kills one transaction with \texttt{ERROR: deadlock detected}. Prevention: always acquire row locks in the same order across workers (sort by \texttt{user\_id} before locking).
+
+\textbf{Partial ETL failure:} We batched records into chunks of 1,000, each wrapped in a transaction. A failed chunk rolled back cleanly. We logged the failed chunk's range to a \texttt{failed\_batches} table and retried those specific ranges in a subsequent pass, avoiding reprocessing 180K successful records.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q19 -------
+\subsection*{Q19 -- DynamoDB vs MySQL: When and Why}
+
+\questionbox{When would you use DynamoDB instead of MySQL, and what data model decisions change? How did you use both in CampusMesh?}
+
+\answerlabel \textbf{MySQL} for: relational data with complex queries (joins, aggregations), normalized schemas, ad-hoc querying, strict transactional consistency. \textbf{DynamoDB} for: high-throughput key-value or time-series access patterns known at design time, massive scale, no complex queries needed.
+
+\textbf{In CampusMesh:}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+  \item \textbf{MySQL (Sequelize):} Users, study groups, memberships, calendar events -- relational data where you need ``all groups in campus X with more than 5 members'' (requires joins and filters).
+  \item \textbf{DynamoDB:} WebSocket connection records, active call sessions, notification delivery status, real-time presence -- high-throughput key lookups with short TTL, no complex queries needed.
+\end{itemize}
+
+\textbf{Chat messages -- single-table design:} \texttt{PK = ROOM\#\{roomId\}}, \texttt{SK = MSG\#\{timestamp\}\#\{messageId\}}. Query all messages in a room sorted by time with a single \texttt{Query} call: \texttt{KeyConditionExpression: PK = :roomId AND SK BETWEEN :start AND :end}.
+
+\textbf{Hot partition:} If all writes hit the same partition key (viral room at 10K messages/sec), DynamoDB throttles that shard. Fix: write sharding across \texttt{ROOM\#\{roomId\}\#SHARD\#\{0..9\}} and scatter-gather on reads. Or rely on DynamoDB's Adaptive Capacity for automatic rebalancing.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- Q20 -------
+\subsection*{Q20 -- System Design: Product Search at Scale}
+
+\questionbox{Design a simplified Nordstrom product search -- a customer types ``red dress size 8'' and gets results in under 200ms. What components do you need?}
+
+\answerlabel \textbf{Components:}
+\begin{enumerate}[leftmargin=*, itemsep=0pt]
+  \item \textbf{CDN (CloudFront):} Static assets served from edge. API responses are not CDN-cached -- they are personalized and inventory-dependent.
+  \item \textbf{API Gateway + Search Service} (Node.js or Java): receives query, parses filters (color=red, size=8, category=dress), calls search index.
+  \item \textbf{OpenSearch/Elasticsearch cluster:} Pre-indexed product catalog. Query with a bool filter: exact match on size and color, relevance-ranked by full-text on description and title.
+  \item \textbf{Redis cache:} Cache the top 1,000 most common queries with a 5-minute TTL. Popular queries become sub-10ms.
+  \item \textbf{Inventory service:} Async sidecar -- search results return first, availability badges update via a second lightweight call or WebSocket push.
+\end{enumerate}
+
+\textbf{Inventory without staling search:} Product catalog (name, images, price) is updated in OpenSearch via SQS events on product change. Inventory (in-stock/out-of-stock) lives separately in DynamoDB, updated by warehouse systems in real-time, fetched in parallel with search and merged on the frontend. Search never blocks on inventory.
+
+\textbf{Black Friday 10x load:} Auto-scaling OpenSearch cluster, pre-warmed EC2 capacity for the search service, Redis cluster mode for horizontal cache scaling, and \textbf{circuit breakers} -- if OpenSearch is overloaded, fall back to a cached popular-items response rather than returning errors. CloudWatch alarm at 70\% capacity triggers scaling before it breaks.
+
+\newpage
+
+%==========================================================================
+\section{Part 2: Behavioral Questions with Detailed Answers}
+%==========================================================================
+
+\noindent\textit{Format: Situation $\rightarrow$ Task $\rightarrow$ Action $\rightarrow$ Result. Values: CO = Customer Obsessed, OH = Owners at Heart, CEC = Curious \& Ever Changing, HTW = Here to Win, WE = We Extend Ourselves.}
+\vspace{4pt}
+
+%------- B1 -------
+\subsection*{B1 -- Taking Ownership Beyond Your Scope \textmd{[OH]}}
+
+\bquestionbox{Tell me about a time you took ownership of a problem that technically wasn't yours to fix.}
+
+\answerlabel At Amazon, my core project was the AFTPalletCVConsole -- the React 18 frontend, Java Lambda backend, and RBAC integration. The CDK infrastructure stack (API Gateway, Lambda, DynamoDB, S3, IAM) was nominally shared responsibility, but the team member who owned it was pulled onto a higher-priority incident two weeks in, leaving the stack partially defined with no deployment pipeline.
+
+Rather than wait and let my backend work sit undeployable, I picked up the CDK work: read Amazon's internal IaC guidelines, completed the Lambda function definitions, IAM least-privilege roles, DynamoDB table and GSI configuration, and the multi-stage CodePipeline setup. I presented the design to the team lead for review before deploying -- I needed approval, not a bypass. They approved with minor tweaks to the IAM scoping.
+
+\textbf{Result:} Infrastructure was live a week before the backend needed it. The CDK patterns I wrote were used as a reference for a subsequent internal tooling project. The lesson: if a dependency is blocking your work and you have the skill to unblock it, ask first -- then do it. Don't wait.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B2 -------
+\subsection*{B2 -- Changing Based on User Feedback \textmd{[CO]}}
+
+\bquestionbox{Describe a time when you built something and then changed it based on user feedback. What did you learn?}
+
+\answerlabel At CampusMesh, I built the initial CampusIQ AI assistant using keyword-based search over study group names and descriptions. Student feedback was consistent: ``It only finds groups with the exact word I typed. If I search for `machine learning' it misses groups that say `ML' or `AI fundamentals'.'' The search felt brittle and literal.
+
+I shifted the architecture to embedding-based semantic search: chunked study group metadata through an embedding model, indexed into FAISS, and rewrote the query path to do vector similarity search. ``Machine learning'' then matched ``neural networks,'' ``deep learning,'' and ``AI study group'' by semantic proximity.
+
+\textbf{Result:} Contextual accuracy improved 30\%. User retention on CampusIQ sessions went up measurably. The lesson: keyword search feels obvious to an engineer but feels broken to a user. You only learn what ``working'' actually means by watching users, not by reading your own code.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B3 -------
+\subsection*{B3 -- Learning a New Technology Quickly \textmd{[CEC]}}
+
+\bquestionbox{Tell me about a technology you had to learn quickly for a project. How did you approach it?}
+
+\answerlabel At Amazon I had never used Coral, Smithy, or Dagger before the internship -- Amazon-internal frameworks with limited external documentation. I needed to be productive within two weeks.
+
+My approach: (1) Read existing service implementations in the codebase first -- real working code is more reliable than wikis. (2) Build a tiny throwaway service using all three before touching production code -- a ``hello world'' that defined a Smithy model, wired a Dagger component, and made a Coral call to DynamoDB. (3) Ask one senior engineer for a 30-minute walkthrough of the Dagger component graph -- not to be taught from scratch, but to validate my mental model before I built on it.
+
+\textbf{Result:} Contributing independently to the real service within 10 days. The principle: don't read docs front-to-back. Find a real example, replicate it at small scale, identify what you don't understand, and fill those specific gaps.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B4 -------
+\subsection*{B4 -- Getting the Team Back on Track \textmd{[HTW]}}
+
+\bquestionbox{Tell me about a time your team was behind and you helped get the project back on track.}
+
+\answerlabel At PwC, mid-sprint on a client onboarding feature, two engineers went on planned leave simultaneously. We had committed to three user stories. I took on two stories myself (the ones I understood best from the design doc) and reorganized the remaining work so the other engineers were unblocked and not context-switching.
+
+I also introduced a daily 15-minute standup for that sprint -- not to micromanage, but to surface blockers immediately. One standup caught an Azure API dependency issue that would have cost two days; we caught it on day one. We delivered two of the three stories on time. The third was descoped to the next sprint, communicated proactively to the client.
+
+\textbf{Result:} Client satisfaction held. No defects in what we shipped. The lesson: when a team is behind, the first move is to remove ambiguity and blockers, not just to work harder.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B5 -------
+\subsection*{B5 -- Helping a Teammate Without Being Asked \textmd{[WE]}}
+
+\bquestionbox{Describe a time you helped a teammate who was struggling, without being asked.}
+
+\answerlabel At PwC, a junior engineer (six months in) was assigned to deploy an Azure Function App as part of our CI/CD pipeline. She spent two days without success. I noticed her Jira ticket hadn't moved and asked if she wanted a second pair of eyes.
+
+We pair-programmed for two hours. The issue was the event binding in \texttt{function.json} was pointing to the wrong storage queue name -- a subtle environment-specific config mismatch. We fixed it together, and I walked her through how I diagnosed it: check Azure Monitor logs first, then trace the event routing. Afterward I wrote a HOW document for the team wiki documenting the correct pattern.
+
+\textbf{Result:} That document became the reference for three more engineers during onboarding. I didn't help because I was asked -- I noticed the signal (stalled ticket, unusual quiet) and acted on it. Helping isn't always a direct request; sometimes it's reading a situation and choosing to show up.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B6 -------
+\subsection*{B6 -- Decision with Incomplete Information \textmd{[OH]}}
+
+\bquestionbox{Walk me through a decision you made with incomplete information. What was your reasoning and what was the outcome?}
+
+\answerlabel At Amazon, I was designing the data console for FC teams. I needed query volume estimates to size the backend -- but operational data from the FCs was not available to me. Waiting would have delayed the design review by three weeks.
+
+I made an explicit, documented assumption: ``Assuming 50 FCs, 10 authorized users each, 20 queries/day average = 10,000 queries/day, with a 5x spike during active investigations = 50,000 queries/day design ceiling.'' I surfaced this prominently in the design doc. The design used Lambda with reserved concurrency and DynamoDB on-demand mode so it would handle 10x that ceiling if the assumption was wrong.
+
+\textbf{Result:} Design approved. Actual volume when data came in: 8,000 queries/day -- within 20\% of my estimate. The outcome was fine not because my estimate was perfect, but because I designed for uncertainty. Lesson: when you lack information, make your assumptions explicit and design for robustness rather than precision.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B7 -------
+\subsection*{B7 -- Technical Decision with Direct Customer Impact \textmd{[CO]}}
+
+\bquestionbox{Tell me about a time a technical decision you made had a direct impact on a customer or end user.}
+
+\answerlabel At NYU's Novel AI Technologies, insurance platform brokers submitted policy applications by email -- PDFs sent to carriers, replies by PDF, data manually re-keyed. I built real-time carrier platform integration: brokers fill a structured form, it syncs to carrier systems via API, responses appear in the portal within minutes.
+
+Three specific decisions that drove the impact: (1) WebSocket-based real-time communication so brokers do not refresh to see carrier responses. (2) Document processing pipeline so brokers upload supporting docs directly, with data auto-extracted into the form. (3) Row-level security in PostgreSQL so each broker sees only their own clients' data.
+
+\textbf{Result:} Six insurance clients onboarded. \$50K+ revenue generated. A broker told us their submission-to-quote time dropped from 3 days to 4 hours. That is what makes technical decisions feel real.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B8 -------
+\subsection*{B8 -- Disagreeing with the Technical Approach \textmd{[CEC]}}
+
+\bquestionbox{Describe a situation where you disagreed with an approach and advocated for a different technical direction.}
+
+\answerlabel At PwC, the team planned real-time case status updates using polling -- the frontend calling an API every 5 seconds. I disagreed: 5,000 customers at 1 call/5s = 1,000 req/min at baseline, unnecessary DB reads, and a 5-second lag still visible to users.
+
+I proposed event-driven webhooks: when a case status changes in Dynamics CRM, a Power Automate flow fires a webhook to our backend, which updates the DB and pushes a WebSocket notification to the connected client. I built a PoC in two days: a webhook receiver, a DynamoDB update, and a test WebSocket notification to a frontend. I presented the PoC with a latency comparison (5s vs sub-second) and a resource cost estimate.
+
+\textbf{Result:} Team adopted it. Case update latency dropped from 5 seconds to under 1 second. Manual case entry reduction hit 70\%. Lesson: disagreement without a PoC is just opinion. A PoC turns a preference into evidence.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B9 -------
+\subsection*{B9 -- Most Complex Technical Project \textmd{[HTW]}}
+
+\bquestionbox{Tell me about your most complex technical project. What made it complex and what would you do differently?}
+
+\answerlabel The Amazon internship: four parallel workstreams in 12 weeks -- the Smithy service model and Java Lambda backend (Coral, Smithy, Dagger, CBOR), the React 18 frontend (React Harmony), the RBAC integration (Midway SSO, HELIS, OAuth), and the CDK multi-stage CI/CD infrastructure. All four had hard dependencies: the frontend could not be built without finalized API shapes from Smithy; the backend could not be tested end-to-end without CDK deployed; the RBAC integration blocked on the identity service team's availability for joint testing.
+
+What made it genuinely complex: I was learning Amazon-internal frameworks (Coral, Smithy, Dagger, HELIS) simultaneously, and every architectural decision required design review approval. A slip in one component compressed the schedule on everything downstream.
+
+\textbf{What I would do differently:} Define and freeze inter-component contracts on day one -- Smithy model shapes, API request/response structures, DynamoDB key schema -- before any implementation begins. In week 5, a DynamoDB key naming change propagated across the Java backend, the React Query cache keys, and the CDK table definition simultaneously. Freezing the schema earlier would have avoided that churn.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B10 -------
+\subsection*{B10 -- Owning a Mistake \textmd{[WE]}}
+
+\bquestionbox{Tell me about a time you made a mistake at work. What did you do?}
+
+\answerlabel At PwC, I deployed a Power Automate flow intended to run batch updates on imported records. I misconfigured the trigger -- it fired on \textit{every individual record update} instead of only on batch import completion. During the next large import (100K records), the flow triggered 100,000 times simultaneously, causing Azure API throttling errors and taking down a downstream notification system for 45 minutes.
+
+I identified the root cause within 20 minutes via Azure Monitor logs, disabled the flow, cleared the backlog, confirmed the downstream system recovered. Then I wrote a root-cause analysis document: what happened, why, what I should have caught (no high-volume testing of the trigger), and what controls would prevent recurrence.
+
+\textbf{Result:} Controls implemented: trigger conditions explicitly checked for batch completion; high-volume load testing added as a required pre-deployment step; this failure mode added to the code review checklist. Production defects from similar mistakes dropped 25\% over the following two quarters. Owning the mistake publicly built more trust than the incident cost.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B11 -------
+\subsection*{B11 -- Prioritizing Under Deadline \textmd{[OH]}}
+
+\bquestionbox{Describe a time you had to prioritize competing tasks under a deadline.}
+
+\answerlabel At Amazon, the final two weeks before intern demo day, three deliverables: the Java Lambda backend with HELIS integration (primary -- core functionality), the React 18 frontend (secondary -- the visible demo surface), and CDK pipeline finalization with multi-region promotion (foundation -- nothing deploys without it). All three due before demo.
+
+I applied dependency-first priority: (1) CDK infrastructure first -- without a deployed stack, neither the backend nor frontend could be tested end-to-end. A day lost here costs a day on everything downstream. (2) Java backend second -- core RBAC logic, Smithy operations, pre-signed URL flow -- highest demo correctness risk. (3) React frontend last -- could demo with stubbed API responses if the backend was incomplete, and the UI does not block backend functionality.
+
+I communicated the priority order to my manager explicitly: ``If we hit the wire and I have to cut something, I will cut frontend polish, not backend correctness or security.'' He agreed. \textbf{Result:} All three delivered before demo day. The key was making the cut order explicit and agreed-upon early -- no last-minute negotiation under pressure.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B12 -------
+\subsection*{B12 -- Proactively Flagging a Risk \textmd{[CO]}}
+
+\bquestionbox{Tell me about a time you proactively flagged a risk or issue before it became a problem.}
+
+\answerlabel Before CampusMesh launched study group features publicly, I was load-testing Lambda functions. The \texttt{recordingHandler} Lambda had cold-start latency of 3--5 seconds -- infrequently invoked, so almost always cold. A user clicking ``Start Recording'' would see a 4-second freeze with no feedback.
+
+I flagged it to the team before launch: ``This function is correct but will feel broken to users because of cold-start behavior.'' I proposed and implemented \textbf{provisioned concurrency} for the recording Lambda -- keeps one warm instance ready at all times. Cost: approximately \$8/month. Benefit: sub-200ms response on every invocation.
+
+\textbf{Result:} We added this as a checklist item: every Lambda in a user-facing, latency-sensitive path gets evaluated for provisioned concurrency before launch. The issue never reached a user because we found it in testing. That is the best outcome -- invisible to users precisely because we looked.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B13 -------
+\subsection*{B13 -- Adopting a New Tool for a Better Solution \textmd{[CEC]}}
+
+\bquestionbox{Tell me about a new tool or framework you adopted to solve a problem differently.}
+
+\answerlabel For the InviLite project at NYU, the initial design used Elasticsearch keyword search for incident log retrieval. I knew keyword search would struggle because engineers describe the same failure in many ways (``host unreachable,'' ``connection timeout,'' ``node not responding'' -- same underlying issue).
+
+I proposed switching to embedding-based semantic search using FAISS and Bedrock's embedding models -- tools I had read about but not used in a production pipeline. Two weeks of learning: FAISS docs, experiments on small log datasets, understanding index types (Flat vs IVF vs HNSW) and their trade-offs for our dataset size.
+
+\textbf{Result:} Root-cause classification accuracy jumped from 56\% to 92\%. Incident resolution time dropped from 1--2 hours to minutes. Choosing the right retrieval technology -- even at the cost of a learning curve -- was the highest-leverage decision in the entire project.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B14 -------
+\subsection*{B14 -- Receiving Critical Feedback \textmd{[HTW]}}
+
+\bquestionbox{Tell me about a time you received critical feedback and how you responded.}
+
+\answerlabel During a code review at Amazon, my tech lead flagged that my CDK stack had overly broad IAM policies: I had used \texttt{Resource: "*"} on a DynamoDB access statement -- the Lambda could read any DynamoDB table in the account. He was direct: ``This is a security issue, not a style issue. It needs to be fixed before this merges.''
+
+I thanked him, did not get defensive, and asked him to walk me through the correct ARN pattern. Then I audited \textit{every} IAM statement in the CDK stack -- not just the one he flagged. Found two more with overly broad resources. Fixed all three, added a code comment explaining the correct scoping pattern.
+
+\textbf{Result:} ``Specific ARN, not wildcard'' became a personal checklist item for every IaC change I write. Critical feedback is the most useful feedback you can get -- it tells you exactly what to improve. The right response is to fix it, learn it, and turn it into a habit.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B15 -------
+\subsection*{B15 -- Explaining Technical Concepts to Non-Technical Stakeholders \textmd{[WE]}}
+
+\bquestionbox{Describe a time you had to explain a complex technical concept to a non-technical stakeholder.}
+
+\answerlabel At PwC, we were deploying an NLP-based OCR model to automate document data extraction for a client. The model required 3--4 weeks of training on the client's specific document formats. The business operations director pushed back: ``Why does software need training? Can't you just turn it on?''
+
+I explained: ``Imagine hiring a new employee to read and process your specific forms. On day one, they can read English -- that is the base model. But they do not know your forms or what fields matter. Training is the week they spend learning your documents before you trust them to process a thousand per day. Once trained, they handle 1,000 forms in the time it used to take to learn from 10. The 4-week training is exactly that onboarding period.''
+
+\textbf{Result:} The client immediately understood and approved the timeline. They used the same analogy in their own internal presentations. The principle: find a concept the stakeholder already understands and map the technical concept onto it. Do not simplify -- translate.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B16 -------
+\subsection*{B16 -- Making a Process Better \textmd{[OH]}}
+
+\bquestionbox{Tell me about a time you made a process better -- not just the code, but how the team works.}
+
+\answerlabel At PwC, code reviews were happening but inconsistently. No shared standard, so defects slipped through in different areas depending on who reviewed. Production bugs were occurring at 4--5 per sprint.
+
+I introduced a structured code review checklist -- a one-page reference with four categories: (1) Security (injection risks, auth checks, secrets in code), (2) Performance (N+1 queries, unbounded loops, missing indexes), (3) Test coverage (unit test exists, edge cases covered), (4) Naming and readability. I presented it as a tool, not a mandate: ``This is what I check -- let's see if it helps.''
+
+\textbf{Result:} Within two sprints, production defects dropped from 4--5 to 1--2 per sprint. Over the following quarter, aggregate defect rate fell 25\%. The checklist became the onboarding standard for code quality. Process improvement multiplies across everyone on the team.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B17 -------
+\subsection*{B17 -- Speed vs Quality \textmd{[CO]}}
+
+\bquestionbox{How do you balance shipping fast with shipping quality? Give me a real example.}
+
+\answerlabel At CampusMesh, there was pressure to launch real-time study group chat quickly. Building a production-quality WebSocket system (connectionId management, fan-out, stale connection cleanup) would take 3--4 weeks. Polling-based chat: 1 week.
+
+My approach: ship polling first, but architect the handler to be swap-able. I defined a clean interface for the messaging layer (\texttt{sendMessage(roomId, message)}, \texttt{getMessages(roomId, cursor)}), implemented it with polling underneath, and documented exactly where the WebSocket swap would happen. Users got chat in week 1. Two weeks later, I swapped the implementation to WebSocket without touching a single line of frontend code.
+
+\textbf{Result:} Users got the feature fast. The WebSocket upgrade was smooth. Key distinction: shipping polling chat was fast \textit{and} disciplined -- it worked correctly, had unit tests, had error handling. What I did not do was hardcode polling assumptions everywhere so the WebSocket upgrade would require a rewrite. Balance speed and quality by making intentional, reversible trade-offs.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B18 -------
+\subsection*{B18 -- Experiment That Didn't Work \textmd{[CEC]}}
+
+\bquestionbox{Tell me about a time you experimented with something that didn't work. What did you do next?}
+
+\answerlabel At NYU's AI health platform, I tried to fine-tune a DistilBERT model for health metric classification -- predicting whether a wearable reading indicated a health risk. The hypothesis: a fine-tuned small model would be cheaper to run and fast enough for real-time Lambda inference.
+
+After fine-tuning on our labeled dataset of 3,000 examples, accuracy was 71\% -- below the 80\% threshold needed for clinical usefulness. I ran failure analysis: the model was missing sequential context -- a spike is fine if preceded by exercise; alarming if at rest. DistilBERT with single-reading input could not capture that.
+
+Rather than fine-tuning longer (more data would help but we did not have it), I pivoted to few-shot prompting with a larger model via Bedrock API, passing the last 5 readings as context. Accuracy hit 84\%, exceeding the threshold.
+
+\textbf{Result:} Higher per-inference cost but acceptable at our volume. Lesson: set an explicit exit condition before starting an experiment. When the result fell short, I diagnosed \textit{why} -- found the root cause -- and changed the approach rather than just tuning harder.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B19 -------
+\subsection*{B19 -- Collaborating with a Different Working Style \textmd{[HTW]}}
+
+\bquestionbox{Describe a time you had to collaborate with someone with a very different working style.}
+
+\answerlabel At PwC, I worked closely with a senior engineer who was a specification-first architect: detailed functional spec, then technical design doc, then code. My instinct is to prototype quickly and let the design emerge from working code.
+
+We were assigned a new data integration feature together. Rather than each operating in frustration, I proposed a negotiated approach: I would build a throwaway prototype in two days (no production code -- just enough to expose the real design questions), then we would write the technical design doc together using the prototype's findings to make it concrete. He would then apply his detail-oriented review before we wrote any production code.
+
+\textbf{Result:} Better than either approach alone. The prototype surfaced three design questions we would have gotten wrong in a spec-only process. His thorough review caught a data consistency issue I would have missed prototyping alone. Working style differences are a feature when you negotiate how to combine them.
+
+\rule{\linewidth}{0.2pt}
+
+%------- B20 -------
+\subsection*{B20 -- Why Nordstrom, Why This Team \textmd{[OH + CO]}}
+
+\bquestionbox{Why Nordstrom specifically, and why the Customer Experience Platform team?}
+
+\answerlabel Most of my technical work has been on platforms serving internal users (Amazon FC teams) or niche professional users (insurance brokers, health researchers). Nordstrom's Customer Experience Platform is different: every API I would write is a touchpoint between Nordstrom and a real customer making a purchase decision -- something they care about personally.
+
+That shift from internal tooling to consumer-facing systems is exactly where I want to develop. The stakes are direct: a search API 200ms slower is not just a performance metric -- it is a shopper who loses patience and leaves. A broken recommendation is a customer who did not find what they were looking for. I want to build systems where the feedback loop between engineering and customer experience is that immediate.
+
+The platform sits at the intersection of backend engineering (microservices, cloud), data (real-time inventory, personalization), and AI (search relevance, recommendations) -- exactly where my skills from Amazon (Java backend, AWS infrastructure, system design for internal tooling) and CampusMesh (Node.js, real-time serverless) overlap most directly.
+
+Nordstrom's values also resonated: \textit{Customer Obsessed} and \textit{Owners at Heart} describe how I have tried to work. Moving with speed while building customer trust is not a trade-off -- it is how good engineering works when you build it right from the start.
+
+\newpage
+
+%==========================================================================
+\section{Part 3: Deep Technical Questions -- CampusMesh (10)}
+
+\noindent\textit{Questions grounded directly in the codebase: Sequelize models, DynamoDB message model, WebSocket handler, call lifecycle, IAM policy files, and the serverless.yml architecture.}
+\vspace{4pt}
+
+%------- CM1 -------
+\subsection*{CM1 -- Dual Database Architecture: Why MySQL AND DynamoDB?}
+
+\questionbox{CampusMesh uses MySQL (via Sequelize) for study spaces and members, but DynamoDB for messages. Why did you split across two databases instead of keeping everything in one?}
+
+\answerlabel This was a deliberate data-access-pattern decision, not a technology preference. Study spaces, members, invitations, and events are \textbf{relational data}: you frequently need to join them (``give me all groups in campus X where the requesting user is APPROVED''), run filters across multiple columns, and maintain referential integrity (a member record must reference a valid space). MySQL with Sequelize handles all of that naturally.
+
+Messages are fundamentally different: the only access pattern is \textbf{``all messages for space X, sorted by time, paginated.''} You never need to join messages to members or filter by arbitrary fields. DynamoDB's GSI-based Query is purpose-built for that pattern -- you get sub-10ms retrieval at any message volume, with automatic horizontal scaling, without writing a single index or thinking about table partitions.
+
+The trade-off you accept with DynamoDB: you must decide your access patterns at design time. We also store reactions, read receipts, and delivery status inside the message item itself (as arrays) rather than in separate tables -- because DynamoDB can't join. That works fine because reactions are always fetched with the message, never independently.
+
+Had we stored messages in MySQL, we'd have had to manage connection pool exhaustion under high message volume, add custom pagination logic with \texttt{LIMIT/OFFSET} (which gets slow as offsets grow large), and manage message table indexing carefully. DynamoDB makes none of that our problem.
+
+\followup{The DynamoMessage model creates a composite key field space\_id\_created\_at as a string: \texttt{`\${space\_id}\#\${timestamp}`}. Why store this as a denormalized string field?}
+
+\noindent This is the GSI sort key pattern. DynamoDB GSIs require a partition key and optionally a sort key -- both must be scalar attributes (string, number, or binary). To sort messages within a space by time, we need \texttt{space\_id} as the GSI partition key and \texttt{created\_at} as the sort key. But we also need to filter deleted messages and support thread queries. The compound field \texttt{space\_id\_created\_at} pre-computes the GSI composite key at write time so that the \texttt{space-id-created-at-index} GSI query is: \texttt{KeyConditionExpression: space\_id = :id} with \texttt{ScanIndexForward: false} (newest first). Writing the compound key once at insert time avoids a compute step on every read.
+
+\followup{The repository uses offset-based pagination by scanning all messages and slicing in application code. What's the problem with this and how would you fix it?}
+
+\noindent The code literally fetches \textit{all} messages for a space in a do-while loop, then does \texttt{allMessages.slice(offset, offset+limit)} in JavaScript. This is an O(N) DynamoDB read that costs money and time proportional to total messages in the space. A space with 50,000 messages would read 50,000 items to return 20. Fix: use DynamoDB's native \textbf{cursor pagination} via \texttt{ExclusiveStartKey}. The first query returns \texttt{LastEvaluatedKey}; the next page passes that as \texttt{ExclusiveStartKey}. No items are read that don't appear in the result. Encode \texttt{LastEvaluatedKey} as a base64 JSON cursor, pass it opaquely to the client, and decode it on the next request.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- CM2 -------
+\subsection*{CM2 -- WebSocket Handler: In-Memory Map in Serverless}
+
+\questionbox{Your websocketHandler.js stores active WebSocket connections in \texttt{new Map()} inside the class. What fundamental problem does this create in a serverless Lambda environment?}
+
+\answerlabel This is a critical architectural flaw that exists in the current implementation: an in-memory \texttt{Map} is \textbf{per Lambda instance}, not global. Each Lambda invocation runs inside an execution environment (a container). When ten users connect simultaneously, AWS scales to ten Lambda instances. Each instance has its own \texttt{Map} with only the connections it personally accepted -- no instance has visibility into other instances' connections.
+
+Consequence: when Lambda instance A tries to broadcast a message to all users in a study space, it iterates over \textit{its own} Map, finds maybe 1--2 connections, and misses the other 8 users sitting in other Lambda instances. From a user's perspective: some people receive messages, others don't -- and it's non-deterministic, which is the worst kind of bug.
+
+\textbf{Correct fix:} externalize connection state to DynamoDB. On \texttt{\$connect}: Lambda writes \texttt{\{connectionId, userId, spaceId, ttl\}} to a DynamoDB connections table. On message broadcast: Lambda queries DynamoDB for all \texttt{connectionId}s with the target \texttt{spaceId}, then calls the API Gateway Management API (\texttt{@connections/\{connectionId\}}) for each. On \texttt{\$disconnect}: Lambda deletes the DynamoDB record. Every Lambda instance reads from the same DynamoDB table, so the broadcast is correct regardless of how many instances are running.
+
+\followup{The websocketHandler also handles TYPING\_INDICATOR messages with broadcastToSpace. What happens to latency if you have 500 users in a study space all typing simultaneously?}
+
+\noindent Broadcasting a typing indicator to 499 other connections requires 499 sequential \texttt{@connections} API Gateway calls. At 1--5ms per call, that's 0.5--2.5 seconds of serial I/O per typing event. Fix: parallelize with \texttt{Promise.all()} so all 499 posts fire concurrently. Also, typing indicators should be debounced client-side (send at most one event per 300ms) and dropped after 3 seconds with no update -- they are ephemeral, losing them is acceptable, but drowning the backend with them is not.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- CM3 -------
+\subsection*{CM3 -- Message Send + WebSocket Broadcast: Decoupled Failure}
+
+\questionbox{In sendMessageService.js, after writing the message to DynamoDB, the WebSocket broadcast is wrapped in a try-catch that logs a warning but does NOT throw. Why is this the right design? When would it be wrong?}
+
+\answerlabel This is the \textbf{fail-gracefully pattern} applied correctly to a two-tier operation. The message write to DynamoDB is the \textit{source of truth} -- if it succeeds, the message exists and will be delivered. The WebSocket broadcast is a \textit{real-time convenience} -- it pushes the new message to currently connected clients so they don't have to poll. If the broadcast fails:
+
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+  \item The message is still in DynamoDB.
+  \item Any client that polls (e.g., on page load or reconnect) will receive the message.
+  \item Only the real-time push is missed, which means a small delay in delivery, not data loss.
+\end{itemize}
+
+Swallowing the WebSocket error is correct because: (1) WebSocket delivery is best-effort by nature, (2) a transient API Gateway failure shouldn't roll back a successfully persisted message, and (3) the client has fallback polling to recover.
+
+When it would be wrong: if the WebSocket broadcast were the \textit{only} delivery mechanism and there were no fallback. In that case, a silent failure means the user never sees the message at all. The design is only safe because DynamoDB is the durable store and the broadcast is a supplementary path.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- CM4 -------
+\subsection*{CM4 -- User ID Encryption: Why Deterministic?}
+
+\questionbox{The codebase uses \texttt{UserIdEncryption.encryptUserIdDeterministic()} before storing user IDs in MySQL and DynamoDB. Why encrypt user IDs at rest, and what does ``deterministic'' mean here -- isn't deterministic encryption weaker?}
+
+\answerlabel User IDs in this context come from an external identity provider (the auth JWT). Storing them in plaintext means anyone with read access to the database (a misconfigured query, a future engineer, a leaked backup) can directly correlate platform activity with real identities. Encrypting user IDs at rest adds a layer of defense-in-depth: database records are pseudonymous even if exfiltrated.
+
+\textbf{Why deterministic:} We need to do equality lookups -- ``find all members where user\_id = X'' (see the \texttt{WHERE user\_id = encryptedUserId} in MemberModel). Standard encryption is randomized: the same plaintext produces a different ciphertext each time (due to a random IV), so two encrypted versions of the same user ID would look different. That breaks equality-based SQL WHERE clauses.
+
+Deterministic encryption (also called ``format-preserving'' or ``SIV'' encryption) always produces the same ciphertext for the same plaintext input. This allows SQL equality lookups while keeping the field opaque to readers who don't have the key. The trade-off: it leaks whether two rows belong to the same user (because they produce identical ciphertext). For our use case -- equality lookups on user membership -- that trade-off is acceptable.
+
+\textbf{The real weakness:} if the encryption key in the KMS/SSM store is compromised, all user IDs can be decrypted in bulk. The key rotation strategy and KMS audit logs are therefore critical.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- CM5 -------
+\subsection*{CM5 -- Sequelize Pool Configuration in Lambda}
+
+\questionbox{Your dbConfig.js sets \texttt{pool.max = 5, pool.idle = 10000}. Why those numbers? What happens if you set pool.max to 50?}
+
+\answerlabel Lambda scales horizontally by spawning new \textit{instances} (execution environments), not by creating more threads within one instance. Each Lambda instance is single-threaded (Node.js is single-threaded event loop). So each instance only needs \textbf{one active DB connection} at a time -- it processes one request, returns, then handles the next. Pool max of 5 gives a small buffer for rare cases where async code overlaps multiple queries in the same invocation.
+
+If you set \texttt{pool.max = 50}: at 100 concurrent Lambda invocations, that's up to 5,000 potential MySQL connections. MySQL's default \texttt{max\_connections} is 151. The 52nd Lambda invocation would start failing with \texttt{Too many connections}. This is the classic \textbf{Lambda-RDS thundering herd problem} -- one of the main reasons managed Lambda connection pooling solutions like RDS Proxy exist. RDS Proxy sits between Lambda and MySQL, maintains a stable pool of connections to the DB, and multiplexes Lambda connections through it.
+
+\texttt{pool.idle = 10000}: if a connection goes unused for 10 seconds, the pool releases it. This prevents holding MySQL connections open during low-traffic periods when the Lambda may be warm but idle.
+
+\followup{What is Lambda cold-start latency in this context and how do you mitigate it?}
+
+\noindent Cold-start: when a new Lambda instance is created (no warm instance available), it must download the code, start the Node.js runtime, and execute module-level initialization (which includes creating the Sequelize connection pool and connecting to MySQL). This adds 500ms--3s to the first request. Mitigation: (1) provisioned concurrency -- keeps N instances pre-warmed (used for \texttt{recordingHandler} in CampusMesh), (2) keep module-level initialization minimal and do lazy initialization for rarely-used paths, (3) use connection pooling (already done) so the pool creation cost is amortized across warm invocations.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- CM6 -------
+\subsection*{CM6 -- Call Lifecycle: AWS Chime + Auto-End Timer}
+
+\questionbox{The initiateCallService creates an AWS Chime meeting and sets an autoEndTime. How does the auto-end timer actually work in a serverless architecture? There's no long-running process to fire it.}
+
+\answerlabel AWS Chime SDK creates a meeting with a \texttt{meeting\_id} and a \texttt{MediaRegion}. The \texttt{autoEndTimerMinutes} (defaulting to 30) is stored in the call record in MySQL (in the \texttt{StudySpaceCall} table with \texttt{auto\_end\_time} calculated from \texttt{started\_at}). The challenge is: Lambda instances die after their request completes -- there's no persistent process to fire a timer 30 minutes later.
+
+In CampusMesh, there's an \texttt{autoEndCallsHandler.js} in the handlers directory. This is a \textbf{scheduled Lambda} -- triggered by EventBridge on a cron schedule (e.g., every 5 minutes). It queries MySQL for all calls where \texttt{status IN ('INITIATED', 'CONNECTED') AND auto\_end\_time \textless{} NOW()}, then calls the Chime \texttt{DeleteMeeting} API for each, and updates the call status to \texttt{ENDED}. This is the \textbf{polling scheduler pattern}: instead of setting individual timers, a periodic sweep cleans up expired state.
+
+\textbf{Latency implication:} calls aren't ended at exactly the 30-minute mark -- they're ended within the next cron period (up to 5 minutes late). That's acceptable for a study session auto-end. If you needed exact timing, you'd use EventBridge Scheduler to create a per-call scheduled event that fires at \texttt{auto\_end\_time} exactly.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- CM7 -------
+\subsection*{CM7 -- StudySpace Data Model: Encryption Hooks}
+
+\questionbox{The StudySpace Sequelize model applies encryption/decryption hooks via \texttt{sequelizeHooks.beforeCreate(Schema, ['name', 'description'])}. Why encrypt those specific columns, and what's the performance implication of running crypto on every write and read?}
+
+\answerlabel Study space names and descriptions can contain sensitive information about academic topics, student groups, and health conditions (e.g., a space named ``HIV research support group''). Encrypting at the application layer -- as opposed to transparent database encryption -- means that even a direct DB read by a DBA or a leaked SQL export returns ciphertext, not plaintext. This is row-level field encryption, not full-disk encryption.
+
+The \textbf{Sequelize hook approach} ensures encryption/decryption is transparent to service layer code: service code reads and writes \texttt{space.name} as plaintext. The hook fires before the SQL is generated (BeforeCreate/BeforeUpdate) to encrypt, and after the result is returned (AfterFind) to decrypt. This pattern keeps crypto concerns out of business logic.
+
+\textbf{Performance implication:} AES encryption on a single string field takes microseconds -- it is negligible compared to network I/O to MySQL. The real cost is not crypto; it's that encrypted columns \textbf{cannot be indexed for range queries or partial matches}. You cannot do \texttt{WHERE name LIKE '\%machine learning\%'} on an encrypted column (the ciphertext doesn't match). This is why we use embedding-based search (FAISS) for the CampusIQ search feature instead of SQL LIKE queries -- you can't efficiently search encrypted text.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- CM8 -------
+\subsection*{CM8 -- Role-Based Access in the Call System}
+
+\questionbox{The recording handler checks that the requester is either the call initiator OR an ADMIN member of the study space. Walk me through how that authorization check works across two DB tables, and what race condition could exist.}
+
+\answerlabel The check makes two sequential DB queries: (1) \texttt{StudySpaceMember.findOne(\{where: \{space\_id, user\_id: encryptedUserId, status: 'APPROVED', is\_deleted: false\}\})} to confirm the user is a valid member and retrieve their role. (2) \texttt{StudySpaceCall.findOne(\{where: \{call\_id, space\_id, status: ['INITIATED', 'CONNECTED']\}\})} to get the call and its \texttt{initiator\_id}. Then the code checks: \texttt{call.initiator\_id !== encryptedUserId \&\& membership.role !== 'ADMIN'} -- if both are true, 403.
+
+\textbf{Race condition:} between query 1 (membership check) and the recording action, the user's role could be changed by another admin (e.g., demoted from ADMIN to MEMBER). The membership we validated is now stale. In a single-threaded, in-process system this wouldn't happen, but with concurrent Lambda invocations it can. Mitigation: wrap both queries and the action in a MySQL transaction with \texttt{SELECT FOR UPDATE} on the membership row, holding the row lock until the recording action completes. This prevents concurrent modification of the membership row between the read and the action.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- CM9 -------
+\subsection*{CM9 -- S3 Pre-Signed URLs for Shared Files}
+
+\questionbox{The sharedFilesHandler handles file uploads for study groups. What is a pre-signed URL pattern and why is it the right approach for file uploads in a serverless architecture?}
+
+\answerlabel In a naive implementation, files would flow through the Lambda: client uploads to Lambda endpoint, Lambda receives the bytes, Lambda uploads to S3. This is wrong for several reasons: (1) Lambda has a 6MB request body limit (via API Gateway), far too small for video files; (2) routing all file bytes through Lambda is expensive (compute time + data transfer costs); (3) Lambda has a 15-minute max execution time, which can be hit by large uploads on slow connections.
+
+Pre-signed URL pattern: (1) Client calls \texttt{GET /study-groups/\{id\}/upload-url?fileType=image/jpeg}. Lambda generates a \textbf{pre-signed S3 PutObject URL} using the AWS SDK -- a time-limited, signed URL that allows one specific PUT to one specific S3 key. Lambda returns this URL to the client. (2) Client uploads the file directly to S3 using the pre-signed URL -- Lambda is not in the data path at all. (3) After upload, client calls Lambda to record the file metadata (S3 key, size, type) in MySQL.
+
+S3 handles the actual bytes: no Lambda size limits, no compute cost for data transfer, and S3 can handle multi-part uploads for very large files. The pre-signed URL expires (typically 15 minutes) so it cannot be reused or shared outside the upload window. The Lambda-issued URL embeds the IAM signature -- the client never sees AWS credentials.
+
+\medskip\rule{\linewidth}{0.2pt}
+
+%------- CM10 -------
+\subsection*{CM10 -- Soft Delete vs Hard Delete: Membership and Messages}
+
+\questionbox{Multiple models -- StudySpaceMember, StudySpace, and messages -- use an \texttt{is\_deleted} soft-delete flag instead of removing the row. Explain the design trade-off and what you need to do on every query to make this work correctly.}
+
+\answerlabel \textbf{Why soft delete:} (1) \textit{Audit trail} -- you can answer ``did user X ever belong to study space Y?'' even after they left, which is important for moderation and reporting. (2) \textit{Data recovery} -- accidental deletion is reversible; flip \texttt{is\_deleted} back to false. (3) \textit{Referential integrity} -- if a message references a member who is hard-deleted, foreign key constraints would either block the delete or cascade-nullify the reference. Soft delete avoids that complexity. (4) \textit{Analytics} -- historical data stays queryable for usage reports.
+
+\textbf{What you must do on every query:} every \texttt{findAll}, \texttt{findOne}, and \texttt{count} on soft-deleted tables must include \texttt{WHERE is\_deleted = FALSE} (or \texttt{\{where: \{is\_deleted: false\}\}} in Sequelize). If you forget this on any query, you silently return deleted records to users. This is a footgun. Mitigation options: (1) Define a Sequelize \textbf{default scope} on the model: \texttt{defaultScope: \{where: \{is\_deleted: false\}\}} -- it applies automatically to every query unless explicitly unscoped. (2) Use a Sequelize \textbf{paranoid} option which adds soft delete natively and manages the filter for you. The current codebase adds the filter manually per query, which requires discipline across every developer.
+
+\textbf{The DynamoDB side:} messages use \texttt{is\_deleted: false} filtered in \textit{application code} (after DynamoDB returns results). This is expensive -- deleted messages are still read from DynamoDB and paid for. Better: use a DynamoDB \texttt{FilterExpression} to avoid returning them over the network, or use a TTL attribute to let DynamoDB purge them automatically after a retention window.
+
+\newpage
+
+%==========================================================================
+\section{Part 4: Deep Technical Questions -- Amazon SDE Internship (10)}
+%==========================================================================
+
+\noindent\textit{Questions grounded in the AFTPalletCVConsole project: a secure UI console for Amazon FC teams to view pallet image/video evidence, built with React 18 (React Harmony), Java Lambda (Coral, Smithy, Dagger, CBOR), AWS CDK multi-stage CI/CD, DynamoDB, S3, and Midway SSO + HELIS RBAC.}
+\vspace{4pt}
+
+% AZ1 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-1.} You designed RBAC with 4+ roles for Amazon FC teams using OAuth, Midway SSO, and HELIS. Walk through the authentication and authorization flow from a user logging in to a query being executed. What does each system do and where is the security boundary enforced?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} The three systems operate at different layers of the identity stack.
+
+\textbf{Midway SSO} is Amazon's internal single sign-on system, analogous to an enterprise OIDC/SAML provider. When an FC team member navigates to the console, they are redirected to Midway for authentication. Midway validates their Amazon corporate identity and issues a signed token identifying \textit{who} they are -- their Amazon login, org, and badge.
+
+\textbf{OAuth 2.0 authorization code flow} wraps Midway at the application layer. The console registers as an OAuth client; Midway returns an authorization code, the backend exchanges it for a short-lived access token (HttpOnly secure cookie), and every subsequent API call carries that token. OAuth here is the transport mechanism for the Midway identity assertion, not a separate identity store.
+
+\textbf{HELIS} is Amazon's internal entitlements service -- it answers ``is this identity permitted to perform this action on this resource?'' The backend, after authenticating the token, calls HELIS with the user's identity and the requested resource (e.g., ``view pallet evidence for FC SEA1''). HELIS returns the user's role (AUDITOR, FC\_MANAGER, LOSS\_PREVENTION, ADMIN) and the FC scope they are permitted. The backend then enforces that role: AUDITOR can read evidence but cannot delete; LOSS\_PREVENTION sees only their assigned FCs.
+
+The security boundary sits at two layers intentionally: (1) the Lambda execution IAM role is scoped to \texttt{s3:GetObject} on FC-namespaced prefixes -- so even a code bug cannot read another FC's raw S3 data. (2) The HELIS check gates which FC prefix the application even queries. Defense-in-depth: a bypass in one layer is caught by the other.
+
+\vspace{6pt}
+
+% AZ2 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-2.} Walk through the full image/video evidence retrieval flow in the AFTPalletCVConsole, from the pallet camera system writing to S3 through to the React frontend rendering the asset. Where does the Lambda sit in this path?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} \textbf{Write path:} Pallet CV cameras and PAD (Pallet Anomaly Detection) systems at FCs capture image/video evidence and push it through Amazon's internal data pipeline to S3. Assets land at a key path organized by FC, date, and evidence type. A metadata record (FC ID, timestamp, pallet ID, asset S3 key, anomaly type) is written to DynamoDB keyed on the pallet/incident ID.
+
+\textbf{Read path:} The React 18 frontend calls the Java Lambda via API Gateway: \texttt{GET /api/pallet/\{palletId\}/evidence}. The Lambda: (1) validates the access token and calls HELIS to confirm the user is permitted for that FC. (2) Queries DynamoDB for the asset S3 key. (3) Calls \texttt{S3.generatePresignedUrl(GetObject, bucket, key, TTL=15min)} using the Lambda execution role. (4) Returns the signed URL in the API response. The React component renders \texttt{<img src=\{url\}/>} or \texttt{<video src=\{url\}/>} -- the browser fetches the binary directly from S3. Lambda never touches the binary content.
+
+\textbf{Why pre-signed URLs instead of Lambda proxying the bytes:} proxying image/video bytes through Lambda would consume Lambda memory and execution time per byte transferred, hit API Gateway payload limits (10MB max response), and add cost proportional to data volume. Pre-signed URLs offload the data transfer entirely to S3 -- Lambda only produces a URL, and S3 handles all the bandwidth. The URL expires in 15 minutes, limiting the exposure window if it leaks.
+
+\vspace{6pt}
+
+% AZ3 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-3.} What is Pallet CV / PAD (Pallet Anomaly Detection) and what problem does the AFTPalletCVConsole solve for FC teams? Explain the system at the architectural level -- what data flows in, what the console surfaces, and who uses it.
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} Amazon FCs handle millions of pallets daily. \textbf{Pallet CV} is Amazon's computer vision system that uses cameras positioned at pallet induction and sort stations to capture images and video of each pallet as it moves through the FC. \textbf{PAD (Pallet Anomaly Detection)} is the ML pipeline that processes that footage to detect anomalies: damaged pallets, incorrectly loaded packages, overheight stacks, or missing items.
+
+The raw evidence (images and video clips associated with each pallet or incident) is stored in S3. Without the console, FC teams (loss prevention, FC managers, auditors) had no unified way to look up evidence for a specific pallet ID or incident -- they either had no access to S3 or had to route requests through engineers.
+
+\textbf{AFTPalletCVConsole} is the internal tool that closes this gap. It provides: (1) A search/filter interface where FC staff can query evidence by pallet ID, date range, anomaly type, or FC. (2) In-browser image/video playback via pre-signed S3 URLs. (3) RBAC enforcement so loss prevention at SEA1 can only see SEA1 evidence -- not PHX2 or other FCs. (4) Audit logging of who accessed which evidence record, for compliance.
+
+The architectural role of the console is purely a secure access/visualization layer over data that already exists in S3 and DynamoDB -- it does not run CV or PAD itself. The Java Lambda + DynamoDB + S3 stack handles the read/query path; the React 18 frontend handles the display; CDK provisions the whole infrastructure.
+
+\vspace{6pt}
+
+% AZ4 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-4.} Your Java backend used CBOR serialization instead of JSON. What is CBOR, why use it for internal service communication, and what are the tradeoffs?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} \textbf{CBOR (Concise Binary Object Representation)} is a binary data serialization format defined by RFC 7049. It encodes the same data model as JSON (maps, arrays, strings, numbers, booleans, null) but as compact binary rather than UTF-8 text.
+
+\textbf{Why use it for internal Java services:} (1) \textbf{Payload size}: CBOR typically produces 20--50\% smaller payloads than equivalent JSON because it encodes types in a single byte header and avoids quoting strings or writing out field names as repeated UTF-8. For high-throughput internal APIs transferring thousands of evidence records, smaller payloads reduce network I/O and Lambda duration. (2) \textbf{Parse speed}: binary formats skip the UTF-8 decode and string-to-number conversion steps that JSON parsers perform. CBOR can be deserialized directly into Java objects faster than Jackson processing equivalent JSON. (3) \textbf{Type fidelity}: JSON has no native byte array type -- binary fields (like S3 ETags or hash digests) must be base64-encoded in JSON, bloating the payload further. CBOR has a native byte string type.
+
+\textbf{Tradeoffs}: (1) Not human-readable -- you cannot \texttt{curl} an internal endpoint and read the response directly; debugging requires a CBOR decoder. (2) Tooling: browser clients and external partners expect JSON; CBOR is suitable only for internal service-to-service or service-to-Lambda communication, not the public-facing API Gateway endpoints the React frontend hits. In the console, the Java Lambda used CBOR on internal Coral service calls and JSON on the API Gateway side facing the browser. (3) Schema enforcement is still needed -- CBOR's binary compactness does not add type safety; Smithy's generated POJOs provide that layer on top.
+
+\vspace{6pt}
+
+% AZ5 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-5.} You used Dagger for dependency injection in the Java Lambda. What is Dagger and why does compile-time DI matter specifically in a Lambda environment compared to a Spring Boot service?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} \textbf{Dagger} is a compile-time dependency injection framework for Java. Unlike Spring's runtime DI (which uses reflection and classpath scanning to wire beans at application startup), Dagger generates the DI wiring code at compile time -- the dependency graph is a set of plain Java classes generated by an annotation processor, not a runtime container.
+
+\textbf{Why this matters critically for Lambda}: Lambda's performance profile is dominated by cold-start time. The Lambda JVM starts fresh on every cold invocation. Spring Boot's startup involves classpath scanning (loading all classes, finding \texttt{@Component}/\texttt{@Bean} annotations, building the ApplicationContext) -- this typically takes 3--8 seconds for a medium-sized Spring Boot app, which is an unacceptable cold-start for a latency-sensitive internal console.
+
+Dagger generates wiring code that executes at JVM startup as fast as any other Java class initialization -- no scanning, no reflection. Cold-start for a Dagger-wired Lambda is measured in milliseconds of initialization overhead, not seconds.
+
+\textbf{Additional benefits}: (1) Compile-time errors: if a dependency is missing or a cycle exists, the build fails -- not the Lambda at runtime. Spring surfaces these errors as runtime \texttt{NoSuchBeanDefinitionException}. (2) Smaller JAR: Dagger has no framework runtime; the generated code is the dependency graph. Spring Core + Spring Context alone add several MB to the JAR, which also increases cold-start time because Lambda has to download and decompress the package. (3) Testability: Dagger-wired components are plain Java objects; tests inject mock dependencies directly without a Spring test context.
+
+\vspace{6pt}
+
+% AZ6 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-6.} You provisioned the AFTPalletCVConsole with AWS CDK and reduced provisioning time by 70\% with a multi-stage, multi-region CI/CD pipeline. Explain how the CDK pipeline is structured -- what are the stages, what happens at each stage, and how does promotion work?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} CDK Pipelines (the \texttt{CodePipeline}-backed CDK construct) models deployment as a linear stage sequence. For the console the structure was:
+
+\textbf{Source stage:} triggered on code merge to main. Pulls the repository and runs \texttt{cdk synth} to produce the CloudFormation templates. Synth runs unit tests and CDK \texttt{Aspects} (policy validators, tagging checks) as a gate -- a failed synth blocks all downstream stages.
+
+\textbf{Beta stage (us-east-1):} deploys the full stack (API Gateway, Lambda, DynamoDB table, S3 bucket, CloudFront, IAM roles) to the internal beta environment. Runs integration tests against the deployed stack -- a Postman/Newman collection that exercises the HELIS mock, evidence upload, and pre-signed URL generation end-to-end. Approval is automatic if tests pass.
+
+\textbf{Gamma stage (us-east-1):} a production-like environment with real HELIS and Midway integration. Manual approval gate: the tech lead reviews gamma test results before promotion.
+
+\textbf{Prod stage (multi-region):} deploys to the primary region (us-east-1) first, waits for CloudWatch alarms to settle (5-minute bake time), then deploys to the secondary region (us-west-2) as a failover. If the primary region alarm triggers during bake, the pipeline halts and rolls back.
+
+\textbf{70\% provisioning time reduction:} the previous process was manual -- an engineer ran \texttt{aws cloudformation deploy} commands for each resource type in order, referencing a runbook. The CDK pipeline replaced 12 manual steps with one merge. The 70\% is the ratio of engineer-hours from manual provisioning to the near-zero engineer-time of automated promotion.
+
+\vspace{6pt}
+
+% AZ7 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-7.} How did you design the DynamoDB table schema for the pallet evidence console? What is the partition key, sort key, and what access patterns did you optimize for?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} The primary access pattern for FC operations teams is: ``show me all evidence for pallet X'' and ``show me all evidence for FC Y on date Z.'' These two patterns drove the key design.
+
+\textbf{Primary table:} partition key = \texttt{palletId}, sort key = \texttt{timestamp}. This makes the single-pallet lookup \texttt{O(1)}: query by \texttt{palletId} and scan sort keys in time order to get all evidence for that pallet, newest first using \texttt{ScanIndexForward: false}.
+
+\textbf{GSI for FC + date queries:} FC managers need to browse all anomalies for their FC on a given day, not by individual pallet ID. Added a GSI with partition key = \texttt{fcId} and sort key = \texttt{date\#timestamp} (composite: \texttt{"SEA1\#2025-08-14T14:32:00Z"}). This collocates all evidence for an FC on the same partition and allows range queries within a date using the begins\_with condition on the sort key. The React filter UI maps directly to this GSI: selecting FC and date range hits the GSI with \texttt{KeyConditionExpression: fcId = :fc AND begins\_with(dateTimestamp, :date)}.
+
+\textbf{Attribute projection:} the GSI projects only \texttt{palletId, timestamp, anomalyType, thumbnailS3Key} -- the fields the list view needs. Full evidence metadata (including all camera angles, resolution, codec) stays in the base table and is only fetched when a user clicks into a specific record. This reduces GSI read cost and response payload for the common browse path.
+
+\textbf{Avoiding hot partitions:} an FC like SEA1 on a peak day could generate thousands of records under one \texttt{fcId} partition key. To spread load, a shard suffix (\texttt{fcId\#shard}) was appended, with the application scatter-gathering across a fixed number of shards and merging results client-side by timestamp.
+
+\vspace{6pt}
+
+% AZ8 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-8.} You built the React 18 frontend (React Harmony) for the console with client-side caching, advanced filtering, and virtual rendering, reducing page load time by 40\%. What specifically did you do for each of those three areas?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} The 40\% improvement came from three parallel changes:
+
+\textbf{1.~Client-side caching:} The original implementation hit the API on every navigation, even when the user had just viewed the same FC + date range. Added React Query with cache keys \texttt{[fcId, dateRange, evidenceType]}. React Query serves the cached response instantly on navigation and triggers a background refresh only if the data is older than 60 seconds (stale-while-revalidate). This eliminated the majority of redundant API calls during normal browsing -- an FC manager reviewing the same day's anomalies across multiple tab switches saw zero additional network requests after the first load.
+
+\textbf{2.~API projection + cursor pagination:} The original API returned full evidence records in every list response, including fields only needed in the detail view. Added a \texttt{fields} query parameter so the list endpoint returns only \texttt{id, anomalyType, timestamp, fcId, thumbnailUrl}. Payload per page dropped significantly. Added cursor-based pagination (\texttt{ExclusiveStartKey} from DynamoDB) rather than offset, so page 10 doesn't require scanning 9 pages of DynamoDB records first.
+
+\textbf{3.~Virtual rendering:} An active FC can generate 1,000+ anomaly records in a day. Rendering 1,000 DOM rows caused a 2--3 second layout paint and sluggish scrolling. Implemented windowed rendering: only the rows currently visible in the viewport exist in the DOM. Scroll events swap rows in and out. Regardless of total result count, the DOM always has at most ~30 rows, so initial paint and scroll are instant. The filtering controls (FC dropdown, date picker, anomaly type chips) further reduce the visible set before rendering begins.
+
+\vspace{6pt}
+
+% AZ9 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-9.} You cut Java backend execution time by 35\% using low-level design patterns. Beyond CBOR serialization, what specific patterns did you apply and how did you identify the bottlenecks?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} Identified bottlenecks using Amazon's internal performance profiling tooling (producing flame graphs). Three hot spots drove the fix:
+
+\textbf{1.~Object pooling for request context:} Every API invocation constructed a new \texttt{RequestContext} object holding the parsed auth token, FC scope set, and trace ID. Applied object pooling: a fixed pool of pre-allocated \texttt{RequestContext} instances is maintained; at request start the handler acquires one from the pool and populates it; at request end it clears and returns it. This eliminated per-request heap allocation and reduced minor GC pause frequency, which was visible as periodic latency spikes in the flame graph.
+
+\textbf{2.~Lazy initialization on evidence record builder:} The evidence record builder eagerly populated all metadata fields (camera angle, resolution, codec, GPS bounding box) on every object, even for list-view requests that only needed anomaly type and timestamp. Changed to lazy initialization via Supplier lambdas: each field is only computed when its getter is called. For list-view requests that read 3 of 15 fields, 12 field computations are skipped entirely.
+
+\textbf{3.~Fail-fast predicate ordering in auth check:} The authorization predicate chain evaluated 6 conditions left-to-right in an AND. The HELIS network call (~15ms) was first. Reordered to cheapest-first: role enum check (nanoseconds), FC scope set lookup (~microseconds), then HELIS only if both pass. For the ~20\% of requests failing the cheap checks (wrong role or out-of-scope FC access attempts), HELIS is never called, saving 15ms per request.
+
+Each change was measured in isolation before combining -- flame graph re-run after each fix -- to avoid attributing the combined gain to any single change incorrectly.
+
+\vspace{6pt}
+
+% AZ10 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{AZ-10.} You used Smithy to define the service model before writing any Java code. Explain what Smithy generates, why model-first design matters at Amazon's internal service scale, and what you would lose by writing the Java directly.
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} \textbf{What Smithy generates:} from a \texttt{.smithy} model file defining operations (\texttt{GetPalletEvidence(GetPalletEvidenceInput) -> GetPalletEvidenceOutput}), the Smithy build plugin generates: (1) Java interfaces for each service operation. (2) Immutable request/response POJOs with builders, null-safety, and validation. (3) Coral client stubs -- any service that wants to call yours imports the generated client; no manual HTTP wiring. (4) Wire protocol bindings for both JSON and CBOR. (5) API documentation.
+
+\textbf{Why it matters at Amazon's scale:} Smithy is the \textit{source of truth} for the service contract. Any team importing your Smithy model gets a generated client always in sync with the server schema. If you add a required field to \texttt{GetPalletEvidenceInput}, every caller sees a compile-time error when they update their client dependency -- not a runtime 400 in production. Breaking changes surface at the dependency graph level before any deployment. At Amazon, where an internal service can have dozens of callers across different teams, this eliminates entire categories of API mismatch incidents.
+
+\textbf{What you'd lose without Smithy:} you write Java POJOs and a controller manually. The calling team writes their own POJOs by reading your Javadoc. When a field name changes, they find out from a production error. There is no shared artifact both sides compile against. At two teams this is manageable; at twenty it generates a constant stream of compatibility incidents and backward-compat hacks.
+
+Smithy also enforces \textbf{error modeling}: each operation explicitly declares its error shapes. The generated Coral client forces callers to handle those errors at compile time, rather than catching generic exceptions and attempting to parse error message strings -- a common source of silent failure in hand-rolled clients.
+
+\newpage
+
+\section{Part 5: Deep Technical Questions -- NYU Projects (10)}
+%==========================================================================
+
+% NY-1 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-1.} Your firebeats\_v2.0 code calls the AWS S3 SDK directly from the React Native client with hardcoded access keys in awsQueries.js. Why is that dangerous and what is the correct architecture?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} Embedding long-lived IAM credentials in mobile client code is a critical security anti-pattern for three reasons. First, the app binary can be reverse-engineered -- anyone who extracts the APK can grep for the key prefix \texttt{AKIA} and immediately obtain credentials that grant \texttt{s3:PutObject} with public-read ACL on your bucket. Second, there is no rotation or revocation granularity; if the key leaks you must rotate it globally and redeploy every installed instance. Third, the credentials persist across sessions with no TTL.
+
+The correct architecture has two options depending on the threat model. \textbf{Option A (Pre-signed URL via Lambda):} The mobile client POSTs a signed request to an API Gateway + Lambda endpoint; Lambda calls \texttt{s3.getSignedUrlPromise('putObject', ...)} with a 15-minute TTL and returns the URL; the client PUTs directly to that URL. Lambda never touches the binary, the credentials live only in the Lambda execution role (IAM instance profile), and the URL expires automatically. \textbf{Option B (Cognito Identity Pool):} Configure an Amazon Cognito Identity Pool with an unauthenticated or authenticated role; the mobile SDK calls \texttt{Auth.federatedSignIn()} which exchanges the Cognito token for temporary STS credentials (\texttt{AssumeRoleWithWebIdentity}) scoped to exactly the S3 operations needed, rotated automatically every hour.
+
+For a production health app handling user data the Lambda pre-signed URL approach is preferable because it lets you add server-side validation (file type, size, user quota) before issuing the URL.
+
+\vspace{6pt}
+
+% NY-2 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-2.} Why did you choose Firebase Firestore as the persistence layer for heart rate and health telemetry in firebeats instead of a relational database or a time-series store like InfluxDB?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} The data model is naturally document-oriented and user-partitioned. Each user's heart rate records are stored under \texttt{USER\_COLLECTION / \{userId\} / HEART\_RATE\_SUBCOLLECTION} -- a collection-per-user tree that maps cleanly to Firestore's document hierarchy. There are no cross-user JOINs; every query is scoped to a single userId, so you never need the relational joins a SQL schema would enable.
+
+Firestore provides three capabilities that were central to the app's design: (1) Real-time \texttt{onSnapshot} listeners that push deltas to the client over a persistent WebSocket connection -- critical for today's intraday heart rate chart updating as new readings arrive without polling. (2) Offline persistence built into the SDK -- the mobile app can cache reads locally so the chart renders even with no connectivity, with automatic sync when the connection returns. (3) Auto-scaling with no schema migrations -- the data shape evolved frequently during development (adding vendor-specific keys, subcollection naming changes) and Firestore's schema-free documents meant no ALTER TABLE operations.
+
+The tradeoff is that Firestore cannot do efficient server-side aggregations. Computing a 7-day average heart rate requires reading all daily documents client-side and averaging in JavaScript -- exactly what the cache layer does by building the 720-point intraday array. A time-series store like InfluxDB would handle range aggregations more efficiently at scale, but for a research health app with hundreds of users Firestore's operational simplicity and real-time subscriptions outweigh that cost.
+
+\vspace{6pt}
+
+% NY-3 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-3.} Walk through the deduplication logic in heartRateCache.js. How does the DATES\_FETCHING map prevent duplicate Firestore reads, and what problem would occur without it?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} When a user navigates quickly between screen components that each call \texttt{getHeartRateData(date, vendor)}, multiple React renders can trigger the same fetch before the first one resolves. Without deduplication, you would fire N parallel Firestore reads for the same date key, each dispatching \texttt{SET\_HEARTRATE\_DATA} on resolution and overwriting state in unpredictable order -- a classic read thundering-herd on client state.
+
+The \texttt{DATES\_FETCHING} map solves this with a promise-keyed deduplication pattern. When a fetch is initiated for key \texttt{"YYYY-MM-DD-\{vendor\}"}, the in-flight Promise is stored in the map. Any subsequent call for the same key checks \texttt{DATES\_FETCHING.has(key)} and, if true, returns the existing Promise rather than starting a new Firestore read. All callers await the same Promise and receive the same resolved value. Once the Promise settles (or rejects) the key is deleted from the map so future navigations to the same date issue a fresh fetch.
+
+This is structurally equivalent to the \textbf{Thundering Herd} / \textbf{Request Coalescing} pattern used at the HTTP layer in CDNs: collapse concurrent cache misses for the same key into a single upstream request. The implementation is safe because JavaScript is single-threaded -- checking and setting the map entry is atomic; there is no race between the \texttt{has()} check and the \texttt{set()} call.
+
+\vspace{6pt}
+
+% NY-4 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-4.} How does the firebeats cache handle today's real-time heart rate differently from historical dates, and what happens when the user changes their wearable device mid-session?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} Historical dates are static: once fetched from Firestore and stored in \texttt{HEART\_RATE\_DATA\_CACHE}, they never change. The cache entry is written once and read on every subsequent navigation to that date -- no Firestore listener needed.
+
+Today's date is live. When the app detects \texttt{queryDate === today}, it attaches a Firestore \texttt{onSnapshot} listener (\texttt{hrListener}) on the user's heart rate subcollection for that date. Firestore maintains a persistent WebSocket to the backend; every new heart rate record written to Firestore (e.g., synced from Health Connect by a background service) fires the snapshot callback, which updates \texttt{HEART\_RATE\_DATA\_CACHE} for today's key and dispatches a Redux action to re-render the intraday chart. The listener reference is stored module-level so it can be explicitly unsubscribed.
+
+For device-vendor changes, the cache uses composite keys of the form \texttt{"YYYY-MM-DD-\{vendor\}"}. When the user pairs a new wearable, the vendor string changes (e.g., from \texttt{"garmin"} to \texttt{"fitbit"}), so all previously cached entries for the old vendor are simply never matched again -- they become unreachable garbage in the module-level Map. The \texttt{removeHrListener()} function, called on component unmount or device-change detection, calls \texttt{unsubscribe()} on both \texttt{hrListener} and \texttt{hrDataListener}, clears both cache Maps, and resets the \texttt{DATES\_FETCHING} deduplication map, ensuring the next render starts with a cold cache against the new vendor's data.
+
+\vspace{6pt}
+
+% NY-5 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-5.} The intraday heart rate chart uses a 720-point array derived from a 1440-element per-minute array. Explain the data transformation and why 720 points instead of 1440.
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} The Health Connect API provides heart rate samples at up to one-per-minute resolution, giving a maximum of 1440 readings for a full day. The cache layer initializes a 1440-element array indexed by minute-of-day (index 0 = midnight, index 1439 = 23:59) and fills each slot with the BPM value from the corresponding Health Connect record.
+
+1440 data points rendered directly on a mobile chart causes two problems: performance (rendering 1440 SVG path vertices strains the React Native charting library's layout engine on mid-range Android devices) and visual noise (adjacent readings one minute apart at similar BPM values produce a jagged, hard-to-read waveform).
+
+The 2-to-1 downsampling fixes both. Pairs of adjacent minutes are averaged: \texttt{output[i] = (input[2i] + input[2i+1]) / 2}, producing 720 points representing 2-minute windows. This is a simple \textbf{box filter} (mean pooling) -- the same operation used in pooling layers of CNNs and in audio downsampling. It smooths transient spikes while preserving the overall BPM trend across the day. The x-axis then maps each index to a 2-minute interval (0, 2, 4 ... 1438 minutes), so the chart correctly labels time of day.
+
+The tradeoff is that brief arrhythmia spikes lasting under 2 minutes can be averaged away. For a fitness monitoring app that is acceptable; a clinical ECG app would need the full 1440-point resolution.
+
+\vspace{6pt}
+
+% NY-6 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-6.} In the Broker project, the underwriting service uses findOrCreate to upsert records but deliberately does not update the losses, lae, and loss\_ratio columns. Why, and what consistency risk does that introduce?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} The underwriting table has a clear \textbf{ownership split}: form-owned fields (vfbl, wc, total\_premium, number\_of\_claims) are populated by the broker portal submission flow; carrier-owned fields (losses, lae, total\_loss\_lae, loss\_ratio, points, pr\_factor) are set by the insurer's dashboard after actuarial review. The \texttt{upsertFromForm} method explicitly comments \texttt{"Do NOT update losses, lae..."} in the update path to enforce this boundary.
+
+The rationale is that if a broker re-submits a corrected form (changing the premium figures after a typo), the carrier-owned actuarial data that was already entered should not be clobbered. The form submission and the carrier workflow are two independent write paths operating on different column subsets of the same row.
+
+The consistency risk is a \textbf{partial-write race condition}. Sequelize's \texttt{findOrCreate} executes a SELECT followed by an INSERT if not found -- this is not atomic in MySQL without a unique index enforcing the constraint at the database level. If two concurrent broker submissions hit \texttt{findOrCreate} for the same \texttt{(fire\_department\_id, underwriting\_year)} pair simultaneously, both SELECTs can return not-found before either INSERT commits, leading to a duplicate row or a unique constraint violation. The safe fix is to rely on the database unique constraint and wrap in a try/catch that handles the constraint error and falls back to an UPDATE, or to use a serializable transaction wrapping the SELECT and INSERT. Sequelize's \texttt{findOrCreate} does handle this in recent versions using \texttt{ON CONFLICT} syntax on PostgreSQL but not on MySQL, which is what Broker uses.
+
+\vspace{6pt}
+
+% NY-7 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-7.} Walk through the form extraction pipeline in Broker. A multi-page insurance application arrives as a JSON array of form sections. How does FormExtractionService normalize it, and what are the fragility points?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} The input is an array of objects with shape \texttt{[\{formNumber: "1", data: \{...fields\}\}, \{formNumber: "2", data: \{...\}\}, ...]}. \texttt{FormExtractionService.extractFields()} first flattens all sections into a single object using \texttt{Object.assign(flattened, section.data)} -- so later sections overwrite earlier ones for duplicate keys.
+
+The flattened object is then queried with multi-alias field lookups. For example, the fire department name tries four field names in order: \texttt{entity\_name || fire\_department || fire\_department\_name || department\_name}. This handles the reality that different insurance forms use inconsistent field naming conventions -- form vendors name the same concept differently. The state field defaults to \texttt{"NY"} if absent, which hardcodes geography and would break for non-New-York fire departments.
+
+The fragility points are: (1) \textbf{Key collision on Object.assign}: if form 1 and form 2 both include a \texttt{county} field with different values (e.g., one is the county of the insured entity, one is a billing county), form 2 silently overwrites form 1. The correct approach would be to namespace by form number: \texttt{form1\_county} vs. \texttt{form2\_county}. (2) \textbf{Silent null propagation}: if \texttt{parseInt("abc")} is called, the method returns \texttt{null} and the record is inserted with a null premium -- no validation error surfaces to the submitter. (3) \textbf{Year extraction heuristic}: \texttt{extractUnderwritingYear} parses \texttt{effective\_date} fields by assuming a date format; any date format variation (MM/DD/YYYY vs. YYYY-MM-DD) can produce the wrong year and silently associate the record with an incorrect policy period.
+
+\vspace{6pt}
+
+% NY-8 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-8.} The react-fuse\_19 insurance platform uses both Redux Toolkit and React Query in the same application. What is the intended separation of concerns between them, and where does state management get complicated?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} The canonical separation is: \textbf{React Query} owns \textbf{server state} (remote data that lives in the API -- fire department records, underwriting summaries, broker profiles) including caching, background refetching, stale-while-revalidate, and optimistic updates. \textbf{Redux Toolkit} owns \textbf{client/UI state} (user session, auth tokens, modal open/close, sidebar filters, selected rows in a table, Stripe checkout step) -- state that has no server counterpart and needs to be shared across component trees without prop drilling.
+
+The complication arises in the authentication flow. AWS Amplify Auth stores the Cognito session in localStorage and exposes it asynchronously via \texttt{Auth.currentAuthenticatedUser()}. Bridging Amplify's async auth state into Redux requires a thunk or middleware that calls Amplify on startup and dispatches a \texttt{setUser} action. React Query's headers then need the token from Redux state to attach to API calls -- creating a dependency where server-state (React Query) consumes client-state (Redux) to construct requests. If the token is stale or the Amplify session expires mid-session, React Query's automatic background refetch will fire with an expired token, the API will return 401, and the query enters error state. The correct pattern is to configure React Query's \texttt{retry} callback to not retry on 401 and instead dispatch a Redux \texttt{logout} action that clears state and redirects to the Amplify hosted UI.
+
+A second complication: Stripe billing status is fetched via React Query but gates feature visibility in the UI (RBAC-by-plan). Rendering decisions that depend on both the Stripe subscription status (server state) and the user's RBAC role (stored in Redux) require components to consume both stores simultaneously, making the component harder to test and the state harder to trace.
+
+\vspace{6pt}
+
+% NY-9 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-9.} Broker uses AWS Amplify to host its Lambda backend. What does that architecture look like end-to-end, and what are the operational tradeoffs compared to deploying your own API Gateway + Lambda stack as you did in CampusMesh?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} Amplify's \texttt{amplify/backend/function/brokerapi} structure generates a CloudFormation stack that provisions: an API Gateway REST API, a Node.js Lambda function (the Express/Sequelize app under \texttt{src/}), an IAM execution role, and log groups. \texttt{amplify push} compiles the stack and deploys it. The frontend (\texttt{react-fuse\_19}) uses the Amplify JS library which reads a generated \texttt{aws-exports.js} config file with the API endpoint, Cognito pool IDs, and S3 bucket names -- no manual environment variable wiring.
+
+The operational advantages for a small team are: zero infrastructure boilerplate, built-in Cognito Auth integration, and a single \texttt{amplify push} deploys both backend and frontend config atomically. For a research project with a small user base these advantages dominate.
+
+The tradeoffs versus the CampusMesh approach (explicit Serverless Framework + \texttt{serverless.yml}): (1) \textbf{Visibility}: Amplify's generated CloudFormation is opaque -- if something fails during \texttt{amplify push}, the error messages are often in CloudFormation event logs several screens away. CampusMesh's serverless.yml makes every IAM policy, SSM reference, and function config explicit and version-controlled. (2) \textbf{Environment management}: Amplify environments (\texttt{amplify env add}) are less flexible than the Serverless Framework's \texttt{--stage} parameter; multi-environment promotion in Amplify requires careful \texttt{amplify env checkout}. (3) \textbf{Secret management}: CampusMesh uses SSM Parameter Store with KMS encryption and least-privilege IAM per function; Amplify injects environment variables directly into the Lambda configuration, which exposes them in the AWS console in plaintext.
+
+\vspace{6pt}
+
+% NY-10 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{NY-10.} In the Broker project, WebSocket-based agent messaging is used for real-time chat between brokers and agents. How is the WebSocket connection managed in an Amplify Lambda backend, and what is the fundamental scaling limitation?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} The Broker backend's \texttt{agentmessages.model.js} and \texttt{agentform.controller.js} support a messaging flow where brokers and agents exchange messages on insurance applications. In an Amplify-hosted Lambda, the connection lifecycle is: the client opens a WebSocket (likely via API Gateway WebSocket API or via a polling/long-poll mechanism over REST, since Amplify's default API category is REST), the Lambda function handles the frame, writes to the \texttt{AgentMessages} Sequelize model (MySQL), and broadcasts to connected clients.
+
+The fundamental scaling limitation is the same one that exists in CampusMesh's \texttt{websocketHandler.js}: \textbf{Lambda is stateless and ephemeral}. Any in-memory connection registry (a Map or array of socket objects) only exists within a single Lambda container. When API Gateway routes WebSocket frames across multiple Lambda instances (which happens as concurrency scales), a message sent by broker A hits instance 1 but agent B's connection is registered on instance 2 -- the broadcast never reaches the recipient.
+
+The correct solution for both projects is to externalize connection state: store active \texttt{connectionId} values in DynamoDB with a TTL equal to the maximum WebSocket idle timeout. When a \texttt{MESSAGE\_SENT} event arrives, the handler queries DynamoDB for all connectionIds in that conversation, then calls \texttt{ApiGatewayManagementApi.postToConnection(connectionId, payload)} for each one. This makes every Lambda instance stateless and the connection registry durable, at the cost of an additional DynamoDB read per broadcast. For the Broker use case, where a conversation typically has two participants (one broker, one agent), this adds one DynamoDB query per message -- negligible overhead.
+
+\newpage
+
+\section{Part 6: Docker and Kubernetes (5)}
+%==========================================================================
+
+\noindent\textit{Questions grounded in container and orchestration concepts relevant to the Nordstrom role -- covering image layering, container networking, Kubernetes scheduling, health checks, and rolling deployments.}
+\vspace{4pt}
+
+% DK1 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{DK-1.} Explain the Docker image layer model. How does layer caching work during a build, and what is the practical consequence of instruction ordering in a Dockerfile?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} A Docker image is a stack of read-only layers. Each instruction in a Dockerfile (\texttt{FROM}, \texttt{RUN}, \texttt{COPY}, \texttt{ADD}) produces one layer -- a diff of filesystem changes from the previous layer. When you run a container, Docker adds a thin writable layer on top; the image layers themselves never change.
+
+\textbf{Layer caching:} the Docker build daemon caches each layer keyed by the instruction text and the content of any files copied. When you rebuild, Docker walks instructions top-to-bottom and reuses cached layers until it hits the first cache miss -- then it must rebuild that layer and every layer below it. This is the critical consequence of instruction ordering.
+
+\textbf{Practical example:} if your Dockerfile copies application source code before installing dependencies:
+\begin{lstlisting}[]
+COPY . /app
+RUN npm install
+\end{lstlisting}
+Every time any source file changes, the \texttt{COPY} layer is a cache miss, which forces \texttt{npm install} to re-run (slow). The correct order places dependency installation before source copy:
+\begin{lstlisting}[]
+COPY package.json package-lock.json /app/
+RUN npm install
+COPY . /app
+\end{lstlisting}
+Now \texttt{npm install} is only re-run when \texttt{package.json} changes -- the common case of only changing source code hits the cached install layer and builds in seconds.
+
+The same principle applies to Java (copy \texttt{pom.xml}/\texttt{build.gradle} and run dependency download before copying \texttt{src/}) and Python (copy \texttt{requirements.txt} and run \texttt{pip install} before copying application code).
+
+\vspace{6pt}
+
+% DK2 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{DK-2.} What is the difference between a Docker bridge network and host networking, and when would you use each? How do containers on the same bridge network discover each other?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} \textbf{Bridge network} (default): Docker creates a virtual network interface (\texttt{docker0}) on the host. Each container gets its own network namespace with a private IP (e.g., \texttt{172.17.0.x}). Traffic between containers is routed through the virtual bridge. Containers are isolated from the host network -- a process inside the container listening on port 8080 is not accessible from the host unless you explicitly publish the port (\texttt{-p 3000:8080} maps host port 3000 to container port 8080).
+
+\textbf{Service discovery on a user-defined bridge:} on Docker's default bridge, containers cannot resolve each other by name. On a \textit{user-defined bridge} (\texttt{docker network create mynet}), Docker's embedded DNS resolver automatically maps container names to their IPs. A container named \texttt{api} is reachable from another container on the same network simply as \texttt{http://api:8080} -- no IP lookups needed. This is how \texttt{docker-compose} service networking works: compose creates a user-defined bridge and names containers after their service names.
+
+\textbf{Host network} (\texttt{--network host}): the container shares the host's network namespace. A process listening on port 8080 inside the container is immediately accessible on host port 8080 without any port mapping. No NAT overhead. Use cases: high-performance workloads where bridge NAT latency is measurable, or tools that need to inspect host network interfaces (monitoring agents, packet capturers).
+
+\textbf{Tradeoff:} host networking removes isolation -- a misconfigured container can bind ports that conflict with host services. Bridge networking is the right default for application services; host networking is reserved for infrastructure tooling.
+
+\vspace{6pt}
+
+% DK3 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{DK-3.} In Kubernetes, what is the difference between a liveness probe and a readiness probe? What happens when each one fails, and what is the consequence of misconfiguring them?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} \textbf{Liveness probe:} answers ``is this container alive or deadlocked?'' If the liveness probe fails (after \texttt{failureThreshold} consecutive failures), kubelet kills the container and restarts it according to the pod's \texttt{restartPolicy}. Use case: detecting a container that has entered an unrecoverable state -- a deadlock, an OOM that didn't kill the process, a corrupted in-memory state -- where restarting is the correct recovery action.
+
+\textbf{Readiness probe:} answers ``is this container ready to receive traffic?'' If the readiness probe fails, the pod is removed from the endpoints list of all matching Services -- load balancers and kube-proxy stop routing traffic to it. The container keeps running; it is not restarted. Traffic resumes automatically when the readiness probe passes again. Use case: a container that is starting up (JVM warmup, Spring context loading, caches being primed) or temporarily busy (processing a large job, dependency unavailable) should not receive traffic during that window.
+
+\textbf{Misconfiguration consequences:}
+\begin{itemize}[itemsep=0pt]
+  \item \textbf{Liveness probe too aggressive} (e.g., short \texttt{initialDelaySeconds}, short timeout): kills a healthy container during slow startup. The container restarts in a loop (CrashLoopBackOff). A Node.js or JVM app that takes 30s to start should have \texttt{initialDelaySeconds: 45} to avoid this.
+  \item \textbf{No readiness probe}: pods receive traffic before they are ready, causing request failures during deployments and after pod restarts.
+  \item \textbf{Readiness probe pointing at a deep dependency} (e.g., the probe calls an endpoint that queries the database): if the database is slow, all pods fail readiness simultaneously, dropping 100\% of traffic. Readiness probes should check the application's own health, not external dependencies.
+\end{itemize}
+
+\vspace{6pt}
+
+% DK4 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{DK-4.} How does a Kubernetes rolling deployment work? What do maxSurge and maxUnavailable control, and how do you roll back if the new version is bad?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} A rolling deployment replaces pods incrementally rather than all at once. The Deployment controller maintains two ReplicaSets -- the old version and the new version -- and gradually scales the new one up while scaling the old one down.
+
+\textbf{maxSurge} (default 25\%): the maximum number of pods that can exist above the desired replica count during the rollout. With 10 replicas and \texttt{maxSurge=2}, you can have up to 12 pods running at once -- 10 old + 2 new. Controls how fast the new version spins up; higher maxSurge = faster rollout but more resource consumption during the transition.
+
+\textbf{maxUnavailable} (default 25\%): the maximum number of pods that can be unavailable (below desired count) during the rollout. With 10 replicas and \texttt{maxUnavailable=1}, at least 9 pods must be passing readiness at all times. Controls the minimum traffic capacity during rollout; set to 0 for zero-downtime deployments (requires maxSurge \textgreater{} 0 to make progress).
+
+\textbf{Rollback:} \texttt{kubectl rollout undo deployment/myapp} reverts to the previous ReplicaSet instantly -- Kubernetes scales up the old RS and scales down the new RS, following the same maxSurge/maxUnavailable constraints. \texttt{kubectl rollout history deployment/myapp} lists revision history; \texttt{kubectl rollout undo --to-revision=N} targets a specific prior version. The rollback speed is the same as the rollout speed -- not instant, but controlled.
+
+\textbf{Detecting a bad rollout automatically:} configure a readiness probe on the new pods. If new pods fail readiness, the Deployment controller stalls the rollout -- it will not scale down the old pods further until the new ones are ready. This means a bad deployment automatically stops progressing rather than taking down all capacity.
+
+\vspace{6pt}
+
+% DK5 -----------------------------------------------------------------------
+\colorbox{qbg}{\begin{minipage}{\boxwidth}
+\textbf{DK-5.} Your NYU insurance platform was deployed via Docker on EC2. What are the operational differences between that approach and running the same containers on Kubernetes? When is the simpler EC2+Docker setup the right choice?
+\end{minipage}}
+
+\vspace{2pt}
+\answerlabel{Answer:} \textbf{EC2 + Docker (the NYU approach):} you SSH into one or more EC2 instances, pull the image, and run \texttt{docker run} (or \texttt{docker-compose up}). Scaling means manually launching more EC2 instances and running the same command. There is no automated health monitoring -- if the container crashes, you write a \texttt{systemd} unit or a shell restart loop. Deploys are a manual pull-and-restart or a simple bash script.
+
+\textbf{Kubernetes:} the control plane handles scheduling (which node to place a pod on based on resource requests), health monitoring (liveness/readiness probes with automatic restart), scaling (HPA adjusts replica count based on CPU/memory metrics), and rolling deployments. You describe desired state in YAML; Kubernetes continuously reconciles actual state to match.
+
+\textbf{What Kubernetes adds over raw Docker:}
+\begin{itemize}[itemsep=0pt]
+  \item \textbf{Self-healing}: crashed pods are restarted automatically; containers on failed nodes are rescheduled elsewhere.
+  \item \textbf{Service discovery + load balancing}: a Service object gives pods a stable DNS name and VIP; kube-proxy load-balances across pod IPs transparently.
+  \item \textbf{Config and secret management}: ConfigMaps and Secrets decouple runtime config from images; changes can be applied without rebuilding.
+  \item \textbf{Resource isolation}: CPU and memory requests/limits prevent one container from starving another on the same node.
+\end{itemize}
+
+\textbf{When EC2+Docker is the right choice:} for a research platform with 6 clients and predictable low traffic, Kubernetes adds significant operational overhead (cluster management, YAML complexity, learning curve) without proportional benefit. Docker on EC2 is simpler to reason about, cheaper to operate, and faster to deploy for a small team. Kubernetes makes sense when you need multi-service coordination, auto-scaling under variable load, or multi-node resilience -- typically at \textgreater{}10 services or production SLA requirements.
+
+\newpage
+
+\section{Quick Reference: Key Numbers to Remember}
+%==========================================================================
+
+\begin{tabular}{ll}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Amazon: Backend execution time reduction (Java low-level patterns) & 35\% \\
+Amazon: Page load time reduction (React 18 caching + virtual render) & 40\% \\
+Amazon: CI/CD provisioning time reduction (CDK pipeline) & 70\% \\
+\midrule
+CampusMesh: Environments deployed & 4 (local, dev, staging, prod) \\
+CampusMesh: IAM roles in access control & 4+ roles \\
+CampusMesh: CampusIQ accuracy improvement (RAG) & 30\% \\
+\midrule
+NYU / InviLite: RAG accuracy improvement & 56\% $\rightarrow$ 92\% \\
+NYU / InviLite: Incident resolution time & 1--2 hours $\rightarrow$ minutes \\
+NYU ETL: Records processed & 250K+ \\
+NYU Insurance Platform: Revenue generated & \$50K+ across 6 clients \\
+NYU Health Platform: NSF funding & \$100K \\
+\midrule
+PwC: OCR processing time reduction & 75\% \\
+PwC: Batch ingestion time reduction & 5 hours $\rightarrow$ 1 hour \\
+PwC: Batch record size & 100K rows / day \\
+PwC: Production defect reduction & 25\% \\
+PwC: Reporting efficiency improvement (Power BI) & 40\% \\
+\bottomrule
+\end{tabular}
+
+%==========================================================================
+\section{Day-of Checklist}
+%==========================================================================
+
+\begin{itemize}[leftmargin=*, itemsep=4pt]
+  \item \textbf{Opening intro (30 seconds):} ``I am finishing my MS in Computer Engineering at NYU. Last summer I was a SDE intern at Amazon building a secure internal data console for fulfillment center teams -- React 18 frontend, Java Lambda backend with Coral and Smithy, and AWS CDK infrastructure. Currently I am at CampusMesh building Node.js microservices on a serverless AWS backend. I am excited about Nordstrom specifically because the Customer Experience Platform means direct, measurable impact on how real customers shop.''
+
+  \item \textbf{For every technical answer:} Anchor to a specific project and number. Do not answer in the abstract.
+
+  \item \textbf{For every behavioral answer:} STAR format. Situation + Task in max 2 sentences. Most of the time on Action (your specific choices, not the team's). Close with a quantified result.
+
+  \item \textbf{Nordstrom values to weave in:}
+    \begin{itemize}[itemsep=0pt]
+      \item Customer Obsessed: user feedback changed your CampusIQ design (B2, B17)
+      \item Owners at Heart: picked up CDK work at Amazon that was not yours (B1, B6)
+      \item Curious \& Ever Changing: adopted FAISS/Bedrock instead of Elasticsearch (B13)
+      \item Here to Win: Amazon deadline management (B11), PwC sprint rescue (B4)
+      \item We Extend Ourselves: PwC mentoring and code review checklist (B5, B16)
+    \end{itemize}
+
+  \item \textbf{Questions to ask Sangeeta Nori:}
+    \begin{enumerate}[itemsep=0pt]
+      \item ``What does the Customer Experience Platform's critical path look like technically -- what services are in play when a customer completes a purchase?''
+      \item ``What is the team's biggest engineering challenge right now?''
+      \item ``How does the team currently think about AI-assisted development -- is there a shared framework for when to use it and how to validate it?''
+      \item ``What does success look like for an Engineer 1 at the 6-month mark?''
+    \end{enumerate}
+
+  \item \textbf{If you don't know the answer:} Say ``Let me think through that'' and reason out loud. Senior managers value how you think, not just what you already know.
+\end{itemize}
+
+\end{document}

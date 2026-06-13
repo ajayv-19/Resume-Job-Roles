@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Batch Resume Summary — 20260613</title>
+<style>
+  body{font-family:system-ui,sans-serif;font-size:13px;padding:20px;background:#f5f5f5}
+  h2{color:#1a1a1a}
+  .filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px}
+  .filters input,.filters select{padding:5px 8px;border:1px solid #ccc;border-radius:4px;font-size:12px}
+  table{width:100%;border-collapse:collapse;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+  th{background:#2c3e50;color:#fff;padding:9px 10px;text-align:left;cursor:pointer;user-select:none;white-space:nowrap}
+  th:hover{background:#34495e}
+  td{padding:8px 10px;border-bottom:1px solid #eee;vertical-align:top}
+  tr:hover td{background:#f0f7ff}
+  .ok{color:#27ae60;font-weight:600}
+  .fail{color:#e74c3c;font-weight:600}
+  .tag{display:inline-block;background:#e8f4fd;border:1px solid #b3d9f7;border-radius:3px;padding:1px 5px;margin:1px;font-size:11px;color:#1a6fa8}
+  .tag-bullet{background:#fef9e7;border-color:#f9e4a0;color:#7d6608}
+  a{color:#2980b9;text-decoration:none}
+  a:hover{text-decoration:underline}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<h2>Batch Resumes — 20260613 &nbsp;(11 roles)</h2>
+<div class="filters">
+  <input id="f-company"  placeholder="Filter company…" oninput="filterTable()">
+  <select id="f-base" onchange="filterTable()">
+    <option value="">All templates</option>
+    <option>SEP_E</option><option>FS_E</option><option>SEP_NG</option>
+  </select>
+  <select id="f-compile" onchange="filterTable()">
+    <option value="">All status</option>
+    <option>OK</option><option>FAIL</option>
+  </select>
+  <input id="f-skills" placeholder="Filter skill added…" oninput="filterTable()">
+</div>
+<table id="tbl">
+<thead>
+<tr>
+  <th onclick="sortTable(0)">#</th>
+  <th onclick="sortTable(1)">Company</th>
+  <th onclick="sortTable(2)">Role</th>
+  <th onclick="sortTable(3)">Base Template</th>
+  <th>Job Link</th>
+  <th>Resume PDF</th>
+  <th onclick="sortTable(6)">Skills Added</th>
+  <th>Bullets Changed</th>
+  <th onclick="sortTable(8)">Pages</th>
+  <th onclick="sortTable(9)">Compile</th>
+  <th>Notes (skipped)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td><strong>Warp</strong></td>
+  <td>Software Engineer</td>
+  <td><code>SEP_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/6920669500c9ee50eaec2f2f" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/Warp/Ajay_Venkatesh_Resume.pdf">Warp/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">Shell Scripting</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>Skipped Rust/WASM/OpenGL (not authentic); concepts skipped</small></td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><strong>Lila Sciences</strong></td>
+  <td>Software Engineer II, Lab Software</td>
+  <td><code>SEP_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/6a0f9e7a12f8b43cf398089e" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/Lila_Sciences/Ajay_Venkatesh_Resume.pdf">Lila_Sciences/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">FastAPI</span><span class="tag">Pydantic</span><span class="tag">Tailwind CSS</span><span class="tag">CloudFormation</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>Skipped Backend/FullStack concepts; AI Coding Assistants already Cursor/Copilot</small></td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><strong>Benchling</strong></td>
+  <td>Software Engineer, Developer Enablement</td>
+  <td><code>SEP_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/6a0c1a9b538d03366dc8a75b" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/Benchling/Ajay_Venkatesh_Resume.pdf">Benchling/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">gRPC</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>Skipped high-throughput/scalable API specs (concepts); iterating on feedback = soft</small></td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><strong>WHOOP</strong></td>
+  <td>Software Engineer II (Fullstack, Business Systems)</td>
+  <td><code>FS_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/699f131a81476f6176b8a2fc" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/WHOOP/Ajay_Venkatesh_Resume.pdf">WHOOP/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><em>none</em></td>
+  <td><span class="tag tag-bullet">PwC bullet 4 — added 'query optimization'</span></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>All missing = concepts; query optimization woven into PwC bullet</small></td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><strong>Serigor Inc</strong></td>
+  <td>Full Stack Engineer</td>
+  <td><code>FS_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/6a2c4c8ad3ec94183f4bc367" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/Serigor_Inc/Ajay_Venkatesh_Resume.pdf">Serigor_Inc/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">NgRx</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>Skipped Agile development (concept)</small></td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><strong>NETbuilder</strong></td>
+  <td>Full-Stack Developer (Java, React, Oracle/MySQL, DevOps)</td>
+  <td><code>FS_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/6a2c43917cd40a338fae5917" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/NETbuilder/Ajay_Venkatesh_Resume.pdf">NETbuilder/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">Spring Boot</span><span class="tag">Swagger</span><span class="tag">Oracle</span><span class="tag">Jenkins</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>Skipped Spinnaker (not authentic); OpenAPI+Swagger → Swagger</small></td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><strong>HHAeXchange</strong></td>
+  <td>Full Stack Engineer</td>
+  <td><code>FS_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/69d6a332e63cea7a8b66a0e3" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/HHAeXchange/Ajay_Venkatesh_Resume.pdf">HHAeXchange/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">Go</span><span class="tag">JIRA</span><span class="tag">Confluence</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>Skipped Vue (not authentic); HL7/FHIR = domain concepts; Analytical skills = soft</small></td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><strong>Applied Materials</strong></td>
+  <td>Software Engineer (New College Grad - Masters))</td>
+  <td><code>SEP_NG</code></td>
+  <td><a href="https://jobright.ai/jobs/info/6a2c78bf7cd40a338fae6b34" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/Applied_Materials/Ajay_Venkatesh_Resume.pdf">Applied_Materials/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">C#</span><span class="tag">.NET</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>C# authentic (PwC). .NET to Web Technologies.</small></td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><strong>Block+Tackle</strong></td>
+  <td>Full Stack Developer</td>
+  <td><code>FS_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/6a2c82567cd40a338fae6caf" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/Block_Tackle/Ajay_Venkatesh_Resume.pdf">Block_Tackle/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">Next.js</span><span class="tag">Material UI</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>Both React-ecosystem libraries</small></td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><strong>CLEAR</strong></td>
+  <td>Software Engineer, Infrastructure</td>
+  <td><code>SEP_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/6a2c84d2d3ec94183f4bd72a" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/CLEAR/Ajay_Venkatesh_Resume.pdf">CLEAR/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">CloudFormation</span><span class="tag">Pulumi</span><span class="tag">Splunk</span><span class="tag">Datadog</span><span class="tag">EKS</span><span class="tag">ECS</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>EKS/ECS inside AWS(); CloudFormation/Pulumi to Cloud; Splunk/Datadog to Tools; skipped VPC/SG/WAF/soft skills</small></td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><strong>LaunchDarkly</strong></td>
+  <td>Full Stack Engineer, Guarded Releases</td>
+  <td><code>FS_E</code></td>
+  <td><a href="https://jobright.ai/jobs/info/69d6ee4c48f0c8161d2fbfd2" target="_blank">Jobright ↗</a></td>
+  <td><a href="20260613/LaunchDarkly/Ajay_Venkatesh_Resume.pdf">LaunchDarkly/Ajay_Venkatesh_Resume.pdf</a></td>
+  <td><span class="tag">Go</span></td>
+  <td><em>none</em></td>
+  <td>1</td>
+  <td class="ok">OK</td>
+  <td><small>Skipped full-stack/data-viz/experimentation (concepts)</small></td>
+</tr>
+</tbody></table>
+
+<script>
+function filterTable(){
+  var co=document.getElementById('f-company').value.toLowerCase();
+  var ba=document.getElementById('f-base').value;
+  var cm=document.getElementById('f-compile').value;
+  var sk=document.getElementById('f-skills').value.toLowerCase();
+  document.querySelectorAll('#tbl tbody tr').forEach(function(row){
+    var cells=row.querySelectorAll('td');
+    var show=true;
+    if(co && !cells[1].textContent.toLowerCase().includes(co)) show=false;
+    if(ba && !cells[3].textContent.includes(ba)) show=false;
+    if(cm && !cells[9].textContent.includes(cm)) show=false;
+    if(sk && !cells[6].textContent.toLowerCase().includes(sk)) show=false;
+    row.classList.toggle('hidden',!show);
+  });
+}
+var sortDir={};
+function sortTable(col){
+  var tb=document.querySelector('#tbl tbody');
+  var rows=Array.from(tb.querySelectorAll('tr'));
+  sortDir[col]=(sortDir[col]||1)*-1;
+  rows.sort(function(a,b){
+    var at=a.querySelectorAll('td')[col].textContent.trim();
+    var bt=b.querySelectorAll('td')[col].textContent.trim();
+    return sortDir[col]*(isNaN(at)||isNaN(bt)?at.localeCompare(bt):Number(at)-Number(bt));
+  });
+  rows.forEach(function(r){tb.appendChild(r);});
+}
+</script>
+</body></html>

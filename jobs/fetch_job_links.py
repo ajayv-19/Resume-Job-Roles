@@ -228,8 +228,8 @@ def build_role(url: str, cookies: dict) -> dict:
     )
     base_template = routing["code"]
 
-    # Template-relative matched/missing (primary deliverable per user request)
-    tpl_matched, tpl_missing = template_skill_match(description, base_template)
+    # Template-relative matched/missing — disabled until re-enabled by user
+    # tpl_matched, tpl_missing = template_skill_match(description, base_template)
 
     return {
         "Company": company_name,
@@ -253,8 +253,10 @@ def build_role(url: str, cookies: dict) -> dict:
             "title_keyword_hits": routing.get("title_hits", []),
             "all_scores": routing.get("all_scores", []),
         },
-        "MatchedSkills": tpl_matched,
-        "MissingSkills": tpl_missing,
+        # "MatchedSkills": tpl_matched,   # re-enable when needed
+        # "MissingSkills": tpl_missing,   # re-enable when needed
+        "MatchedSkills": [],
+        "MissingSkills": [],
         "JobrightMatchedSkills": jr_matched,
         "JobrightMissingSkills": jr_missing,
         "JDText": description[:8000],

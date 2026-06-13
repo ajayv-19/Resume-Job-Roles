@@ -1,0 +1,158 @@
+%-------------------------
+% Ajay Venkatesh -- Software Engineer Resume
+% Transformed from SE/P/E base into a compact backend/cloud/AI format
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[empty]{fullpage}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{linkblue}{RGB}{46,97,118}
+\hypersetup{colorlinks=true, urlcolor=linkblue}
+
+\geometry{left=0.32in, right=0.32in, top=0.28in, bottom=0.32in}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{0.96}
+\urlstyle{same}
+\raggedright
+
+\titleformat{\section}
+  {\bfseries\large}
+  {}{0em}{}
+  [\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{3pt}{3pt}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textit{#4} \\
+    \textit{#3} & \textit{#2} \\
+  \end{tabular*}\vspace{-1pt}
+}
+
+\newcommand{\resumeProject}[3]{
+  \vspace{2pt}
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} \textbar{} \textit{#2} & #3 \\
+  \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\skillItem}[2]{\item \textbf{#1:} #2}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=12pt, itemsep=0.7pt, topsep=1.5pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+\begin{center}
+  \makebox[\textwidth][c]{\hspace*{-0.20in}{\Large \textbf{Ajay Venkatesh}}} \\
+  \vspace{1pt}
+  \makebox[\textwidth][c]{\hspace*{-0.20in}+1 516 585 9013 \,|\, \href{mailto:av3855@nyu.edu}{av3855@nyu.edu} \,|\, 
+  \href{https://www.linkedin.com/in/ajay-venkatesh-32013b17b/}{LinkedIn} \,|\, 
+  \href{https://github.com/ajayv-19}{GitHub} \,|\, 
+  \href{https://ajayvenkateshdev.vercel.app/}{Portfolio}}
+\end{center}
+\vspace{-6pt}
+
+\section{Summary}
+\footnotesize{
+Software Engineer with 4+ years of experience building scalable backend systems, serverless platforms, full-stack applications, and cloud-native solutions across fulfillment operations, health analytics, insurance, enterprise consulting, and academic collaboration domains. Proficient in Java, Python, C++, React.js, Node.js, RESTful APIs, AWS, Azure, Docker, and Kubernetes. Experienced in distributed systems, event-driven architectures, CI/CD pipelines, secure APIs, data pipelines, performance optimization, and AI-powered solutions using LLMs, LangChain, RAG, and OpenAI APIs.
+}
+\vspace{-1pt}
+
+\section{Skills}
+\begin{minipage}[t]{0.49\textwidth}
+\footnotesize
+\begin{itemize}[leftmargin=12pt, itemsep=0.4pt, topsep=0.5pt, parsep=0pt]
+  \skillItem{Programming Languages}{Java, Python, C++, C\#, TypeScript, JavaScript, SQL}
+  \skillItem{Web Development}{Node.js, Express.js, React.js, HTML, CSS, RESTful APIs, GraphQL APIs, Microservices, Distributed Systems, Event-Driven Architecture, API Development}
+  \skillItem{Databases and Caching}{PostgreSQL, MySQL, DynamoDB, Redis, Database Design, Query Optimization}
+  \skillItem{Cloud}{AWS (CDK, Lambda, API Gateway, EC2, S3, DynamoDB, IAM), Azure (OpenAI, Functions, Storage)}
+  \skillItem{Professional Skills}{Cross-Functional Collaboration, Stakeholder Management, Requirement Analysis, Mentoring, Team Collaboration}
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+\footnotesize
+\begin{itemize}[leftmargin=12pt, itemsep=0.4pt, topsep=0.5pt, parsep=0pt]
+  \skillItem{DevOps}{Docker, Kubernetes, CI/CD, GitHub Actions, IaC, Serverless Framework}
+  \skillItem{AI and Generative AI}{LLMs, RAG, OpenAI APIs, LangChain, NLP, OCR, Prompt Engineering}
+  \skillItem{Architecture \& Integration}{System Design, API Integration, Microservices, Distributed Systems, Event-Driven Architecture, Low-Level Design}
+  \skillItem{Software Engineering}{Design Patterns, SDLC, Agile Scrum, Code Reviews, Technical Documentation, Mentoring}
+  \skillItem{Security and Quality}{OAuth, SSO, RBAC, KMS, SSM, Secure Coding, Unit Testing, Integration Testing, Mockito, Debugging}
+\end{itemize}
+\end{minipage}
+\vspace{-2pt}
+
+\section{Experience}
+\resumeSubheading
+{CampusMesh}{New York, US}
+{Software Engineer}{Jan 2026 -- Present}
+\resumeItemListStart
+  \item \footnotesize{Built a serverless \textbf{Microservices} backend in \textbf{Node.js} with \textbf{REST APIs}, \textbf{AWS Chime SDK}, \textbf{DynamoDB}, and \textbf{MySQL} to power real-time \textbf{chat, video calls, and document sharing} for the study group feature, engaging \textbf{10K+} students across \textbf{100+} study groups.}
+  \item \footnotesize{Built a personalized \textbf{recommendation engine} using \textbf{collaborative filtering} and behavioral analytics to surface relevant study groups and content for \textbf{10K+} users, increasing engagement by \textbf{28\%} and retention by \textbf{50\%}.}
+  \item \footnotesize{Standardized serverless deployment pipelines across \textbf{4 environments} using \textbf{AWS Lambda, API Gateway,} and \textbf{CDK} with reusable configuration and least-privilege \textbf{IAM} to enforce consistent release practices, cutting deployment setup time by \textbf{65\%}.}
+\resumeItemListEnd
+\vspace{2pt}
+
+\resumeSubheading
+{Amazon}{Seattle, US}
+{Software Development Engineer Intern}{May 2025 -- Aug 2025}
+\resumeItemListStart
+  \item \footnotesize{Designed a \textbf{UI console for Amazon FC} using \textbf{RBAC} with \textbf{OAuth, Midway SSO, and HELIS} to centralize large-scale \textbf{video and image evidence} review with secure role-based access; presented the system design to manager and stakeholders for approval before implementation.}
+  \item \footnotesize{Provisioned serverless \textbf{AWS} infrastructure using \textbf{CDK} and \textbf{CloudFormation} stacks with \textbf{API Gateway, Lambda, DynamoDB,} and \textbf{S3} to enable repeatable multi-region deployments; configured \textbf{multi-stage CI/CD pipelines} across dev, staging, and production, reducing provisioning time by \textbf{70\%}.}
+  \item \footnotesize{Built a \textbf{React 18} frontend with \textbf{lazy loading}, \textbf{client-side caching}, and \textbf{URL-synchronized filter state} via query parameters to enable \textbf{deep linking} and shareable filter context across FC teams, reducing page load time by \textbf{40\%} on media-heavy evidence views.}
+  \item \footnotesize{Engineered \textbf{Java} backend services using \textbf{Coral, Smithy, Dagger,} and \textbf{CBOR serialization} with low-level design patterns to optimize request handling and maintain service contracts, reducing execution time by \textbf{35\%} and ensuring reliability through unit and integration testing with \textbf{Mockito}.}
+\resumeItemListEnd
+\vspace{2pt}
+
+\resumeSubheading
+{New York University (Novel AI Technologies, Inc.)}{New York, US}
+{Software Developer}{Aug 2024 -- Present}
+\resumeItemListStart
+  \item \footnotesize{Architected \textbf{Firebeats}, an NSF-funded (\$100K) health app using \textbf{React Native}, \textbf{Firebase Auth/Firestore}, \textbf{AWS Amplify}, and \textbf{HealthKit} to unify wearable data (Fitbit, Garmin) and food logging into real-time health dashboards, supporting health monitoring across iOS and Android.}
+  \item \footnotesize{Engineered health analytics pipelines and \textbf{Redux}-backed dashboards using \textbf{Node.js}, \textbf{PostgreSQL}, and \textbf{AWS QuickSight} to process \textbf{250K+} health records across activity, sleep, and heart-rate streams, enabling real-time trend tracking and research-ready reporting.}
+  \item \footnotesize{Developed broker and carrier \textbf{insurance portals} using \textbf{React, Node.js, REST APIs, AWS Cognito,} and \textbf{RBAC} to automate client reporting and row-level access control workflows, generating \textbf{\$50K+} in revenue across \textbf{6} insurance clients.}
+  \item \footnotesize{Implemented the \textbf{brokerapi} submission lifecycle using \textbf{Node.js} and \textbf{PostgreSQL} with duplicate guards and policy-year logic to automate underwriting data extraction from form submission to carrier approval, reducing manual processing overhead across 5-year analysis pipelines.}
+\resumeItemListEnd
+\vspace{2pt}
+
+\resumeSubheading
+{PricewaterhouseCoopers (PwC)}{Bengaluru, India}
+{Senior Software Engineer}{Aug 2021 -- Aug 2024}
+\resumeItemListStart
+  \item \footnotesize{Developed a distributed \textbf{Azure} backend integrated with \textbf{Microsoft CRM} and \textbf{SQL Server} using event-driven processing and fault-tolerant retries to power enterprise healthcare operations, improving workflow reliability and reducing unhandled processing failures.}
+  \item \footnotesize{Deployed an \textbf{NLP-based OCR} model on \textbf{Azure} to automate structured document extraction from enterprise health records, cutting manual processing time by \textbf{75\%} and accelerating downstream reporting cycles.}
+  \item \footnotesize{Built asynchronous \textbf{CRM plugins} and background workflows using \textbf{C\#, Azure Service Bus,} and \textbf{SQL Server} to decouple long-running health operations from user-facing flows, improving transaction reliability and reducing processing latency by \textbf{40\%}.}
+  \item \footnotesize{Optimized high-volume \textbf{data ingestion} pipelines using \textbf{Python} parallel processing on \textbf{100K-row} Excel feeds to accelerate enterprise analytics delivery, cutting execution time from \textbf{5 hours to 1 hour}.}
+  \item \footnotesize{Led \textbf{code reviews} and mentored engineers on software design principles and secure coding practices to elevate delivery quality, reducing production bugs by \textbf{25\%} across enterprise delivery teams.}
+\resumeItemListEnd
+
+\section{Project}
+\resumeProject
+{Advanced Expense Tracker}{Java, JavaFX, JDBC, SQLite, JFreeChart, OOP, MVC, DAO}{}
+\resumeItemListStart
+  \item \footnotesize{Architected a modular \textbf{expense management} desktop application using \textbf{Java, JavaFX, JDBC,} and \textbf{SQLite} with \textbf{MVC} and \textbf{DAO} patterns to support secure multi-user login, expense tracking, and group cost splitting across shared workflows.}
+  \item \footnotesize{Implemented \textbf{concurrent transaction handling} and real-time cost splitting using \textbf{Java multithreading} and synchronized blocks to ensure thread-safe database updates across shared expense workflows, eliminating race conditions under concurrent multi-user load.}
+\resumeItemListEnd
+\vspace{2pt}
+
+\section{Education}
+\footnotesize{
+\textbf{New York University --- M.S. in Computer Engineering \textbar{} GPA: 3.9/4.0} \hfill \textbf{Aug 2024 -- May 2026} \\
+Relevant Coursework: System Design, Machine Learning, Deep Learning, Big Data, Advanced Java, Data Structures \\
+\vspace{1pt}
+\textbf{Visvesvaraya Technological University --- B.E. in Electronics and Communication \textbar{} GPA: 8.9/10} \hfill \textbf{Jun 2017 -- Aug 2021}
+}
+
+\end{document}

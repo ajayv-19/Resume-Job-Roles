@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Part 1: Technical Questions with Detailed Answers}{2}{section.1}%
+\contentsline {section}{\numberline {2}Part 2: Behavioral Questions with Detailed Answers}{11}{section.2}%
+\contentsline {section}{\numberline {3}Part 3: Deep Technical Questions -- CampusMesh (10)}{18}{section.3}%
+\contentsline {section}{\numberline {4}Part 4: Deep Technical Questions -- Amazon SDE Internship (10)}{23}{section.4}%
+\contentsline {section}{\numberline {5}Part 5: Deep Technical Questions -- NYU Projects (10)}{28}{section.5}%
+\contentsline {section}{\numberline {6}Part 6: Docker and Kubernetes (5)}{32}{section.6}%
+\contentsline {section}{\numberline {7}Quick Reference: Key Numbers to Remember}{35}{section.7}%
+\contentsline {section}{\numberline {8}Day-of Checklist}{35}{section.8}%

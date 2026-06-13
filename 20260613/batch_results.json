@@ -1,0 +1,171 @@
+[
+  {
+    "company": "Warp",
+    "title": "Software Engineer",
+    "job_link": "https://jobright.ai/jobs/info/6920669500c9ee50eaec2f2f",
+    "base": "SEP_E",
+    "pdf": "20260613/Warp/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "Shell Scripting"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "Skipped Rust/WASM/OpenGL (not authentic); concepts skipped"
+  },
+  {
+    "company": "Lila Sciences",
+    "title": "Software Engineer II, Lab Software",
+    "job_link": "https://jobright.ai/jobs/info/6a0f9e7a12f8b43cf398089e",
+    "base": "SEP_E",
+    "pdf": "20260613/Lila_Sciences/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "FastAPI",
+      "Pydantic",
+      "Tailwind CSS",
+      "CloudFormation"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "Skipped Backend/FullStack concepts; AI Coding Assistants already Cursor/Copilot"
+  },
+  {
+    "company": "Benchling",
+    "title": "Software Engineer, Developer Enablement",
+    "job_link": "https://jobright.ai/jobs/info/6a0c1a9b538d03366dc8a75b",
+    "base": "SEP_E",
+    "pdf": "20260613/Benchling/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "gRPC"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "Skipped high-throughput/scalable API specs (concepts); iterating on feedback = soft"
+  },
+  {
+    "company": "WHOOP",
+    "title": "Software Engineer II (Fullstack, Business Systems)",
+    "job_link": "https://jobright.ai/jobs/info/699f131a81476f6176b8a2fc",
+    "base": "FS_E",
+    "pdf": "20260613/WHOOP/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [],
+    "bullet_changes": [
+      "PwC bullet 4 [not found]"
+    ],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "All missing = concepts; query optimization woven into PwC bullet"
+  },
+  {
+    "company": "Serigor Inc",
+    "title": "Full Stack Engineer",
+    "job_link": "https://jobright.ai/jobs/info/6a2c4c8ad3ec94183f4bc367",
+    "base": "FS_E",
+    "pdf": "20260613/Serigor_Inc/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "NgRx"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "Skipped Agile development (concept)"
+  },
+  {
+    "company": "NETbuilder",
+    "title": "Full-Stack Developer (Java, React, Oracle/MySQL, DevOps)",
+    "job_link": "https://jobright.ai/jobs/info/6a2c43917cd40a338fae5917",
+    "base": "FS_E",
+    "pdf": "20260613/NETbuilder/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "Spring Boot",
+      "Swagger",
+      "Oracle",
+      "Jenkins"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "Skipped Spinnaker (not authentic); OpenAPI+Swagger \u2192 Swagger"
+  },
+  {
+    "company": "HHAeXchange",
+    "title": "Full Stack Engineer",
+    "job_link": "https://jobright.ai/jobs/info/69d6a332e63cea7a8b66a0e3",
+    "base": "FS_E",
+    "pdf": "20260613/HHAeXchange/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "Go",
+      "JIRA",
+      "Confluence"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "Skipped Vue (not authentic); HL7/FHIR = domain concepts; Analytical skills = soft"
+  },
+  {
+    "company": "Applied Materials",
+    "title": "Software Engineer (New College Grad - Masters))",
+    "job_link": "https://jobright.ai/jobs/info/6a2c78bf7cd40a338fae6b34",
+    "base": "SEP_NG",
+    "pdf": "20260613/Applied_Materials/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "C#",
+      ".NET"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "C# authentic (PwC). .NET to Web Technologies."
+  },
+  {
+    "company": "Block+Tackle",
+    "title": "Full Stack Developer",
+    "job_link": "https://jobright.ai/jobs/info/6a2c82567cd40a338fae6caf",
+    "base": "FS_E",
+    "pdf": "20260613/Block_Tackle/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "Next.js",
+      "Material UI"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "Both React-ecosystem libraries"
+  },
+  {
+    "company": "CLEAR",
+    "title": "Software Engineer, Infrastructure",
+    "job_link": "https://jobright.ai/jobs/info/6a2c84d2d3ec94183f4bd72a",
+    "base": "SEP_E",
+    "pdf": "20260613/CLEAR/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "CloudFormation",
+      "Pulumi",
+      "Splunk",
+      "Datadog",
+      "EKS",
+      "ECS"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "EKS/ECS inside AWS(); CloudFormation/Pulumi to Cloud; Splunk/Datadog to Tools; skipped VPC/SG/WAF/soft skills"
+  },
+  {
+    "company": "LaunchDarkly",
+    "title": "Full Stack Engineer, Guarded Releases",
+    "job_link": "https://jobright.ai/jobs/info/69d6ee4c48f0c8161d2fbfd2",
+    "base": "FS_E",
+    "pdf": "20260613/LaunchDarkly/Ajay_Venkatesh_Resume.pdf",
+    "skills_added": [
+      "Go"
+    ],
+    "bullet_changes": [],
+    "pages": "1",
+    "compile": "OK",
+    "notes": "Skipped full-stack/data-viz/experimentation (concepts)"
+  }
+]

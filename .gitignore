@@ -11,3 +11,7 @@
 
 # Sensitive: scraper auth cookies
 jobs/cookies.json
+
+# Large files
+*.pptx
+*.ppt
