@@ -1,0 +1,658 @@
+[
+  {
+    "Company": "Snap Inc.",
+    "Title": "DevOps Engineer, Level 4",
+    "Location": "Los Angeles, California",
+    "MatchScore": 76.2674,
+    "JobLink": "https://jobright.ai/jobs/info/69ba11fc3b74eb1e2c880f6c",
+    "BaseTemplate": "SEP_E",
+    "OriginalTemplate": "SEP_E",
+    "Slug": "Snap_Inc",
+    "ResumeFolder": "20260613/Snap_Inc",
+    "ResumePDF": "20260613/Snap_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Jenkins",
+      "GCP",
+      "Gradle",
+      "SonarQube"
+    ],
+    "InjectNotes": [
+      "Cloud \\& DevOps:: Jenkins, GCP",
+      "Tools \\& Platforms:: Gradle, SonarQube"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Jenkins",
+      "TeamCity",
+      "Google Cloud",
+      "Gradle",
+      "CMake",
+      "SonarQube",
+      "JFROG Artifactory",
+      "AOSP",
+      "Yocto"
+    ]
+  },
+  {
+    "Company": "Gartner",
+    "Title": "Software Engineer MDM (ETL)",
+    "Location": "Irving, TX",
+    "MatchScore": 98,
+    "JobLink": "https://jobright.ai/jobs/info/68c2639463b706703e114b4a",
+    "BaseTemplate": "SEP_E",
+    "OriginalTemplate": "SEP_E",
+    "Slug": "Gartner",
+    "ResumeFolder": "20260613/Gartner",
+    "ResumePDF": "20260613/Gartner/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Glue"
+    ],
+    "InjectNotes": [
+      "AWS(): Glue"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "AWS Glue",
+      "Data Architecture",
+      "Master Data Management"
+    ]
+  },
+  {
+    "Company": "Thumbtack",
+    "Title": "Software Engineer, AI/ML Infrastructure (US-Based)",
+    "Location": "United States",
+    "MatchScore": 97.693,
+    "JobLink": "https://jobright.ai/jobs/info/6a0612556c07461fe171bec8",
+    "BaseTemplate": "AI_E",
+    "OriginalTemplate": "AI_E",
+    "Slug": "Thumbtack",
+    "ResumeFolder": "20260613/Thumbtack",
+    "ResumePDF": "20260613/Thumbtack/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Go"
+    ],
+    "InjectNotes": [
+      "Programming Languages:: Go"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Go"
+    ]
+  },
+  {
+    "Company": "WHOOP",
+    "Title": "Software Engineer I (Backend)",
+    "Location": "Boston, MA",
+    "MatchScore": 97.2325,
+    "JobLink": "https://jobright.ai/jobs/info/699e47b2e0bddb6acacdb0b3",
+    "BaseTemplate": "SEP_E",
+    "OriginalTemplate": "SEP_E",
+    "Slug": "WHOOP",
+    "ResumeFolder": "20260613/WHOOP",
+    "ResumePDF": "20260613/WHOOP/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "InjectNotes": [],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Backend software development",
+      "Object-oriented programming"
+    ]
+  },
+  {
+    "Company": "WisdomAI",
+    "Title": "Software Engineer, Platforms",
+    "Location": "San Mateo",
+    "MatchScore": 98,
+    "JobLink": "https://jobright.ai/jobs/info/69b1646165de58104c705fbb",
+    "BaseTemplate": "SEP_E",
+    "OriginalTemplate": "SEP_E",
+    "Slug": "WisdomAI",
+    "ResumeFolder": "20260613/WisdomAI",
+    "ResumePDF": "20260613/WisdomAI/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "InjectNotes": [],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": []
+  },
+  {
+    "Company": "iHeartMedia",
+    "Title": "Software Engineer",
+    "Location": "Nashville, TN",
+    "MatchScore": 91.3406,
+    "JobLink": "https://jobright.ai/jobs/info/6a0b73e9538d03366dc8588d",
+    "BaseTemplate": "SEJ_E",
+    "OriginalTemplate": "SEP_J",
+    "Slug": "iHeartMedia",
+    "ResumeFolder": "20260613/iHeartMedia",
+    "ResumePDF": "20260613/iHeartMedia/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Redis",
+      "Hibernate"
+    ],
+    "InjectNotes": [
+      "Database:: Redis",
+      "Web Technologies:: Hibernate"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Redis",
+      "Kendo UI",
+      "JAX-RS",
+      "Hibernate",
+      "Respect for others"
+    ]
+  },
+  {
+    "Company": "Quantifind",
+    "Title": "Software Engineer (Scala)",
+    "Location": "Palo Alto, CA",
+    "MatchScore": 95.6795,
+    "JobLink": "https://jobright.ai/jobs/info/6a10f05b83d71442898292df",
+    "BaseTemplate": "SEJ_E",
+    "OriginalTemplate": "SEJ_E",
+    "Slug": "Quantifind",
+    "ResumeFolder": "20260613/Quantifind",
+    "ResumePDF": "20260613/Quantifind/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Scala",
+      "Apache Spark",
+      "Redis",
+      "Memcached"
+    ],
+    "InjectNotes": [
+      "Programming Languages:: Scala",
+      "Tools:: Apache Spark",
+      "Database:: Redis, Memcached"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Scala",
+      "Apache Spark",
+      "MapReduce",
+      "Memcached",
+      "Redis"
+    ]
+  },
+  {
+    "Company": "Ascot Group",
+    "Title": "Associate Full Stack AI Engineer",
+    "Location": "ISELIN, NJ, United States",
+    "MatchScore": 88.2046,
+    "JobLink": "https://jobright.ai/jobs/info/6a0817f68f3e371eb617d22a",
+    "BaseTemplate": "SE_LLM_E",
+    "OriginalTemplate": "SE_LLM_E",
+    "Slug": "Ascot_Group",
+    "ResumeFolder": "20260613/Ascot_Group",
+    "ResumePDF": "20260613/Ascot_Group/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "PySpark"
+    ],
+    "InjectNotes": [
+      "Tools \\& Platforms:: PySpark"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Palantir Foundry",
+      "PySpark",
+      "Retrieval-Augmented Generation (RAG)",
+      "Agentic workflows",
+      "Data visualization"
+    ]
+  },
+  {
+    "Company": "Garmin",
+    "Title": "Software Engineer 1 - Web Development/Applications",
+    "Location": "Olathe,Kansas,United States",
+    "MatchScore": 96.0854,
+    "JobLink": "https://jobright.ai/jobs/info/6a2ca48bf1751b183c819589",
+    "BaseTemplate": "SEP_NG",
+    "OriginalTemplate": "SEP_NG",
+    "Slug": "Garmin",
+    "ResumeFolder": "20260613/Garmin",
+    "ResumePDF": "20260613/Garmin/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "InjectNotes": [],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Secure coding practices",
+      "Vue"
+    ]
+  },
+  {
+    "Company": "Astronomer",
+    "Title": "Software Engineer, Astro Core Services",
+    "Location": "New York City",
+    "MatchScore": 97.2568,
+    "JobLink": "https://jobright.ai/jobs/info/6a10d73212f8b43cf39879ca",
+    "BaseTemplate": "SEP_E",
+    "OriginalTemplate": "SEP_E",
+    "Slug": "Astronomer",
+    "ResumeFolder": "20260613/Astronomer",
+    "ResumePDF": "20260613/Astronomer/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Go",
+      "Apache Airflow"
+    ],
+    "InjectNotes": [
+      "Programming Languages:: Go",
+      "Tools \\& Platforms:: Apache Airflow"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Go",
+      "Apache Airflow",
+      "AI coding assistants"
+    ]
+  },
+  {
+    "Company": "WellSky",
+    "Title": "Software Engineer",
+    "Location": "Overland Park, KS, US",
+    "MatchScore": 83.7632,
+    "JobLink": "https://jobright.ai/jobs/info/6a109a519f654b3359cecee3",
+    "BaseTemplate": "SEP_E",
+    "OriginalTemplate": "SEP_E",
+    "Slug": "WellSky",
+    "ResumeFolder": "20260613/WellSky",
+    "ResumePDF": "20260613/WellSky/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "GCP",
+      ".NET"
+    ],
+    "InjectNotes": [
+      "Cloud \\& DevOps:: GCP",
+      "Web \\& Backend:: .NET"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Ruby on Rails",
+      "Microsoft .NET",
+      "Grape API",
+      "Google Cloud Platform",
+      "Revenue Cycle Management",
+      "Healthcare industry experience",
+      "Load testing",
+      "Performance testing"
+    ]
+  },
+  {
+    "Company": "Block+Tackle",
+    "Title": "Full Stack Developer",
+    "Location": "Atlanta Metro",
+    "MatchScore": 98,
+    "JobLink": "https://jobright.ai/jobs/info/6a2c82567cd40a338fae6caf",
+    "BaseTemplate": "FS_E",
+    "OriginalTemplate": "FS_E",
+    "Slug": "Block_Tackle",
+    "ResumeFolder": "20260613/Block_Tackle",
+    "ResumePDF": "20260613/Block_Tackle/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Next.js",
+      "Material UI"
+    ],
+    "InjectNotes": [
+      "Web \\& Backend:: Next.js, Material UI"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Next.js",
+      "Material UI"
+    ]
+  },
+  {
+    "Company": "Infosys",
+    "Title": "Java Backend Developer",
+    "Location": "Irving, TX",
+    "MatchScore": 97.3498,
+    "JobLink": "https://jobright.ai/jobs/info/6a1090a29f654b3359cecb7b",
+    "BaseTemplate": "SEJ_E",
+    "OriginalTemplate": "SEJ_E",
+    "Slug": "Infosys",
+    "ResumeFolder": "20260613/Infosys",
+    "ResumePDF": "20260613/Infosys/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Spring Security"
+    ],
+    "InjectNotes": [
+      "Web Technologies:: Spring Boot, Spring Security"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Spring Boot",
+      "Spring Security"
+    ]
+  },
+  {
+    "Company": "Goldman Sachs",
+    "Title": "Engineering- Dallas - Associate, Software Engineering - 034720",
+    "Location": "Dallas, TX",
+    "MatchScore": 89.5436,
+    "JobLink": "https://jobright.ai/jobs/info/6a1092bf9f654b3359cecd4f",
+    "BaseTemplate": "SEP_E",
+    "OriginalTemplate": "SEP_E",
+    "Slug": "Goldman_Sachs",
+    "ResumeFolder": "20260613/Goldman_Sachs",
+    "ResumePDF": "20260613/Goldman_Sachs/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring",
+      "Hibernate",
+      "RabbitMQ",
+      "Oracle"
+    ],
+    "InjectNotes": [
+      "Web \\& Backend:: Spring, Hibernate",
+      "Tools \\& Platforms:: RabbitMQ",
+      "Databases:: Oracle"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Multi-process Programming",
+      "Spring",
+      "Hibernate",
+      "RabbitMQ",
+      "Sybase",
+      "Oracle"
+    ]
+  },
+  {
+    "Company": "BAE Systems, Inc.",
+    "Title": "Software Engineer II",
+    "Location": "Nashua, NH",
+    "MatchScore": 78.5652,
+    "JobLink": "https://jobright.ai/jobs/info/6a1292ec69bd827926af6218",
+    "BaseTemplate": "SEP_E",
+    "OriginalTemplate": "SEP_E",
+    "Slug": "BAE_Systems_Inc",
+    "ResumeFolder": "20260613/BAE_Systems_Inc",
+    "ResumePDF": "20260613/BAE_Systems_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "InjectNotes": [
+      "Programming Languages:: C#",
+      "Tools \\& Platforms:: Pandas, Matplotlib"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "C#",
+      "NI TestStand",
+      "Model Based Engineering",
+      "PyVISA",
+      "PySerial",
+      "Scapy",
+      "Pandas",
+      "Matplotlib",
+      "SCPI",
+      "Software Architecture",
+      "Automated Testing"
+    ]
+  },
+  {
+    "Company": "GM Financial",
+    "Title": "Software Development Engineer II",
+    "Location": "Irving, TX",
+    "MatchScore": 85.8347,
+    "JobLink": "https://jobright.ai/jobs/info/69f425a11f90bd6ae23d3bc3",
+    "BaseTemplate": "SEP_E",
+    "OriginalTemplate": "SEP_E",
+    "Slug": "GM_Financial",
+    "ResumeFolder": "20260613/GM_Financial",
+    "ResumePDF": "20260613/GM_Financial/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Jenkins",
+      "Azure DevOps",
+      "SonarQube",
+      "YAML"
+    ],
+    "InjectNotes": [
+      "Cloud \\& DevOps:: Jenkins, Azure DevOps",
+      "Tools \\& Platforms:: SonarQube, YAML"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Scrum Agile methodology",
+      "Test data management",
+      "Security controls implementation",
+      "Logic Apps",
+      "Outsystems",
+      "Tibco BusinessWorks",
+      "Azure DevOps",
+      "YAML",
+      "ARM templates",
+      "Jenkins",
+      "Chef",
+      "Octopus Deploy",
+      "SonarQube",
+      "Checkmarx",
+      "Xamarin.iOS",
+      "Xamarin.Android",
+      "Xamarin.Forms"
+    ]
+  },
+  {
+    "Company": "Raytheon",
+    "Title": "Software Engineer II (Classified) - Tewksbury/Woburn",
+    "Location": "Tewksbury, MA",
+    "MatchScore": 78.3592,
+    "JobLink": "https://jobright.ai/jobs/info/6a1045129fdbf21f36cad7c9",
+    "BaseTemplate": "SEJ_E",
+    "OriginalTemplate": "SEJ_E",
+    "Slug": "Raytheon",
+    "ResumeFolder": "20260613/Raytheon",
+    "ResumePDF": "20260613/Raytheon/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Jenkins",
+      "Ansible"
+    ],
+    "InjectNotes": [
+      "Programming Languages:: C#",
+      "Tools:: Jenkins, Ansible"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "C#",
+      "Agile",
+      "Scrum",
+      "Scrum @ Scale",
+      "SAFe",
+      "Test-Driven Development",
+      "DevSecOps",
+      "Atlassian Suite",
+      "Jenkins",
+      "Ansible",
+      "Open Systems Architectures",
+      "Modular design principles",
+      "DoD Secret Security Clearance"
+    ]
+  },
+  {
+    "Company": "Medpace",
+    "Title": "Junior Software Engineer",
+    "Location": "Cincinnati, OH",
+    "MatchScore": 95.7341,
+    "JobLink": "https://jobright.ai/jobs/info/6a2905e9fd37e62bb47ac73c",
+    "BaseTemplate": "SEP_NG",
+    "OriginalTemplate": "SEP_NG",
+    "Slug": "Medpace",
+    "ResumeFolder": "20260613/Medpace",
+    "ResumePDF": "20260613/Medpace/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#",
+      "Entity Framework"
+    ],
+    "InjectNotes": [
+      "Programming Languages:: C#",
+      "Web Technologies:: Entity Framework"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "C#",
+      "Entity Framework",
+      "Release management"
+    ]
+  },
+  {
+    "Company": "Fitch Ratings",
+    "Title": "Software Engineer, Identity and Access Management",
+    "Location": "Chicago, IL",
+    "MatchScore": 95.9913,
+    "JobLink": "https://jobright.ai/jobs/info/6a2b05549bf7365df089bd66",
+    "BaseTemplate": "SEJ_E",
+    "OriginalTemplate": "SEJ_E",
+    "Slug": "Fitch_Ratings",
+    "ResumeFolder": "20260613/Fitch_Ratings",
+    "ResumePDF": "20260613/Fitch_Ratings/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "SAML",
+      "Oracle",
+      "LlamaIndex"
+    ],
+    "InjectNotes": [
+      "Web Technologies:: Spring Boot",
+      "Tools:: SAML",
+      "Database:: Oracle",
+      "AI/ML:: LlamaIndex"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Spring Boot",
+      "SAML",
+      "API security testing",
+      "LlamaIndex",
+      "AutoGen",
+      "AI-assisted development tools",
+      "Microsoft Copilot",
+      "Oracle",
+      "Agile",
+      "DevSecOps"
+    ]
+  },
+  {
+    "Company": "DV Trading LLC",
+    "Title": "Software Engineer",
+    "Location": "Chicago, IL",
+    "MatchScore": 81.5057,
+    "JobLink": "https://jobright.ai/jobs/info/6a2c1899d3ec94183f4bb28d",
+    "BaseTemplate": "SEP_NG",
+    "OriginalTemplate": "SEP_NG",
+    "Slug": "DV_Trading_LLC",
+    "ResumeFolder": "20260613/DV_Trading_LLC",
+    "ResumePDF": "20260613/DV_Trading_LLC/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [],
+    "InjectNotes": [],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Low-latency trading platform development",
+      "Algorithmic trading"
+    ]
+  },
+  {
+    "Company": "Sony Interactive Entertainment",
+    "Title": "Software Engineer II (Frontend), Social",
+    "Location": "San Diego, CA",
+    "MatchScore": 90.7861,
+    "JobLink": "https://jobright.ai/jobs/info/6a07b304939a5f01db952e17",
+    "BaseTemplate": "FE_E",
+    "OriginalTemplate": "FE_E",
+    "Slug": "Sony_Interactive_Entertainment",
+    "ResumeFolder": "20260613/Sony_Interactive_Entertainment",
+    "ResumePDF": "20260613/Sony_Interactive_Entertainment/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "C#"
+    ],
+    "InjectNotes": [
+      "Languages:: C#"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "IOS programming",
+      "Android programming",
+      "Agile development",
+      "Scrum",
+      "C#"
+    ]
+  },
+  {
+    "Company": "Infosys",
+    "Title": "Java Backend Developer",
+    "Location": "Irving, TX",
+    "MatchScore": 97.3017,
+    "JobLink": "https://jobright.ai/jobs/info/6a10824212f8b43cf3985932",
+    "BaseTemplate": "SEJ_E",
+    "OriginalTemplate": "SEJ_E",
+    "Slug": "Infosys_2",
+    "ResumeFolder": "20260613/Infosys_2",
+    "ResumePDF": "20260613/Infosys_2/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "Spring Boot",
+      "Spring Security"
+    ],
+    "InjectNotes": [
+      "Web Technologies:: Spring Boot, Spring Security"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "Spring Boot",
+      "Spring Security"
+    ]
+  },
+  {
+    "Company": "Kinder Morgan, Inc.",
+    "Title": "Application Developer I",
+    "Location": "Houston, TX",
+    "MatchScore": 68.9698,
+    "JobLink": "https://jobright.ai/jobs/info/6a2c6944a1d15e3c552fba3b",
+    "BaseTemplate": "CE_E",
+    "OriginalTemplate": "CE_E",
+    "Slug": "Kinder_Morgan_Inc",
+    "ResumeFolder": "20260613/Kinder_Morgan_Inc",
+    "ResumePDF": "20260613/Kinder_Morgan_Inc/Ajay_Venkatesh_Resume.pdf",
+    "SkillsAdded": [
+      "ASP.NET",
+      ".NET Framework"
+    ],
+    "InjectNotes": [
+      "DevOps \\& Tools:: ASP.NET, .NET Framework"
+    ],
+    "BulletsChanged": [],
+    "Status": "OK (1 page)",
+    "JobrightMissingSkills": [
+      "C#",
+      "VB.NET",
+      "ASP.NET",
+      ".NET Framework",
+      "Project life cycle",
+      "Migrations",
+      "Crystal Reports",
+      "SSIS",
+      "SSRS"
+    ]
+  }
+]

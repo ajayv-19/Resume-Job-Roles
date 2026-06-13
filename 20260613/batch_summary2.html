@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Batch 2 Resume Summary — 2026-06-13</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 13px; margin: 20px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #ccc; padding: 6px 8px; vertical-align: top; }
+  th { background: #2c5f8a; color: white; cursor: pointer; }
+  th:hover { background: #1e4060; }
+  tr:nth-child(even) { background: #f5f5f5; }
+  tr:hover { background: #e8f0fe; }
+  .ok { color: green; font-weight: bold; }
+  .warn { color: #cc6600; font-weight: bold; }
+  .filters { margin-bottom: 12px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .filters input, .filters select { padding: 5px 8px; font-size: 13px; border: 1px solid #aaa; border-radius: 4px; }
+  #count { font-weight: bold; color: #555; }
+</style>
+</head>
+<body>
+<h2>Batch 2 Resume Generation — 2026-06-13</h2>
+<div class="filters">
+  <input id="search" type="text" placeholder="Search company or title..." oninput="filterTable()">
+  <select id="tplFilter" onchange="filterTable()">
+    <option value="">All Templates</option>
+    <option>SEP_E</option><option>SEJ_E</option><option>AI_E</option>
+    <option>FS_E</option><option>FE_E</option><option>CE_E</option>
+    <option>SE_LLM_E</option><option>SEP_NG</option><option>DE_E</option>
+  </select>
+  <select id="statusFilter" onchange="filterTable()">
+    <option value="">All Statuses</option>
+    <option value="ok">OK</option>
+    <option value="warn">Warning</option>
+  </select>
+  <span id="count"></span>
+</div>
+<table id="resultsTable">
+  <thead>
+    <tr>
+      <th onclick="sortTable(0)">Company</th>
+      <th onclick="sortTable(1)">Title</th>
+      <th onclick="sortTable(2)">Location</th>
+      <th onclick="sortTable(3)">Score</th>
+      <th onclick="sortTable(4)">Template</th>
+      <th>Skills Added</th>
+      <th>Inject Notes</th>
+      <th onclick="sortTable(7)">Status</th>
+      <th>PDF</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr data-company="snap inc." data-template="sep_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/69ba11fc3b74eb1e2c880f6c" target="_blank">Snap Inc.</a></td>
+      <td>DevOps Engineer, Level 4</td>
+      <td>Los Angeles, California</td>
+      <td>76.2674</td>
+      <td>SEP_E</td>
+      <td>Jenkins, GCP, Gradle, SonarQube</td>
+      <td>Cloud \& DevOps:: Jenkins, GCP<br>Tools \& Platforms:: Gradle, SonarQube</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Snap_Inc/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="gartner" data-template="sep_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/68c2639463b706703e114b4a" target="_blank">Gartner</a></td>
+      <td>Software Engineer MDM (ETL)</td>
+      <td>Irving, TX</td>
+      <td>98</td>
+      <td>SEP_E</td>
+      <td>Glue</td>
+      <td>AWS(): Glue</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Gartner/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="thumbtack" data-template="ai_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a0612556c07461fe171bec8" target="_blank">Thumbtack</a></td>
+      <td>Software Engineer, AI/ML Infrastructure (US-Based)</td>
+      <td>United States</td>
+      <td>97.693</td>
+      <td>AI_E</td>
+      <td>Go</td>
+      <td>Programming Languages:: Go</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Thumbtack/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="whoop" data-template="sep_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/699e47b2e0bddb6acacdb0b3" target="_blank">WHOOP</a></td>
+      <td>Software Engineer I (Backend)</td>
+      <td>Boston, MA</td>
+      <td>97.2325</td>
+      <td>SEP_E</td>
+      <td><em>none</em></td>
+      <td><em>none</em></td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/WHOOP/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="wisdomai" data-template="sep_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/69b1646165de58104c705fbb" target="_blank">WisdomAI</a></td>
+      <td>Software Engineer, Platforms</td>
+      <td>San Mateo</td>
+      <td>98</td>
+      <td>SEP_E</td>
+      <td><em>none</em></td>
+      <td><em>none</em></td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/WisdomAI/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="iheartmedia" data-template="sej_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a0b73e9538d03366dc8588d" target="_blank">iHeartMedia</a></td>
+      <td>Software Engineer</td>
+      <td>Nashville, TN</td>
+      <td>91.3406</td>
+      <td>SEJ_E</td>
+      <td>Redis, Hibernate</td>
+      <td>Database:: Redis<br>Web Technologies:: Hibernate</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/iHeartMedia/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="quantifind" data-template="sej_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a10f05b83d71442898292df" target="_blank">Quantifind</a></td>
+      <td>Software Engineer (Scala)</td>
+      <td>Palo Alto, CA</td>
+      <td>95.6795</td>
+      <td>SEJ_E</td>
+      <td>Scala, Apache Spark, Redis, Memcached</td>
+      <td>Programming Languages:: Scala<br>Tools:: Apache Spark<br>Database:: Redis, Memcached</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Quantifind/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="ascot group" data-template="se_llm_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a0817f68f3e371eb617d22a" target="_blank">Ascot Group</a></td>
+      <td>Associate Full Stack AI Engineer</td>
+      <td>ISELIN, NJ, United States</td>
+      <td>88.2046</td>
+      <td>SE_LLM_E</td>
+      <td>PySpark</td>
+      <td>Tools \& Platforms:: PySpark</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Ascot_Group/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="garmin" data-template="sep_ng" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a2ca48bf1751b183c819589" target="_blank">Garmin</a></td>
+      <td>Software Engineer 1 - Web Development/Applications</td>
+      <td>Olathe,Kansas,United States</td>
+      <td>96.0854</td>
+      <td>SEP_NG</td>
+      <td><em>none</em></td>
+      <td><em>none</em></td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Garmin/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="astronomer" data-template="sep_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a10d73212f8b43cf39879ca" target="_blank">Astronomer</a></td>
+      <td>Software Engineer, Astro Core Services</td>
+      <td>New York City</td>
+      <td>97.2568</td>
+      <td>SEP_E</td>
+      <td>Go, Apache Airflow</td>
+      <td>Programming Languages:: Go<br>Tools \& Platforms:: Apache Airflow</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Astronomer/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="wellsky" data-template="sep_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a109a519f654b3359cecee3" target="_blank">WellSky</a></td>
+      <td>Software Engineer</td>
+      <td>Overland Park, KS, US</td>
+      <td>83.7632</td>
+      <td>SEP_E</td>
+      <td>GCP, .NET</td>
+      <td>Cloud \& DevOps:: GCP<br>Web \& Backend:: .NET</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/WellSky/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="block+tackle" data-template="fs_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a2c82567cd40a338fae6caf" target="_blank">Block+Tackle</a></td>
+      <td>Full Stack Developer</td>
+      <td>Atlanta Metro</td>
+      <td>98</td>
+      <td>FS_E</td>
+      <td>Next.js, Material UI</td>
+      <td>Web \& Backend:: Next.js, Material UI</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Block_Tackle/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="infosys" data-template="sej_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a1090a29f654b3359cecb7b" target="_blank">Infosys</a></td>
+      <td>Java Backend Developer</td>
+      <td>Irving, TX</td>
+      <td>97.3498</td>
+      <td>SEJ_E</td>
+      <td>Spring Boot, Spring Security</td>
+      <td>Web Technologies:: Spring Boot, Spring Security</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Infosys/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="goldman sachs" data-template="sep_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a1092bf9f654b3359cecd4f" target="_blank">Goldman Sachs</a></td>
+      <td>Engineering- Dallas - Associate, Software Engineering - 034720</td>
+      <td>Dallas, TX</td>
+      <td>89.5436</td>
+      <td>SEP_E</td>
+      <td>Spring, Hibernate, RabbitMQ, Oracle</td>
+      <td>Web \& Backend:: Spring, Hibernate<br>Tools \& Platforms:: RabbitMQ<br>Databases:: Oracle</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Goldman_Sachs/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="bae systems, inc." data-template="sep_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a1292ec69bd827926af6218" target="_blank">BAE Systems, Inc.</a></td>
+      <td>Software Engineer II</td>
+      <td>Nashua, NH</td>
+      <td>78.5652</td>
+      <td>SEP_E</td>
+      <td>C#, Pandas, Matplotlib</td>
+      <td>Programming Languages:: C#<br>Tools \& Platforms:: Pandas, Matplotlib</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/BAE_Systems_Inc/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="gm financial" data-template="sep_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/69f425a11f90bd6ae23d3bc3" target="_blank">GM Financial</a></td>
+      <td>Software Development Engineer II</td>
+      <td>Irving, TX</td>
+      <td>85.8347</td>
+      <td>SEP_E</td>
+      <td>Jenkins, Azure DevOps, SonarQube, YAML</td>
+      <td>Cloud \& DevOps:: Jenkins, Azure DevOps<br>Tools \& Platforms:: SonarQube, YAML</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/GM_Financial/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="raytheon" data-template="sej_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a1045129fdbf21f36cad7c9" target="_blank">Raytheon</a></td>
+      <td>Software Engineer II (Classified) - Tewksbury/Woburn</td>
+      <td>Tewksbury, MA</td>
+      <td>78.3592</td>
+      <td>SEJ_E</td>
+      <td>C#, Jenkins, Ansible</td>
+      <td>Programming Languages:: C#<br>Tools:: Jenkins, Ansible</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Raytheon/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="medpace" data-template="sep_ng" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a2905e9fd37e62bb47ac73c" target="_blank">Medpace</a></td>
+      <td>Junior Software Engineer</td>
+      <td>Cincinnati, OH</td>
+      <td>95.7341</td>
+      <td>SEP_NG</td>
+      <td>C#, Entity Framework</td>
+      <td>Programming Languages:: C#<br>Web Technologies:: Entity Framework</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Medpace/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="fitch ratings" data-template="sej_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a2b05549bf7365df089bd66" target="_blank">Fitch Ratings</a></td>
+      <td>Software Engineer, Identity and Access Management</td>
+      <td>Chicago, IL</td>
+      <td>95.9913</td>
+      <td>SEJ_E</td>
+      <td>Spring Boot, SAML, Oracle, LlamaIndex</td>
+      <td>Web Technologies:: Spring Boot<br>Tools:: SAML<br>Database:: Oracle<br>AI/ML:: LlamaIndex</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Fitch_Ratings/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="dv trading llc" data-template="sep_ng" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a2c1899d3ec94183f4bb28d" target="_blank">DV Trading LLC</a></td>
+      <td>Software Engineer</td>
+      <td>Chicago, IL</td>
+      <td>81.5057</td>
+      <td>SEP_NG</td>
+      <td><em>none</em></td>
+      <td><em>none</em></td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/DV_Trading_LLC/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="sony interactive entertainment" data-template="fe_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a07b304939a5f01db952e17" target="_blank">Sony Interactive Entertainment</a></td>
+      <td>Software Engineer II (Frontend), Social</td>
+      <td>San Diego, CA</td>
+      <td>90.7861</td>
+      <td>FE_E</td>
+      <td>C#</td>
+      <td>Languages:: C#</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Sony_Interactive_Entertainment/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="infosys" data-template="sej_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a10824212f8b43cf3985932" target="_blank">Infosys</a></td>
+      <td>Java Backend Developer</td>
+      <td>Irving, TX</td>
+      <td>97.3017</td>
+      <td>SEJ_E</td>
+      <td>Spring Boot, Spring Security</td>
+      <td>Web Technologies:: Spring Boot, Spring Security</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Infosys_2/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+    <tr data-company="kinder morgan, inc." data-template="ce_e" data-status="ok">
+      <td><a href="https://jobright.ai/jobs/info/6a2c6944a1d15e3c552fba3b" target="_blank">Kinder Morgan, Inc.</a></td>
+      <td>Application Developer I</td>
+      <td>Houston, TX</td>
+      <td>68.9698</td>
+      <td>CE_E</td>
+      <td>ASP.NET, .NET Framework</td>
+      <td>DevOps \& Tools:: ASP.NET, .NET Framework</td>
+      <td class="ok">OK (1 page)</td>
+      <td><a href="20260613/Kinder_Morgan_Inc/Ajay_Venkatesh_Resume.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+<script>
+function filterTable() {
+  const search = document.getElementById('search').value.toLowerCase();
+  const tpl = document.getElementById('tplFilter').value.toLowerCase();
+  const status = document.getElementById('statusFilter').value;
+  const rows = document.querySelectorAll('#resultsTable tbody tr');
+  let visible = 0;
+  rows.forEach(row => {
+    const company = row.dataset.company || '';
+    const template = row.dataset.template || '';
+    const rowStatus = row.dataset.status || '';
+    const text = row.textContent.toLowerCase();
+    const show = (!search || text.includes(search) || company.includes(search))
+               && (!tpl || template === tpl)
+               && (!status || rowStatus === status);
+    row.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+  document.getElementById('count').textContent = visible + ' row(s) shown';
+}
+
+let sortDir = {};
+function sortTable(col) {
+  const table = document.getElementById('resultsTable');
+  const tbody = table.querySelector('tbody');
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+  const asc = sortDir[col] !== 'asc';
+  sortDir[col] = asc ? 'asc' : 'desc';
+  rows.sort((a, b) => {
+    const at = a.cells[col]?.textContent.trim() || '';
+    const bt = b.cells[col]?.textContent.trim() || '';
+    const an = parseFloat(at), bn = parseFloat(bt);
+    if (!isNaN(an) && !isNaN(bn)) return asc ? an - bn : bn - an;
+    return asc ? at.localeCompare(bt) : bt.localeCompare(at);
+  });
+  rows.forEach(r => tbody.appendChild(r));
+}
+filterTable();
+</script>
+</body>
+</html>

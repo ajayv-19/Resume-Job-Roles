@@ -1,7 +1,7 @@
 %-------------------------
 % Academic CV Template
 % Adapted from: Dubasi Pavan Kumar (https://www.overleaf.com/latex/templates/academic-cv-template/gmyytjmdbvdm)
-% Tailored for: Ajay Venkatesh -- Software Engineer (Python track)
+% Tailored for: Ajay Venkatesh -- Cloud Engineering (Microsoft / Azure / .NET focus)
 %-------------------------
 
 \documentclass[a4paper,10pt]{article}
@@ -97,7 +97,7 @@
 \section{\textbf{Education}}
 \noindent\textbf{New York University}, New York, NY \hfill \textit{Aug 2024 -- May 2026}\\
 \textit{Master of Science in Computer Engineering} (GPA: 3.9/4.0) \\
-\footnotesize{\textit{Coursework:} System Design, Machine Learning, Deep Learning, Big Data, Advanced Java, Data Structures}
+\footnotesize{\textit{Coursework:} System Design, Cloud Computing, Machine Learning, Big Data, Advanced Java, Data Structures}
 \vspace{-2mm}
 
 \section{\textbf{Experience}}
@@ -105,7 +105,7 @@
 
 \resumeSubheading
 {CampusMesh}{New York, US}
-{Software Engineer}{Jan 2026 -- Present}
+{Software Engineering Intern}{Jan 2026 -- May 2026}
 \resumeItemListStart
 \item \footnotesize{Developed scalable \textbf{Node.js microservices} powering real-time academic workflows across study groups, messaging, calls, notifications, and profile management, backed by \textbf{MySQL (Sequelize)} and \textbf{DynamoDB}.}
 \item \footnotesize{Deployed \textbf{serverless architecture} on AWS using \textbf{Serverless Framework} with \textbf{Lambda, API Gateway, S3, and CloudFront} across \textbf{4 environments} (local, dev, staging, production); enforced security with \textbf{KMS-managed keys}, \textbf{SSM Parameter Store}, and \textbf{least-privilege IAM}.}
@@ -117,10 +117,10 @@
 {Amazon}{Seattle, US}
 {Software Development Engineer Intern}{May 2025 -- Aug 2025}
 \resumeItemListStart
-\item \footnotesize{Architected a secure UI console for Amazon fulfillment center teams to view image/video evidence across FCs; presented \textbf{system design} for approval and established Role-Based Access \textbf{(4+ roles)} via \textbf{OAuth, Midway SSO, HELIS}.}
-\item \footnotesize{Provisioned \textbf{serverless Infrastructure-as-Code} using \textbf{AWS CDK} with API Gateway, Lambda, DynamoDB, S3, and IAM; reduced provisioning time \textbf{70\%} with \textbf{multi-stage, multi-region CI/CD}.}
+\item \footnotesize{Designed a secure UI Console architecture using \textbf{Midway SSO, OAuth, and HELIS} to enforce least-privilege \textbf{role-based access} (\textbf{4+ roles}); presented the solution to the team and received design approval.}
+\item \footnotesize{Provisioned \textbf{serverless Infrastructure-as-Code} using \textbf{AWS CDK} with API Gateway, Lambda, DynamoDB, S3, and IAM; built a \textbf{multi-stage, multi-region CI/CD pipeline} with automated promotion and rollback controls.}
 \item \footnotesize{Built a \textbf{React 18} frontend with optimized API integration, advanced filtering, and client-side caching, reducing page load time by \textbf{40\%}.}
-\item \footnotesize{Engineered the backend services in \textbf{Java} (Coral, Smithy, Dagger, CBOR); applied \textbf{low-level design patterns}, cutting backend execution time by \textbf{35\%} with unit/integration testing via \textbf{Mockito}.}
+\item \footnotesize{Engineered backend services in \textbf{Java} (Coral, Smithy, Dagger DI, CBOR); applied \textbf{low-level design patterns}, cutting backend execution time by \textbf{35\%} with unit/integration testing via \textbf{Mockito}.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -137,10 +137,10 @@
 {PricewaterhouseCoopers (PwC)}{Bengaluru, India}
 {Senior Software Engineer}{Aug 2021 -- Aug 2024}
 \resumeItemListStart
-\item \footnotesize{Developed a distributed backend on \textbf{Microsoft Azure} for a health platform integrating with \textbf{Microsoft CRM}, with event-driven processing and fault-tolerant retries over \textbf{SQL Server} stores.}
+\item \footnotesize{Designed and implemented a \textbf{cloud-native distributed backend} on \textbf{Microsoft Azure} for a health platform, integrating \textbf{Microsoft Dynamics CRM} and event-driven Azure services for scalability and fault tolerance over \textbf{SQL Server}.}
+\item \footnotesize{Modernized a legacy onboarding system by building a scalable \textbf{B2B platform} with modular services; integrated data pipelines, email event tracking, and BI reporting, improving automation by \textbf{70\%}.}
 \item \footnotesize{Deployed an \textbf{NLP-based OCR neural model} on Azure to automate structured data extraction, reducing processing time by \textbf{75\%}.}
-\item \footnotesize{Optimized data ingestion with \textbf{parallel processing} on \textbf{100K-row} Excel feeds, cutting execution from \textbf{5 hours to 1 hour}.}
-\item \footnotesize{Led code reviews and mentored engineers on \textbf{software design principles}, reducing production bugs by \textbf{25\%}.}
+\item \footnotesize{Optimized data ingestion with \textbf{parallel processing} on \textbf{100K-row} Excel feeds, cutting execution from \textbf{5 hours to 1 hour}; mentored engineers on \textbf{software design principles}, reducing production bugs by \textbf{25\%}.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -148,26 +148,6 @@
 
 \section{\textbf{Projects}}
 \resumeSubHeadingListStart
-
-\resumeProject
-{Advanced Expense Tracker (Python Desktop Application)}
-{Python, Tkinter, SQLite3, Pandas, Matplotlib}
-{}
-{}
-\resumeItemListStart
-\item \footnotesize{Architected a modular \textbf{Python application} for individual and group expenses with secure login, applying \textbf{OOP principles} and \textbf{MVC \& DAO design patterns} over \textbf{SQLite3}.}
-\item \footnotesize{Implemented concurrent transaction handling and real-time cost splitting using \textbf{Python threading} and locks for thread-safe DB writes; visualized spending trends with \textbf{Matplotlib}.}
-\resumeItemListEnd
-
-\resumeProject
-{Hospital Management System (Full-Stack Application)}
-{React, Node.js, Express, MongoDB, SageMaker, Hugging Face}
-{}
-{}
-\resumeItemListStart
-\item \footnotesize{Built a \textbf{full-stack healthcare platform} (React, Node.js, Express, MongoDB) managing appointments, patient records, lab reports, and medical history with \textbf{role-based access control}.}
-\item \footnotesize{Fine-tuned a \textbf{Hugging Face transformer-based model} reaching \textbf{88\% accuracy} for health condition prediction and deployed on \textbf{AWS SageMaker} for real-time diagnostic support.}
-\resumeItemListEnd
 
 \resumeProject
 {InviLite}
@@ -179,17 +159,28 @@
 \item \footnotesize{Built a \textbf{RAG system} (SVM + FAISS + \textbf{Bedrock LLM}), cutting incident resolution from \textbf{1--2 hours to minutes} and lifting root-cause classification accuracy from \textbf{56\% to 92\%}.}
 \resumeItemListEnd
 
+\resumeProject
+{Flight Delay Prediction}
+{PySpark, HDFS, Random Forest, Gradient Boosted Tree}
+{}
+{}
+\resumeItemListStart
+\item \footnotesize{Built a scalable \textbf{PySpark ML pipeline} on HDFS to process and engineer features from over \textbf{7M flight records} using SQL-based aggregation and anomaly detection.}
+\item \footnotesize{Trained and optimized \textbf{Random Forest and Gradient Boosted Tree} models reaching \textbf{85\%+} accuracy and converted outputs into actionable insights for data-driven scheduling.}
+\resumeItemListEnd
+
 \resumeSubHeadingListEnd
 \vspace{-4mm}
 
 \section{\textbf{Skills}}
 \resumeHeadingSkillStart
-\resumeSubItem{Programming Languages:}{C++, Java, Python, TypeScript, JavaScript (ES6), SQL}
-\resumeSubItem{Web \& Backend:}{React, Node.js, Express.js, REST API, GraphQL API, Microservices, HTML, CSS, Sequelize}
-\resumeSubItem{Databases:}{MySQL, PostgreSQL, DynamoDB, MongoDB, FireBase, Dataverse}
-\resumeSubItem{Cloud \& DevOps:}{AWS (CDK, EC2, S3, DynamoDB, API Gateway, Lambda, Cognito, IAM, SageMaker), Azure (OpenAI, Function Apps, Storage), Docker, Kubernetes, CI/CD}
-\resumeSubItem{AI/ML:}{LLM Fine-tuning, RAG (LangChain, FAISS), NLP, Deep Learning, Reinforcement Learning, Hugging Face}
-\resumeSubItem{Tools \& Platforms:}{Git, Linux, Visual Studio, Cursor, GitHub Copilot, Jupyter, Postman, Power BI}
+\resumeSubItem{Programming Languages:}{C\#, Python, Java, C++, JavaScript, TypeScript, SQL}
+\resumeSubItem{Cloud (Azure):}{Azure AI Services, Azure AI Foundry, Cognitive Services, Logic Apps, Function Apps, Storage Blobs, Data Lakes, Azure DevOps}
+\resumeSubItem{Cloud (AWS):}{CDK, SDK, EC2, S3, Lambda, IAM, SageMaker, Bedrock, API Gateway, DynamoDB}
+\resumeSubItem{Databases:}{SQL Server, Dataverse, PostgreSQL, MySQL, MongoDB, DynamoDB}
+\resumeSubItem{Microsoft Stack:}{.NET, Power Platform, Power Automate, Power BI, Microsoft Copilot Studio, Microsoft Dynamics CRM}
+\resumeSubItem{DevOps \& Tools:}{Docker, Kubernetes, CI/CD Pipelines, PowerShell, Git, Visual Studio, Postman, ASP.NET, .NET Framework}
+\resumeSubItem{AI/ML:}{RAG, MLOps, AI Solution Deployment, Responsible AI, Model Validation \& Monitoring}
 \resumeHeadingSkillEnd
 \vspace{0mm}
 
@@ -202,7 +193,9 @@
 
 \section{\textbf{Certifications}}
 \footnotesize{
-\href{https://drive.google.com/file/d/1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ/view}{AWS Cloud Practitioner} \hfill \href{https://drive.google.com/file/d/1At3BLkqJ9vuhPPUCcrNAw9yNH5li7XdQ/view}{Stanford Machine Learning (Coursera)} \hfill \href{https://drive.google.com/file/d/1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT/view}{Azure Data Fundamentals}
+\href{https://drive.google.com/open?id=1a3exoiS79RS3q8vSJHT-PpkczSPg54EZ}{AWS Certified Cloud Practitioner} \textbar{}
+\href{https://drive.google.com/open?id=1IDtiC9HSlFDAWIEs3UvDjSLfHvI_8iSu}{Microsoft Certified: Azure Data Scientist Associate} \textbar{}
+\href{https://drive.google.com/open?id=1VBJjfRMsIm8BckoUtLUV7ZbY88Jju2qT}{Microsoft Certified: Azure Data Fundamentals}
 }
 
 \end{document}
